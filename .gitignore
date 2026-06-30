@@ -1,0 +1,21 @@
+# Secrets — never commit real API keys
+housing_market_data/bls/api_key.txt
+**/api_key.txt
+.env
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/

@@ -1,0 +1,4104 @@
+y2_statefips,y2_countyfips,y1_statefips,y1_countyfips,y1_state,y1_countyname,n1,n2,agi
+6,1,96,0,CA,Alameda County Total Migration-US and Foreign,43682,68080,6230712
+6,1,97,0,CA,Alameda County Total Migration-US,43637,68000,6227603
+6,1,97,1,CA,Alameda County Total Migration-Same State,31415,49813,4870165
+6,1,97,3,CA,Alameda County Total Migration-Different State,12222,18187,1357438
+6,1,98,0,CA,Alameda County Total Migration-Foreign,45,80,3110
+6,1,6,1,CA,Alameda County Non-migrants,634717,1241066,102218029
+6,1,6,85,CA,Santa Clara County,7414,13381,1610744
+6,1,6,13,CA,Contra Costa County,5170,8156,729288
+6,1,6,75,CA,San Francisco County,4602,6523,1045723
+6,1,6,81,CA,San Mateo County,2907,4840,478366
+6,1,6,37,CA,Los Angeles County,2039,2788,209496
+6,1,6,77,CA,San Joaquin County,1588,2771,115541
+6,1,6,67,CA,Sacramento County,1039,1587,73862
+6,1,6,73,CA,San Diego County,810,1139,88275
+6,1,6,95,CA,Solano County,692,1078,43778
+6,1,6,59,CA,Orange County,621,913,58439
+6,1,53,33,WA,King County,558,839,98919
+6,1,6,99,CA,Stanislaus County,487,852,31160
+6,1,17,31,IL,Cook County,462,676,60391
+6,1,6,41,CA,Marin County,385,521,66211
+6,1,6,97,CA,Sonoma County,364,495,36719
+6,1,4,13,AZ,Maricopa County,307,466,36108
+6,1,6,65,CA,Riverside County,297,420,20122
+6,1,25,17,MA,Middlesex County,292,393,43137
+6,1,6,87,CA,Santa Cruz County,288,363,24807
+6,1,32,3,NV,Clark County,279,426,18986
+6,1,36,47,NY,Kings County,273,365,29636
+6,1,6,113,CA,Yolo County,251,330,21336
+6,1,36,61,NY,New York County,244,304,44410
+6,1,6,71,CA,San Bernardino County,239,349,17599
+6,1,48,201,TX,Harris County,223,379,24132
+6,1,6,19,CA,Fresno County,214,319,12459
+6,1,41,51,OR,Multnomah County,188,234,17699
+6,1,6,83,CA,Santa Barbara County,181,223,16689
+6,1,6,53,CA,Monterey County,175,271,15678
+6,1,11,1,DC,District of Columbia,169,209,28893
+6,1,6,61,CA,Placer County,166,262,21381
+6,1,48,453,TX,Travis County,165,244,22654
+6,1,6,111,CA,Ventura County,160,237,15654
+6,1,15,3,HI,Honolulu County,152,228,13116
+6,1,26,125,MI,Oakland County,144,250,18540
+6,1,32,31,NV,Washoe County,142,177,14874
+6,1,25,25,MA,Suffolk County,141,169,13448
+6,1,6,47,CA,Merced County,139,221,8800
+6,1,6,29,CA,Kern County,135,211,9204
+6,1,48,113,TX,Dallas County,133,198,13127
+6,1,13,121,GA,Fulton County,130,186,13124
+6,1,36,81,NY,Queens County,129,181,10959
+6,1,42,101,PA,Philadelphia County,128,161,11856
+6,1,6,55,CA,Napa County,120,178,18130
+6,1,41,67,OR,Washington County,108,183,15218
+6,1,6,79,CA,San Luis Obispo County,106,144,8308
+6,1,27,53,MN,Hennepin County,105,151,10374
+6,1,51,59,VA,Fairfax County,103,166,12300
+6,1,8,31,CO,Denver County,102,125,15674
+6,1,6,17,CA,El Dorado County,101,145,9712
+6,1,49,35,UT,Salt Lake County,101,163,12061
+6,1,48,85,TX,Collin County,98,157,11351
+6,1,34,17,NJ,Hudson County,95,151,16998
+6,1,42,3,PA,Allegheny County,92,133,10467
+6,1,24,31,MD,Montgomery County,88,118,9012
+6,1,6,7,CA,Butte County,79,108,3437
+6,1,26,161,MI,Washtenaw County,78,103,8333
+6,1,6,57,CA,Nevada County,77,117,15119
+6,1,4,19,AZ,Pima County,76,120,5438
+6,1,37,183,NC,Wake County,73,114,8192
+6,1,53,61,WA,Snohomish County,73,146,12985
+6,1,48,439,TX,Tarrant County,71,109,5001
+6,1,24,510,MD,Baltimore city,69,92,6327
+6,1,26,163,MI,Wayne County,68,130,8618
+6,1,25,21,MA,Norfolk County,67,94,7348
+6,1,55,25,WI,Dane County,67,84,5516
+6,1,6,107,CA,Tulare County,65,100,4356
+6,1,39,49,OH,Franklin County,65,96,6528
+6,1,12,86,FL,Miami-Dade County,63,88,4634
+6,1,8,13,CO,Boulder County,62,79,5299
+6,1,34,23,NJ,Middlesex County,62,111,7235
+6,1,6,45,CA,Mendocino County,61,79,8080
+6,1,12,11,FL,Broward County,60,92,5782
+6,1,41,39,OR,Lane County,60,92,3829
+6,1,48,29,TX,Bexar County,60,91,3975
+6,1,39,35,OH,Cuyahoga County,57,83,5308
+6,1,9,170,CT,South Central Connecticut Plannin,56,71,4066
+6,1,24,33,MD,Prince George's County,55,63,3859
+6,1,53,53,WA,Pierce County,55,80,3493
+6,1,6,23,CA,Humboldt County,54,77,4504
+6,1,48,491,TX,Williamson County,53,105,6251
+6,1,37,119,NC,Mecklenburg County,52,78,7396
+6,1,35,1,NM,Bernalillo County,51,78,5442
+6,1,13,135,GA,Gwinnett County,50,87,5691
+6,1,17,43,IL,DuPage County,50,81,7280
+6,1,51,13,VA,Arlington County,50,68,6129
+6,1,48,157,TX,Fort Bend County,49,86,4809
+6,1,12,57,FL,Hillsborough County,48,72,2824
+6,1,34,3,NJ,Bergen County,47,73,6892
+6,1,36,59,NY,Nassau County,47,62,4295
+6,1,8,59,CO,Jefferson County,46,70,7607
+6,1,17,19,IL,Champaign County,46,62,2231
+6,1,29,189,MO,St. Louis County,46,78,3709
+6,1,57,5,FR,Foreign - APO/FPO ZIPs,45,80,3110
+6,1,55,79,WI,Milwaukee County,44,68,6738
+6,1,6,109,CA,Tuolumne County,43,51,5185
+6,1,13,89,GA,DeKalb County,43,63,3870
+6,1,22,71,LA,Orleans Parish,43,53,2914
+6,1,34,21,NJ,Mercer County,43,77,6670
+6,1,12,95,FL,Orange County,42,65,2538
+6,1,18,157,IN,Tippecanoe County,42,56,2345
+6,1,36,119,NY,Westchester County,42,62,3593
+6,1,8,5,CO,Arapahoe County,41,62,4367
+6,1,36,103,NY,Suffolk County,41,54,2911
+6,1,37,63,NC,Durham County,41,56,5454
+6,1,17,97,IL,Lake County,40,71,5031
+6,1,20,91,KS,Johnson County,40,65,4710
+6,1,39,61,OH,Hamilton County,40,58,3818
+6,1,42,91,PA,Montgomery County,40,61,5305
+6,1,12,99,FL,Palm Beach County,39,68,5434
+6,1,16,1,ID,Ada County,38,59,4824
+6,1,18,97,IN,Marion County,38,61,5677
+6,1,36,55,NY,Monroe County,38,40,2132
+6,1,6,9,CA,Calaveras County,37,65,3113
+6,1,44,7,RI,Providence County,37,52,3129
+6,1,47,157,TN,Shelby County,37,63,3563
+6,1,48,121,TX,Denton County,37,64,4915
+6,1,6,69,CA,San Benito County,36,73,2636
+6,1,12,31,FL,Duval County,36,56,2772
+6,1,9,190,CT,Western Connecticut Planning Regi,35,48,4503
+6,1,13,67,GA,Cobb County,35,59,5280
+6,1,47,37,TN,Davidson County,35,44,3767
+6,1,36,109,NY,Tompkins County,34,42,2183
+6,1,8,35,CO,Douglas County,33,61,4582
+6,1,48,41,TX,Brazos County,32,40,2601
+6,1,6,31,CA,Kings County,31,43,1525
+6,1,6,89,CA,Shasta County,31,59,2438
+6,1,34,13,NJ,Essex County,31,42,4089
+6,1,34,35,NJ,Somerset County,30,61,6811
+6,1,41,29,OR,Jackson County,30,38,2416
+6,1,48,141,TX,El Paso County,30,47,2028
+6,1,6,5,CA,Amador County,29,38,1559
+6,1,53,11,WA,Clark County,29,40,2123
+6,1,9,110,CT,Capitol Planning Region,28,43,3287
+6,1,51,107,VA,Loudoun County,28,76,4881
+6,1,6,33,CA,Lake County,27,36,1155
+6,1,6,39,CA,Madera County,27,51,1698
+6,1,24,27,MD,Howard County,27,42,2588
+6,1,12,1,FL,Alachua County,26,37,2255
+6,1,21,111,KY,Jefferson County,26,39,1811
+6,1,27,123,MN,Ramsey County,26,39,2537
+6,1,29,510,MO,St. Louis city,26,33,2591
+6,1,36,29,NY,Erie County,26,34,1521
+6,1,12,103,FL,Pinellas County,25,32,2408
+6,1,25,27,MA,Worcester County,25,48,2767
+6,1,34,27,NJ,Morris County,25,45,4316
+6,1,36,5,NY,Bronx County,25,44,1929
+6,1,41,5,OR,Clackamas County,25,32,1946
+6,1,41,17,OR,Deschutes County,24,34,3182
+6,1,8,69,CO,Larimer County,23,32,1895
+6,1,10,3,DE,New Castle County,23,37,2886
+6,1,25,9,MA,Essex County,23,35,4246
+6,1,49,49,UT,Utah County,23,31,1145
+6,1,53,35,WA,Kitsap County,23,48,2033
+6,1,53,67,WA,Thurston County,23,37,2461
+6,1,41,3,OR,Benton County,22,29,1060
+6,1,8,41,CO,El Paso County,21,34,1001
+6,1,34,39,NJ,Union County,21,29,1520
+6,1,35,49,NM,Santa Fe County,21,25,2981
+6,1,36,1,NY,Albany County,21,38,1814
+6,1,45,45,SC,Greenville County,21,25,1410
+6,1,53,63,WA,Spokane County,21,28,1947
+6,1,6,101,CA,Sutter County,20,34,1038
+6,1,6,115,CA,Yuba County,20,31,893
+6,1,8,1,CO,Adams County,20,24,1527
+6,1,25,15,MA,Hampshire County,20,28,1398
+6,1,26,81,MI,Kent County,20,31,1738
+6,1,31,55,NE,Douglas County,20,35,1770
+6,1,58,0,SS,Other flows - Same State,88,134,5945
+6,1,59,0,DS,Other flows - Different State,3175,4848,266025
+6,1,59,1,DS,Other flows - Northeast,520,801,50342
+6,1,59,3,DS,Other flows - Midwest,800,1222,64754
+6,1,59,5,DS,Other flows - South,1271,1992,108323
+6,1,59,7,DS,Other flows - West,584,833,42606
+6,1,57,9,FR,Foreign - Other flows,-1,-1,-1
+6,3,96,0,CA,Alpine County Total Migration-US and Foreign,21,33,1957
+6,3,97,0,CA,Alpine County Total Migration-US,21,33,1957
+6,3,97,1,CA,Alpine County Total Migration-Same State,21,33,1957
+6,3,6,3,CA,Alpine County Non-migrants,350,630,30307
+6,3,6,17,CA,El Dorado County,21,33,1957
+6,3,58,0,SS,Other flows - Same State,-1,-1,-1
+6,3,59,1,DS,Other flows - Northeast,-1,-1,-1
+6,3,59,3,DS,Other flows - Midwest,-1,-1,-1
+6,3,59,5,DS,Other flows - South,-1,-1,-1
+6,3,59,7,DS,Other flows - West,-1,-1,-1
+6,5,96,0,CA,Amador County Total Migration-US and Foreign,1480,2530,121740
+6,5,97,0,CA,Amador County Total Migration-US,1480,2530,121740
+6,5,97,1,CA,Amador County Total Migration-Same State,1301,2231,107711
+6,5,97,3,CA,Amador County Total Migration-Different State,179,299,14028
+6,5,6,5,CA,Amador County Non-migrants,14897,28200,1249814
+6,5,6,67,CA,Sacramento County,351,657,31460
+6,5,6,77,CA,San Joaquin County,130,234,7519
+6,5,6,17,CA,El Dorado County,116,205,9937
+6,5,6,9,CA,Calaveras County,99,174,5688
+6,5,6,13,CA,Contra Costa County,63,114,7881
+6,5,6,85,CA,Santa Clara County,56,101,6001
+6,5,6,1,CA,Alameda County,51,87,7095
+6,5,6,37,CA,Los Angeles County,36,44,1926
+6,5,6,95,CA,Solano County,30,38,1689
+6,5,6,61,CA,Placer County,29,56,2813
+6,5,6,81,CA,San Mateo County,20,26,2002
+6,5,58,0,SS,Other flows - Same State,320,496,20416
+6,5,59,0,DS,Other flows - Different State,179,299,14028
+6,5,59,1,DS,Other flows - Northeast,-1,-1,-1
+6,5,59,3,DS,Other flows - Midwest,22,33,2024
+6,5,59,5,DS,Other flows - South,44,68,2883
+6,5,59,7,DS,Other flows - West,113,198,9122
+6,5,57,9,FR,Foreign - Other flows,-1,-1,-1
+6,7,96,0,CA,Butte County Total Migration-US and Foreign,4726,7849,275031
+6,7,97,0,CA,Butte County Total Migration-US,4726,7849,275031
+6,7,97,1,CA,Butte County Total Migration-Same State,3656,5996,211731
+6,7,97,3,CA,Butte County Total Migration-Different State,1070,1853,63300
+6,7,6,7,CA,Butte County Non-migrants,72375,141109,5809857
+6,7,6,67,CA,Sacramento County,393,691,19435
+6,7,6,101,CA,Sutter County,247,509,12298
+6,7,6,21,CA,Glenn County,228,390,11502
+6,7,6,103,CA,Tehama County,204,339,10789
+6,7,6,37,CA,Los Angeles County,172,287,9079
+6,7,6,89,CA,Shasta County,167,231,7855
+6,7,6,13,CA,Contra Costa County,166,292,13277
+6,7,6,115,CA,Yuba County,159,287,7526
+6,7,6,1,CA,Alameda County,143,229,11434
+6,7,6,61,CA,Placer County,119,194,8357
+6,7,6,85,CA,Santa Clara County,114,172,9740
+6,7,6,73,CA,San Diego County,107,176,8733
+6,7,6,95,CA,Solano County,83,149,4507
+6,7,6,77,CA,San Joaquin County,81,148,5881
+6,7,6,57,CA,Nevada County,79,112,3500
+6,7,6,63,CA,Plumas County,70,121,4562
+6,7,32,31,NV,Washoe County,68,112,3362
+6,7,6,65,CA,Riverside County,66,97,2606
+6,7,6,97,CA,Sonoma County,65,94,4077
+6,7,6,59,CA,Orange County,63,88,5109
+6,7,6,81,CA,San Mateo County,55,77,7312
+6,7,6,113,CA,Yolo County,52,74,2258
+6,7,6,71,CA,San Bernardino County,51,89,2440
+6,7,6,23,CA,Humboldt County,50,73,2671
+6,7,6,17,CA,El Dorado County,47,66,3029
+6,7,6,99,CA,Stanislaus County,47,70,1816
+6,7,6,29,CA,Kern County,42,67,2102
+6,7,6,53,CA,Monterey County,40,58,1793
+6,7,6,19,CA,Fresno County,39,62,1441
+6,7,6,45,CA,Mendocino County,38,56,2644
+6,7,6,111,CA,Ventura County,38,44,1714
+6,7,32,3,NV,Clark County,38,63,1619
+6,7,6,11,CA,Colusa County,37,59,1789
+6,7,6,79,CA,San Luis Obispo County,37,58,2318
+6,7,6,35,CA,Lassen County,36,57,1443
+6,7,6,83,CA,Santa Barbara County,32,42,1671
+6,7,6,33,CA,Lake County,31,58,1614
+6,7,6,87,CA,Santa Cruz County,27,35,1803
+6,7,6,107,CA,Tulare County,27,46,1059
+6,7,6,93,CA,Siskiyou County,26,36,1086
+6,7,4,13,AZ,Maricopa County,25,42,1570
+6,7,6,75,CA,San Francisco County,25,28,2499
+6,7,6,47,CA,Merced County,22,40,1099
+6,7,41,51,OR,Multnomah County,20,31,737
+6,7,58,0,SS,Other flows - Same State,131,195,5864
+6,7,59,0,DS,Other flows - Different State,919,1605,56013
+6,7,59,1,DS,Other flows - Northeast,62,95,4759
+6,7,59,3,DS,Other flows - Midwest,123,212,6855
+6,7,59,5,DS,Other flows - South,272,455,15036
+6,7,59,7,DS,Other flows - West,462,843,29363
+6,7,57,9,FR,Foreign - Other flows,-1,-1,-1
+6,9,96,0,CA,Calaveras County Total Migration-US and Foreign,1647,3082,154735
+6,9,97,0,CA,Calaveras County Total Migration-US,1647,3082,154735
+6,9,97,1,CA,Calaveras County Total Migration-Same State,1435,2726,140980
+6,9,97,3,CA,Calaveras County Total Migration-Different State,212,356,13754
+6,9,6,9,CA,Calaveras County Non-migrants,17020,33044,1477690
+6,9,6,77,CA,San Joaquin County,344,786,28146
+6,9,6,1,CA,Alameda County,120,244,18905
+6,9,6,13,CA,Contra Costa County,115,215,15374
+6,9,6,67,CA,Sacramento County,110,189,8407
+6,9,6,99,CA,Stanislaus County,106,218,7625
+6,9,6,85,CA,Santa Clara County,100,161,18895
+6,9,6,109,CA,Tuolumne County,86,132,4660
+6,9,6,5,CA,Amador County,62,113,3868
+6,9,6,81,CA,San Mateo County,46,82,7286
+6,9,6,61,CA,Placer County,25,45,2557
+6,9,6,37,CA,Los Angeles County,22,33,1839
+6,9,6,73,CA,San Diego County,22,31,1339
+6,9,6,95,CA,Solano County,22,47,1659
+6,9,6,87,CA,Santa Cruz County,21,29,1859
+6,9,58,0,SS,Other flows - Same State,234,401,18562
+6,9,59,0,DS,Other flows - Different State,212,356,13754
+6,9,59,1,DS,Other flows - Northeast,-1,-1,-1
+6,9,59,3,DS,Other flows - Midwest,34,68,1707
+6,9,59,5,DS,Other flows - South,49,87,3461
+6,9,59,7,DS,Other flows - West,129,201,8585
+6,11,96,0,CA,Colusa County Total Migration-US and Foreign,377,725,23839
+6,11,97,0,CA,Colusa County Total Migration-US,377,725,23839
+6,11,97,1,CA,Colusa County Total Migration-Same State,354,690,22998
+6,11,97,3,CA,Colusa County Total Migration-Different State,23,35,841
+6,11,6,11,CA,Colusa County Non-migrants,8541,18856,632531
+6,11,6,113,CA,Yolo County,61,138,6560
+6,11,6,67,CA,Sacramento County,58,110,3421
+6,11,6,101,CA,Sutter County,43,89,2470
+6,11,6,7,CA,Butte County,23,31,968
+6,11,6,21,CA,Glenn County,20,36,1095
+6,11,58,0,SS,Other flows - Same State,149,286,8485
+6,11,59,0,DS,Other flows - Different State,23,35,841
+6,11,59,1,DS,Other flows - Northeast,-1,-1,-1
+6,11,59,3,DS,Other flows - Midwest,-1,-1,-1
+6,11,59,5,DS,Other flows - South,-1,-1,-1
+6,11,59,7,DS,Other flows - West,23,35,841
+6,11,57,9,FR,Foreign - Other flows,-1,-1,-1
+6,13,96,0,CA,Contra Costa County Total Migration-US and Foreign,27074,48153,4406137
+6,13,97,0,CA,Contra Costa County Total Migration-US,27036,48081,4404165
+6,13,97,1,CA,Contra Costa County Total Migration-Same State,21708,38766,3596194
+6,13,97,3,CA,Contra Costa County Total Migration-Different State,5328,9315,807971
+6,13,98,0,CA,Contra Costa County Total Migration-Foreign,38,72,1972
+6,13,6,13,CA,Contra Costa County Non-migrants,450543,922646,72367457
+6,13,6,1,CA,Alameda County,8244,15271,1416882
+6,13,6,75,CA,San Francisco County,2513,4431,603863
+6,13,6,85,CA,Santa Clara County,1873,3884,497026
+6,13,6,81,CA,San Mateo County,1686,3292,326889
+6,13,6,95,CA,Solano County,1326,2146,89893
+6,13,6,37,CA,Los Angeles County,837,1270,101370
+6,13,6,67,CA,Sacramento County,794,1240,58659
+6,13,6,77,CA,San Joaquin County,709,1304,59470
+6,13,6,73,CA,San Diego County,407,617,46883
+6,13,6,41,CA,Marin County,385,612,50837
+6,13,6,59,CA,Orange County,325,534,44362
+6,13,6,97,CA,Sonoma County,291,411,28685
+6,13,53,33,WA,King County,227,395,64942
+6,13,6,99,CA,Stanislaus County,199,316,28393
+6,13,4,13,AZ,Maricopa County,186,297,15264
+6,13,6,61,CA,Placer County,179,330,32529
+6,13,32,3,NV,Clark County,175,276,9143
+6,13,6,65,CA,Riverside County,167,271,12580
+6,13,6,113,CA,Yolo County,155,227,11179
+6,13,6,55,CA,Napa County,150,232,12713
+6,13,48,201,TX,Harris County,145,327,36763
+6,13,6,19,CA,Fresno County,131,236,10199
+6,13,6,87,CA,Santa Cruz County,127,184,16971
+6,13,32,31,NV,Washoe County,117,171,9350
+6,13,17,31,IL,Cook County,116,187,17294
+6,13,6,71,CA,San Bernardino County,115,190,7934
+6,13,6,53,CA,Monterey County,113,192,13026
+6,13,36,61,NY,New York County,92,139,23308
+6,13,6,17,CA,El Dorado County,87,137,7730
+6,13,15,3,HI,Honolulu County,83,121,9342
+6,13,6,29,CA,Kern County,79,143,6976
+6,13,6,7,CA,Butte County,77,125,3905
+6,13,6,57,CA,Nevada County,73,125,12995
+6,13,6,111,CA,Ventura County,69,132,12887
+6,13,25,17,MA,Middlesex County,68,110,10289
+6,13,6,83,CA,Santa Barbara County,66,86,6459
+6,13,36,81,NY,Queens County,63,103,6614
+6,13,6,47,CA,Merced County,62,109,4395
+6,13,48,453,TX,Travis County,60,102,9669
+6,13,6,79,CA,San Luis Obispo County,59,86,5417
+6,13,49,35,UT,Salt Lake County,59,100,4849
+6,13,36,47,NY,Kings County,56,81,5076
+6,13,41,51,OR,Multnomah County,56,72,2866
+6,13,48,113,TX,Dallas County,53,80,14045
+6,13,24,31,MD,Montgomery County,49,94,8004
+6,13,6,9,CA,Calaveras County,47,74,4595
+6,13,53,53,WA,Pierce County,47,98,4551
+6,13,48,339,TX,Montgomery County,46,121,27065
+6,13,6,23,CA,Humboldt County,44,55,2170
+6,13,8,31,CO,Denver County,43,65,12784
+6,13,13,121,GA,Fulton County,43,81,4417
+6,13,51,59,VA,Fairfax County,41,90,7174
+6,13,48,157,TX,Fort Bend County,39,101,8684
+6,13,6,89,CA,Shasta County,38,60,1872
+6,13,16,1,ID,Ada County,38,65,5162
+6,13,48,439,TX,Tarrant County,38,70,2993
+6,13,57,5,FR,Foreign - APO/FPO ZIPs,38,72,1972
+6,13,41,67,OR,Washington County,37,75,6681
+6,13,53,61,WA,Snohomish County,37,72,6927
+6,13,6,45,CA,Mendocino County,35,55,2260
+6,13,11,1,DC,District of Columbia,34,50,5954
+6,13,12,86,FL,Miami-Dade County,34,65,4437
+6,13,8,41,CO,El Paso County,32,58,4129
+6,13,4,19,AZ,Pima County,31,45,1717
+6,13,12,11,FL,Broward County,31,62,4099
+6,13,6,107,CA,Tulare County,30,51,3558
+6,13,25,25,MA,Suffolk County,30,38,3586
+6,13,27,53,MN,Hennepin County,30,62,4719
+6,13,12,99,FL,Palm Beach County,29,54,3187
+6,13,41,39,OR,Lane County,29,46,2040
+6,13,48,85,TX,Collin County,28,71,8143
+6,13,26,125,MI,Oakland County,27,50,5093
+6,13,48,29,TX,Bexar County,27,44,3390
+6,13,12,95,FL,Orange County,26,35,2207
+6,13,36,103,NY,Suffolk County,26,39,3116
+6,13,47,37,TN,Davidson County,26,39,4137
+6,13,6,109,CA,Tuolumne County,25,32,1570
+6,13,6,39,CA,Madera County,24,40,2257
+6,13,34,17,NJ,Hudson County,24,54,4282
+6,13,37,119,NC,Mecklenburg County,24,41,2489
+6,13,48,491,TX,Williamson County,24,52,4500
+6,13,6,5,CA,Amador County,22,27,2319
+6,13,8,59,CO,Jefferson County,22,38,2076
+6,13,25,21,MA,Norfolk County,22,49,5081
+6,13,36,119,NY,Westchester County,21,51,3674
+6,13,6,31,CA,Kings County,20,26,817
+6,13,8,5,CO,Arapahoe County,20,33,3036
+6,13,42,101,PA,Philadelphia County,20,27,2518
+6,13,48,141,TX,El Paso County,20,43,1205
+6,13,58,0,SS,Other flows - Same State,125,215,8584
+6,13,59,0,DS,Other flows - Different State,2677,4682,343990
+6,13,59,1,DS,Other flows - Northeast,439,792,64183
+6,13,59,3,DS,Other flows - Midwest,558,954,72479
+6,13,59,5,DS,Other flows - South,1036,1873,130350
+6,13,59,7,DS,Other flows - West,644,1063,76977
+6,13,57,9,FR,Foreign - Other flows,-1,-1,-1
+6,15,96,0,CA,Del Norte County Total Migration-US and Foreign,556,934,32003
+6,15,97,0,CA,Del Norte County Total Migration-US,556,934,32003
+6,15,97,1,CA,Del Norte County Total Migration-Same State,367,604,22982
+6,15,97,3,CA,Del Norte County Total Migration-Different State,189,330,9021
+6,15,6,15,CA,Del Norte County Non-migrants,8487,17209,519466
+6,15,41,15,OR,Curry County,44,78,1874
+6,15,6,23,CA,Humboldt County,34,56,1552
+6,15,6,67,CA,Sacramento County,34,54,2366
+6,15,6,37,CA,Los Angeles County,32,43,1845
+6,15,58,0,SS,Other flows - Same State,267,451,17219
+6,15,59,0,DS,Other flows - Different State,145,252,7146
+6,15,59,1,DS,Other flows - Northeast,-1,-1,-1
+6,15,59,3,DS,Other flows - Midwest,-1,-1,-1
+6,15,59,5,DS,Other flows - South,30,60,1113
+6,15,59,7,DS,Other flows - West,115,192,6033
+6,17,96,0,CA,El Dorado County Total Migration-US and Foreign,6182,11018,747175
+6,17,97,0,CA,El Dorado County Total Migration-US,6182,11018,747175
+6,17,97,1,CA,El Dorado County Total Migration-Same State,4757,8657,589676
+6,17,97,3,CA,El Dorado County Total Migration-Different State,1425,2361,157499
+6,17,6,17,CA,El Dorado County Non-migrants,74318,150528,9749830
+6,17,6,67,CA,Sacramento County,1805,3350,194726
+6,17,6,61,CA,Placer County,402,727,45111
+6,17,6,85,CA,Santa Clara County,320,645,68442
+6,17,6,13,CA,Contra Costa County,269,555,45559
+6,17,6,1,CA,Alameda County,230,447,47017
+6,17,6,81,CA,San Mateo County,141,291,26066
+6,17,6,37,CA,Los Angeles County,128,210,11663
+6,17,32,5,NV,Douglas County,127,192,10834
+6,17,6,73,CA,San Diego County,125,192,11528
+6,17,32,31,NV,Washoe County,105,159,12092
+6,17,6,75,CA,San Francisco County,100,145,23097
+6,17,6,97,CA,Sonoma County,89,124,7850
+6,17,6,77,CA,San Joaquin County,82,149,11843
+6,17,6,113,CA,Yolo County,79,133,7622
+6,17,6,59,CA,Orange County,75,120,6930
+6,17,6,95,CA,Solano County,72,137,8599
+6,17,6,5,CA,Amador County,60,117,4011
+6,17,6,57,CA,Nevada County,59,97,4818
+6,17,6,87,CA,Santa Cruz County,51,78,4587
+6,17,4,13,AZ,Maricopa County,47,81,5812
+6,17,6,65,CA,Riverside County,47,94,4374
+6,17,53,33,WA,King County,46,82,10280
+6,17,6,41,CA,Marin County,43,68,8275
+6,17,6,99,CA,Stanislaus County,43,71,3027
+6,17,6,83,CA,Santa Barbara County,41,58,2902
+6,17,32,3,NV,Clark County,41,70,3004
+6,17,6,7,CA,Butte County,36,52,2159
+6,17,6,53,CA,Monterey County,35,55,2858
+6,17,6,79,CA,San Luis Obispo County,34,54,3007
+6,17,6,115,CA,Yuba County,31,54,1505
+6,17,6,19,CA,Fresno County,30,62,3196
+6,17,6,23,CA,Humboldt County,30,49,1556
+6,17,6,89,CA,Shasta County,30,41,2286
+6,17,6,55,CA,Napa County,28,47,3607
+6,17,6,71,CA,San Bernardino County,26,45,2694
+6,17,32,510,NV,Carson City,25,45,1000
+6,17,6,109,CA,Tuolumne County,23,38,2400
+6,17,6,111,CA,Ventura County,21,33,2020
+6,17,58,0,SS,Other flows - Same State,172,319,14339
+6,17,59,0,DS,Other flows - Different State,1034,1732,114477
+6,17,59,1,DS,Other flows - Northeast,124,197,14174
+6,17,59,3,DS,Other flows - Midwest,142,229,36616
+6,17,59,5,DS,Other flows - South,341,642,31090
+6,17,59,7,DS,Other flows - West,427,664,32597
+6,17,57,9,FR,Foreign - Other flows,-1,-1,-1
+6,19,96,0,CA,Fresno County Total Migration-US and Foreign,12395,22123,734241
+6,19,97,0,CA,Fresno County Total Migration-US,12359,22059,732206
+6,19,97,1,CA,Fresno County Total Migration-Same State,8923,16079,547083
+6,19,97,3,CA,Fresno County Total Migration-Different State,3436,5980,185122
+6,19,98,0,CA,Fresno County Total Migration-Foreign,36,64,2036
+6,19,6,19,CA,Fresno County Non-migrants,359818,773651,25709712
+6,19,6,107,CA,Tulare County,1134,2114,67810
+6,19,6,39,CA,Madera County,1124,2120,63149
+6,19,6,37,CA,Los Angeles County,817,1487,49176
+6,19,6,31,CA,Kings County,546,1034,30461
+6,19,6,85,CA,Santa Clara County,532,952,44031
+6,19,6,67,CA,Sacramento County,397,669,23356
+6,19,6,29,CA,Kern County,379,672,24447
+6,19,6,47,CA,Merced County,367,689,18875
+6,19,6,1,CA,Alameda County,337,570,27241
+6,19,6,73,CA,San Diego County,307,572,20761
+6,19,6,77,CA,San Joaquin County,288,518,20038
+6,19,6,59,CA,Orange County,275,492,17402
+6,19,6,53,CA,Monterey County,271,471,14525
+6,19,6,65,CA,Riverside County,218,403,11723
+6,19,6,99,CA,Stanislaus County,217,387,11173
+6,19,6,71,CA,San Bernardino County,191,361,9227
+6,19,6,13,CA,Contra Costa County,179,317,10531
+6,19,6,79,CA,San Luis Obispo County,169,268,14921
+6,19,32,3,NV,Clark County,159,287,6876
+6,19,36,81,NY,Queens County,156,176,6631
+6,19,4,13,AZ,Maricopa County,140,243,8093
+6,19,6,83,CA,Santa Barbara County,120,218,6061
+6,19,6,81,CA,San Mateo County,111,176,8603
+6,19,6,111,CA,Ventura County,100,188,5527
+6,19,6,75,CA,San Francisco County,92,146,6317
+6,19,53,33,WA,King County,85,145,7899
+6,19,6,87,CA,Santa Cruz County,74,136,4073
+6,19,6,97,CA,Sonoma County,73,102,2923
+6,19,6,95,CA,Solano County,71,125,3935
+6,19,6,61,CA,Placer County,62,108,5446
+6,19,32,31,NV,Washoe County,51,97,3176
+6,19,6,113,CA,Yolo County,49,69,2112
+6,19,15,3,HI,Honolulu County,41,69,2505
+6,19,48,113,TX,Dallas County,38,59,1463
+6,19,6,69,CA,San Benito County,37,75,2636
+6,19,53,53,WA,Pierce County,36,65,2058
+6,19,57,5,FR,Foreign - APO/FPO ZIPs,36,64,2036
+6,19,17,31,IL,Cook County,35,52,3812
+6,19,48,201,TX,Harris County,35,60,1653
+6,19,6,43,CA,Mariposa County,33,60,1331
+6,19,41,51,OR,Multnomah County,31,52,1703
+6,19,6,25,CA,Imperial County,30,57,1129
+6,19,49,35,UT,Salt Lake County,30,69,1576
+6,19,40,143,OK,Tulsa County,29,60,1055
+6,19,6,23,CA,Humboldt County,28,34,793
+6,19,4,27,AZ,Yuma County,27,58,934
+6,19,6,89,CA,Shasta County,27,37,1219
+6,19,48,29,TX,Bexar County,27,49,1010
+6,19,48,439,TX,Tarrant County,27,42,981
+6,19,4,19,AZ,Pima County,26,38,1163
+6,19,8,41,CO,El Paso County,26,41,1005
+6,19,27,123,MN,Ramsey County,26,39,689
+6,19,53,61,WA,Snohomish County,25,49,1175
+6,19,6,7,CA,Butte County,24,37,1287
+6,19,36,47,NY,Kings County,24,39,2198
+6,19,48,141,TX,El Paso County,24,45,1639
+6,19,6,41,CA,Marin County,23,27,2400
+6,19,6,55,CA,Napa County,23,32,1336
+6,19,6,17,CA,El Dorado County,21,35,1285
+6,19,6,35,CA,Lassen County,21,38,765
+6,19,36,59,NY,Nassau County,21,25,945
+6,19,6,57,CA,Nevada County,20,29,753
+6,19,16,1,ID,Ada County,20,37,1560
+6,19,18,97,IN,Marion County,20,37,1221
+6,19,58,0,SS,Other flows - Same State,136,254,8305
+6,19,59,0,DS,Other flows - Different State,2277,4047,122103
+6,19,59,1,DS,Other flows - Northeast,272,475,20474
+6,19,59,3,DS,Other flows - Midwest,462,827,28144
+6,19,59,5,DS,Other flows - South,885,1571,42995
+6,19,59,7,DS,Other flows - West,658,1174,30489
+6,19,57,9,FR,Foreign - Other flows,-1,-1,-1
+6,21,96,0,CA,Glenn County Total Migration-US and Foreign,571,1047,27889
+6,21,97,0,CA,Glenn County Total Migration-US,571,1047,27889
+6,21,97,1,CA,Glenn County Total Migration-Same State,490,888,24350
+6,21,97,3,CA,Glenn County Total Migration-Different State,81,159,3538
+6,21,6,21,CA,Glenn County Non-migrants,10495,22838,684105
+6,21,6,7,CA,Butte County,161,284,7701
+6,21,6,103,CA,Tehama County,87,166,3639
+6,21,6,11,CA,Colusa County,37,71,1520
+6,21,6,67,CA,Sacramento County,34,53,2012
+6,21,58,0,SS,Other flows - Same State,171,314,9478
+6,21,59,0,DS,Other flows - Different State,81,159,3538
+6,21,59,1,DS,Other flows - Northeast,-1,-1,-1
+6,21,59,3,DS,Other flows - Midwest,-1,-1,-1
+6,21,59,5,DS,Other flows - South,20,44,851
+6,21,59,7,DS,Other flows - West,61,115,2687
+6,23,96,0,CA,Humboldt County Total Migration-US and Foreign,2736,4062,165286
+6,23,97,0,CA,Humboldt County Total Migration-US,2736,4062,165286
+6,23,97,1,CA,Humboldt County Total Migration-Same State,1858,2703,116160
+6,23,97,3,CA,Humboldt County Total Migration-Different State,878,1359,49126
+6,23,6,23,CA,Humboldt County Non-migrants,48467,88946,3516055
+6,23,6,37,CA,Los Angeles County,200,251,9913
+6,23,6,67,CA,Sacramento County,119,169,7151
+6,23,6,73,CA,San Diego County,117,163,4627
+6,23,6,89,CA,Shasta County,99,167,4097
+6,23,6,97,CA,Sonoma County,93,129,5413
+6,23,6,1,CA,Alameda County,83,134,7745
+6,23,6,65,CA,Riverside County,73,95,3303
+6,23,6,7,CA,Butte County,69,95,3356
+6,23,6,45,CA,Mendocino County,63,104,2773
+6,23,6,59,CA,Orange County,61,80,3304
+6,23,6,13,CA,Contra Costa County,53,74,3350
+6,23,6,85,CA,Santa Clara County,50,62,3844
+6,23,6,15,CA,Del Norte County,44,74,1943
+6,23,6,111,CA,Ventura County,44,66,2364
+6,23,6,105,CA,Trinity County,40,68,2147
+6,23,6,87,CA,Santa Cruz County,38,47,2695
+6,23,6,57,CA,Nevada County,36,54,2806
+6,23,6,71,CA,San Bernardino County,34,55,1323
+6,23,6,29,CA,Kern County,33,52,910
+6,23,6,19,CA,Fresno County,32,49,975
+6,23,4,13,AZ,Maricopa County,30,47,1046
+6,23,6,61,CA,Placer County,30,43,2153
+6,23,6,95,CA,Solano County,30,50,2410
+6,23,6,81,CA,San Mateo County,29,42,2233
+6,23,6,17,CA,El Dorado County,28,38,1910
+6,23,6,75,CA,San Francisco County,27,37,2448
+6,23,6,79,CA,San Luis Obispo County,27,45,1705
+6,23,6,77,CA,San Joaquin County,26,37,1151
+6,23,6,113,CA,Yolo County,26,48,1977
+6,23,6,93,CA,Siskiyou County,25,40,889
+6,23,32,3,NV,Clark County,25,34,613
+6,23,6,53,CA,Monterey County,24,33,998
+6,23,41,39,OR,Lane County,23,37,910
+6,23,6,83,CA,Santa Barbara County,22,30,1476
+6,23,6,107,CA,Tulare County,22,34,1281
+6,23,41,51,OR,Multnomah County,22,27,1042
+6,23,6,33,CA,Lake County,21,29,1404
+6,23,53,33,WA,King County,21,29,1471
+6,23,58,0,SS,Other flows - Same State,140,211,8182
+6,23,59,0,DS,Other flows - Different State,757,1185,44044
+6,23,59,1,DS,Other flows - Northeast,80,114,6211
+6,23,59,3,DS,Other flows - Midwest,120,192,5688
+6,23,59,5,DS,Other flows - South,180,293,7956
+6,23,59,7,DS,Other flows - West,377,586,24190
+6,23,57,9,FR,Foreign - Other flows,-1,-1,-1
+6,25,96,0,CA,Imperial County Total Migration-US and Foreign,2564,4739,104934
+6,25,97,0,CA,Imperial County Total Migration-US,2564,4739,104934
+6,25,97,1,CA,Imperial County Total Migration-Same State,1721,3215,71621
+6,25,97,3,CA,Imperial County Total Migration-Different State,843,1524,33313
+6,25,6,25,CA,Imperial County Non-migrants,71853,163539,3749041
+6,25,6,73,CA,San Diego County,529,926,27374
+6,25,6,65,CA,Riverside County,456,946,16520
+6,25,6,37,CA,Los Angeles County,193,327,7678
+6,25,4,27,AZ,Yuma County,191,359,5926
+6,25,4,13,AZ,Maricopa County,98,192,3381
+6,25,6,71,CA,San Bernardino County,91,196,4172
+6,25,6,59,CA,Orange County,55,93,1890
+6,25,6,53,CA,Monterey County,50,96,1932
+6,25,6,29,CA,Kern County,49,85,1049
+6,25,32,3,NV,Clark County,42,84,2389
+6,25,6,19,CA,Fresno County,34,69,944
+6,25,6,67,CA,Sacramento County,24,55,793
+6,25,6,31,CA,Kings County,21,32,622
+6,25,6,111,CA,Ventura County,21,43,904
+6,25,6,35,CA,Lassen County,20,30,779
+6,25,58,0,SS,Other flows - Same State,178,317,6964
+6,25,59,0,DS,Other flows - Different State,512,889,21617
+6,25,59,1,DS,Other flows - Northeast,38,53,2391
+6,25,59,3,DS,Other flows - Midwest,81,153,3475
+6,25,59,5,DS,Other flows - South,184,330,7718
+6,25,59,7,DS,Other flows - West,209,353,8032
+6,25,57,9,FR,Foreign - Other flows,-1,-1,-1
+6,27,96,0,CA,Inyo County Total Migration-US and Foreign,465,696,31556
+6,27,97,0,CA,Inyo County Total Migration-US,465,696,31556
+6,27,97,1,CA,Inyo County Total Migration-Same State,328,510,24626
+6,27,97,3,CA,Inyo County Total Migration-Different State,137,186,6930
+6,27,6,27,CA,Inyo County Non-migrants,6860,13127,544696
+6,27,6,51,CA,Mono County,73,141,6318
+6,27,6,37,CA,Los Angeles County,54,83,3871
+6,27,6,73,CA,San Diego County,26,38,1002
+6,27,6,29,CA,Kern County,22,31,1500
+6,27,32,31,NV,Washoe County,20,29,759
+6,27,58,0,SS,Other flows - Same State,153,217,11934
+6,27,59,0,DS,Other flows - Different State,117,157,6171
+6,27,59,1,DS,Other flows - Northeast,-1,-1,-1
+6,27,59,3,DS,Other flows - Midwest,-1,-1,-1
+6,27,59,5,DS,Other flows - South,42,56,1959
+6,27,59,7,DS,Other flows - West,75,101,4212
+6,27,57,9,FR,Foreign - Other flows,-1,-1,-1
+6,29,96,0,CA,Kern County Total Migration-US and Foreign,13315,25872,726414
+6,29,97,0,CA,Kern County Total Migration-US,13217,25663,720435
+6,29,97,1,CA,Kern County Total Migration-Same State,9494,18724,511385
+6,29,97,3,CA,Kern County Total Migration-Different State,3723,6939,209050
+6,29,98,0,CA,Kern County Total Migration-Foreign,98,209,5979
+6,29,6,29,CA,Kern County Non-migrants,307495,680071,20113848
+6,29,6,37,CA,Los Angeles County,4234,8858,231252
+6,29,6,107,CA,Tulare County,549,1025,24216
+6,29,6,111,CA,Ventura County,549,1156,31865
+6,29,6,59,CA,Orange County,502,986,30525
+6,29,6,71,CA,San Bernardino County,500,990,22749
+6,29,6,65,CA,Riverside County,445,866,20954
+6,29,6,73,CA,San Diego County,339,611,17076
+6,29,6,19,CA,Fresno County,305,530,15388
+6,29,32,3,NV,Clark County,240,484,8663
+6,29,6,83,CA,Santa Barbara County,198,384,11380
+6,29,6,79,CA,San Luis Obispo County,187,303,11215
+6,29,6,85,CA,Santa Clara County,162,286,11716
+6,29,4,13,AZ,Maricopa County,157,277,7916
+6,29,6,53,CA,Monterey County,156,317,6273
+6,29,6,67,CA,Sacramento County,151,241,7087
+6,29,6,77,CA,San Joaquin County,126,239,6585
+6,29,6,1,CA,Alameda County,123,224,8679
+6,29,6,31,CA,Kings County,103,176,4831
+6,29,57,5,FR,Foreign - APO/FPO ZIPs,98,209,5979
+6,29,6,13,CA,Contra Costa County,91,171,8940
+6,29,6,99,CA,Stanislaus County,74,152,3250
+6,29,6,25,CA,Imperial County,64,121,1932
+6,29,48,201,TX,Harris County,57,107,3855
+6,29,6,47,CA,Merced County,53,119,1849
+6,29,6,87,CA,Santa Cruz County,52,95,2977
+6,29,6,39,CA,Madera County,51,104,2867
+6,29,53,33,WA,King County,47,73,3715
+6,29,6,81,CA,San Mateo County,42,75,3277
+6,29,6,95,CA,Solano County,42,76,1716
+6,29,48,29,TX,Bexar County,41,87,2184
+6,29,15,3,HI,Honolulu County,40,68,1810
+6,29,36,81,NY,Queens County,40,62,1710
+6,29,4,19,AZ,Pima County,39,59,2687
+6,29,48,439,TX,Tarrant County,39,70,1658
+6,29,6,35,CA,Lassen County,38,49,895
+6,29,53,53,WA,Pierce County,38,73,2232
+6,29,4,27,AZ,Yuma County,37,54,1389
+6,29,32,31,NV,Washoe County,37,65,1908
+6,29,49,35,UT,Salt Lake County,36,63,1621
+6,29,6,27,CA,Inyo County,35,69,2102
+6,29,6,75,CA,San Francisco County,33,46,2073
+6,29,8,41,CO,El Paso County,33,61,1432
+6,29,17,31,IL,Cook County,33,50,2349
+6,29,41,67,OR,Washington County,33,48,1324
+6,29,48,113,TX,Dallas County,30,53,1434
+6,29,6,113,CA,Yolo County,29,39,1145
+6,29,48,141,TX,El Paso County,28,66,1128
+6,29,4,15,AZ,Mohave County,27,52,1046
+6,29,41,51,OR,Multnomah County,25,35,814
+6,29,35,1,NM,Bernalillo County,24,43,1371
+6,29,51,810,VA,Virginia Beach city,24,44,1433
+6,29,8,5,CO,Arapahoe County,23,33,748
+6,29,6,7,CA,Butte County,22,35,1145
+6,29,6,97,CA,Sonoma County,22,38,1879
+6,29,38,101,ND,Ward County,21,45,1279
+6,29,49,49,UT,Utah County,21,52,979
+6,29,12,91,FL,Okaloosa County,20,42,994
+6,29,58,0,SS,Other flows - Same State,217,344,10243
+6,29,59,0,DS,Other flows - Different State,2533,4773,151371
+6,29,59,1,DS,Other flows - Northeast,253,417,14817
+6,29,59,3,DS,Other flows - Midwest,516,981,28949
+6,29,59,5,DS,Other flows - South,1030,1941,60345
+6,29,59,7,DS,Other flows - West,734,1434,47260
+6,29,57,9,FR,Foreign - Other flows,-1,-1,-1
+6,31,96,0,CA,Kings County Total Migration-US and Foreign,3311,6030,151284
+6,31,97,0,CA,Kings County Total Migration-US,3220,5821,146210
+6,31,97,1,CA,Kings County Total Migration-Same State,2181,3950,91726
+6,31,97,3,CA,Kings County Total Migration-Different State,1039,1871,54484
+6,31,98,0,CA,Kings County Total Migration-Foreign,91,209,5074
+6,31,6,31,CA,Kings County Non-migrants,47945,106398,2972085
+6,31,6,19,CA,Fresno County,618,1198,27370
+6,31,6,107,CA,Tulare County,400,753,18476
+6,31,6,37,CA,Los Angeles County,159,279,5673
+6,31,6,73,CA,San Diego County,142,299,6385
+6,31,6,29,CA,Kern County,127,192,3142
+6,31,57,5,FR,Foreign - APO/FPO ZIPs,91,209,5074
+6,31,6,65,CA,Riverside County,67,107,1911
+6,31,51,810,VA,Virginia Beach city,58,118,3255
+6,31,6,53,CA,Monterey County,56,99,3039
+6,31,6,79,CA,San Luis Obispo County,52,79,2474
+6,31,6,59,CA,Orange County,51,92,3026
+6,31,6,71,CA,San Bernardino County,48,87,1932
+6,31,6,67,CA,Sacramento County,44,68,1518
+6,31,6,77,CA,San Joaquin County,42,68,1319
+6,31,53,29,WA,Island County,40,81,1987
+6,31,6,111,CA,Ventura County,31,60,1800
+6,31,4,13,AZ,Maricopa County,30,50,1802
+6,31,32,3,NV,Clark County,29,50,1330
+6,31,6,85,CA,Santa Clara County,28,54,1552
+6,31,12,33,FL,Escambia County,27,47,1314
+6,31,48,273,TX,Kleberg County,27,37,1840
+6,31,6,1,CA,Alameda County,26,37,1104
+6,31,6,47,CA,Merced County,26,59,1423
+6,31,6,39,CA,Madera County,25,40,927
+6,31,6,35,CA,Lassen County,24,36,1181
+6,31,6,83,CA,Santa Barbara County,23,46,1194
+6,31,6,95,CA,Solano County,23,29,758
+6,31,51,710,VA,Norfolk city,22,30,885
+6,31,15,3,HI,Honolulu County,21,38,1101
+6,31,58,0,SS,Other flows - Same State,169,268,5524
+6,31,59,0,DS,Other flows - Different State,785,1420,40969
+6,31,59,1,DS,Other flows - Northeast,77,117,3655
+6,31,59,3,DS,Other flows - Midwest,113,189,5410
+6,31,59,5,DS,Other flows - South,386,724,20922
+6,31,59,7,DS,Other flows - West,209,390,10984
+6,31,57,9,FR,Foreign - Other flows,-1,-1,-1
+6,33,96,0,CA,Lake County Total Migration-US and Foreign,1459,2612,88066
+6,33,97,0,CA,Lake County Total Migration-US,1459,2612,88066
+6,33,97,1,CA,Lake County Total Migration-Same State,1187,2136,75486
+6,33,97,3,CA,Lake County Total Migration-Different State,272,476,12580
+6,33,6,33,CA,Lake County Non-migrants,21453,42636,1311856
+6,33,6,97,CA,Sonoma County,299,549,18649
+6,33,6,45,CA,Mendocino County,163,346,7506
+6,33,6,67,CA,Sacramento County,78,130,3961
+6,33,6,55,CA,Napa County,76,155,5873
+6,33,6,13,CA,Contra Costa County,61,103,4784
+6,33,6,95,CA,Solano County,50,83,3007
+6,33,6,1,CA,Alameda County,48,71,4323
+6,33,6,85,CA,Santa Clara County,43,69,3957
+6,33,6,37,CA,Los Angeles County,35,52,2411
+6,33,6,73,CA,San Diego County,25,46,1578
+6,33,6,81,CA,San Mateo County,23,36,2638
+6,33,6,41,CA,Marin County,21,31,1388
+6,33,58,0,SS,Other flows - Same State,265,465,15413
+6,33,59,0,DS,Other flows - Different State,272,476,12580
+6,33,59,1,DS,Other flows - Northeast,25,40,1608
+6,33,59,3,DS,Other flows - Midwest,35,70,1914
+6,33,59,5,DS,Other flows - South,73,144,3056
+6,33,59,7,DS,Other flows - West,139,222,6001
+6,33,57,9,FR,Foreign - Other flows,-1,-1,-1
+6,35,96,0,CA,Lassen County Total Migration-US and Foreign,706,1200,34783
+6,35,97,0,CA,Lassen County Total Migration-US,706,1200,34783
+6,35,97,1,CA,Lassen County Total Migration-Same State,471,799,23342
+6,35,97,3,CA,Lassen County Total Migration-Different State,235,401,11441
+6,35,6,35,CA,Lassen County Non-migrants,8328,17039,562656
+6,35,32,31,NV,Washoe County,58,101,3622
+6,35,6,63,CA,Plumas County,52,125,3023
+6,35,6,67,CA,Sacramento County,42,66,1814
+6,35,6,89,CA,Shasta County,37,77,2007
+6,35,6,7,CA,Butte County,24,41,878
+6,35,58,0,SS,Other flows - Same State,316,490,15620
+6,35,59,0,DS,Other flows - Different State,177,300,7819
+6,35,59,1,DS,Other flows - Northeast,-1,-1,-1
+6,35,59,3,DS,Other flows - Midwest,25,42,963
+6,35,59,5,DS,Other flows - South,41,73,1883
+6,35,59,7,DS,Other flows - West,111,185,4974
+6,35,57,9,FR,Foreign - Other flows,-1,-1,-1
+6,37,96,0,CA,Los Angeles County Total Migration-US and Foreign,124328,180752,12814487
+6,37,97,0,CA,Los Angeles County Total Migration-US,123974,180146,12794872
+6,37,97,1,CA,Los Angeles County Total Migration-Same State,63606,96184,6344103
+6,37,97,3,CA,Los Angeles County Total Migration-Different State,60368,83962,6450769
+6,37,98,0,CA,Los Angeles County Total Migration-Foreign,354,606,19615
+6,37,6,37,CA,Los Angeles County Non-migrants,3944880,7387364,430148598
+6,37,6,59,CA,Orange County,16322,24663,1426807
+6,37,6,71,CA,San Bernardino County,11102,18934,638750
+6,37,6,65,CA,Riverside County,6867,11086,485018
+6,37,6,73,CA,San Diego County,5199,7113,578057
+6,37,6,111,CA,Ventura County,4448,6779,477734
+6,37,32,3,NV,Clark County,3068,5158,206318
+6,37,6,75,CA,San Francisco County,2512,3129,859733
+6,37,36,61,NY,New York County,2445,3048,660286
+6,37,6,1,CA,Alameda County,2365,3222,273826
+6,37,36,47,NY,Kings County,2291,2904,479415
+6,37,6,85,CA,Santa Clara County,2186,3084,538953
+6,37,17,31,IL,Cook County,2172,2805,302717
+6,37,4,13,AZ,Maricopa County,2158,3065,157566
+6,37,6,29,CA,Kern County,2068,3668,113566
+6,37,53,33,WA,King County,1908,2545,316050
+6,37,6,67,CA,Sacramento County,1225,1638,73190
+6,37,6,83,CA,Santa Barbara County,1082,1391,103155
+6,37,6,13,CA,Contra Costa County,1079,1497,153919
+6,37,6,81,CA,San Mateo County,984,1399,187071
+6,37,48,201,TX,Harris County,982,1478,85957
+6,37,36,81,NY,Queens County,922,1269,67882
+6,37,48,113,TX,Dallas County,780,1081,68559
+6,37,25,17,MA,Middlesex County,739,956,74251
+6,37,41,51,OR,Multnomah County,727,906,67801
+6,37,6,19,CA,Fresno County,715,1080,36341
+6,37,11,1,DC,District of Columbia,694,838,89675
+6,37,48,453,TX,Travis County,689,913,173006
+6,37,15,3,HI,Honolulu County,662,1065,49092
+6,37,12,86,FL,Miami-Dade County,661,916,98215
+6,37,25,25,MA,Suffolk County,605,713,75724
+6,37,8,31,CO,Denver County,573,738,56964
+6,37,13,121,GA,Fulton County,548,725,82811
+6,37,42,101,PA,Philadelphia County,511,645,43803
+6,37,6,79,CA,San Luis Obispo County,472,590,32321
+6,37,49,35,UT,Salt Lake County,462,666,29407
+6,37,48,439,TX,Tarrant County,454,720,34081
+6,37,51,59,VA,Fairfax County,437,653,45440
+6,37,24,31,MD,Montgomery County,419,590,42617
+6,37,4,19,AZ,Pima County,409,567,24995
+6,37,12,11,FL,Broward County,407,551,34204
+6,37,6,77,CA,San Joaquin County,388,539,19045
+6,37,6,41,CA,Marin County,381,527,86576
+6,37,34,17,NJ,Hudson County,375,508,47861
+6,37,6,97,CA,Sonoma County,370,493,28263
+6,37,36,59,NY,Nassau County,364,467,33033
+6,37,6,53,CA,Monterey County,362,487,23724
+6,37,27,53,MN,Hennepin County,343,430,30915
+6,37,48,29,TX,Bexar County,336,525,23119
+6,37,26,125,MI,Oakland County,332,477,35732
+6,37,57,5,FR,Foreign - APO/FPO ZIPs,329,572,18533
+6,37,53,53,WA,Pierce County,323,489,22358
+6,37,12,95,FL,Orange County,322,422,30099
+6,37,6,87,CA,Santa Cruz County,315,398,21971
+6,37,41,67,OR,Washington County,315,451,28286
+6,37,36,119,NY,Westchester County,308,397,38460
+6,37,47,37,TN,Davidson County,308,397,25310
+6,37,6,107,CA,Tulare County,304,460,17946
+6,37,42,3,PA,Allegheny County,303,402,27035
+6,37,36,103,NY,Suffolk County,301,403,39393
+6,37,6,95,CA,Solano County,278,410,17703
+6,37,12,99,FL,Palm Beach County,278,386,36020
+6,37,48,85,TX,Collin County,273,446,29060
+6,37,53,61,WA,Snohomish County,272,391,23929
+6,37,34,3,NJ,Bergen County,267,383,31022
+6,37,39,49,OH,Franklin County,264,348,23222
+6,37,9,190,CT,Western Connecticut Planning Regi,261,345,43477
+6,37,6,61,CA,Placer County,256,336,30139
+6,37,13,89,GA,DeKalb County,255,364,20215
+6,37,37,119,NC,Mecklenburg County,255,354,24132
+6,37,8,5,CO,Arapahoe County,250,374,29099
+6,37,8,41,CO,El Paso County,249,388,14584
+6,37,6,113,CA,Yolo County,246,292,11139
+6,37,6,99,CA,Stanislaus County,241,362,14206
+6,37,25,21,MA,Norfolk County,236,291,26347
+6,37,6,25,CA,Imperial County,234,352,7487
+6,37,32,31,NV,Washoe County,233,357,25523
+6,37,48,121,TX,Denton County,228,364,21099
+6,37,37,183,NC,Wake County,222,291,19303
+6,37,39,35,OH,Cuyahoga County,221,283,43894
+6,37,17,43,IL,DuPage County,219,309,16980
+6,37,29,189,MO,St. Louis County,216,281,19544
+6,37,48,141,TX,El Paso County,213,348,8309
+6,37,35,1,NM,Bernalillo County,210,299,14285
+6,37,26,163,MI,Wayne County,208,276,14516
+6,37,51,13,VA,Arlington County,206,268,25054
+6,37,12,57,FL,Hillsborough County,200,279,18038
+6,37,13,135,GA,Gwinnett County,195,298,9105
+6,37,39,61,OH,Hamilton County,193,242,55156
+6,37,8,13,CO,Boulder County,191,251,18443
+6,37,36,5,NY,Bronx County,191,262,9854
+6,37,24,33,MD,Prince George's County,190,247,10949
+6,37,9,110,CT,Capitol Planning Region,188,239,19519
+6,37,24,510,MD,Baltimore city,185,226,13845
+6,37,17,97,IL,Lake County,184,248,20756
+6,37,6,31,CA,Kings County,183,258,6589
+6,37,34,13,NJ,Essex County,180,250,30032
+6,37,13,67,GA,Cobb County,179,266,14252
+6,37,55,79,WI,Milwaukee County,177,226,10992
+6,37,42,91,PA,Montgomery County,172,226,13502
+6,37,8,59,CO,Jefferson County,169,211,12077
+6,37,18,97,IN,Marion County,168,203,10533
+6,37,34,23,NJ,Middlesex County,167,241,15284
+6,37,48,157,TX,Fort Bend County,165,267,13989
+6,37,55,25,WI,Dane County,161,201,9845
+6,37,26,161,MI,Washtenaw County,159,208,12111
+6,37,6,47,CA,Merced County,158,232,5276
+6,37,41,39,OR,Lane County,158,210,6894
+6,37,41,5,OR,Clackamas County,156,226,25857
+6,37,22,71,LA,Orleans Parish,154,198,12864
+6,37,29,95,MO,Jackson County,154,220,7771
+6,37,49,49,UT,Utah County,154,246,6824
+6,37,16,1,ID,Ada County,153,203,9062
+6,37,4,15,AZ,Mohave County,150,232,7121
+6,37,9,170,CT,South Central Connecticut Plannin,148,183,11244
+6,37,25,9,MA,Essex County,147,203,12739
+6,37,48,491,TX,Williamson County,147,226,13855
+6,37,53,11,WA,Clark County,143,221,13034
+6,37,36,29,NY,Erie County,138,178,8444
+6,37,12,31,FL,Duval County,137,183,9374
+6,37,44,7,RI,Providence County,137,175,8672
+6,37,6,7,CA,Butte County,136,193,9156
+6,37,12,103,FL,Pinellas County,134,188,12075
+6,37,40,109,OK,Oklahoma County,134,210,7799
+6,37,34,25,NJ,Monmouth County,132,163,9037
+6,37,6,23,CA,Humboldt County,131,160,7493
+6,37,8,35,CO,Douglas County,128,183,15414
+6,37,34,27,NJ,Morris County,127,157,18425
+6,37,4,21,AZ,Pinal County,126,182,6196
+6,37,47,157,TN,Shelby County,126,188,7636
+6,37,6,55,CA,Napa County,124,176,12632
+6,37,6,17,CA,El Dorado County,120,158,8667
+6,37,36,55,NY,Monroe County,119,152,9836
+6,37,6,39,CA,Madera County,118,177,5094
+6,37,24,5,MD,Baltimore County,118,183,8188
+6,37,25,27,MA,Worcester County,114,162,10723
+6,37,27,123,MN,Ramsey County,111,141,7228
+6,37,29,510,MO,St. Louis city,111,137,6192
+6,37,51,107,VA,Loudoun County,109,171,10464
+6,37,8,69,CO,Larimer County,108,136,5490
+6,37,48,339,TX,Montgomery County,108,172,6604
+6,37,34,21,NJ,Mercer County,107,145,17119
+6,37,53,63,WA,Spokane County,107,154,4721
+6,37,17,197,IL,Will County,105,152,8667
+6,37,31,55,NE,Douglas County,105,141,6107
+6,37,4,27,AZ,Yuma County,104,172,3872
+6,37,20,91,KS,Johnson County,104,157,8292
+6,37,24,3,MD,Anne Arundel County,103,141,8924
+6,37,8,1,CO,Adams County,102,144,5859
+6,37,4,25,AZ,Yavapai County,100,128,5585
+6,37,34,35,NJ,Somerset County,99,123,12616
+6,37,26,81,MI,Kent County,98,123,8550
+6,37,34,39,NJ,Union County,98,142,11342
+6,37,40,143,OK,Tulsa County,98,144,7147
+6,37,42,29,PA,Chester County,97,127,12490
+6,37,21,111,KY,Jefferson County,96,131,8226
+6,37,51,153,VA,Prince William County,96,136,5784
+6,37,12,9,FL,Brevard County,95,132,6720
+6,37,12,71,FL,Lee County,91,144,6265
+6,37,37,63,NC,Durham County,91,120,9320
+6,37,53,67,WA,Thurston County,91,114,4801
+6,37,15,9,HI,Maui County,90,129,8735
+6,37,24,27,MD,Howard County,90,125,8149
+6,37,41,29,OR,Jackson County,90,110,3492
+6,37,48,27,TX,Bell County,90,144,3222
+6,37,51,510,VA,Alexandria city,90,128,8156
+6,37,6,57,CA,Nevada County,89,121,5899
+6,37,12,115,FL,Sarasota County,89,123,17389
+6,37,51,810,VA,Virginia Beach city,89,133,4811
+6,37,53,73,WA,Whatcom County,86,124,7567
+6,37,26,99,MI,Macomb County,85,127,5636
+6,37,42,17,PA,Bucks County,85,102,16123
+6,37,42,45,PA,Delaware County,85,130,8122
+6,37,19,153,IA,Polk County,84,106,2583
+6,37,49,11,UT,Davis County,84,155,7009
+6,37,37,51,NC,Cumberland County,81,128,2819
+6,37,53,35,WA,Kitsap County,81,115,5152
+6,37,34,5,NJ,Burlington County,80,99,4440
+6,37,15,1,HI,Hawaii County,77,115,5698
+6,37,36,85,NY,Richmond County,77,116,3619
+6,37,41,17,OR,Deschutes County,77,101,7494
+6,37,17,89,IL,Kane County,76,118,4517
+6,37,36,67,NY,Onondaga County,76,94,5167
+6,37,37,133,NC,Onslow County,76,127,2847
+6,37,25,23,MA,Plymouth County,75,93,7321
+6,37,2,20,AK,Anchorage Municipality,74,111,4506
+6,37,1,73,AL,Jefferson County,71,97,5804
+6,37,10,3,DE,New Castle County,70,80,5410
+6,37,12,117,FL,Seminole County,70,83,4000
+6,37,17,19,IL,Champaign County,70,94,4050
+6,37,35,49,NM,Santa Fe County,69,85,10070
+6,37,51,760,VA,Richmond city,69,80,4693
+6,37,6,89,CA,Shasta County,68,97,2896
+6,37,34,7,NJ,Camden County,68,99,5232
+6,37,34,29,NJ,Ocean County,68,107,3905
+6,37,5,119,AR,Pulaski County,67,107,3377
+6,37,18,57,IN,Hamilton County,67,91,6607
+6,37,34,31,NJ,Passaic County,67,93,5520
+6,37,45,19,SC,Charleston County,67,82,6784
+6,37,33,11,NH,Hillsborough County,66,91,4519
+6,37,39,113,OH,Montgomery County,65,89,3619
+6,37,27,37,MN,Dakota County,64,106,4657
+6,37,39,153,OH,Summit County,64,84,4012
+6,37,45,45,SC,Greenville County,64,86,3739
+6,37,4,5,AZ,Coconino County,63,68,2347
+6,37,12,1,FL,Alachua County,63,84,5515
+6,37,12,21,FL,Collier County,63,86,5620
+6,37,22,33,LA,East Baton Rouge Parish,63,91,2951
+6,37,37,81,NC,Guilford County,63,82,3232
+6,37,13,51,GA,Chatham County,62,88,4526
+6,37,40,27,OK,Cleveland County,62,130,7100
+6,37,18,157,IN,Tippecanoe County,61,70,3238
+6,37,36,87,NY,Rockland County,61,76,9643
+6,37,1,89,AL,Madison County,59,79,3596
+6,37,22,51,LA,Jefferson Parish,59,84,2532
+6,37,49,53,UT,Washington County,59,96,4279
+6,37,9,140,CT,Naugatuck Valley Planning Region,58,77,3970
+6,37,41,47,OR,Marion County,58,87,2837
+6,37,51,710,VA,Norfolk city,58,76,3425
+6,37,36,71,NY,Orange County,57,71,3011
+6,37,47,93,TN,Knox County,57,78,3393
+6,37,6,45,CA,Mendocino County,56,74,2347
+6,37,9,120,CT,Greater Bridgeport Planning Regio,55,76,8264
+6,37,12,33,FL,Escambia County,55,81,2726
+6,37,12,101,FL,Pasco County,55,76,2682
+6,37,35,13,NM,Doña Ana County,55,74,2724
+6,37,47,187,TN,Williamson County,55,89,6687
+6,37,50,7,VT,Chittenden County,53,67,3731
+6,37,12,81,FL,Manatee County,52,80,3274
+6,37,36,27,NY,Dutchess County,52,64,5086
+6,37,20,173,KS,Sedgwick County,51,76,4168
+6,37,25,5,MA,Bristol County,51,61,3128
+6,37,48,39,TX,Brazoria County,51,87,3726
+6,37,6,109,CA,Tuolumne County,50,59,1658
+6,37,37,21,NC,Buncombe County,50,61,3128
+6,37,6,27,CA,Inyo County,49,74,3585
+6,37,21,67,KY,Fayette County,49,69,4075
+6,37,23,5,ME,Cumberland County,49,60,5192
+6,37,9,180,CT,Southeastern Connecticut Planning,48,57,2781
+6,37,12,127,FL,Volusia County,48,63,3734
+6,37,26,65,MI,Ingham County,48,57,2991
+6,37,27,3,MN,Anoka County,48,57,2148
+6,37,29,77,MO,Greene County,48,58,2122
+6,37,29,183,MO,St. Charles County,48,67,3608
+6,37,37,67,NC,Forsyth County,48,61,3571
+6,37,53,5,WA,Benton County,48,82,2579
+6,37,5,7,AR,Benton County,47,78,4242
+6,37,17,111,IL,McHenry County,47,60,3130
+6,37,18,105,IN,Monroe County,47,55,2035
+6,37,25,13,MA,Hampden County,47,64,2864
+6,37,48,215,TX,Hidalgo County,47,75,3098
+6,37,8,123,CO,Weld County,46,76,2157
+6,37,25,1,MA,Barnstable County,46,77,4886
+6,37,42,77,PA,Lehigh County,46,66,4531
+6,37,51,87,VA,Henrico County,46,61,2781
+6,37,31,109,NE,Lancaster County,45,65,2447
+6,37,48,41,TX,Brazos County,45,57,2891
+6,37,5,143,AR,Washington County,44,69,1935
+6,37,25,15,MA,Hampshire County,44,54,2460
+6,37,36,109,NY,Tompkins County,44,51,1529
+6,37,53,77,WA,Yakima County,44,72,1341
+6,37,42,95,PA,Northampton County,43,48,2692
+6,37,12,73,FL,Leon County,42,61,2274
+6,37,13,63,GA,Clayton County,42,73,1227
+6,37,8,14,CO,Broomfield County,41,52,2365
+6,37,12,91,FL,Okaloosa County,41,63,1862
+6,37,33,15,NH,Rockingham County,41,49,3066
+6,37,36,1,NY,Albany County,41,56,2997
+6,37,39,95,OH,Lucas County,41,51,2231
+6,37,42,71,PA,Lancaster County,41,60,3340
+6,37,47,65,TN,Hamilton County,41,60,2599
+6,37,48,61,TX,Cameron County,41,54,3642
+6,37,48,303,TX,Lubbock County,41,62,2130
+6,37,6,35,CA,Lassen County,40,55,1555
+6,37,12,97,FL,Osceola County,40,67,2159
+6,37,18,3,IN,Allen County,40,56,1574
+6,37,19,103,IA,Johnson County,40,60,3521
+6,37,24,21,MD,Frederick County,40,57,2391
+6,37,12,105,FL,Polk County,39,56,2197
+6,37,12,109,FL,St. Johns County,39,55,5154
+6,37,16,27,ID,Canyon County,39,71,2020
+6,37,18,89,IN,Lake County,39,45,2253
+6,37,30,31,MT,Gallatin County,39,49,1713
+6,37,36,111,NY,Ulster County,39,48,6188
+6,37,42,43,PA,Dauphin County,39,55,3917
+6,37,36,91,NY,Saratoga County,38,49,3039
+6,37,37,135,NC,Orange County,38,41,2114
+6,37,16,55,ID,Kootenai County,37,60,2903
+6,37,18,141,IN,St. Joseph County,37,59,2680
+6,37,32,5,NV,Douglas County,37,52,17495
+6,37,39,17,OH,Butler County,37,42,1771
+6,37,41,3,OR,Benton County,37,47,1937
+6,37,42,11,PA,Berks County,37,44,2701
+6,37,45,13,SC,Beaufort County,37,45,2295
+6,37,53,29,WA,Island County,37,48,1712
+6,37,55,133,WI,Waukesha County,37,45,3476
+6,37,34,1,NJ,Atlantic County,36,49,1847
+6,37,6,51,CA,Mono County,35,44,2201
+6,37,15,7,HI,Kauai County,35,48,11707
+6,37,36,45,NY,Jefferson County,35,58,1324
+6,37,49,57,UT,Weber County,35,60,3574
+6,37,51,41,VA,Chesterfield County,35,56,2257
+6,37,29,19,MO,Boone County,34,55,1525
+6,37,48,167,TX,Galveston County,34,58,1890
+6,37,48,355,TX,Nueces County,34,59,1774
+6,37,13,117,GA,Forsyth County,33,51,3128
+6,37,27,163,MN,Washington County,33,52,2295
+6,37,45,79,SC,Richland County,33,49,1443
+6,37,1,97,AL,Mobile County,32,58,1127
+6,37,8,37,CO,Eagle County,32,43,2344
+6,37,33,9,NH,Grafton County,32,40,2411
+6,37,35,43,NM,Sandoval County,32,46,1558
+6,37,42,27,PA,Centre County,32,35,1494
+6,37,45,15,SC,Berkeley County,32,53,2850
+6,37,45,51,SC,Horry County,32,38,1197
+6,37,47,149,TN,Rutherford County,32,40,1380
+6,37,48,209,TX,Hays County,32,41,1504
+6,37,49,43,UT,Summit County,32,50,4453
+6,37,13,57,GA,Cherokee County,31,49,2245
+6,37,13,151,GA,Henry County,31,47,2089
+6,37,29,47,MO,Clay County,31,46,1890
+6,37,39,57,OH,Greene County,31,51,2571
+6,37,51,121,VA,Montgomery County,31,35,2046
+6,37,6,5,CA,Amador County,30,34,516
+6,37,12,69,FL,Lake County,30,39,2141
+6,37,13,113,GA,Fayette County,30,44,2036
+6,37,17,201,IL,Winnebago County,30,43,1484
+6,37,26,77,MI,Kalamazoo County,30,36,1681
+6,37,34,19,NJ,Hunterdon County,30,33,1895
+6,37,51,700,VA,Newport News city,30,42,1415
+6,37,39,41,OH,Delaware County,29,38,1634
+6,37,47,125,TN,Montgomery County,29,51,2208
+6,37,49,5,UT,Cache County,29,46,1018
+6,37,4,3,AZ,Cochise County,28,52,1914
+6,37,13,245,GA,Richmond County,28,41,1881
+6,37,22,55,LA,Lafayette Parish,28,39,966
+6,37,24,25,MD,Harford County,28,44,1760
+6,37,26,49,MI,Genesee County,28,34,908
+6,37,34,15,NJ,Gloucester County,28,33,1473
+6,37,48,479,TX,Webb County,28,33,1158
+6,37,55,9,WI,Brown County,28,43,1206
+6,37,1,101,AL,Montgomery County,27,49,2092
+6,37,6,115,CA,Yuba County,27,42,1154
+6,37,9,130,CT,Lower Connecticut River Valley Pl,27,32,1691
+6,37,12,111,FL,St. Lucie County,27,33,2011
+6,37,13,97,GA,Douglas County,27,43,2723
+6,37,39,93,OH,Lorain County,27,37,1204
+6,37,39,165,OH,Warren County,27,45,3844
+6,37,48,245,TX,Jefferson County,27,50,1702
+6,37,53,75,WA,Whitman County,27,32,1297
+6,37,6,15,CA,Del Norte County,26,36,635
+6,37,6,69,CA,San Benito County,26,53,1313
+6,37,8,101,CO,Pueblo County,26,37,906
+6,37,19,169,IA,Story County,26,34,1338
+6,37,32,19,NV,Lyon County,26,35,1061
+6,37,37,129,NC,New Hanover County,26,33,2488
+6,37,48,309,TX,McLennan County,26,43,1670
+6,37,51,3,VA,Albemarle County,26,33,3063
+6,37,51,179,VA,Stafford County,26,42,1980
+6,37,51,540,VA,Charlottesville city,26,34,1354
+6,37,17,113,IL,McLean County,25,27,1318
+6,37,26,139,MI,Ottawa County,25,30,1244
+6,37,27,109,MN,Olmsted County,25,31,1512
+6,37,30,63,MT,Missoula County,25,32,1258
+6,37,39,151,OH,Stark County,25,28,1302
+6,37,40,31,OK,Comanche County,25,40,995
+6,37,45,91,SC,York County,25,28,1385
+6,37,57,3,FR,Foreign - Puerto Rico,25,34,1082
+6,37,8,77,CO,Mesa County,24,32,1273
+6,37,12,83,FL,Marion County,24,28,1050
+6,37,18,39,IN,Elkhart County,24,28,955
+6,37,19,113,IA,Linn County,24,33,2032
+6,37,20,209,KS,Wyandotte County,24,37,1268
+6,37,22,17,LA,Caddo Parish,24,35,1034
+6,37,22,103,LA,St. Tammany Parish,24,35,1253
+6,37,25,3,MA,Berkshire County,24,30,2020
+6,37,31,153,NE,Sarpy County,24,31,794
+6,37,36,79,NY,Putnam County,24,33,1206
+6,37,42,79,PA,Luzerne County,24,30,1460
+6,37,42,89,PA,Monroe County,24,34,960
+6,37,46,99,SD,Minnehaha County,24,31,1265
+6,37,53,57,WA,Skagit County,24,45,2404
+6,37,2,90,AK,Fairbanks North Star Borough,23,31,973
+6,37,6,101,CA,Sutter County,23,37,1056
+6,37,12,61,FL,Indian River County,23,28,127
+6,37,19,49,IA,Dallas County,23,32,2052
+6,37,20,61,KS,Geary County,23,35,787
+6,37,39,25,OH,Clermont County,23,42,1927
+6,37,42,133,PA,York County,23,28,952
+6,37,45,63,SC,Lexington County,23,35,1289
+6,37,45,83,SC,Spartanburg County,23,29,1294
+6,37,1,117,AL,Shelby County,22,32,1778
+6,37,6,33,CA,Lake County,22,40,665
+6,37,13,215,GA,Muscogee County,22,30,781
+6,37,17,163,IL,St. Clair County,22,36,1205
+6,37,24,17,MD,Charles County,22,36,1237
+6,37,27,139,MN,Scott County,22,26,1171
+6,37,32,510,NV,Carson City,22,30,714
+6,37,36,83,NY,Rensselaer County,22,29,1196
+6,37,39,99,OH,Mahoning County,22,30,1005
+6,37,42,41,PA,Cumberland County,22,32,1442
+6,37,44,3,RI,Kent County,22,34,1466
+6,37,51,550,VA,Chesapeake city,22,31,1037
+6,37,17,143,IL,Peoria County,21,34,1226
+6,37,18,163,IN,Vanderburgh County,21,29,953
+6,37,20,161,KS,Riley County,21,26,773
+6,37,28,47,MS,Harrison County,21,35,783
+6,37,32,23,NV,Nye County,21,34,725
+6,37,37,25,NC,Cabarrus County,21,36,1285
+6,37,44,5,RI,Newport County,21,25,1258
+6,37,46,103,SD,Pennington County,21,34,1279
+6,37,48,135,TX,Ector County,21,30,872
+6,37,51,650,VA,Hampton city,21,33,1015
+6,37,9,160,CT,Northwest Hills Planning Region,20,25,1833
+6,37,10,1,DE,Kent County,20,24,876
+6,37,12,5,FL,Bay County,20,29,1026
+6,37,13,77,GA,Coweta County,20,32,1408
+6,37,13,223,GA,Paulding County,20,34,771
+6,37,17,119,IL,Madison County,20,36,1045
+6,37,28,49,MS,Hinds County,20,34,1013
+6,37,41,33,OR,Josephine County,20,23,496
+6,37,41,53,OR,Polk County,20,36,1223
+6,37,42,69,PA,Lackawanna County,20,25,1220
+6,37,42,129,PA,Westmoreland County,20,24,3565
+6,37,53,21,WA,Franklin County,20,34,643
+6,37,58,0,SS,Other flows - Same State,94,136,4566
+6,37,59,0,DS,Other flows - Different State,5944,8469,424167
+6,37,59,1,DS,Other flows - Northeast,649,822,60106
+6,37,59,3,DS,Other flows - Midwest,1714,2397,102305
+6,37,59,5,DS,Other flows - South,2577,3754,164026
+6,37,59,7,DS,Other flows - West,1004,1496,97731
+6,37,57,9,FR,Foreign - Other flows,-1,-1,-1
+6,39,96,0,CA,Madera County Total Migration-US and Foreign,3592,7058,234186
+6,39,97,0,CA,Madera County Total Migration-US,3592,7058,234186
+6,39,97,1,CA,Madera County Total Migration-Same State,3093,6135,205751
+6,39,97,3,CA,Madera County Total Migration-Different State,499,923,28435
+6,39,6,39,CA,Madera County Non-migrants,53363,119454,3446036
+6,39,6,19,CA,Fresno County,1523,3119,111257
+6,39,6,47,CA,Merced County,217,453,11361
+6,39,6,85,CA,Santa Clara County,161,323,13997
+6,39,6,37,CA,Los Angeles County,127,229,7364
+6,39,6,99,CA,Stanislaus County,89,168,4184
+6,39,6,1,CA,Alameda County,75,156,6461
+6,39,6,107,CA,Tulare County,75,143,4492
+6,39,6,53,CA,Monterey County,67,165,3802
+6,39,6,73,CA,San Diego County,58,117,3216
+6,39,6,67,CA,Sacramento County,55,98,2725
+6,39,6,71,CA,San Bernardino County,48,87,1697
+6,39,6,13,CA,Contra Costa County,47,86,3271
+6,39,6,77,CA,San Joaquin County,46,94,2714
+6,39,6,29,CA,Kern County,44,82,1609
+6,39,6,43,CA,Mariposa County,43,77,2257
+6,39,6,59,CA,Orange County,42,80,2744
+6,39,6,65,CA,Riverside County,35,62,1794
+6,39,6,111,CA,Ventura County,35,54,2520
+6,39,6,87,CA,Santa Cruz County,31,65,1645
+6,39,6,81,CA,San Mateo County,27,56,1973
+6,39,6,69,CA,San Benito County,26,45,1712
+6,39,4,13,AZ,Maricopa County,24,49,1577
+6,39,6,79,CA,San Luis Obispo County,24,39,2390
+6,39,6,31,CA,Kings County,22,47,1020
+6,39,6,95,CA,Solano County,21,47,852
+6,39,58,0,SS,Other flows - Same State,155,243,8694
+6,39,59,0,DS,Other flows - Different State,475,874,26857
+6,39,59,1,DS,Other flows - Northeast,34,48,1701
+6,39,59,3,DS,Other flows - Midwest,73,139,4391
+6,39,59,5,DS,Other flows - South,151,276,9027
+6,39,59,7,DS,Other flows - West,217,411,11738
+6,39,57,9,FR,Foreign - Other flows,-1,-1,-1
+6,41,96,0,CA,Marin County Total Migration-US and Foreign,6278,9990,1944011
+6,41,97,0,CA,Marin County Total Migration-US,6278,9990,1944011
+6,41,97,1,CA,Marin County Total Migration-Same State,4823,7649,1621128
+6,41,97,3,CA,Marin County Total Migration-Different State,1455,2341,322883
+6,41,6,41,CA,Marin County Non-migrants,103539,200885,32883392
+6,41,6,75,CA,San Francisco County,1611,2754,777964
+6,41,6,97,CA,Sonoma County,583,862,58237
+6,41,6,1,CA,Alameda County,462,710,94839
+6,41,6,13,CA,Contra Costa County,336,542,82479
+6,41,6,37,CA,Los Angeles County,296,453,101212
+6,41,6,81,CA,San Mateo County,275,470,91656
+6,41,6,85,CA,Santa Clara County,202,328,76048
+6,41,6,95,CA,Solano County,137,214,10846
+6,41,6,73,CA,San Diego County,115,157,17959
+6,41,6,67,CA,Sacramento County,104,155,11118
+6,41,53,33,WA,King County,76,122,24858
+6,41,36,61,NY,New York County,71,110,29700
+6,41,6,59,CA,Orange County,69,103,21004
+6,41,6,55,CA,Napa County,65,97,10542
+6,41,41,51,OR,Multnomah County,42,57,5518
+6,41,6,53,CA,Monterey County,40,59,6344
+6,41,6,65,CA,Riverside County,40,65,4797
+6,41,6,87,CA,Santa Cruz County,39,50,4565
+6,41,6,61,CA,Placer County,36,56,5962
+6,41,4,13,AZ,Maricopa County,35,51,5931
+6,41,6,77,CA,San Joaquin County,35,58,2963
+6,41,6,79,CA,San Luis Obispo County,34,42,5739
+6,41,17,31,IL,Cook County,34,52,6291
+6,41,6,83,CA,Santa Barbara County,33,41,6381
+6,41,36,47,NY,Kings County,32,48,5498
+6,41,6,57,CA,Nevada County,29,52,3736
+6,41,6,113,CA,Yolo County,28,47,4736
+6,41,8,31,CO,Denver County,28,37,5259
+6,41,6,19,CA,Fresno County,27,49,2239
+6,41,32,3,NV,Clark County,27,33,1718
+6,41,6,45,CA,Mendocino County,24,36,1491
+6,41,11,1,DC,District of Columbia,22,31,3920
+6,41,15,3,HI,Honolulu County,22,43,1821
+6,41,48,201,TX,Harris County,22,40,5627
+6,41,48,453,TX,Travis County,22,37,7240
+6,41,6,111,CA,Ventura County,21,33,1390
+6,41,32,31,NV,Washoe County,21,37,4205
+6,41,6,71,CA,San Bernardino County,20,27,1454
+6,41,25,17,MA,Middlesex County,20,33,6988
+6,41,58,0,SS,Other flows - Same State,162,200,51856
+6,41,59,0,DS,Other flows - Different State,981,1612,188363
+6,41,59,1,DS,Other flows - Northeast,242,406,52659
+6,41,59,3,DS,Other flows - Midwest,148,237,20830
+6,41,59,5,DS,Other flows - South,310,494,49114
+6,41,59,7,DS,Other flows - West,281,475,65761
+6,41,57,9,FR,Foreign - Other flows,-1,-1,-1
+6,43,96,0,CA,Mariposa County Total Migration-US and Foreign,557,972,41252
+6,43,97,0,CA,Mariposa County Total Migration-US,557,972,41252
+6,43,97,1,CA,Mariposa County Total Migration-Same State,451,794,34876
+6,43,97,3,CA,Mariposa County Total Migration-Different State,106,178,6375
+6,43,6,43,CA,Mariposa County Non-migrants,6017,11409,422545
+6,43,6,47,CA,Merced County,63,116,2700
+6,43,6,99,CA,Stanislaus County,59,123,3660
+6,43,6,39,CA,Madera County,42,78,2478
+6,43,6,85,CA,Santa Clara County,31,48,6191
+6,43,6,19,CA,Fresno County,30,43,1384
+6,43,6,109,CA,Tuolumne County,27,54,1372
+6,43,58,0,SS,Other flows - Same State,199,332,17091
+6,43,59,0,DS,Other flows - Different State,106,178,6375
+6,43,59,1,DS,Other flows - Northeast,-1,-1,-1
+6,43,59,3,DS,Other flows - Midwest,-1,-1,-1
+6,43,59,5,DS,Other flows - South,35,65,2415
+6,43,59,7,DS,Other flows - West,71,113,3960
+6,45,96,0,CA,Mendocino County Total Migration-US and Foreign,1629,2673,133213
+6,45,97,0,CA,Mendocino County Total Migration-US,1629,2673,133213
+6,45,97,1,CA,Mendocino County Total Migration-Same State,1195,2009,107006
+6,45,97,3,CA,Mendocino County Total Migration-Different State,434,664,26207
+6,45,6,45,CA,Mendocino County Non-migrants,32777,62934,2358528
+6,45,6,97,CA,Sonoma County,248,457,24667
+6,45,6,33,CA,Lake County,101,208,5520
+6,45,6,1,CA,Alameda County,64,89,11040
+6,45,6,67,CA,Sacramento County,61,101,3815
+6,45,6,37,CA,Los Angeles County,60,94,5641
+6,45,6,75,CA,San Francisco County,56,79,7184
+6,45,6,73,CA,San Diego County,51,67,3467
+6,45,6,85,CA,Santa Clara County,46,72,7542
+6,45,6,23,CA,Humboldt County,43,65,1750
+6,45,6,13,CA,Contra Costa County,37,59,2514
+6,45,6,7,CA,Butte County,35,58,1701
+6,45,6,41,CA,Marin County,35,61,4782
+6,45,6,81,CA,San Mateo County,23,30,2100
+6,45,58,0,SS,Other flows - Same State,335,569,25283
+6,45,59,0,DS,Other flows - Different State,434,664,26207
+6,45,59,1,DS,Other flows - Northeast,49,59,6986
+6,45,59,3,DS,Other flows - Midwest,49,70,3068
+6,45,59,5,DS,Other flows - South,97,155,4300
+6,45,59,7,DS,Other flows - West,239,380,11853
+6,47,96,0,CA,Merced County Total Migration-US and Foreign,5411,11073,291815
+6,47,97,0,CA,Merced County Total Migration-US,5411,11073,291815
+6,47,97,1,CA,Merced County Total Migration-Same State,4642,9630,255799
+6,47,97,3,CA,Merced County Total Migration-Different State,769,1443,36015
+6,47,6,47,CA,Merced County Non-migrants,96257,216943,5793425
+6,47,6,99,CA,Stanislaus County,1244,2613,59722
+6,47,6,85,CA,Santa Clara County,825,1875,57959
+6,47,6,19,CA,Fresno County,270,500,11644
+6,47,6,77,CA,San Joaquin County,269,575,16637
+6,47,6,53,CA,Monterey County,206,448,11730
+6,47,6,1,CA,Alameda County,199,427,13855
+6,47,6,39,CA,Madera County,182,374,7350
+6,47,6,37,CA,Los Angeles County,171,288,6709
+6,47,6,67,CA,Sacramento County,155,268,6462
+6,47,6,87,CA,Santa Cruz County,126,321,7224
+6,47,6,69,CA,San Benito County,124,294,7547
+6,47,6,13,CA,Contra Costa County,99,228,6837
+6,47,6,73,CA,San Diego County,84,153,4789
+6,47,6,81,CA,San Mateo County,65,137,3665
+6,47,6,29,CA,Kern County,62,115,2280
+6,47,6,59,CA,Orange County,62,104,2531
+6,47,6,65,CA,Riverside County,51,105,2501
+6,47,6,75,CA,San Francisco County,45,84,3152
+6,47,6,71,CA,San Bernardino County,40,67,1622
+6,47,6,43,CA,Mariposa County,36,67,1792
+6,47,4,13,AZ,Maricopa County,32,61,1367
+6,47,6,107,CA,Tulare County,30,53,1330
+6,47,32,3,NV,Clark County,28,72,871
+6,47,6,95,CA,Solano County,25,50,676
+6,47,6,79,CA,San Luis Obispo County,24,44,1495
+6,47,6,109,CA,Tuolumne County,24,51,1517
+6,47,6,97,CA,Sonoma County,22,32,771
+6,47,58,0,SS,Other flows - Same State,202,358,9655
+6,47,59,0,DS,Other flows - Different State,709,1310,33778
+6,47,59,1,DS,Other flows - Northeast,58,112,4494
+6,47,59,3,DS,Other flows - Midwest,114,206,4965
+6,47,59,5,DS,Other flows - South,232,445,9683
+6,47,59,7,DS,Other flows - West,305,547,14636
+6,47,57,9,FR,Foreign - Other flows,-1,-1,-1
+6,49,96,0,CA,Modoc County Total Migration-US and Foreign,191,365,7353
+6,49,97,0,CA,Modoc County Total Migration-US,191,365,7353
+6,49,97,1,CA,Modoc County Total Migration-Same State,131,252,4982
+6,49,97,3,CA,Modoc County Total Migration-Different State,60,113,2371
+6,49,6,49,CA,Modoc County Non-migrants,2781,5679,158276
+6,49,58,0,SS,Other flows - Same State,131,252,4982
+6,49,59,0,DS,Other flows - Different State,60,113,2371
+6,49,59,1,DS,Other flows - Northeast,-1,-1,-1
+6,49,59,3,DS,Other flows - Midwest,-1,-1,-1
+6,49,59,5,DS,Other flows - South,-1,-1,-1
+6,49,59,7,DS,Other flows - West,60,113,2371
+6,49,57,9,FR,Foreign - Other flows,-1,-1,-1
+6,51,96,0,CA,Mono County Total Migration-US and Foreign,438,682,39689
+6,51,97,0,CA,Mono County Total Migration-US,438,682,39689
+6,51,97,1,CA,Mono County Total Migration-Same State,306,467,32734
+6,51,97,3,CA,Mono County Total Migration-Different State,132,215,6955
+6,51,6,51,CA,Mono County Non-migrants,5039,9372,464483
+6,51,6,37,CA,Los Angeles County,73,110,12101
+6,51,6,27,CA,Inyo County,39,68,3350
+6,51,6,73,CA,San Diego County,35,61,3219
+6,51,6,59,CA,Orange County,34,49,2996
+6,51,58,0,SS,Other flows - Same State,125,179,11067
+6,51,59,0,DS,Other flows - Different State,132,215,6955
+6,51,59,1,DS,Other flows - Northeast,20,29,875
+6,51,59,3,DS,Other flows - Midwest,-1,-1,-1
+6,51,59,5,DS,Other flows - South,40,68,2085
+6,51,59,7,DS,Other flows - West,72,118,3996
+6,51,57,9,FR,Foreign - Other flows,-1,-1,-1
+6,53,96,0,CA,Monterey County Total Migration-US and Foreign,7615,13308,1540147
+6,53,97,0,CA,Monterey County Total Migration-US,7504,13022,1528804
+6,53,97,1,CA,Monterey County Total Migration-Same State,4828,8125,1182205
+6,53,97,3,CA,Monterey County Total Migration-Different State,2676,4897,346599
+6,53,98,0,CA,Monterey County Total Migration-Foreign,111,286,11343
+6,53,6,53,CA,Monterey County Non-migrants,164043,342205,15200263
+6,53,6,87,CA,Santa Cruz County,783,1501,65047
+6,53,6,85,CA,Santa Clara County,670,1147,171014
+6,53,6,37,CA,Los Angeles County,373,567,39512
+6,53,6,73,CA,San Diego County,235,393,16928
+6,53,6,67,CA,Sacramento County,213,319,24957
+6,53,6,1,CA,Alameda County,207,342,45968
+6,53,6,19,CA,Fresno County,182,307,14924
+6,53,6,69,CA,San Benito County,150,283,10578
+6,53,6,79,CA,San Luis Obispo County,147,240,10397
+6,53,6,13,CA,Contra Costa County,142,237,20447
+6,53,6,81,CA,San Mateo County,129,220,54862
+6,53,6,59,CA,Orange County,127,188,34461
+6,53,6,111,CA,Ventura County,122,191,4864
+6,53,6,65,CA,Riverside County,115,186,7037
+6,53,57,5,FR,Foreign - APO/FPO ZIPs,111,286,11343
+6,53,6,29,CA,Kern County,95,156,3829
+6,53,6,75,CA,San Francisco County,95,145,125169
+6,53,6,47,CA,Merced County,92,184,4495
+6,53,6,99,CA,Stanislaus County,90,169,11450
+6,53,6,77,CA,San Joaquin County,87,146,9447
+6,53,4,27,AZ,Yuma County,86,154,3330
+6,53,4,13,AZ,Maricopa County,85,127,11012
+6,53,6,71,CA,San Bernardino County,78,120,3575
+6,53,6,83,CA,Santa Barbara County,77,118,4059
+6,53,32,3,NV,Clark County,72,132,4958
+6,53,15,3,HI,Honolulu County,65,152,5362
+6,53,6,97,CA,Sonoma County,57,82,5204
+6,53,6,61,CA,Placer County,52,78,4819
+6,53,6,107,CA,Tulare County,49,80,3599
+6,53,53,33,WA,King County,49,82,5774
+6,53,48,29,TX,Bexar County,40,72,2157
+6,53,6,95,CA,Solano County,39,63,3192
+6,53,32,31,NV,Washoe County,39,59,8623
+6,53,6,7,CA,Butte County,37,60,2301
+6,53,6,41,CA,Marin County,37,58,7258
+6,53,6,39,CA,Madera County,36,66,1363
+6,53,6,113,CA,Yolo County,34,51,1978
+6,53,6,31,CA,Kings County,33,47,1262
+6,53,17,31,IL,Cook County,33,49,3054
+6,53,8,41,CO,El Paso County,32,64,2139
+6,53,6,25,CA,Imperial County,31,58,794
+6,53,13,73,GA,Columbia County,29,70,1828
+6,53,24,3,MD,Anne Arundel County,29,65,2043
+6,53,53,53,WA,Pierce County,29,68,1678
+6,53,37,133,NC,Onslow County,27,73,2080
+6,53,48,113,TX,Dallas County,24,39,2398
+6,53,49,35,UT,Salt Lake County,24,53,1824
+6,53,48,201,TX,Harris County,23,40,6215
+6,53,51,59,VA,Fairfax County,23,39,2298
+6,53,6,17,CA,El Dorado County,22,36,2096
+6,53,11,1,DC,District of Columbia,21,40,2936
+6,53,48,453,TX,Travis County,21,31,1429
+6,53,4,19,AZ,Pima County,20,31,894
+6,53,6,23,CA,Humboldt County,20,28,1161
+6,53,8,31,CO,Denver County,20,30,1165
+6,53,41,51,OR,Multnomah County,20,25,1726
+6,53,51,710,VA,Norfolk city,20,40,1835
+6,53,51,810,VA,Virginia Beach city,20,46,1674
+6,53,58,0,SS,Other flows - Same State,172,263,21077
+6,53,59,0,DS,Other flows - Different State,1825,3318,241097
+6,53,59,1,DS,Other flows - Northeast,252,408,27839
+6,53,59,3,DS,Other flows - Midwest,292,510,22667
+6,53,59,5,DS,Other flows - South,816,1588,80389
+6,53,59,7,DS,Other flows - West,465,812,110203
+6,53,57,9,FR,Foreign - Other flows,-1,-1,-1
+6,55,96,0,CA,Napa County Total Migration-US and Foreign,3182,5061,422766
+6,55,97,0,CA,Napa County Total Migration-US,3182,5061,422766
+6,55,97,1,CA,Napa County Total Migration-Same State,2456,3971,330694
+6,55,97,3,CA,Napa County Total Migration-Different State,726,1090,92073
+6,55,6,55,CA,Napa County Non-migrants,54237,107052,7604156
+6,55,6,95,CA,Solano County,649,1162,50432
+6,55,6,97,CA,Sonoma County,246,360,24144
+6,55,6,13,CA,Contra Costa County,226,394,32423
+6,55,6,1,CA,Alameda County,170,275,26825
+6,55,6,75,CA,San Francisco County,162,232,59347
+6,55,6,37,CA,Los Angeles County,133,198,15617
+6,55,6,67,CA,Sacramento County,110,161,10803
+6,55,6,85,CA,Santa Clara County,100,155,28559
+6,55,6,81,CA,San Mateo County,87,134,19200
+6,55,6,41,CA,Marin County,80,136,18010
+6,55,6,73,CA,San Diego County,57,85,4715
+6,55,6,59,CA,Orange County,47,67,6310
+6,55,6,113,CA,Yolo County,44,59,3478
+6,55,6,33,CA,Lake County,37,71,1845
+6,55,6,65,CA,Riverside County,30,45,5819
+6,55,4,13,AZ,Maricopa County,26,44,3021
+6,55,53,33,WA,King County,24,31,3137
+6,55,6,77,CA,San Joaquin County,23,39,2003
+6,55,6,61,CA,Placer County,22,31,1636
+6,55,6,99,CA,Stanislaus County,20,34,1539
+6,55,58,0,SS,Other flows - Same State,213,335,14783
+6,55,59,0,DS,Other flows - Different State,676,1015,85915
+6,55,59,1,DS,Other flows - Northeast,95,132,12848
+6,55,59,3,DS,Other flows - Midwest,87,125,14002
+6,55,59,5,DS,Other flows - South,241,376,31299
+6,55,59,7,DS,Other flows - West,253,382,27766
+6,55,57,9,FR,Foreign - Other flows,-1,-1,-1
+6,57,96,0,CA,Nevada County Total Migration-US and Foreign,3605,6042,480400
+6,57,97,0,CA,Nevada County Total Migration-US,3605,6042,480400
+6,57,97,1,CA,Nevada County Total Migration-Same State,2779,4726,405783
+6,57,97,3,CA,Nevada County Total Migration-Different State,826,1316,74617
+6,57,6,57,CA,Nevada County Non-migrants,40643,75808,4381335
+6,57,6,61,CA,Placer County,580,1006,54042
+6,57,6,67,CA,Sacramento County,310,485,35620
+6,57,6,13,CA,Contra Costa County,199,361,54187
+6,57,6,1,CA,Alameda County,186,320,31772
+6,57,6,85,CA,Santa Clara County,145,281,32763
+6,57,6,75,CA,San Francisco County,139,218,47412
+6,57,32,31,NV,Washoe County,133,220,15173
+6,57,6,37,CA,Los Angeles County,109,175,15766
+6,57,6,17,CA,El Dorado County,88,149,7214
+6,57,6,81,CA,San Mateo County,84,150,17402
+6,57,6,115,CA,Yuba County,81,164,4780
+6,57,6,87,CA,Santa Cruz County,73,121,8774
+6,57,6,73,CA,San Diego County,71,122,7735
+6,57,6,97,CA,Sonoma County,71,114,6328
+6,57,6,41,CA,Marin County,55,91,9145
+6,57,6,7,CA,Butte County,48,75,2274
+6,57,6,59,CA,Orange County,46,65,5578
+6,57,6,95,CA,Solano County,39,65,3523
+6,57,6,65,CA,Riverside County,37,63,2405
+6,57,6,113,CA,Yolo County,35,60,3622
+6,57,6,111,CA,Ventura County,33,51,2428
+6,57,6,53,CA,Monterey County,31,51,4243
+6,57,6,77,CA,San Joaquin County,31,52,2480
+6,57,4,13,AZ,Maricopa County,27,46,2061
+6,57,6,101,CA,Sutter County,25,45,2574
+6,57,6,55,CA,Napa County,23,40,1585
+6,57,6,79,CA,San Luis Obispo County,23,41,2189
+6,57,6,83,CA,Santa Barbara County,21,35,1296
+6,57,6,19,CA,Fresno County,20,32,2633
+6,57,58,0,SS,Other flows - Same State,176,298,13784
+6,57,59,0,DS,Other flows - Different State,666,1050,57384
+6,57,59,1,DS,Other flows - Northeast,84,102,9675
+6,57,59,3,DS,Other flows - Midwest,83,132,6859
+6,57,59,5,DS,Other flows - South,179,310,15240
+6,57,59,7,DS,Other flows - West,320,506,25610
+6,57,57,9,FR,Foreign - Other flows,-1,-1,-1
+6,59,96,0,CA,Orange County Total Migration-US and Foreign,59585,96611,6837899
+6,59,97,0,CA,Orange County Total Migration-US,59433,96296,6828462
+6,59,97,1,CA,Orange County Total Migration-Same State,40937,66361,4649797
+6,59,97,3,CA,Orange County Total Migration-Different State,18496,29935,2178665
+6,59,98,0,CA,Orange County Total Migration-Foreign,152,315,9438
+6,59,6,59,CA,Orange County Non-migrants,1279114,2509438,168700087
+6,59,6,37,CA,Los Angeles County,21267,34853,2384364
+6,59,6,65,CA,Riverside County,5613,9598,457861
+6,59,6,73,CA,San Diego County,3305,4901,326479
+6,59,6,71,CA,San Bernardino County,3291,5348,282419
+6,59,6,85,CA,Santa Clara County,1218,2087,312733
+6,59,4,13,AZ,Maricopa County,1008,1612,127266
+6,59,32,3,NV,Clark County,835,1390,92902
+6,59,6,1,CA,Alameda County,786,1233,150160
+6,59,53,33,WA,King County,730,1239,157039
+6,59,6,75,CA,San Francisco County,610,821,160832
+6,59,6,111,CA,Ventura County,587,874,74468
+6,59,17,31,IL,Cook County,515,819,112075
+6,59,6,13,CA,Contra Costa County,492,855,79846
+6,59,6,67,CA,Sacramento County,452,704,57730
+6,59,6,81,CA,San Mateo County,445,768,118828
+6,59,6,29,CA,Kern County,337,506,24845
+6,59,36,61,NY,New York County,319,466,69984
+6,59,48,201,TX,Harris County,318,562,36089
+6,59,6,83,CA,Santa Barbara County,298,414,26933
+6,59,15,3,HI,Honolulu County,283,474,28386
+6,59,48,113,TX,Dallas County,257,395,40611
+6,59,6,19,CA,Fresno County,255,409,19799
+6,59,49,35,UT,Salt Lake County,226,379,20520
+6,59,26,125,MI,Oakland County,225,382,34700
+6,59,6,79,CA,San Luis Obispo County,214,286,14334
+6,59,36,47,NY,Kings County,196,282,24384
+6,59,41,51,OR,Multnomah County,191,276,19618
+6,59,48,453,TX,Travis County,191,290,22641
+6,59,8,31,CO,Denver County,183,267,31131
+6,59,36,81,NY,Queens County,173,276,14976
+6,59,25,17,MA,Middlesex County,171,264,24004
+6,59,51,59,VA,Fairfax County,169,301,28535
+6,59,53,61,WA,Snohomish County,169,323,19991
+6,59,48,439,TX,Tarrant County,157,268,16508
+6,59,57,5,FR,Foreign - APO/FPO ZIPs,152,315,9438
+6,59,6,77,CA,San Joaquin County,151,235,11411
+6,59,6,61,CA,Placer County,150,253,21797
+6,59,6,53,CA,Monterey County,146,231,9066
+6,59,41,67,OR,Washington County,145,256,15195
+6,59,4,19,AZ,Pima County,135,220,11858
+6,59,48,85,TX,Collin County,135,260,20005
+6,59,48,29,TX,Bexar County,130,228,10013
+6,59,25,25,MA,Suffolk County,122,161,16321
+6,59,6,97,CA,Sonoma County,121,169,14755
+6,59,4,15,AZ,Mohave County,117,191,14047
+6,59,53,53,WA,Pierce County,117,199,7163
+6,59,6,107,CA,Tulare County,115,203,5947
+6,59,13,121,GA,Fulton County,113,180,13293
+6,59,8,41,CO,El Paso County,111,182,6362
+6,59,27,53,MN,Hennepin County,111,188,20319
+6,59,6,99,CA,Stanislaus County,110,169,5696
+6,59,12,86,FL,Miami-Dade County,109,181,11607
+6,59,16,1,ID,Ada County,109,178,6083
+6,59,24,31,MD,Montgomery County,109,192,13753
+6,59,32,31,NV,Washoe County,106,158,10655
+6,59,6,95,CA,Solano County,105,168,8808
+6,59,39,49,OH,Franklin County,104,155,9643
+6,59,26,163,MI,Wayne County,102,162,12383
+6,59,48,121,TX,Denton County,101,202,11816
+6,59,12,11,FL,Broward County,98,136,9291
+6,59,11,1,DC,District of Columbia,97,133,12544
+6,59,49,49,UT,Utah County,94,193,15117
+6,59,34,17,NJ,Hudson County,93,158,12545
+6,59,37,119,NC,Mecklenburg County,93,132,13210
+6,59,6,41,CA,Marin County,92,176,27495
+6,59,12,99,FL,Palm Beach County,88,125,9283
+6,59,17,43,IL,DuPage County,88,167,17602
+6,59,34,3,NJ,Bergen County,88,162,12689
+6,59,8,5,CO,Arapahoe County,87,143,10713
+6,59,4,25,AZ,Yavapai County,86,120,5183
+6,59,6,87,CA,Santa Cruz County,86,118,9497
+6,59,12,95,FL,Orange County,86,131,8652
+6,59,48,491,TX,Williamson County,82,155,11851
+6,59,29,189,MO,St. Louis County,81,151,9668
+6,59,13,135,GA,Gwinnett County,79,137,4007
+6,59,8,35,CO,Douglas County,78,137,14947
+6,59,41,5,OR,Clackamas County,77,138,13197
+6,59,37,183,NC,Wake County,76,125,12099
+6,59,42,3,PA,Allegheny County,76,111,16661
+6,59,42,101,PA,Philadelphia County,75,106,8743
+6,59,6,17,CA,El Dorado County,73,102,6611
+6,59,6,113,CA,Yolo County,73,95,4096
+6,59,53,11,WA,Clark County,73,105,4814
+6,59,39,35,OH,Cuyahoga County,70,107,6687
+6,59,36,59,NY,Nassau County,68,115,6646
+6,59,8,59,CO,Jefferson County,66,84,5170
+6,59,26,161,MI,Washtenaw County,66,101,6883
+6,59,17,97,IL,Lake County,64,156,16976
+6,59,36,103,NY,Suffolk County,63,91,4943
+6,59,25,21,MA,Norfolk County,62,94,9447
+6,59,8,13,CO,Boulder County,61,96,6327
+6,59,8,69,CO,Larimer County,61,82,3712
+6,59,48,141,TX,El Paso County,61,106,4399
+6,59,6,25,CA,Imperial County,58,89,2699
+6,59,9,190,CT,Western Connecticut Planning Regi,57,118,14858
+6,59,35,1,NM,Bernalillo County,57,93,4730
+6,59,48,157,TX,Fort Bend County,57,122,6372
+6,59,12,57,FL,Hillsborough County,55,87,4594
+6,59,51,107,VA,Loudoun County,54,102,6166
+6,59,9,110,CT,Capitol Planning Region,53,84,3804
+6,59,47,37,TN,Davidson County,53,68,3361
+6,59,51,13,VA,Arlington County,53,83,8268
+6,59,53,63,WA,Spokane County,53,81,2549
+6,59,6,7,CA,Butte County,52,78,3279
+6,59,36,119,NY,Westchester County,52,85,7882
+6,59,53,35,WA,Kitsap County,52,75,3211
+6,59,6,23,CA,Humboldt County,50,54,2078
+6,59,41,39,OR,Lane County,50,71,5433
+6,59,42,91,PA,Montgomery County,49,97,8191
+6,59,6,47,CA,Merced County,48,62,2760
+6,59,18,97,IN,Marion County,48,69,2352
+6,59,20,91,KS,Johnson County,48,110,7920
+6,59,34,23,NJ,Middlesex County,46,79,5226
+6,59,34,27,NJ,Morris County,46,76,6716
+6,59,55,79,WI,Milwaukee County,45,64,3401
+6,59,4,21,AZ,Pinal County,44,62,3036
+6,59,6,89,CA,Shasta County,44,78,3558
+6,59,24,3,MD,Anne Arundel County,44,62,3544
+6,59,40,109,OK,Oklahoma County,44,74,2629
+6,59,12,31,FL,Duval County,43,62,2693
+6,59,15,9,HI,Maui County,43,65,3987
+6,59,39,61,OH,Hamilton County,43,68,3820
+6,59,13,89,GA,DeKalb County,42,66,4058
+6,59,8,1,CO,Adams County,41,58,2351
+6,59,36,29,NY,Erie County,41,70,4628
+6,59,9,170,CT,South Central Connecticut Plannin,40,74,4380
+6,59,12,103,FL,Pinellas County,40,64,2847
+6,59,15,1,HI,Hawaii County,40,60,1889
+6,59,24,5,MD,Baltimore County,40,60,3282
+6,59,24,510,MD,Baltimore city,40,58,4675
+6,59,29,95,MO,Jackson County,40,65,2492
+6,59,51,153,VA,Prince William County,40,85,3202
+6,59,6,55,CA,Napa County,39,67,4667
+6,59,26,99,MI,Macomb County,39,59,3561
+6,59,48,339,TX,Montgomery County,39,75,7846
+6,59,55,25,WI,Dane County,39,56,3233
+6,59,4,27,AZ,Yuma County,38,74,1217
+6,59,41,17,OR,Deschutes County,38,68,4058
+6,59,49,53,UT,Washington County,38,64,3388
+6,59,47,157,TN,Shelby County,37,63,3507
+6,59,51,810,VA,Virginia Beach city,37,68,2367
+6,59,6,31,CA,Kings County,35,49,1347
+6,59,16,55,ID,Kootenai County,35,53,3642
+6,59,21,111,KY,Jefferson County,35,57,3327
+6,59,41,29,OR,Jackson County,35,53,3640
+6,59,34,35,NJ,Somerset County,34,55,4700
+6,59,12,9,FL,Brevard County,33,56,2609
+6,59,12,71,FL,Lee County,33,47,2612
+6,59,29,510,MO,St. Louis city,33,41,2914
+6,59,34,13,NJ,Essex County,33,67,4285
+6,59,37,133,NC,Onslow County,33,57,1647
+6,59,49,11,UT,Davis County,33,79,4055
+6,59,27,123,MN,Ramsey County,32,54,2446
+6,59,42,29,PA,Chester County,32,57,3752
+6,59,44,7,RI,Providence County,32,45,3461
+6,59,47,187,TN,Williamson County,32,74,5169
+6,59,1,89,AL,Madison County,31,40,2563
+6,59,17,197,IL,Will County,31,44,2416
+6,59,51,510,VA,Alexandria city,31,46,3963
+6,59,19,153,IA,Polk County,30,51,2067
+6,59,48,41,TX,Brazos County,30,45,2165
+6,59,2,20,AK,Anchorage Municipality,29,49,2411
+6,59,4,5,AZ,Coconino County,29,45,2308
+6,59,6,57,CA,Nevada County,29,42,1835
+6,59,13,67,GA,Cobb County,29,49,2352
+6,59,24,33,MD,Prince George's County,29,52,2538
+6,59,8,123,CO,Weld County,28,46,1495
+6,59,25,9,MA,Essex County,28,44,1994
+6,59,34,25,NJ,Monmouth County,28,43,3870
+6,59,34,31,NJ,Passaic County,28,46,3335
+6,59,36,5,NY,Bronx County,28,47,2716
+6,59,37,81,NC,Guilford County,28,45,2220
+6,59,51,710,VA,Norfolk city,28,45,2621
+6,59,6,39,CA,Madera County,27,49,1056
+6,59,6,45,CA,Mendocino County,27,35,1891
+6,59,15,7,HI,Kauai County,27,41,1955
+6,59,18,57,IN,Hamilton County,27,50,2156
+6,59,42,45,PA,Delaware County,27,43,2820
+6,59,26,81,MI,Kent County,26,42,2449
+6,59,41,47,OR,Marion County,26,40,1263
+6,59,10,3,DE,New Castle County,25,44,2148
+6,59,12,115,FL,Sarasota County,25,37,3776
+6,59,18,157,IN,Tippecanoe County,25,34,1310
+6,59,22,71,LA,Orleans Parish,25,38,2328
+6,59,31,55,NE,Douglas County,25,35,1779
+6,59,36,55,NY,Monroe County,25,31,1154
+6,59,37,63,NC,Durham County,25,37,2000
+6,59,40,143,OK,Tulsa County,25,44,1728
+6,59,45,19,SC,Charleston County,25,40,2911
+6,59,48,27,TX,Bell County,25,43,1049
+6,59,53,73,WA,Whatcom County,25,38,1897
+6,59,8,14,CO,Broomfield County,24,35,3383
+6,59,24,27,MD,Howard County,24,54,3296
+6,59,47,149,TN,Rutherford County,24,45,1277
+6,59,12,21,FL,Collier County,22,35,3687
+6,59,17,19,IL,Champaign County,22,35,2436
+6,59,34,5,NJ,Burlington County,22,33,2448
+6,59,47,93,TN,Knox County,22,27,1722
+6,59,20,173,KS,Sedgwick County,21,37,1564
+6,59,33,11,NH,Hillsborough County,21,35,2561
+6,59,42,17,PA,Bucks County,21,35,2822
+6,59,12,33,FL,Escambia County,20,30,1096
+6,59,22,51,LA,Jefferson Parish,20,41,1160
+6,59,45,13,SC,Beaufort County,20,30,1634
+6,59,58,0,SS,Other flows - Same State,136,182,7815
+6,59,59,0,DS,Other flows - Different State,4348,6813,371338
+6,59,59,1,DS,Other flows - Northeast,700,1070,65897
+6,59,59,3,DS,Other flows - Midwest,1084,1700,96488
+6,59,59,5,DS,Other flows - South,1750,2784,129416
+6,59,59,7,DS,Other flows - West,814,1259,79537
+6,59,57,9,FR,Foreign - Other flows,-1,-1,-1
+6,61,96,0,CA,Placer County Total Migration-US and Foreign,14556,26880,1693453
+6,61,97,0,CA,Placer County Total Migration-US,14511,26782,1690182
+6,61,97,1,CA,Placer County Total Migration-Same State,11857,22029,1422490
+6,61,97,3,CA,Placer County Total Migration-Different State,2654,4753,267692
+6,61,98,0,CA,Placer County Total Migration-Foreign,45,98,3271
+6,61,6,61,CA,Placer County Non-migrants,156520,327755,20923932
+6,61,6,67,CA,Sacramento County,4975,9140,459957
+6,61,6,85,CA,Santa Clara County,786,1642,159288
+6,61,6,1,CA,Alameda County,658,1398,120803
+6,61,6,13,CA,Contra Costa County,566,1157,91932
+6,61,6,57,CA,Nevada County,504,817,85285
+6,61,6,17,CA,El Dorado County,414,697,38472
+6,61,6,81,CA,San Mateo County,380,774,67718
+6,61,6,37,CA,Los Angeles County,352,611,36101
+6,61,6,113,CA,Yolo County,267,468,26582
+6,61,6,95,CA,Solano County,235,439,22538
+6,61,6,73,CA,San Diego County,219,381,22946
+6,61,6,59,CA,Orange County,217,402,23031
+6,61,32,31,NV,Washoe County,206,326,27769
+6,61,6,115,CA,Yuba County,195,387,13472
+6,61,6,77,CA,San Joaquin County,193,345,16909
+6,61,6,97,CA,Sonoma County,176,307,19452
+6,61,6,75,CA,San Francisco County,170,285,50292
+6,61,6,7,CA,Butte County,141,229,9074
+6,61,6,101,CA,Sutter County,132,253,11748
+6,61,4,13,AZ,Maricopa County,121,200,11551
+6,61,6,65,CA,Riverside County,114,194,10830
+6,61,6,87,CA,Santa Cruz County,91,145,11084
+6,61,6,41,CA,Marin County,90,182,17655
+6,61,32,3,NV,Clark County,90,180,6972
+6,61,6,99,CA,Stanislaus County,85,162,8769
+6,61,6,19,CA,Fresno County,83,147,7098
+6,61,6,53,CA,Monterey County,75,120,10491
+6,61,6,89,CA,Shasta County,73,139,6281
+6,61,6,71,CA,San Bernardino County,68,125,5202
+6,61,53,33,WA,King County,64,134,8669
+6,61,6,111,CA,Ventura County,59,106,7005
+6,61,6,55,CA,Napa County,58,87,5519
+6,61,6,79,CA,San Luis Obispo County,56,99,4616
+6,61,57,5,FR,Foreign - APO/FPO ZIPs,45,98,3271
+6,61,6,29,CA,Kern County,44,98,4811
+6,61,15,3,HI,Honolulu County,42,98,2910
+6,61,6,23,CA,Humboldt County,41,70,3007
+6,61,6,5,CA,Amador County,40,70,3293
+6,61,6,83,CA,Santa Barbara County,40,60,3632
+6,61,41,51,OR,Multnomah County,35,50,2103
+6,61,17,31,IL,Cook County,33,55,4222
+6,61,49,49,UT,Utah County,33,74,2557
+6,61,16,1,ID,Ada County,31,69,2408
+6,61,49,35,UT,Salt Lake County,29,47,2465
+6,61,41,29,OR,Jackson County,28,46,2655
+6,61,53,53,WA,Pierce County,28,47,1628
+6,61,6,9,CA,Calaveras County,26,51,2756
+6,61,6,45,CA,Mendocino County,26,46,2547
+6,61,48,201,TX,Harris County,26,51,2051
+6,61,6,107,CA,Tulare County,24,52,2689
+6,61,32,510,NV,Carson City,24,33,3429
+6,61,48,439,TX,Tarrant County,24,43,1429
+6,61,6,47,CA,Merced County,23,42,1801
+6,61,48,453,TX,Travis County,23,42,2974
+6,61,6,63,CA,Plumas County,22,44,2314
+6,61,8,41,CO,El Paso County,21,26,933
+6,61,41,67,OR,Washington County,20,34,2147
+6,61,58,0,SS,Other flows - Same State,139,264,13545
+6,61,59,0,DS,Other flows - Different State,1776,3201,172176
+6,61,59,1,DS,Other flows - Northeast,248,450,29766
+6,61,59,3,DS,Other flows - Midwest,267,500,27903
+6,61,59,5,DS,Other flows - South,661,1221,58472
+6,61,59,7,DS,Other flows - West,600,1030,56034
+6,61,57,9,FR,Foreign - Other flows,-1,-1,-1
+6,63,96,0,CA,Plumas County Total Migration-US and Foreign,523,886,44127
+6,63,97,0,CA,Plumas County Total Migration-US,523,886,44127
+6,63,97,1,CA,Plumas County Total Migration-Same State,365,615,33285
+6,63,97,3,CA,Plumas County Total Migration-Different State,158,271,10842
+6,63,6,63,CA,Plumas County Non-migrants,7096,13543,568918
+6,63,32,31,NV,Washoe County,74,129,5331
+6,63,6,7,CA,Butte County,34,59,1678
+6,63,6,35,CA,Lassen County,34,69,2332
+6,63,6,67,CA,Sacramento County,23,39,1730
+6,63,58,0,SS,Other flows - Same State,274,448,27545
+6,63,59,0,DS,Other flows - Different State,84,142,5512
+6,63,59,1,DS,Other flows - Northeast,-1,-1,-1
+6,63,59,3,DS,Other flows - Midwest,-1,-1,-1
+6,63,59,5,DS,Other flows - South,-1,-1,-1
+6,63,59,7,DS,Other flows - West,84,142,5512
+6,63,57,9,FR,Foreign - Other flows,-1,-1,-1
+6,65,96,0,CA,Riverside County Total Migration-US and Foreign,60407,113590,4873967
+6,65,97,0,CA,Riverside County Total Migration-US,60149,112975,4858076
+6,65,97,1,CA,Riverside County Total Migration-Same State,47059,89769,3709799
+6,65,97,3,CA,Riverside County Total Migration-Different State,13090,23206,1148276
+6,65,98,0,CA,Riverside County Total Migration-Foreign,258,615,15891
+6,65,6,65,CA,Riverside County Non-migrants,888463,1855694,67718488
+6,65,6,37,CA,Los Angeles County,13038,24863,1070710
+6,65,6,71,CA,San Bernardino County,11769,22524,746904
+6,65,6,59,CA,Orange County,9452,18604,789680
+6,65,6,73,CA,San Diego County,7496,14864,593581
+6,65,4,13,AZ,Maricopa County,800,1391,44728
+6,65,32,3,NV,Clark County,777,1379,35186
+6,65,6,25,CA,Imperial County,446,846,16589
+6,65,6,111,CA,Ventura County,438,785,40012
+6,65,6,85,CA,Santa Clara County,433,709,64452
+6,65,53,33,WA,King County,424,719,104151
+6,65,6,29,CA,Kern County,360,618,17044
+6,65,6,1,CA,Alameda County,359,605,42838
+6,65,6,67,CA,Sacramento County,304,528,25173
+6,65,6,75,CA,San Francisco County,286,379,62714
+6,65,57,5,FR,Foreign - APO/FPO ZIPs,258,615,15891
+6,65,6,13,CA,Contra Costa County,252,470,33967
+6,65,17,31,IL,Cook County,236,380,25957
+6,65,6,19,CA,Fresno County,227,391,11476
+6,65,15,3,HI,Honolulu County,214,454,16731
+6,65,4,15,AZ,Mohave County,195,340,9563
+6,65,6,83,CA,Santa Barbara County,195,318,12879
+6,65,48,201,TX,Harris County,174,304,10073
+6,65,6,81,CA,San Mateo County,166,252,39133
+6,65,53,53,WA,Pierce County,152,291,15545
+6,65,41,51,OR,Multnomah County,149,219,13471
+6,65,4,19,AZ,Pima County,140,236,9837
+6,65,6,53,CA,Monterey County,138,247,9539
+6,65,6,97,CA,Sonoma County,138,200,13199
+6,65,6,77,CA,San Joaquin County,132,235,8252
+6,65,6,79,CA,San Luis Obispo County,129,186,8003
+6,65,53,61,WA,Snohomish County,129,265,17581
+6,65,32,31,NV,Washoe County,112,177,10546
+6,65,48,113,TX,Dallas County,112,210,13607
+6,65,6,95,CA,Solano County,108,195,8367
+6,65,49,35,UT,Salt Lake County,106,182,10565
+6,65,36,61,NY,New York County,104,146,29122
+6,65,48,29,TX,Bexar County,103,194,7242
+6,65,8,41,CO,El Paso County,98,210,4504
+6,65,6,99,CA,Stanislaus County,97,173,9547
+6,65,6,107,CA,Tulare County,97,184,4826
+6,65,48,439,TX,Tarrant County,95,189,6970
+6,65,4,27,AZ,Yuma County,93,197,4008
+6,65,41,67,OR,Washington County,88,172,7738
+6,65,6,61,CA,Placer County,86,169,10805
+6,65,6,47,CA,Merced County,80,144,3473
+6,65,49,49,UT,Utah County,79,171,4959
+6,65,8,31,CO,Denver County,78,114,6626
+6,65,48,141,TX,El Paso County,78,140,2972
+6,65,16,1,ID,Ada County,77,135,5660
+6,65,48,85,TX,Collin County,74,164,9396
+6,65,37,133,NC,Onslow County,72,158,3954
+6,65,53,11,WA,Clark County,72,121,8195
+6,65,12,11,FL,Broward County,70,111,5800
+6,65,36,47,NY,Kings County,70,113,6269
+6,65,6,31,CA,Kings County,69,120,2376
+6,65,36,81,NY,Queens County,68,93,3767
+6,65,4,21,AZ,Pinal County,67,118,3091
+6,65,6,7,CA,Butte County,67,99,3933
+6,65,6,87,CA,Santa Cruz County,67,93,10966
+6,65,48,453,TX,Travis County,67,119,6893
+6,65,4,25,AZ,Yavapai County,66,113,3940
+6,65,8,5,CO,Arapahoe County,65,114,5360
+6,65,27,53,MN,Hennepin County,65,105,22813
+6,65,53,63,WA,Spokane County,65,105,3733
+6,65,6,23,CA,Humboldt County,64,93,2834
+6,65,6,113,CA,Yolo County,64,91,4008
+6,65,51,59,VA,Fairfax County,64,127,9598
+6,65,6,41,CA,Marin County,60,91,13705
+6,65,48,491,TX,Williamson County,58,122,5638
+6,65,53,35,WA,Kitsap County,55,100,4866
+6,65,12,95,FL,Orange County,54,93,3302
+6,65,12,86,FL,Miami-Dade County,53,83,4613
+6,65,17,97,IL,Lake County,52,99,4225
+6,65,6,17,CA,El Dorado County,51,83,4820
+6,65,13,121,GA,Fulton County,51,77,4631
+6,65,35,1,NM,Bernalillo County,51,71,3499
+6,65,41,5,OR,Clackamas County,50,77,6554
+6,65,6,39,CA,Madera County,49,72,2169
+6,65,12,31,FL,Duval County,49,105,3048
+6,65,48,121,TX,Denton County,49,101,5388
+6,65,26,125,MI,Oakland County,48,88,6598
+6,65,39,49,OH,Franklin County,47,78,4600
+6,65,53,67,WA,Thurston County,47,89,2894
+6,65,48,157,TX,Fort Bend County,46,99,3835
+6,65,8,1,CO,Adams County,45,67,2787
+6,65,12,99,FL,Palm Beach County,44,68,2400
+6,65,11,1,DC,District of Columbia,43,60,4250
+6,65,24,31,MD,Montgomery County,43,61,3014
+6,65,26,163,MI,Wayne County,43,80,4066
+6,65,8,59,CO,Jefferson County,42,69,2821
+6,65,12,57,FL,Hillsborough County,42,86,4091
+6,65,4,5,AZ,Coconino County,40,46,2148
+6,65,6,109,CA,Tuolumne County,40,55,1326
+6,65,25,17,MA,Middlesex County,39,56,4005
+6,65,39,35,OH,Cuyahoga County,39,65,3352
+6,65,45,13,SC,Beaufort County,39,93,2869
+6,65,51,810,VA,Virginia Beach city,39,78,2240
+6,65,41,17,OR,Deschutes County,38,68,4738
+6,65,6,55,CA,Napa County,37,67,6769
+6,65,48,339,TX,Montgomery County,37,72,2348
+6,65,53,73,WA,Whatcom County,37,60,4147
+6,65,4,12,AZ,La Paz County,36,61,1611
+6,65,15,1,HI,Hawaii County,36,53,2372
+6,65,37,51,NC,Cumberland County,36,69,1475
+6,65,41,29,OR,Jackson County,36,59,3016
+6,65,13,89,GA,DeKalb County,35,52,2357
+6,65,49,53,UT,Washington County,35,52,1643
+6,65,6,89,CA,Shasta County,34,56,2014
+6,65,13,67,GA,Cobb County,34,52,1496
+6,65,48,27,TX,Bell County,34,68,1632
+6,65,2,20,AK,Anchorage Municipality,33,48,3221
+6,65,8,35,CO,Douglas County,33,64,4370
+6,65,13,135,GA,Gwinnett County,33,64,3018
+6,65,16,27,ID,Canyon County,33,74,2186
+6,65,17,43,IL,DuPage County,33,65,4260
+6,65,41,39,OR,Lane County,33,49,1629
+6,65,41,47,OR,Marion County,32,58,2047
+6,65,25,25,MA,Suffolk County,31,38,4123
+6,65,31,55,NE,Douglas County,31,58,1867
+6,65,40,109,OK,Oklahoma County,31,59,1545
+6,65,12,33,FL,Escambia County,29,51,1866
+6,65,17,197,IL,Will County,29,62,2409
+6,65,47,157,TN,Shelby County,29,43,1681
+6,65,24,33,MD,Prince George's County,28,60,3105
+6,65,34,17,NJ,Hudson County,28,44,3526
+6,65,42,3,PA,Allegheny County,28,51,3865
+6,65,42,101,PA,Philadelphia County,28,41,1916
+6,65,6,45,CA,Mendocino County,27,32,1173
+6,65,6,57,CA,Nevada County,27,44,2729
+6,65,16,55,ID,Kootenai County,27,43,3127
+6,65,29,189,MO,St. Louis County,27,50,2383
+6,65,36,59,NY,Nassau County,27,49,2593
+6,65,42,91,PA,Montgomery County,27,41,5768
+6,65,53,29,WA,Island County,27,66,2308
+6,65,15,9,HI,Maui County,26,50,3260
+6,65,18,97,IN,Marion County,26,46,1931
+6,65,36,103,NY,Suffolk County,26,40,1966
+6,65,40,143,OK,Tulsa County,26,54,1408
+6,65,47,37,TN,Davidson County,26,35,1318
+6,65,30,31,MT,Gallatin County,25,46,2584
+6,65,36,29,NY,Erie County,25,45,1274
+6,65,37,119,NC,Mecklenburg County,25,40,1925
+6,65,55,79,WI,Milwaukee County,25,51,2056
+6,65,20,173,KS,Sedgwick County,24,42,894
+6,65,24,3,MD,Anne Arundel County,24,45,1405
+6,65,26,99,MI,Macomb County,24,54,1534
+6,65,37,183,NC,Wake County,24,47,1650
+6,65,39,61,OH,Hamilton County,24,36,1756
+6,65,49,11,UT,Davis County,24,55,1431
+6,65,51,153,VA,Prince William County,24,59,1936
+6,65,12,103,FL,Pinellas County,23,43,1741
+6,65,34,3,NJ,Bergen County,23,38,1398
+6,65,6,51,CA,Mono County,22,36,2630
+6,65,20,91,KS,Johnson County,22,47,2132
+6,65,25,9,MA,Essex County,22,42,2279
+6,65,34,23,NJ,Middlesex County,22,35,2556
+6,65,47,125,TN,Montgomery County,22,42,965
+6,65,51,710,VA,Norfolk city,22,50,1280
+6,65,8,69,CO,Larimer County,21,41,572
+6,65,12,9,FL,Brevard County,21,34,1847
+6,65,12,71,FL,Lee County,21,32,1169
+6,65,49,57,UT,Weber County,21,34,707
+6,65,4,3,AZ,Cochise County,20,38,588
+6,65,17,89,IL,Kane County,20,37,3276
+6,65,29,95,MO,Jackson County,20,32,821
+6,65,58,0,SS,Other flows - Same State,155,250,8184
+6,65,59,0,DS,Other flows - Different State,4635,8196,345244
+6,65,59,1,DS,Other flows - Northeast,683,1124,63369
+6,65,59,3,DS,Other flows - Midwest,1105,1930,83065
+6,65,59,5,DS,Other flows - South,1940,3644,124819
+6,65,59,7,DS,Other flows - West,907,1498,73991
+6,65,57,9,FR,Foreign - Other flows,-1,-1,-1
+6,67,96,0,CA,Sacramento County Total Migration-US and Foreign,32870,53864,2713241
+6,67,97,0,CA,Sacramento County Total Migration-US,32788,53736,2708673
+6,67,97,1,CA,Sacramento County Total Migration-Same State,25155,41138,1975815
+6,67,97,3,CA,Sacramento County Total Migration-Different State,7633,12598,732857
+6,67,98,0,CA,Sacramento County Total Migration-Foreign,82,128,4569
+6,67,6,67,CA,Sacramento County Non-migrants,602380,1201657,52359023
+6,67,6,61,CA,Placer County,3414,5509,271055
+6,67,6,113,CA,Yolo County,2143,3400,133516
+6,67,6,1,CA,Alameda County,1961,3521,200792
+6,67,6,85,CA,Santa Clara County,1852,3434,226230
+6,67,6,77,CA,San Joaquin County,1724,2967,105557
+6,67,6,37,CA,Los Angeles County,1391,2069,102934
+6,67,6,13,CA,Contra Costa County,1356,2278,114624
+6,67,6,17,CA,El Dorado County,1354,2173,114448
+6,67,6,95,CA,Solano County,1236,2018,76759
+6,67,6,81,CA,San Mateo County,835,1464,96124
+6,67,6,75,CA,San Francisco County,740,1177,77439
+6,67,6,73,CA,San Diego County,650,982,43341
+6,67,6,59,CA,Orange County,536,870,45692
+6,67,6,99,CA,Stanislaus County,476,729,27507
+6,67,6,19,CA,Fresno County,455,701,27112
+6,67,6,97,CA,Sonoma County,390,596,30724
+6,67,6,7,CA,Butte County,345,511,17818
+6,67,6,115,CA,Yuba County,338,607,16378
+6,67,32,3,NV,Clark County,328,591,15312
+6,67,6,65,CA,Riverside County,314,496,18286
+6,67,6,53,CA,Monterey County,310,464,21065
+6,67,4,13,AZ,Maricopa County,294,455,17860
+6,67,6,101,CA,Sutter County,290,508,14053
+6,67,32,31,NV,Washoe County,276,436,16159
+6,67,6,71,CA,San Bernardino County,249,429,16523
+6,67,53,33,WA,King County,238,380,23930
+6,67,6,57,CA,Nevada County,235,343,14057
+6,67,6,47,CA,Merced County,217,356,10375
+6,67,6,29,CA,Kern County,207,310,10069
+6,67,6,89,CA,Shasta County,194,298,11426
+6,67,6,87,CA,Santa Cruz County,179,254,12975
+6,67,6,5,CA,Amador County,166,276,9753
+6,67,6,107,CA,Tulare County,143,207,6995
+6,67,6,79,CA,San Luis Obispo County,141,186,9341
+6,67,41,51,OR,Multnomah County,135,184,9437
+6,67,6,111,CA,Ventura County,130,200,8685
+6,67,48,201,TX,Harris County,120,206,7480
+6,67,6,41,CA,Marin County,119,192,11849
+6,67,17,31,IL,Cook County,116,181,10458
+6,67,6,83,CA,Santa Barbara County,115,162,9265
+6,67,6,55,CA,Napa County,111,168,8805
+6,67,15,3,HI,Honolulu County,108,211,6582
+6,67,6,23,CA,Humboldt County,106,152,4553
+6,67,36,81,NY,Queens County,96,132,5260
+6,67,53,53,WA,Pierce County,82,154,4128
+6,67,57,5,FR,Foreign - APO/FPO ZIPs,82,128,4569
+6,67,41,67,OR,Washington County,77,125,6301
+6,67,49,35,UT,Salt Lake County,75,120,6253
+6,67,6,9,CA,Calaveras County,74,123,5404
+6,67,48,113,TX,Dallas County,73,111,5888
+6,67,48,453,TX,Travis County,71,117,9556
+6,67,6,31,CA,Kings County,69,107,2584
+6,67,8,41,CO,El Paso County,64,101,3798
+6,67,48,29,TX,Bexar County,63,102,4466
+6,67,6,45,CA,Mendocino County,60,90,3484
+6,67,53,11,WA,Clark County,60,101,3433
+6,67,4,19,AZ,Pima County,59,97,4410
+6,67,6,33,CA,Lake County,59,92,3644
+6,67,6,39,CA,Madera County,59,90,2280
+6,67,16,1,ID,Ada County,57,100,4148
+6,67,36,61,NY,New York County,56,82,7421
+6,67,36,47,NY,Kings County,52,78,4282
+6,67,8,31,CO,Denver County,51,75,3612
+6,67,6,109,CA,Tuolumne County,50,69,2394
+6,67,8,5,CO,Arapahoe County,49,104,3337
+6,67,53,61,WA,Snohomish County,49,80,4360
+6,67,6,103,CA,Tehama County,47,73,2361
+6,67,48,439,TX,Tarrant County,46,87,2727
+6,67,41,39,OR,Lane County,45,64,2270
+6,67,6,11,CA,Colusa County,44,79,2167
+6,67,11,1,DC,District of Columbia,44,57,5502
+6,67,12,57,FL,Hillsborough County,43,62,3432
+6,67,6,35,CA,Lassen County,40,65,1523
+6,67,12,86,FL,Miami-Dade County,40,61,2649
+6,67,27,53,MN,Hennepin County,40,67,3806
+6,67,25,17,MA,Middlesex County,39,67,4132
+6,67,6,93,CA,Siskiyou County,38,58,1789
+6,67,13,121,GA,Fulton County,38,64,2879
+6,67,41,29,OR,Jackson County,37,64,2143
+6,67,42,101,PA,Philadelphia County,36,54,2760
+6,67,51,59,VA,Fairfax County,36,48,2788
+6,67,53,63,WA,Spokane County,36,54,1824
+6,67,48,85,TX,Collin County,35,68,2789
+6,67,6,21,CA,Glenn County,34,58,2315
+6,67,25,25,MA,Suffolk County,34,44,2432
+6,67,12,95,FL,Orange County,32,53,2330
+6,67,37,183,NC,Wake County,32,56,2428
+6,67,41,5,OR,Clackamas County,32,51,2248
+6,67,6,69,CA,San Benito County,31,51,1918
+6,67,8,59,CO,Jefferson County,31,59,2395
+6,67,27,123,MN,Ramsey County,31,46,1215
+6,67,39,49,OH,Franklin County,31,43,2001
+6,67,12,11,FL,Broward County,30,44,2100
+6,67,39,35,OH,Cuyahoga County,30,36,59411
+6,67,2,20,AK,Anchorage Municipality,29,63,1119
+6,67,6,25,CA,Imperial County,29,35,1422
+6,67,15,9,HI,Maui County,29,48,2586
+6,67,37,119,NC,Mecklenburg County,29,50,3142
+6,67,49,49,UT,Utah County,29,55,1121
+6,67,53,67,WA,Thurston County,29,47,2078
+6,67,6,15,CA,Del Norte County,28,44,1399
+6,67,6,63,CA,Plumas County,28,44,1499
+6,67,13,135,GA,Gwinnett County,28,54,1331
+6,67,42,3,PA,Allegheny County,26,47,1953
+6,67,35,1,NM,Bernalillo County,25,37,2310
+6,67,41,3,OR,Benton County,25,28,925
+6,67,48,491,TX,Williamson County,25,55,3222
+6,67,8,1,CO,Adams County,24,59,1172
+6,67,13,89,GA,DeKalb County,24,45,1669
+6,67,15,1,HI,Hawaii County,24,37,1188
+6,67,26,125,MI,Oakland County,24,38,2211
+6,67,18,97,IN,Marion County,23,32,989
+6,67,47,37,TN,Davidson County,23,35,1515
+6,67,48,141,TX,El Paso County,23,41,913
+6,67,53,35,WA,Kitsap County,23,35,1494
+6,67,8,13,CO,Boulder County,21,26,1758
+6,67,12,99,FL,Palm Beach County,21,31,1843
+6,67,22,71,LA,Orleans Parish,21,32,1243
+6,67,32,19,NV,Lyon County,21,31,1040
+6,67,41,17,OR,Deschutes County,21,33,1847
+6,67,48,121,TX,Denton County,21,38,1656
+6,67,48,157,TX,Fort Bend County,21,45,1688
+6,67,8,35,CO,Douglas County,20,35,1768
+6,67,16,27,ID,Canyon County,20,45,1086
+6,67,21,111,KY,Jefferson County,20,42,1769
+6,67,24,5,MD,Baltimore County,20,46,2191
+6,67,32,5,NV,Douglas County,20,29,2763
+6,67,37,51,NC,Cumberland County,20,35,836
+6,67,58,0,SS,Other flows - Same State,43,55,2452
+6,67,59,0,DS,Other flows - Different State,3457,5755,218606
+6,67,59,1,DS,Other flows - Northeast,561,897,44179
+6,67,59,3,DS,Other flows - Midwest,843,1382,51861
+6,67,59,5,DS,Other flows - South,1439,2481,88974
+6,67,59,7,DS,Other flows - West,614,995,33592
+6,67,57,9,FR,Foreign - Other flows,-1,-1,-1
+6,69,96,0,CA,San Benito County Total Migration-US and Foreign,2011,3810,195130
+6,69,97,0,CA,San Benito County Total Migration-US,2011,3810,195130
+6,69,97,1,CA,San Benito County Total Migration-Same State,1842,3519,184119
+6,69,97,3,CA,San Benito County Total Migration-Different State,169,291,11011
+6,69,6,69,CA,San Benito County Non-migrants,25460,54702,2372407
+6,69,6,85,CA,Santa Clara County,1053,2120,116316
+6,69,6,53,CA,Monterey County,217,391,21764
+6,69,6,87,CA,Santa Cruz County,164,313,12322
+6,69,6,1,CA,Alameda County,60,112,9011
+6,69,6,47,CA,Merced County,53,105,2491
+6,69,6,81,CA,San Mateo County,29,50,3989
+6,69,6,19,CA,Fresno County,23,32,1098
+6,69,6,77,CA,San Joaquin County,21,27,1116
+6,69,6,37,CA,Los Angeles County,20,32,1679
+6,69,6,73,CA,San Diego County,20,35,1002
+6,69,58,0,SS,Other flows - Same State,182,302,13332
+6,69,59,0,DS,Other flows - Different State,169,291,11011
+6,69,59,1,DS,Other flows - Northeast,-1,-1,-1
+6,69,59,3,DS,Other flows - Midwest,29,60,1930
+6,69,59,5,DS,Other flows - South,50,90,3189
+6,69,59,7,DS,Other flows - West,90,141,5892
+6,69,57,9,FR,Foreign - Other flows,-1,-1,-1
+6,71,96,0,CA,San Bernardino County Total Migration-US and Foreign,49508,92393,3019550
+6,71,97,0,CA,San Bernardino County Total Migration-US,49284,91922,3007255
+6,71,97,1,CA,San Bernardino County Total Migration-Same State,39143,73496,2444495
+6,71,97,3,CA,San Bernardino County Total Migration-Different State,10141,18426,562761
+6,71,98,0,CA,San Bernardino County Total Migration-Foreign,224,471,12295
+6,71,6,71,CA,San Bernardino County Non-migrants,796652,1650769,55510024
+6,71,6,37,CA,Los Angeles County,20446,39796,1292375
+6,71,6,65,CA,Riverside County,10126,18863,557249
+6,71,6,59,CA,Orange County,3786,6797,291402
+6,71,6,73,CA,San Diego County,1344,2337,81754
+6,71,32,3,NV,Clark County,871,1625,38919
+6,71,4,13,AZ,Maricopa County,546,920,26596
+6,71,6,29,CA,Kern County,389,729,19923
+6,71,6,111,CA,Ventura County,302,490,22247
+6,71,6,1,CA,Alameda County,274,459,26922
+6,71,6,67,CA,Sacramento County,254,423,12712
+6,71,6,85,CA,Santa Clara County,234,373,23560
+6,71,57,5,FR,Foreign - APO/FPO ZIPs,224,471,12295
+6,71,4,15,AZ,Mohave County,207,380,8314
+6,71,53,33,WA,King County,171,304,14675
+6,71,6,19,CA,Fresno County,169,272,8812
+6,71,15,3,HI,Honolulu County,168,311,8507
+6,71,6,13,CA,Contra Costa County,149,259,11640
+6,71,48,201,TX,Harris County,141,249,8534
+6,71,17,31,IL,Cook County,139,238,9429
+6,71,48,141,TX,El Paso County,133,295,6014
+6,71,6,83,CA,Santa Barbara County,132,211,7558
+6,71,53,53,WA,Pierce County,132,267,7590
+6,71,6,77,CA,San Joaquin County,119,210,7653
+6,71,6,25,CA,Imperial County,118,200,3988
+6,71,6,75,CA,San Francisco County,116,164,11391
+6,71,6,81,CA,San Mateo County,113,196,10185
+6,71,8,41,CO,El Paso County,109,252,6153
+6,71,48,29,TX,Bexar County,107,216,6424
+6,71,6,79,CA,San Luis Obispo County,97,145,5725
+6,71,48,439,TX,Tarrant County,95,199,7237
+6,71,6,107,CA,Tulare County,89,160,5411
+6,71,4,19,AZ,Pima County,88,149,3594
+6,71,37,133,NC,Onslow County,87,238,5527
+6,71,36,81,NY,Queens County,86,134,3716
+6,71,6,99,CA,Stanislaus County,84,151,5182
+6,71,48,113,TX,Dallas County,82,145,3677
+6,71,49,35,UT,Salt Lake County,79,136,3525
+6,71,48,27,TX,Bell County,78,183,6593
+6,71,32,31,NV,Washoe County,73,117,3452
+6,71,41,51,OR,Multnomah County,72,106,3174
+6,71,6,53,CA,Monterey County,71,125,3546
+6,71,6,31,CA,Kings County,68,104,1863
+6,71,53,61,WA,Snohomish County,67,115,4658
+6,71,6,39,CA,Madera County,58,79,880
+6,71,6,47,CA,Merced County,58,102,2456
+6,71,36,47,NY,Kings County,58,83,5168
+6,71,6,95,CA,Solano County,53,95,3476
+6,71,8,31,CO,Denver County,52,76,3263
+6,71,12,11,FL,Broward County,52,89,2509
+6,71,37,51,NC,Cumberland County,51,125,2384
+6,71,4,21,AZ,Pinal County,50,98,2085
+6,71,36,61,NY,New York County,50,68,2995
+6,71,6,97,CA,Sonoma County,49,84,3460
+6,71,41,67,OR,Washington County,49,76,2518
+6,71,12,86,FL,Miami-Dade County,46,69,2206
+6,71,49,49,UT,Utah County,46,90,2070
+6,71,8,5,CO,Arapahoe County,45,85,2328
+6,71,12,57,FL,Hillsborough County,44,90,2670
+6,71,53,67,WA,Thurston County,44,101,3012
+6,71,6,61,CA,Placer County,43,71,2995
+6,71,48,85,TX,Collin County,43,75,2526
+6,71,48,453,TX,Travis County,43,64,2851
+6,71,13,215,GA,Muscogee County,42,100,2341
+6,71,53,63,WA,Spokane County,42,65,3121
+6,71,25,17,MA,Middlesex County,41,66,2903
+6,71,35,1,NM,Bernalillo County,41,61,2704
+6,71,48,491,TX,Williamson County,40,73,1776
+6,71,4,27,AZ,Yuma County,39,79,1661
+6,71,13,135,GA,Gwinnett County,39,68,2347
+6,71,16,1,ID,Ada County,38,62,1334
+6,71,4,25,AZ,Yavapai County,36,51,1787
+6,71,24,31,MD,Montgomery County,36,69,2227
+6,71,49,53,UT,Washington County,36,66,1605
+6,71,6,87,CA,Santa Cruz County,35,54,2460
+6,71,11,1,DC,District of Columbia,35,50,3634
+6,71,8,1,CO,Adams County,34,56,1556
+6,71,2,20,AK,Anchorage Municipality,33,71,1839
+6,71,6,17,CA,El Dorado County,33,50,1848
+6,71,34,17,NJ,Hudson County,33,70,2447
+6,71,41,5,OR,Clackamas County,32,60,3174
+6,71,6,7,CA,Butte County,31,40,1013
+6,71,12,95,FL,Orange County,31,49,1761
+6,71,17,43,IL,DuPage County,31,55,1982
+6,71,47,125,TN,Montgomery County,31,71,1332
+6,71,51,153,VA,Prince William County,31,62,1579
+6,71,4,5,AZ,Coconino County,30,48,1349
+6,71,6,23,CA,Humboldt County,30,43,949
+6,71,6,113,CA,Yolo County,30,45,1631
+6,71,19,153,IA,Polk County,30,53,1013
+6,71,27,53,MN,Hennepin County,30,42,2368
+6,71,48,121,TX,Denton County,30,52,2031
+6,71,53,35,WA,Kitsap County,30,60,1872
+6,71,36,45,NY,Jefferson County,29,70,1559
+6,71,51,59,VA,Fairfax County,29,58,2313
+6,71,53,11,WA,Clark County,29,44,1277
+6,71,39,35,OH,Cuyahoga County,28,57,2022
+6,71,13,89,GA,DeKalb County,27,39,1351
+6,71,41,39,OR,Lane County,27,39,1099
+6,71,42,101,PA,Philadelphia County,27,33,1233
+6,71,4,3,AZ,Cochise County,26,50,2038
+6,71,6,41,CA,Marin County,26,39,2347
+6,71,6,89,CA,Shasta County,26,37,1216
+6,71,12,99,FL,Palm Beach County,26,40,1057
+6,71,13,121,GA,Fulton County,26,44,902
+6,71,40,109,OK,Oklahoma County,26,56,1173
+6,71,4,12,AZ,La Paz County,25,51,1012
+6,71,36,59,NY,Nassau County,25,45,1658
+6,71,8,69,CO,Larimer County,24,45,1104
+6,71,13,67,GA,Cobb County,24,37,2005
+6,71,20,91,KS,Johnson County,24,47,2583
+6,71,37,119,NC,Mecklenburg County,24,36,777
+6,71,48,157,TX,Fort Bend County,24,45,1467
+6,71,51,810,VA,Virginia Beach city,24,49,1441
+6,71,2,90,AK,Fairbanks North Star Borough,23,43,1073
+6,71,5,119,AR,Pulaski County,23,45,572
+6,71,36,103,NY,Suffolk County,23,37,1595
+6,71,39,49,OH,Franklin County,23,33,1790
+6,71,6,55,CA,Napa County,22,39,1243
+6,71,8,123,CO,Weld County,22,37,1209
+6,71,17,97,IL,Lake County,22,42,1581
+6,71,17,197,IL,Will County,22,41,1250
+6,71,20,61,KS,Geary County,22,53,1171
+6,71,24,33,MD,Prince George's County,22,43,1340
+6,71,31,55,NE,Douglas County,22,38,788
+6,71,47,37,TN,Davidson County,22,27,925
+6,71,55,79,WI,Milwaukee County,22,35,896
+6,71,12,31,FL,Duval County,21,42,983
+6,71,26,163,MI,Wayne County,21,34,1176
+6,71,36,5,NY,Bronx County,21,37,1054
+6,71,42,3,PA,Allegheny County,21,36,1097
+6,71,47,157,TN,Shelby County,21,42,2022
+6,71,49,57,UT,Weber County,21,32,751
+6,71,16,27,ID,Canyon County,20,39,786
+6,71,20,173,KS,Sedgwick County,20,35,468
+6,71,27,123,MN,Ramsey County,20,25,956
+6,71,41,17,OR,Deschutes County,20,41,1349
+6,71,51,13,VA,Arlington County,20,38,1583
+6,71,58,0,SS,Other flows - Same State,169,254,7424
+6,71,59,0,DS,Other flows - Different State,4078,7339,231640
+6,71,59,1,DS,Other flows - Northeast,546,901,39800
+6,71,59,3,DS,Other flows - Midwest,908,1646,53891
+6,71,59,5,DS,Other flows - South,1817,3324,96863
+6,71,59,7,DS,Other flows - West,807,1468,41086
+6,71,57,9,FR,Foreign - Other flows,-1,-1,-1
+6,73,96,0,CA,San Diego County Total Migration-US and Foreign,70260,112882,7270152
+6,73,97,0,CA,San Diego County Total Migration-US,68620,109348,7161459
+6,73,97,1,CA,San Diego County Total Migration-Same State,30094,46582,3506712
+6,73,97,3,CA,San Diego County Total Migration-Different State,38526,62766,3654747
+6,73,98,0,CA,San Diego County Total Migration-Foreign,1640,3534,108693
+6,73,6,73,CA,San Diego County Non-migrants,1343640,2626129,156122603
+6,73,6,37,CA,Los Angeles County,6638,9731,892433
+6,73,6,65,CA,Riverside County,4956,8464,367339
+6,73,6,59,CA,Orange County,3940,5939,407796
+6,73,6,85,CA,Santa Clara County,1755,2882,405585
+6,73,6,71,CA,San Bernardino County,1692,2760,123796
+6,73,4,13,AZ,Maricopa County,1653,2618,139836
+6,73,57,5,FR,Foreign - APO/FPO ZIPs,1612,3484,102361
+6,73,32,3,NV,Clark County,1133,1802,108398
+6,73,6,1,CA,Alameda County,1106,1684,175316
+6,73,53,33,WA,King County,1076,1666,228613
+6,73,6,75,CA,San Francisco County,1047,1396,223591
+6,73,17,31,IL,Cook County,939,1349,128638
+6,73,6,67,CA,Sacramento County,847,1196,63058
+6,73,15,3,HI,Honolulu County,836,1667,57968
+6,73,6,111,CA,Ventura County,783,1197,69958
+6,73,6,13,CA,Contra Costa County,715,1161,118784
+6,73,6,81,CA,San Mateo County,640,1085,173874
+6,73,6,25,CA,Imperial County,627,1087,36186
+6,73,6,83,CA,Santa Barbara County,525,695,42314
+6,73,48,201,TX,Harris County,483,838,43294
+6,73,6,29,CA,Kern County,474,743,27053
+6,73,36,61,NY,New York County,431,579,71555
+6,73,6,19,CA,Fresno County,419,673,37754
+6,73,4,19,AZ,Pima County,408,661,33268
+6,73,25,17,MA,Middlesex County,402,617,48363
+6,73,37,133,NC,Onslow County,391,961,22295
+6,73,51,810,VA,Virginia Beach city,366,764,23378
+6,73,48,453,TX,Travis County,362,534,59461
+6,73,8,31,CO,Denver County,350,447,35057
+6,73,41,51,OR,Multnomah County,339,466,38571
+6,73,48,29,TX,Bexar County,339,601,17861
+6,73,49,35,UT,Salt Lake County,333,558,30433
+6,73,6,53,CA,Monterey County,327,529,28478
+6,73,36,47,NY,Kings County,326,456,64905
+6,73,25,25,MA,Suffolk County,319,371,37365
+6,73,48,113,TX,Dallas County,311,472,27566
+6,73,51,59,VA,Fairfax County,305,583,38672
+6,73,6,77,CA,San Joaquin County,302,475,20464
+6,73,6,79,CA,San Luis Obispo County,292,393,28051
+6,73,6,97,CA,Sonoma County,283,388,26992
+6,73,53,61,WA,Snohomish County,281,546,23610
+6,73,12,31,FL,Duval County,275,526,15949
+6,73,12,33,FL,Escambia County,269,424,13756
+6,73,53,35,WA,Kitsap County,258,562,19798
+6,73,6,61,CA,Placer County,257,412,29059
+6,73,17,97,IL,Lake County,253,490,18781
+6,73,27,53,MN,Hennepin County,251,350,25168
+6,73,11,1,DC,District of Columbia,247,319,27392
+6,73,24,31,MD,Montgomery County,247,445,39570
+6,73,12,86,FL,Miami-Dade County,238,352,30084
+6,73,48,439,TX,Tarrant County,233,414,16187
+6,73,51,710,VA,Norfolk city,230,435,14446
+6,73,8,41,CO,El Paso County,221,382,14920
+6,73,36,81,NY,Queens County,220,307,18198
+6,73,4,27,AZ,Yuma County,219,431,12625
+6,73,6,99,CA,Stanislaus County,217,323,14535
+6,73,53,53,WA,Pierce County,213,369,14616
+6,73,42,101,PA,Philadelphia County,212,279,18853
+6,73,6,87,CA,Santa Cruz County,210,271,18703
+6,73,6,95,CA,Solano County,209,307,13843
+6,73,32,31,NV,Washoe County,204,281,16341
+6,73,48,85,TX,Collin County,185,361,26712
+6,73,6,113,CA,Yolo County,184,246,11058
+6,73,12,11,FL,Broward County,184,271,18456
+6,73,45,13,SC,Beaufort County,184,401,12881
+6,73,6,31,CA,Kings County,182,351,8053
+6,73,48,141,TX,El Paso County,180,319,10956
+6,73,6,41,CA,Marin County,178,288,47637
+6,73,13,121,GA,Fulton County,173,239,28813
+6,73,39,49,OH,Franklin County,172,245,13893
+6,73,41,67,OR,Washington County,170,297,17745
+6,73,8,5,CO,Arapahoe County,165,245,12707
+6,73,35,1,NM,Bernalillo County,160,257,11022
+6,73,12,99,FL,Palm Beach County,159,241,14642
+6,73,36,103,NY,Suffolk County,157,225,10961
+6,73,51,13,VA,Arlington County,152,215,19849
+6,73,6,107,CA,Tulare County,151,259,8462
+6,73,26,125,MI,Oakland County,149,222,21439
+6,73,6,17,CA,El Dorado County,145,212,14904
+6,73,12,95,FL,Orange County,145,198,8307
+6,73,12,57,FL,Hillsborough County,144,240,10533
+6,73,24,3,MD,Anne Arundel County,144,260,10492
+6,73,37,183,NC,Wake County,144,211,12768
+6,73,16,1,ID,Ada County,139,226,11193
+6,73,51,550,VA,Chesapeake city,139,313,9736
+6,73,42,3,PA,Allegheny County,138,192,17142
+6,73,17,43,IL,DuPage County,136,222,13054
+6,73,47,37,TN,Davidson County,132,182,9959
+6,73,8,59,CO,Jefferson County,131,183,11430
+6,73,51,153,VA,Prince William County,131,299,11396
+6,73,48,121,TX,Denton County,128,228,12214
+6,73,6,7,CA,Butte County,126,168,6876
+6,73,36,59,NY,Nassau County,126,173,11889
+6,73,12,113,FL,Santa Rosa County,121,186,8603
+6,73,8,13,CO,Boulder County,120,177,12558
+6,73,24,510,MD,Baltimore city,118,143,10280
+6,73,47,157,TN,Shelby County,117,252,9608
+6,73,48,491,TX,Williamson County,117,220,10710
+6,73,55,25,WI,Dane County,116,162,8115
+6,73,53,63,WA,Spokane County,115,193,7162
+6,73,34,17,NJ,Hudson County,113,165,17238
+6,73,34,23,NJ,Middlesex County,113,162,9258
+6,73,25,21,MA,Norfolk County,111,157,12096
+6,73,34,3,NJ,Bergen County,111,183,16374
+6,73,6,47,CA,Merced County,109,168,4468
+6,73,41,39,OR,Lane County,108,145,5965
+6,73,49,49,UT,Utah County,107,215,9163
+6,73,26,161,MI,Washtenaw County,106,143,8297
+6,73,4,25,AZ,Yavapai County,105,154,8759
+6,73,39,35,OH,Cuyahoga County,105,167,10102
+6,73,9,190,CT,Western Connecticut Planning Regi,104,154,17299
+6,73,26,163,MI,Wayne County,104,158,7310
+6,73,45,15,SC,Berkeley County,104,190,6933
+6,73,6,23,CA,Humboldt County,103,137,8518
+6,73,51,107,VA,Loudoun County,102,182,10570
+6,73,53,29,WA,Island County,102,215,5941
+6,73,37,119,NC,Mecklenburg County,101,141,8764
+6,73,24,33,MD,Prince George's County,100,153,7198
+6,73,36,119,NY,Westchester County,100,152,22857
+6,73,53,11,WA,Clark County,100,154,8262
+6,73,9,110,CT,Capitol Planning Region,99,145,6500
+6,73,44,5,RI,Newport County,99,259,10883
+6,73,8,69,CO,Larimer County,98,150,10023
+6,73,36,5,NY,Bronx County,97,151,4957
+6,73,26,99,MI,Macomb County,96,165,4346
+6,73,9,170,CT,South Central Connecticut Plannin,93,130,7131
+6,73,15,9,HI,Maui County,91,140,6610
+6,73,55,79,WI,Milwaukee County,90,121,5255
+6,73,4,21,AZ,Pinal County,89,172,4978
+6,73,6,89,CA,Shasta County,89,131,5190
+6,73,15,1,HI,Hawaii County,89,143,11006
+6,73,25,9,MA,Essex County,89,111,9247
+6,73,29,189,MO,St. Louis County,89,140,9960
+6,73,13,89,GA,DeKalb County,87,126,5838
+6,73,39,61,OH,Hamilton County,87,119,7094
+6,73,45,19,SC,Charleston County,87,120,7012
+6,73,51,179,VA,Stafford County,87,217,6970
+6,73,51,510,VA,Alexandria city,87,141,12662
+6,73,8,35,CO,Douglas County,86,130,7196
+6,73,42,91,PA,Montgomery County,86,135,9492
+6,73,41,5,OR,Clackamas County,85,145,9013
+6,73,4,15,AZ,Mohave County,84,139,6340
+6,73,20,91,KS,Johnson County,84,123,7400
+6,73,37,49,NC,Craven County,81,200,4999
+6,73,48,355,TX,Nueces County,81,134,5924
+6,73,12,103,FL,Pinellas County,78,109,6012
+6,73,18,97,IN,Marion County,77,118,3929
+6,73,29,95,MO,Jackson County,77,116,5437
+6,73,31,55,NE,Douglas County,77,108,5129
+6,73,34,25,NJ,Monmouth County,77,107,6167
+6,73,34,27,NJ,Morris County,77,127,11041
+6,73,8,1,CO,Adams County,76,137,5126
+6,73,25,27,MA,Worcester County,75,115,8828
+6,73,36,55,NY,Monroe County,74,109,5999
+6,73,41,17,OR,Deschutes County,74,109,4448
+6,73,6,55,CA,Napa County,73,97,6264
+6,73,36,29,NY,Erie County,72,101,5184
+6,73,24,5,MD,Baltimore County,71,98,5890
+6,73,9,180,CT,Southeastern Connecticut Planning,70,146,4133
+6,73,42,17,PA,Bucks County,70,110,10183
+6,73,48,157,TX,Fort Bend County,70,113,7144
+6,73,13,135,GA,Gwinnett County,69,112,3684
+6,73,19,153,IA,Polk County,69,102,2877
+6,73,6,39,CA,Madera County,68,100,2678
+6,73,13,67,GA,Cobb County,67,111,7338
+6,73,24,27,MD,Howard County,67,106,6991
+6,73,17,197,IL,Will County,66,123,6331
+6,73,27,123,MN,Ramsey County,65,97,7762
+6,73,40,109,OK,Oklahoma County,65,112,4181
+6,73,6,57,CA,Nevada County,64,95,6406
+6,73,17,19,IL,Champaign County,64,106,4862
+6,73,41,29,OR,Jackson County,64,104,5798
+6,73,12,91,FL,Okaloosa County,63,113,4337
+6,73,48,27,TX,Bell County,62,118,2755
+6,73,49,11,UT,Davis County,62,112,3400
+6,73,12,9,FL,Brevard County,61,94,4328
+6,73,37,63,NC,Durham County,61,87,6399
+6,73,40,143,OK,Tulsa County,61,92,2802
+6,73,53,67,WA,Thurston County,60,93,5031
+6,73,53,73,WA,Whatcom County,60,80,6478
+6,73,4,5,AZ,Coconino County,59,72,2949
+6,73,42,29,PA,Chester County,58,91,9442
+6,73,34,13,NJ,Essex County,57,78,4863
+6,73,21,111,KY,Jefferson County,56,87,4478
+6,73,2,20,AK,Anchorage Municipality,55,88,3175
+6,73,51,700,VA,Newport News city,55,102,2288
+6,73,44,7,RI,Providence County,54,73,4332
+6,73,12,19,FL,Clay County,53,121,3246
+6,73,41,47,OR,Marion County,53,92,5866
+6,73,22,71,LA,Orleans Parish,52,79,3290
+6,73,26,81,MI,Kent County,52,75,5706
+6,73,34,21,NJ,Mercer County,52,71,7423
+6,73,12,71,FL,Lee County,51,75,3530
+6,73,25,23,MA,Plymouth County,51,62,3781
+6,73,28,47,MS,Harrison County,51,137,2600
+6,73,48,339,TX,Montgomery County,51,96,4436
+6,73,12,105,FL,Polk County,49,71,2217
+6,73,16,55,ID,Kootenai County,49,79,3952
+6,73,18,57,IN,Hamilton County,49,76,3225
+6,73,36,67,NY,Onondaga County,49,63,3175
+6,73,51,760,VA,Richmond city,49,63,4241
+6,73,13,39,GA,Camden County,48,116,2459
+6,73,18,157,IN,Tippecanoe County,48,54,4185
+6,73,29,510,MO,St. Louis city,48,71,3025
+6,73,35,13,NM,Doña Ana County,47,79,2332
+6,73,51,650,VA,Hampton city,47,79,1888
+6,73,5,119,AR,Pulaski County,46,79,2646
+6,73,37,51,NC,Cumberland County,46,71,2387
+6,73,10,3,DE,New Castle County,45,75,3800
+6,73,23,5,ME,Cumberland County,45,67,3411
+6,73,25,1,MA,Barnstable County,45,55,3671
+6,73,36,71,NY,Orange County,45,67,3503
+6,73,37,129,NC,New Hanover County,45,70,3722
+6,73,39,113,OH,Montgomery County,45,86,3192
+6,73,51,740,VA,Portsmouth city,45,101,2196
+6,73,16,27,ID,Canyon County,44,71,1845
+6,73,24,37,MD,St. Mary's County,44,104,3347
+6,73,34,5,NJ,Burlington County,44,90,3485
+6,73,12,109,FL,St. Johns County,43,90,3632
+6,73,31,109,NE,Lancaster County,43,95,2073
+6,73,34,39,NJ,Union County,43,70,5721
+6,73,48,215,TX,Hidalgo County,43,65,1855
+6,73,12,127,FL,Volusia County,42,69,1868
+6,73,17,111,IL,McHenry County,42,69,4499
+6,73,1,73,AL,Jefferson County,41,54,2152
+6,73,12,115,FL,Sarasota County,41,58,3567
+6,73,33,11,NH,Hillsborough County,41,72,5133
+6,73,33,15,NH,Rockingham County,41,65,4807
+6,73,34,35,NJ,Somerset County,41,68,5620
+6,73,35,29,NM,Luna County,41,160,917
+6,73,49,57,UT,Weber County,41,66,2617
+6,73,53,57,WA,Skagit County,41,77,3507
+6,73,12,21,FL,Collier County,40,65,4630
+6,73,17,89,IL,Kane County,40,58,4125
+6,73,27,37,MN,Dakota County,40,59,5731
+6,73,34,29,NJ,Ocean County,40,70,3076
+6,73,42,45,PA,Delaware County,39,61,4099
+6,73,47,93,TN,Knox County,39,61,1675
+6,73,12,117,FL,Seminole County,38,68,4142
+6,73,20,173,KS,Sedgwick County,38,50,1724
+6,73,39,95,OH,Lucas County,37,73,2396
+6,73,45,79,SC,Richland County,37,59,2114
+6,73,53,5,WA,Benton County,37,53,2154
+6,73,8,123,CO,Weld County,36,66,2015
+6,73,12,101,FL,Pasco County,36,62,1665
+6,73,49,53,UT,Washington County,36,59,2254
+6,73,6,51,CA,Mono County,35,68,2876
+6,73,12,87,FL,Monroe County,35,66,1606
+6,73,12,97,FL,Osceola County,35,52,2078
+6,73,19,103,IA,Johnson County,35,43,1630
+6,73,22,103,LA,St. Tammany Parish,35,51,2015
+6,73,23,31,ME,York County,35,60,2384
+6,73,25,13,MA,Hampden County,35,45,2269
+6,73,48,41,TX,Brazos County,35,52,4629
+6,73,48,61,TX,Cameron County,35,67,2171
+6,73,48,209,TX,Hays County,35,63,2340
+6,73,51,177,VA,Spotsylvania County,35,59,2152
+6,73,35,49,NM,Santa Fe County,34,41,4164
+6,73,45,45,SC,Greenville County,34,44,2410
+6,73,12,1,FL,Alachua County,33,48,1837
+6,73,25,5,MA,Bristol County,33,46,1944
+6,73,26,65,MI,Ingham County,33,52,2589
+6,73,27,163,MN,Washington County,33,55,2519
+6,73,51,800,VA,Suffolk city,33,76,2368
+6,73,6,69,CA,San Benito County,32,50,1707
+6,73,9,140,CT,Naugatuck Valley Planning Region,32,52,1834
+6,73,34,31,NJ,Passaic County,32,47,2524
+6,73,41,3,OR,Benton County,32,43,1561
+6,73,48,451,TX,Tom Green County,32,60,1237
+6,73,55,133,WI,Waukesha County,32,52,1430
+6,73,6,45,CA,Mendocino County,31,47,2560
+6,73,13,51,GA,Chatham County,31,50,1981
+6,73,30,29,MT,Flathead County,31,46,2742
+6,73,30,31,MT,Gallatin County,31,47,2242
+6,73,34,7,NJ,Camden County,31,40,1884
+6,73,40,27,OK,Cleveland County,31,40,1612
+6,73,47,187,TN,Williamson County,31,57,3860
+6,73,49,43,UT,Summit County,31,45,7546
+6,73,1,89,AL,Madison County,30,50,5924
+6,73,4,3,AZ,Cochise County,30,46,1393
+6,73,12,81,FL,Manatee County,30,42,2532
+6,73,18,141,IN,St. Joseph County,30,39,2029
+6,73,27,109,MN,Olmsted County,30,44,2241
+6,73,36,1,NY,Albany County,30,40,2231
+6,73,36,27,NY,Dutchess County,30,42,2722
+6,73,36,85,NY,Richmond County,30,43,1444
+6,73,48,167,TX,Galveston County,30,46,1521
+6,73,6,109,CA,Tuolumne County,29,44,1063
+6,73,15,7,HI,Kauai County,29,46,2135
+6,73,22,33,LA,East Baton Rouge Parish,29,41,1428
+6,73,22,51,LA,Jefferson Parish,29,42,1700
+6,73,29,183,MO,St. Charles County,29,42,1893
+6,73,39,153,OH,Summit County,29,34,1560
+6,73,47,149,TN,Rutherford County,29,51,2304
+6,73,12,111,FL,St. Lucie County,28,41,1588
+6,73,18,89,IN,Lake County,28,46,1618
+6,73,24,21,MD,Frederick County,28,45,2741
+6,73,37,81,NC,Guilford County,28,42,1948
+6,73,44,9,RI,Washington County,28,41,4627
+6,73,48,303,TX,Lubbock County,28,40,1489
+6,73,57,3,FR,Foreign - Puerto Rico,28,51,1332
+6,73,1,3,AL,Baldwin County,27,54,1787
+6,73,6,101,CA,Sutter County,27,43,1218
+6,73,9,120,CT,Greater Bridgeport Planning Regio,27,41,1969
+6,73,21,67,KY,Fayette County,27,50,2138
+6,73,39,17,OH,Butler County,27,48,2079
+6,73,50,7,VT,Chittenden County,27,33,1914
+6,73,51,121,VA,Montgomery County,27,32,1826
+6,73,6,35,CA,Lassen County,26,31,1356
+6,73,8,37,CO,Eagle County,26,32,1499
+6,73,13,63,GA,Clayton County,26,46,1033
+6,73,18,3,IN,Allen County,26,36,858
+6,73,24,25,MD,Harford County,26,37,1931
+6,73,30,63,MT,Missoula County,26,34,1284
+6,73,37,135,NC,Orange County,26,34,1848
+6,73,47,125,TN,Montgomery County,26,45,964
+6,73,48,309,TX,McLennan County,26,48,1407
+6,73,5,7,AR,Benton County,25,44,1183
+6,73,8,14,CO,Broomfield County,25,37,2408
+6,73,8,67,CO,La Plata County,25,30,1557
+6,73,28,75,MS,Lauderdale County,25,46,1632
+6,73,32,1,NV,Churchill County,25,45,1280
+6,73,34,1,NJ,Atlantic County,25,41,1144
+6,73,36,109,NY,Tompkins County,25,47,2537
+6,73,37,67,NC,Forsyth County,25,34,1273
+6,73,45,51,SC,Horry County,25,36,1142
+6,73,48,91,TX,Comal County,25,40,1513
+6,73,51,87,VA,Henrico County,25,32,1589
+6,73,53,77,WA,Yakima County,25,46,979
+6,73,1,97,AL,Mobile County,24,46,1002
+6,73,6,5,CA,Amador County,24,29,703
+6,73,12,83,FL,Marion County,24,44,1006
+6,73,17,163,IL,St. Clair County,24,45,1453
+6,73,25,15,MA,Hampshire County,24,36,1417
+6,73,27,3,MN,Anoka County,24,34,1599
+6,73,36,87,NY,Rockland County,24,30,1311
+6,73,42,27,PA,Centre County,24,29,1129
+6,73,42,43,PA,Dauphin County,24,37,1319
+6,73,13,245,GA,Richmond County,23,32,936
+6,73,17,143,IL,Peoria County,23,39,2287
+6,73,28,59,MS,Jackson County,23,44,964
+6,73,30,111,MT,Yellowstone County,23,35,1038
+6,73,32,5,NV,Douglas County,23,29,1967
+6,73,42,133,PA,York County,23,35,1227
+6,73,2,90,AK,Fairbanks North Star Borough,22,38,1398
+6,73,13,117,GA,Forsyth County,22,34,1656
+6,73,26,139,MI,Ottawa County,22,32,1108
+6,73,29,77,MO,Greene County,22,39,1289
+6,73,48,39,TX,Brazoria County,22,38,1418
+6,73,53,15,WA,Cowlitz County,22,35,889
+6,73,29,47,MO,Clay County,21,32,1494
+6,73,39,151,OH,Stark County,21,31,800
+6,73,42,49,PA,Erie County,21,38,1514
+6,73,48,187,TX,Guadalupe County,21,39,1406
+6,73,48,245,TX,Jefferson County,21,29,869
+6,73,51,3,VA,Albemarle County,21,27,1702
+6,73,51,41,VA,Chesterfield County,21,46,1605
+6,73,55,59,WI,Kenosha County,21,41,916
+6,73,4,23,AZ,Santa Cruz County,20,41,2086
+6,73,6,27,CA,Inyo County,20,26,1502
+6,73,8,77,CO,Mesa County,20,30,1579
+6,73,12,5,FL,Bay County,20,34,1070
+6,73,12,73,FL,Leon County,20,27,800
+6,73,18,105,IN,Monroe County,20,25,1348
+6,73,19,113,IA,Linn County,20,27,1257
+6,73,24,17,MD,Charles County,20,35,1118
+6,73,26,77,MI,Kalamazoo County,20,29,1469
+6,73,29,19,MO,Boone County,20,28,939
+6,73,31,153,NE,Sarpy County,20,41,1243
+6,73,36,91,NY,Saratoga County,20,36,1734
+6,73,42,95,PA,Northampton County,20,29,1705
+6,73,46,99,SD,Minnehaha County,20,30,1542
+6,73,46,103,SD,Pennington County,20,39,1801
+6,73,58,0,SS,Other flows - Same State,137,209,9659
+6,73,59,0,DS,Other flows - Different State,6173,10094,470880
+6,73,59,1,DS,Other flows - Northeast,750,1108,52649
+6,73,59,3,DS,Other flows - Midwest,1664,2621,154771
+6,73,59,5,DS,Other flows - South,2676,4515,151144
+6,73,59,7,DS,Other flows - West,1083,1850,112317
+6,73,57,9,FR,Foreign - Other flows,-1,-1,-1
+6,75,96,0,CA,San Francisco County Total Migration-US and Foreign,33804,41379,6917590
+6,75,97,0,CA,San Francisco County Total Migration-US,33780,41328,6915084
+6,75,97,1,CA,San Francisco County Total Migration-Same State,20529,25856,4151602
+6,75,97,3,CA,San Francisco County Total Migration-Different State,13251,15472,2763483
+6,75,98,0,CA,San Francisco County Total Migration-Foreign,24,51,2505
+6,75,6,75,CA,San Francisco County Non-migrants,353959,577572,95760063
+6,75,6,1,CA,Alameda County,3743,4586,627590
+6,75,6,81,CA,San Mateo County,3666,5148,905858
+6,75,6,85,CA,Santa Clara County,3290,3872,1004111
+6,75,6,37,CA,Los Angeles County,1906,2200,288938
+6,75,6,13,CA,Contra Costa County,1580,2216,194985
+6,75,6,41,CA,Marin County,894,1183,235096
+6,75,6,73,CA,San Diego County,878,995,111871
+6,75,53,33,WA,King County,760,868,155241
+6,75,36,61,NY,New York County,756,891,186867
+6,75,17,31,IL,Cook County,728,830,103725
+6,75,6,59,CA,Orange County,654,765,85048
+6,75,6,67,CA,Sacramento County,610,744,59051
+6,75,6,97,CA,Sonoma County,466,580,78382
+6,75,25,17,MA,Middlesex County,413,470,59801
+6,75,36,47,NY,Kings County,410,503,101398
+6,75,25,25,MA,Suffolk County,324,361,59685
+6,75,6,95,CA,Solano County,317,468,25399
+6,75,11,1,DC,District of Columbia,268,300,37359
+6,75,4,13,AZ,Maricopa County,239,283,44048
+6,75,6,87,CA,Santa Cruz County,235,274,28928
+6,75,6,77,CA,San Joaquin County,230,314,18754
+6,75,41,51,OR,Multnomah County,218,253,26157
+6,75,42,101,PA,Philadelphia County,205,236,26831
+6,75,48,453,TX,Travis County,203,233,35597
+6,75,8,31,CO,Denver County,201,227,31516
+6,75,6,65,CA,Riverside County,198,230,20848
+6,75,48,201,TX,Harris County,180,221,24013
+6,75,48,113,TX,Dallas County,176,211,31420
+6,75,13,121,GA,Fulton County,168,191,33408
+6,75,15,3,HI,Honolulu County,163,207,18649
+6,75,6,83,CA,Santa Barbara County,156,178,33659
+6,75,32,3,NV,Clark County,154,202,28107
+6,75,42,3,PA,Allegheny County,143,152,17057
+6,75,12,86,FL,Miami-Dade County,142,186,26130
+6,75,27,53,MN,Hennepin County,141,154,18756
+6,75,6,53,CA,Monterey County,140,177,22036
+6,75,6,61,CA,Placer County,140,172,37445
+6,75,36,81,NY,Queens County,135,161,15261
+6,75,6,113,CA,Yolo County,126,151,10003
+6,75,6,55,CA,Napa County,125,155,27526
+6,75,6,71,CA,San Bernardino County,119,139,9146
+6,75,6,99,CA,Stanislaus County,117,153,8370
+6,75,6,19,CA,Fresno County,115,149,8488
+6,75,6,79,CA,San Luis Obispo County,115,128,12224
+6,75,51,59,VA,Fairfax County,115,128,17902
+6,75,34,17,NJ,Hudson County,109,133,19911
+6,75,49,35,UT,Salt Lake County,107,140,14453
+6,75,6,111,CA,Ventura County,105,121,14536
+6,75,24,31,MD,Montgomery County,102,116,15847
+6,75,26,125,MI,Oakland County,101,118,16561
+6,75,32,31,NV,Washoe County,98,115,28703
+6,75,6,17,CA,El Dorado County,89,113,14449
+6,75,8,13,CO,Boulder County,87,101,7037
+6,75,25,21,MA,Norfolk County,86,92,13745
+6,75,51,13,VA,Arlington County,83,93,10901
+6,75,37,183,NC,Wake County,82,92,10393
+6,75,39,49,OH,Franklin County,82,93,9158
+6,75,9,190,CT,Western Connecticut Planning Regi,77,86,10870
+6,75,12,11,FL,Broward County,77,86,8177
+6,75,26,161,MI,Washtenaw County,75,80,8949
+6,75,37,63,NC,Durham County,71,87,6775
+6,75,34,23,NJ,Middlesex County,68,77,9885
+6,75,48,85,TX,Collin County,67,76,8695
+6,75,9,170,CT,South Central Connecticut Plannin,66,76,6269
+6,75,41,67,OR,Washington County,66,79,11664
+6,75,6,29,CA,Kern County,64,78,5003
+6,75,55,25,WI,Dane County,64,73,6736
+6,75,37,119,NC,Mecklenburg County,63,76,8401
+6,75,39,35,OH,Cuyahoga County,63,72,8587
+6,75,6,57,CA,Nevada County,61,70,12076
+6,75,36,119,NY,Westchester County,61,74,9467
+6,75,12,99,FL,Palm Beach County,59,67,6852
+6,75,34,3,NJ,Bergen County,59,67,5481
+6,75,24,510,MD,Baltimore city,56,74,6697
+6,75,36,59,NY,Nassau County,55,62,7111
+6,75,17,43,IL,DuPage County,53,64,8806
+6,75,36,103,NY,Suffolk County,53,58,8419
+6,75,4,19,AZ,Pima County,52,57,6992
+6,75,26,163,MI,Wayne County,51,68,5665
+6,75,48,439,TX,Tarrant County,49,59,3516
+6,75,13,89,GA,DeKalb County,48,62,4447
+6,75,34,21,NJ,Mercer County,48,53,6574
+6,75,47,37,TN,Davidson County,48,57,6662
+6,75,48,157,TX,Fort Bend County,47,48,5498
+6,75,12,95,FL,Orange County,46,63,6219
+6,75,39,61,OH,Hamilton County,45,50,5180
+6,75,6,47,CA,Merced County,44,55,2814
+6,75,25,9,MA,Essex County,44,48,10079
+6,75,44,7,RI,Providence County,44,48,4723
+6,75,51,107,VA,Loudoun County,43,51,5900
+6,75,53,53,WA,Pierce County,42,50,3739
+6,75,42,91,PA,Montgomery County,40,44,5740
+6,75,8,59,CO,Jefferson County,39,44,5424
+6,75,29,189,MO,St. Louis County,39,50,4366
+6,75,29,510,MO,St. Louis city,39,45,4671
+6,75,53,61,WA,Snohomish County,39,43,6129
+6,75,8,5,CO,Arapahoe County,38,43,3663
+6,75,48,29,TX,Bexar County,38,44,3272
+6,75,6,7,CA,Butte County,37,46,2805
+6,75,6,45,CA,Mendocino County,37,43,4800
+6,75,12,57,FL,Hillsborough County,37,39,2897
+6,75,48,491,TX,Williamson County,37,48,6749
+6,75,17,97,IL,Lake County,36,41,5988
+6,75,20,91,KS,Johnson County,36,41,4421
+6,75,25,27,MA,Worcester County,35,38,4678
+6,75,6,23,CA,Humboldt County,34,41,4344
+6,75,55,79,WI,Milwaukee County,34,40,3441
+6,75,12,103,FL,Pinellas County,33,41,5182
+6,75,13,67,GA,Cobb County,33,36,3711
+6,75,13,135,GA,Gwinnett County,33,39,4175
+6,75,22,71,LA,Orleans Parish,33,40,3707
+6,75,34,13,NJ,Essex County,33,36,4847
+6,75,27,123,MN,Ramsey County,32,40,4766
+6,75,34,35,NJ,Somerset County,32,37,4481
+6,75,41,39,OR,Lane County,32,38,2582
+6,75,6,107,CA,Tulare County,31,36,2352
+6,75,42,29,PA,Chester County,31,39,5193
+6,75,17,19,IL,Champaign County,30,33,2346
+6,75,41,17,OR,Deschutes County,30,31,3455
+6,75,36,29,NY,Erie County,29,34,3046
+6,75,19,153,IA,Polk County,28,34,2173
+6,75,34,25,NJ,Monmouth County,28,31,3983
+6,75,35,1,NM,Bernalillo County,28,35,3864
+6,75,51,760,VA,Richmond city,28,33,2846
+6,75,21,111,KY,Jefferson County,27,30,3051
+6,75,9,110,CT,Capitol Planning Region,26,26,2930
+6,75,36,109,NY,Tompkins County,26,28,2555
+6,75,48,121,TX,Denton County,26,30,2716
+6,75,49,43,UT,Summit County,26,40,7804
+6,75,8,41,CO,El Paso County,25,37,1538
+6,75,23,5,ME,Cumberland County,25,28,3317
+6,75,33,9,NH,Grafton County,25,26,2995
+6,75,36,55,NY,Monroe County,25,27,2498
+6,75,25,15,MA,Hampshire County,24,27,3685
+6,75,31,55,NE,Douglas County,24,32,3730
+6,75,37,135,NC,Orange County,24,27,2308
+6,75,53,11,WA,Clark County,24,26,2300
+6,75,57,5,FR,Foreign - APO/FPO ZIPs,24,51,2505
+6,75,6,33,CA,Lake County,23,31,2456
+6,75,18,97,IN,Marion County,23,26,1703
+6,75,34,27,NJ,Morris County,23,29,6624
+6,75,42,45,PA,Delaware County,23,23,3463
+6,75,45,19,SC,Charleston County,23,24,3454
+6,75,8,35,CO,Douglas County,22,24,4007
+6,75,18,157,IN,Tippecanoe County,22,28,1746
+6,75,24,27,MD,Howard County,22,23,2069
+6,75,36,5,NY,Bronx County,22,29,1555
+6,75,41,29,OR,Jackson County,22,25,2802
+6,75,6,89,CA,Shasta County,21,24,1605
+6,75,6,109,CA,Tuolumne County,21,32,2003
+6,75,8,69,CO,Larimer County,21,25,2949
+6,75,29,95,MO,Jackson County,21,31,1653
+6,75,41,5,OR,Clackamas County,21,21,1754
+6,75,47,157,TN,Shelby County,21,25,2902
+6,75,49,49,UT,Utah County,21,30,1556
+6,75,50,7,VT,Chittenden County,21,23,2338
+6,75,6,31,CA,Kings County,20,25,836
+6,75,12,31,FL,Duval County,20,25,2482
+6,75,24,5,MD,Baltimore County,20,28,3932
+6,75,26,81,MI,Kent County,20,21,1833
+6,75,34,39,NJ,Union County,20,21,3475
+6,75,58,0,SS,Other flows - Same State,122,165,26876
+6,75,59,0,DS,Other flows - Different State,2597,3074,488242
+6,75,59,1,DS,Other flows - Northeast,502,572,72999
+6,75,59,3,DS,Other flows - Midwest,600,701,73351
+6,75,59,5,DS,Other flows - South,1020,1221,244018
+6,75,59,7,DS,Other flows - West,475,580,97874
+6,75,57,9,FR,Foreign - Other flows,-1,-1,-1
+6,77,96,0,CA,San Joaquin County Total Migration-US and Foreign,16617,32908,1445778
+6,77,97,0,CA,San Joaquin County Total Migration-US,16587,32864,1444561
+6,77,97,1,CA,San Joaquin County Total Migration-Same State,14092,28487,1294520
+6,77,97,3,CA,San Joaquin County Total Migration-Different State,2495,4377,150041
+6,77,98,0,CA,San Joaquin County Total Migration-Foreign,30,44,1217
+6,77,6,77,CA,San Joaquin County Non-migrants,282567,609147,22781300
+6,77,6,1,CA,Alameda County,3895,8884,452711
+6,77,6,85,CA,Santa Clara County,2567,5780,341654
+6,77,6,99,CA,Stanislaus County,1551,2865,89231
+6,77,6,67,CA,Sacramento County,1274,2198,71855
+6,77,6,13,CA,Contra Costa County,1091,2155,88741
+6,77,6,81,CA,San Mateo County,484,1016,45257
+6,77,6,37,CA,Los Angeles County,326,575,20744
+6,77,6,95,CA,Solano County,273,476,18143
+6,77,6,47,CA,Merced County,220,435,11376
+6,77,6,19,CA,Fresno County,204,350,11530
+6,77,6,75,CA,San Francisco County,203,323,15232
+6,77,6,73,CA,San Diego County,182,336,11673
+6,77,6,9,CA,Calaveras County,133,237,8161
+6,77,6,59,CA,Orange County,128,230,8577
+6,77,6,65,CA,Riverside County,124,236,7235
+6,77,32,3,NV,Clark County,121,231,4583
+6,77,4,13,AZ,Maricopa County,116,198,6171
+6,77,6,53,CA,Monterey County,115,190,6635
+6,77,6,29,CA,Kern County,113,196,5543
+6,77,6,71,CA,San Bernardino County,101,166,4995
+6,77,32,31,NV,Washoe County,90,149,5510
+6,77,6,61,CA,Placer County,88,134,6180
+6,77,6,113,CA,Yolo County,80,124,4106
+6,77,6,5,CA,Amador County,77,134,3891
+6,77,6,97,CA,Sonoma County,69,105,6386
+6,77,53,33,WA,King County,65,100,5298
+6,77,6,107,CA,Tulare County,63,112,2815
+6,77,6,87,CA,Santa Cruz County,61,101,4025
+6,77,6,109,CA,Tuolumne County,56,84,4389
+6,77,6,17,CA,El Dorado County,52,86,4035
+6,77,6,39,CA,Madera County,51,91,2484
+6,77,15,3,HI,Honolulu County,49,97,2528
+6,77,6,7,CA,Butte County,45,62,1921
+6,77,48,201,TX,Harris County,44,74,2531
+6,77,6,41,CA,Marin County,43,92,3996
+6,77,36,81,NY,Queens County,42,57,1612
+6,77,6,111,CA,Ventura County,40,74,4279
+6,77,6,101,CA,Sutter County,37,65,1854
+6,77,6,83,CA,Santa Barbara County,35,51,1653
+6,77,6,89,CA,Shasta County,33,56,1808
+6,77,53,53,WA,Pierce County,33,60,1915
+6,77,6,31,CA,Kings County,31,45,804
+6,77,57,5,FR,Foreign - APO/FPO ZIPs,30,44,1217
+6,77,6,79,CA,San Luis Obispo County,29,37,1253
+6,77,53,61,WA,Snohomish County,29,61,3377
+6,77,17,31,IL,Cook County,28,56,2194
+6,77,6,69,CA,San Benito County,25,45,3067
+6,77,6,23,CA,Humboldt County,24,34,1610
+6,77,6,115,CA,Yuba County,24,44,902
+6,77,48,453,TX,Travis County,23,40,2877
+6,77,4,19,AZ,Pima County,22,40,1261
+6,77,48,113,TX,Dallas County,20,31,1130
+6,77,58,0,SS,Other flows - Same State,145,265,8743
+6,77,59,0,DS,Other flows - Different State,1813,3183,109052
+6,77,59,1,DS,Other flows - Northeast,214,354,16034
+6,77,59,3,DS,Other flows - Midwest,307,552,19436
+6,77,59,5,DS,Other flows - South,708,1298,44965
+6,77,59,7,DS,Other flows - West,584,979,28618
+6,77,57,9,FR,Foreign - Other flows,-1,-1,-1
+6,79,96,0,CA,San Luis Obispo County Total Migration-US and Foreign,6742,10672,701045
+6,79,97,0,CA,San Luis Obispo County Total Migration-US,6742,10672,701045
+6,79,97,1,CA,San Luis Obispo County Total Migration-Same State,5077,8054,541889
+6,79,97,3,CA,San Luis Obispo County Total Migration-Different State,1665,2618,159156
+6,79,6,79,CA,San Luis Obispo County Non-migrants,109250,208055,12329158
+6,79,6,83,CA,Santa Barbara County,811,1412,55464
+6,79,6,37,CA,Los Angeles County,688,1047,79951
+6,79,6,29,CA,Kern County,335,521,25048
+6,79,6,19,CA,Fresno County,300,499,31879
+6,79,6,59,CA,Orange County,285,441,35723
+6,79,6,73,CA,San Diego County,278,404,23337
+6,79,6,85,CA,Santa Clara County,277,458,57515
+6,79,6,111,CA,Ventura County,185,287,27050
+6,79,6,53,CA,Monterey County,181,294,12027
+6,79,6,107,CA,Tulare County,165,276,14355
+6,79,6,1,CA,Alameda County,142,223,22775
+6,79,6,67,CA,Sacramento County,130,182,9828
+6,79,6,65,CA,Riverside County,129,199,13912
+6,79,6,71,CA,San Bernardino County,128,203,12705
+6,79,6,13,CA,Contra Costa County,123,207,19158
+6,79,6,87,CA,Santa Cruz County,92,131,11287
+6,79,4,13,AZ,Maricopa County,81,136,12301
+6,79,6,75,CA,San Francisco County,80,110,13991
+6,79,6,31,CA,Kings County,76,131,6182
+6,79,6,81,CA,San Mateo County,74,132,13713
+6,79,6,97,CA,Sonoma County,53,88,5736
+6,79,32,3,NV,Clark County,51,70,3675
+6,79,6,99,CA,Stanislaus County,49,78,3551
+6,79,6,61,CA,Placer County,46,67,4777
+6,79,6,77,CA,San Joaquin County,40,59,4720
+6,79,6,17,CA,El Dorado County,39,53,4004
+6,79,41,51,OR,Multnomah County,39,51,2524
+6,79,53,33,WA,King County,36,55,6536
+6,79,6,7,CA,Butte County,34,40,1573
+6,79,6,41,CA,Marin County,29,44,4573
+6,79,4,19,AZ,Pima County,28,46,2485
+6,79,6,57,CA,Nevada County,28,49,3395
+6,79,32,31,NV,Washoe County,28,42,2127
+6,79,6,39,CA,Madera County,27,47,2057
+6,79,6,113,CA,Yolo County,26,38,1569
+6,79,17,31,IL,Cook County,23,32,1696
+6,79,6,89,CA,Shasta County,22,30,1449
+6,79,6,95,CA,Solano County,20,33,1219
+6,79,58,0,SS,Other flows - Same State,185,273,4804
+6,79,59,0,DS,Other flows - Different State,1379,2186,127814
+6,79,59,1,DS,Other flows - Northeast,152,235,15186
+6,79,59,3,DS,Other flows - Midwest,220,368,18295
+6,79,59,5,DS,Other flows - South,388,579,36174
+6,79,59,7,DS,Other flows - West,619,1004,58159
+6,79,57,9,FR,Foreign - Other flows,-1,-1,-1
+6,81,96,0,CA,San Mateo County Total Migration-US and Foreign,22436,33547,4748265
+6,81,97,0,CA,San Mateo County Total Migration-US,22416,33514,4746568
+6,81,97,1,CA,San Mateo County Total Migration-Same State,16444,25095,3798438
+6,81,97,3,CA,San Mateo County Total Migration-Different State,5972,8419,948130
+6,81,98,0,CA,San Mateo County Total Migration-Foreign,20,33,1698
+6,81,6,81,CA,San Mateo County Non-migrants,301797,586572,100683917
+6,81,6,75,CA,San Francisco County,4913,7784,1155334
+6,81,6,85,CA,Santa Clara County,4213,6543,1604065
+6,81,6,1,CA,Alameda County,2139,3228,351083
+6,81,6,37,CA,Los Angeles County,955,1289,126662
+6,81,6,13,CA,Contra Costa County,829,1303,101267
+6,81,6,73,CA,San Diego County,415,567,51434
+6,81,6,67,CA,Sacramento County,369,537,28832
+6,81,53,33,WA,King County,338,460,69399
+6,81,6,59,CA,Orange County,315,426,40982
+6,81,17,31,IL,Cook County,230,299,58143
+6,81,6,95,CA,Solano County,219,339,20646
+6,81,6,77,CA,San Joaquin County,200,324,14881
+6,81,6,41,CA,Marin County,194,271,54133
+6,81,25,17,MA,Middlesex County,191,288,32216
+6,81,6,97,CA,Sonoma County,182,250,28805
+6,81,36,61,NY,New York County,176,247,35275
+6,81,4,13,AZ,Maricopa County,157,207,14095
+6,81,6,87,CA,Santa Cruz County,148,198,49447
+6,81,6,65,CA,Riverside County,126,185,20084
+6,81,32,3,NV,Clark County,116,193,10087
+6,81,6,99,CA,Stanislaus County,109,209,6749
+6,81,6,113,CA,Yolo County,108,131,8186
+6,81,25,25,MA,Suffolk County,105,128,15654
+6,81,6,61,CA,Placer County,100,159,13584
+6,81,48,453,TX,Travis County,97,137,27636
+6,81,6,71,CA,San Bernardino County,95,148,8926
+6,81,42,3,PA,Allegheny County,95,113,11190
+6,81,48,201,TX,Harris County,92,143,21479
+6,81,6,53,CA,Monterey County,84,115,10832
+6,81,15,3,HI,Honolulu County,83,115,7242
+6,81,34,17,NJ,Hudson County,81,117,20289
+6,81,6,111,CA,Ventura County,74,107,21887
+6,81,41,51,OR,Multnomah County,74,92,7403
+6,81,48,113,TX,Dallas County,71,108,15297
+6,81,36,47,NY,Kings County,69,85,9974
+6,81,36,81,NY,Queens County,69,90,7189
+6,81,42,101,PA,Philadelphia County,67,82,5996
+6,81,6,19,CA,Fresno County,66,106,5947
+6,81,6,83,CA,Santa Barbara County,66,89,10944
+6,81,26,161,MI,Washtenaw County,63,74,5653
+6,81,32,31,NV,Washoe County,63,94,8545
+6,81,13,121,GA,Fulton County,62,86,10950
+6,81,51,59,VA,Fairfax County,60,90,9104
+6,81,11,1,DC,District of Columbia,59,71,6561
+6,81,24,31,MD,Montgomery County,56,91,9340
+6,81,6,17,CA,El Dorado County,54,77,6373
+6,81,8,31,CO,Denver County,53,67,5746
+6,81,6,55,CA,Napa County,52,74,8621
+6,81,6,47,CA,Merced County,51,91,3567
+6,81,6,29,CA,Kern County,50,85,3574
+6,81,27,53,MN,Hennepin County,50,77,7135
+6,81,49,35,UT,Salt Lake County,48,78,6549
+6,81,12,86,FL,Miami-Dade County,46,75,3303
+6,81,26,125,MI,Oakland County,46,55,7257
+6,81,41,67,OR,Washington County,43,61,5786
+6,81,6,79,CA,San Luis Obispo County,38,52,4891
+6,81,37,63,NC,Durham County,38,52,3480
+6,81,55,25,WI,Dane County,37,43,2781
+6,81,26,163,MI,Wayne County,36,62,4506
+6,81,34,3,NJ,Bergen County,36,55,6395
+6,81,6,57,CA,Nevada County,35,66,8259
+6,81,12,11,FL,Broward County,35,51,4061
+6,81,39,35,OH,Cuyahoga County,35,53,4334
+6,81,48,85,TX,Collin County,35,54,4167
+6,81,4,19,AZ,Pima County,34,44,3253
+6,81,25,21,MA,Norfolk County,34,50,4290
+6,81,48,439,TX,Tarrant County,34,60,4508
+6,81,13,89,GA,DeKalb County,33,48,3440
+6,81,37,183,NC,Wake County,32,41,3272
+6,81,6,7,CA,Butte County,31,33,1532
+6,81,17,19,IL,Champaign County,31,38,3974
+6,81,8,13,CO,Boulder County,30,33,7470
+6,81,36,119,NY,Westchester County,29,39,7567
+6,81,39,49,OH,Franklin County,29,40,4169
+6,81,29,189,MO,St. Louis County,28,44,3353
+6,81,36,103,NY,Suffolk County,28,42,3438
+6,81,8,5,CO,Arapahoe County,27,39,2804
+6,81,9,170,CT,South Central Connecticut Plannin,27,37,4375
+6,81,36,55,NY,Monroe County,27,36,2667
+6,81,48,29,TX,Bexar County,27,34,3278
+6,81,49,49,UT,Utah County,27,40,2819
+6,81,51,13,VA,Arlington County,26,29,5085
+6,81,6,107,CA,Tulare County,25,43,1492
+6,81,12,99,FL,Palm Beach County,25,43,3196
+6,81,34,23,NJ,Middlesex County,25,27,2844
+6,81,36,59,NY,Nassau County,25,36,4895
+6,81,9,190,CT,Western Connecticut Planning Regi,24,43,8699
+6,81,17,43,IL,DuPage County,24,31,3043
+6,81,34,21,NJ,Mercer County,24,32,4292
+6,81,53,61,WA,Snohomish County,24,34,4439
+6,81,12,57,FL,Hillsborough County,23,28,3024
+6,81,24,510,MD,Baltimore city,23,27,2340
+6,81,36,109,NY,Tompkins County,23,29,2302
+6,81,18,157,IN,Tippecanoe County,22,29,2066
+6,81,41,5,OR,Clackamas County,22,33,2710
+6,81,42,91,PA,Montgomery County,22,30,2770
+6,81,48,491,TX,Williamson County,22,32,3380
+6,81,55,79,WI,Milwaukee County,22,34,2356
+6,81,13,67,GA,Cobb County,21,34,3017
+6,81,6,9,CA,Calaveras County,20,28,2015
+6,81,6,23,CA,Humboldt County,20,25,999
+6,81,35,1,NM,Bernalillo County,20,25,2169
+6,81,47,37,TN,Davidson County,20,26,1865
+6,81,53,53,WA,Pierce County,20,26,2162
+6,81,57,5,FR,Foreign - APO/FPO ZIPs,20,33,1698
+6,81,58,0,SS,Other flows - Same State,149,213,22405
+6,81,59,0,DS,Other flows - Different State,2026,2944,237784
+6,81,59,1,DS,Other flows - Northeast,443,637,63988
+6,81,59,3,DS,Other flows - Midwest,376,542,44610
+6,81,59,5,DS,Other flows - South,771,1151,82170
+6,81,59,7,DS,Other flows - West,436,614,47016
+6,81,57,9,FR,Foreign - Other flows,-1,-1,-1
+6,83,96,0,CA,Santa Barbara County Total Migration-US and Foreign,7989,12591,1352745
+6,83,97,0,CA,Santa Barbara County Total Migration-US,7876,12361,1346534
+6,83,97,1,CA,Santa Barbara County Total Migration-Same State,4928,7671,731335
+6,83,97,3,CA,Santa Barbara County Total Migration-Different State,2948,4690,615199
+6,83,98,0,CA,Santa Barbara County Total Migration-Foreign,113,230,6211
+6,83,6,83,CA,Santa Barbara County Non-migrants,168570,335835,20192443
+6,83,6,37,CA,Los Angeles County,1126,1664,220693
+6,83,6,79,CA,San Luis Obispo County,709,1229,53316
+6,83,6,111,CA,Ventura County,632,998,64571
+6,83,6,73,CA,San Diego County,313,452,23707
+6,83,6,59,CA,Orange County,275,392,25604
+6,83,6,85,CA,Santa Clara County,168,261,65801
+6,83,6,29,CA,Kern County,167,325,21974
+6,83,6,65,CA,Riverside County,150,231,11045
+6,83,6,1,CA,Alameda County,145,202,28262
+6,83,6,71,CA,San Bernardino County,132,216,6149
+6,83,6,75,CA,San Francisco County,121,174,79903
+6,83,57,5,FR,Foreign - APO/FPO ZIPs,113,230,6211
+6,83,4,13,AZ,Maricopa County,110,155,7249
+6,83,6,19,CA,Fresno County,110,195,8029
+6,83,32,3,NV,Clark County,105,164,7372
+6,83,53,33,WA,King County,91,124,17797
+6,83,6,67,CA,Sacramento County,89,124,5671
+6,83,6,13,CA,Contra Costa County,84,139,13412
+6,83,6,81,CA,San Mateo County,79,125,58152
+6,83,6,53,CA,Monterey County,78,120,4067
+6,83,8,41,CO,El Paso County,60,116,4273
+6,83,6,87,CA,Santa Cruz County,55,77,8628
+6,83,17,31,IL,Cook County,55,92,12920
+6,83,15,3,HI,Honolulu County,53,99,3328
+6,83,36,61,NY,New York County,53,67,11312
+6,83,41,51,OR,Multnomah County,52,69,11920
+6,83,8,31,CO,Denver County,47,59,3891
+6,83,6,97,CA,Sonoma County,41,60,2138
+6,83,6,107,CA,Tulare County,41,68,2254
+6,83,4,19,AZ,Pima County,38,50,1963
+6,83,6,99,CA,Stanislaus County,38,68,1996
+6,83,6,41,CA,Marin County,34,47,10751
+6,83,36,47,NY,Kings County,33,41,3956
+6,83,38,101,ND,Ward County,32,70,2047
+6,83,56,21,WY,Laramie County,31,76,1658
+6,83,6,61,CA,Placer County,30,42,2654
+6,83,48,201,TX,Harris County,28,34,2101
+6,83,25,17,MA,Middlesex County,27,37,2380
+6,83,6,7,CA,Butte County,26,32,933
+6,83,49,35,UT,Salt Lake County,26,44,4317
+6,83,48,453,TX,Travis County,25,34,2242
+6,83,25,25,MA,Suffolk County,24,29,3154
+6,83,6,47,CA,Merced County,23,29,1008
+6,83,6,77,CA,San Joaquin County,22,43,1209
+6,83,11,1,DC,District of Columbia,22,37,2497
+6,83,30,13,MT,Cascade County,22,38,1146
+6,83,48,29,TX,Bexar County,22,46,1095
+6,83,53,53,WA,Pierce County,22,40,1739
+6,83,41,17,OR,Deschutes County,21,32,3655
+6,83,4,25,AZ,Yavapai County,20,24,1237
+6,83,6,17,CA,El Dorado County,20,26,1286
+6,83,8,13,CO,Boulder County,20,37,2236
+6,83,58,0,SS,Other flows - Same State,220,338,12797
+6,83,59,0,DS,Other flows - Different State,1909,3083,247732
+6,83,59,1,DS,Other flows - Northeast,270,411,42868
+6,83,59,3,DS,Other flows - Midwest,346,525,72209
+6,83,59,5,DS,Other flows - South,699,1205,69254
+6,83,59,7,DS,Other flows - West,594,942,63400
+6,83,57,9,FR,Foreign - Other flows,-1,-1,-1
+6,85,96,0,CA,Santa Clara County Total Migration-US and Foreign,45121,66991,8301047
+6,85,97,0,CA,Santa Clara County Total Migration-US,45074,66899,8297899
+6,85,97,1,CA,Santa Clara County Total Migration-Same State,25699,39059,4891077
+6,85,97,3,CA,Santa Clara County Total Migration-Different State,19375,27840,3406822
+6,85,98,0,CA,Santa Clara County Total Migration-Foreign,47,92,3148
+6,85,6,85,CA,Santa Clara County Non-migrants,760602,1513782,203847228
+6,85,6,1,CA,Alameda County,5221,8248,1032601
+6,85,6,81,CA,San Mateo County,4305,6869,1255517
+6,85,6,37,CA,Los Angeles County,2388,3209,546738
+6,85,6,75,CA,San Francisco County,2181,2960,762482
+6,85,53,33,WA,King County,1356,1903,342689
+6,85,6,73,CA,San Diego County,1208,1705,165801
+6,85,6,13,CA,Contra Costa County,1104,1685,159565
+6,85,6,59,CA,Orange County,1019,1448,130624
+6,85,6,67,CA,Sacramento County,1009,1500,89300
+6,85,6,87,CA,Santa Cruz County,966,1444,108123
+6,85,6,77,CA,San Joaquin County,816,1445,60428
+6,85,6,53,CA,Monterey County,642,1003,59516
+6,85,17,31,IL,Cook County,607,840,93123
+6,85,4,13,AZ,Maricopa County,584,850,89493
+6,85,25,17,MA,Middlesex County,580,824,93069
+6,85,6,69,CA,San Benito County,517,929,34071
+6,85,6,99,CA,Stanislaus County,465,838,23754
+6,85,36,61,NY,New York County,410,562,407107
+6,85,6,47,CA,Merced County,409,757,22484
+6,85,42,3,PA,Allegheny County,392,463,63217
+6,85,6,65,CA,Riverside County,370,524,35028
+6,85,48,453,TX,Travis County,359,492,65164
+6,85,34,17,NJ,Hudson County,357,496,69914
+6,85,6,19,CA,Fresno County,333,496,21738
+6,85,32,3,NV,Clark County,316,506,38769
+6,85,48,201,TX,Harris County,311,487,43781
+6,85,25,25,MA,Suffolk County,308,372,64367
+6,85,13,121,GA,Fulton County,248,320,44779
+6,85,6,97,CA,Sonoma County,243,332,18900
+6,85,48,85,TX,Collin County,243,376,36356
+6,85,6,71,CA,San Bernardino County,240,343,19409
+6,85,37,183,NC,Wake County,239,305,30468
+6,85,6,95,CA,Solano County,234,344,16001
+6,85,41,67,OR,Washington County,234,403,39078
+6,85,26,161,MI,Washtenaw County,229,293,22400
+6,85,6,61,CA,Placer County,216,316,34679
+6,85,26,125,MI,Oakland County,215,353,29779
+6,85,36,47,NY,Kings County,212,280,40857
+6,85,6,83,CA,Santa Barbara County,208,280,26539
+6,85,36,81,NY,Queens County,204,285,29933
+6,85,48,113,TX,Dallas County,203,270,29151
+6,85,6,113,CA,Yolo County,196,247,12316
+6,85,51,59,VA,Fairfax County,193,259,26362
+6,85,42,101,PA,Philadelphia County,190,229,18653
+6,85,17,19,IL,Champaign County,172,206,17621
+6,85,32,31,NV,Washoe County,167,255,32204
+6,85,6,111,CA,Ventura County,165,233,20388
+6,85,24,31,MD,Montgomery County,163,260,27301
+6,85,6,79,CA,San Luis Obispo County,154,213,14727
+6,85,27,53,MN,Hennepin County,154,231,24184
+6,85,15,3,HI,Honolulu County,153,221,16538
+6,85,6,41,CA,Marin County,152,239,53086
+6,85,41,51,OR,Multnomah County,152,213,18090
+6,85,49,35,UT,Salt Lake County,143,219,16780
+6,85,12,86,FL,Miami-Dade County,133,197,19068
+6,85,6,29,CA,Kern County,132,201,10441
+6,85,11,1,DC,District of Columbia,124,151,14145
+6,85,25,21,MA,Norfolk County,114,161,16421
+6,85,6,17,CA,El Dorado County,113,175,14638
+6,85,34,23,NJ,Middlesex County,113,173,13931
+6,85,36,55,NY,Monroe County,111,134,8784
+6,85,48,439,TX,Tarrant County,111,155,9755
+6,85,53,61,WA,Snohomish County,111,195,17737
+6,85,39,49,OH,Franklin County,109,139,10970
+6,85,48,41,TX,Brazos County,107,125,10729
+6,85,12,11,FL,Broward County,106,151,16719
+6,85,4,19,AZ,Pima County,104,143,9577
+6,85,55,25,WI,Dane County,104,131,10838
+6,85,12,95,FL,Orange County,96,132,10547
+6,85,8,13,CO,Boulder County,94,136,17265
+6,85,36,103,NY,Suffolk County,94,134,11147
+6,85,8,31,CO,Denver County,92,127,12762
+6,85,26,163,MI,Wayne County,92,139,11390
+6,85,18,157,IN,Tippecanoe County,91,107,7455
+6,85,16,1,ID,Ada County,90,158,14027
+6,85,34,3,NJ,Bergen County,90,155,15259
+6,85,37,119,NC,Mecklenburg County,90,117,12467
+6,85,48,491,TX,Williamson County,88,162,16408
+6,85,51,13,VA,Arlington County,86,115,11673
+6,85,36,109,NY,Tompkins County,84,104,8626
+6,85,24,33,MD,Prince George's County,82,97,7225
+6,85,12,1,FL,Alachua County,80,104,6743
+6,85,9,170,CT,South Central Connecticut Plannin,78,107,9985
+6,85,42,91,PA,Montgomery County,77,109,18065
+6,85,24,510,MD,Baltimore city,75,87,6410
+6,85,37,63,NC,Durham County,75,95,9970
+6,85,48,121,TX,Denton County,75,119,10363
+6,85,6,7,CA,Butte County,73,90,4769
+6,85,6,107,CA,Tulare County,70,131,5030
+6,85,48,29,TX,Bexar County,68,108,6836
+6,85,48,157,TX,Fort Bend County,68,118,11105
+6,85,17,43,IL,DuPage County,67,100,11237
+6,85,36,29,NY,Erie County,67,79,5725
+6,85,17,97,IL,Lake County,65,108,12228
+6,85,29,189,MO,St. Louis County,65,92,6663
+6,85,42,27,PA,Centre County,65,72,4852
+6,85,8,5,CO,Arapahoe County,64,101,8114
+6,85,13,67,GA,Cobb County,64,88,10132
+6,85,6,39,CA,Madera County,63,89,3795
+6,85,9,190,CT,Western Connecticut Planning Regi,63,99,12204
+6,85,12,99,FL,Palm Beach County,63,107,7999
+6,85,13,89,GA,DeKalb County,62,92,6854
+6,85,25,27,MA,Worcester County,62,92,7753
+6,85,6,55,CA,Napa County,61,89,8280
+6,85,12,57,FL,Hillsborough County,59,86,5708
+6,85,36,59,NY,Nassau County,59,90,9057
+6,85,5,7,AR,Benton County,58,87,11148
+6,85,20,91,KS,Johnson County,58,83,6995
+6,85,36,119,NY,Westchester County,57,96,12002
+6,85,53,53,WA,Pierce County,57,71,3897
+6,85,35,1,NM,Bernalillo County,56,83,5936
+6,85,39,61,OH,Hamilton County,56,88,7046
+6,85,13,135,GA,Gwinnett County,55,75,4588
+6,85,18,97,IN,Marion County,55,69,5607
+6,85,39,35,OH,Cuyahoga County,54,76,6546
+6,85,53,11,WA,Clark County,54,88,6430
+6,85,6,57,CA,Nevada County,53,82,7481
+6,85,8,41,CO,El Paso County,53,83,5594
+6,85,34,27,NJ,Morris County,52,92,16650
+6,85,47,37,TN,Davidson County,52,72,4959
+6,85,55,79,WI,Milwaukee County,52,66,4963
+6,85,51,121,VA,Montgomery County,51,64,3787
+6,85,47,157,TN,Shelby County,48,64,5107
+6,85,49,49,UT,Utah County,48,85,5569
+6,85,8,69,CO,Larimer County,47,65,4971
+6,85,57,5,FR,Foreign - APO/FPO ZIPs,47,92,3148
+6,85,24,5,MD,Baltimore County,46,54,4039
+6,85,41,39,OR,Lane County,46,61,4045
+6,85,44,7,RI,Providence County,46,56,4251
+6,85,8,35,CO,Douglas County,45,84,8291
+6,85,24,27,MD,Howard County,45,67,6370
+6,85,34,21,NJ,Mercer County,45,71,6198
+6,85,6,89,CA,Shasta County,43,67,2772
+6,85,8,59,CO,Jefferson County,43,64,5112
+6,85,9,110,CT,Capitol Planning Region,43,58,4465
+6,85,18,105,IN,Monroe County,43,53,4049
+6,85,27,123,MN,Ramsey County,43,57,3780
+6,85,34,13,NJ,Essex County,42,70,10311
+6,85,6,23,CA,Humboldt County,41,50,2608
+6,85,34,35,NJ,Somerset County,41,65,6107
+6,85,48,141,TX,El Paso County,40,65,3356
+6,85,25,15,MA,Hampshire County,39,45,3305
+6,85,29,510,MO,St. Louis city,39,43,3641
+6,85,26,65,MI,Ingham County,38,45,2962
+6,85,41,5,OR,Clackamas County,36,54,4270
+6,85,51,107,VA,Loudoun County,35,45,3741
+6,85,10,3,DE,New Castle County,34,46,3485
+6,85,12,103,FL,Pinellas County,34,49,5091
+6,85,6,9,CA,Calaveras County,33,66,4044
+6,85,6,31,CA,Kings County,33,64,1831
+6,85,6,45,CA,Mendocino County,33,45,1586
+6,85,19,169,IA,Story County,33,44,2558
+6,85,47,93,TN,Knox County,33,56,3823
+6,85,21,111,KY,Jefferson County,32,43,3405
+6,85,26,99,MI,Macomb County,32,48,3506
+6,85,6,109,CA,Tuolumne County,31,46,2031
+6,85,18,5,IN,Bartholomew County,31,58,4598
+6,85,40,109,OK,Oklahoma County,31,51,4676
+6,85,26,81,MI,Kent County,30,48,2250
+6,85,34,25,NJ,Monmouth County,30,46,3459
+6,85,36,67,NY,Onondaga County,30,34,2575
+6,85,48,339,TX,Montgomery County,30,58,3796
+6,85,36,1,NY,Albany County,29,35,3171
+6,85,41,3,OR,Benton County,29,41,2275
+6,85,41,17,OR,Deschutes County,29,41,4832
+6,85,12,117,FL,Seminole County,28,47,3064
+6,85,15,1,HI,Hawaii County,28,51,3518
+6,85,24,3,MD,Anne Arundel County,28,43,2993
+6,85,29,95,MO,Jackson County,28,40,3234
+6,85,42,29,PA,Chester County,28,40,4181
+6,85,8,1,CO,Adams County,27,39,2335
+6,85,34,39,NJ,Union County,27,46,7712
+6,85,45,45,SC,Greenville County,27,41,3632
+6,85,51,87,VA,Henrico County,27,43,3619
+6,85,31,55,NE,Douglas County,26,45,6011
+6,85,36,5,NY,Bronx County,26,37,3656
+6,85,6,101,CA,Sutter County,25,54,2205
+6,85,17,197,IL,Will County,25,33,2736
+6,85,25,9,MA,Essex County,25,33,2808
+6,85,36,91,NY,Saratoga County,25,39,3438
+6,85,51,810,VA,Virginia Beach city,25,38,2100
+6,85,6,33,CA,Lake County,24,38,2047
+6,85,12,31,FL,Duval County,24,45,2257
+6,85,37,81,NC,Guilford County,24,32,2738
+6,85,15,9,HI,Maui County,23,35,3700
+6,85,20,173,KS,Sedgwick County,23,26,1443
+6,85,33,9,NH,Grafton County,23,33,3712
+6,85,39,165,OH,Warren County,23,38,2208
+6,85,18,57,IN,Hamilton County,22,38,2782
+6,85,18,141,IN,St. Joseph County,22,32,2795
+6,85,36,7,NY,Broome County,22,24,1811
+6,85,37,135,NC,Orange County,22,33,3264
+6,85,41,29,OR,Jackson County,22,34,1390
+6,85,53,63,WA,Spokane County,22,46,3972
+6,85,6,115,CA,Yuba County,21,38,2360
+6,85,8,14,CO,Broomfield County,21,23,1774
+6,85,22,33,LA,East Baton Rouge Parish,21,31,1720
+6,85,33,11,NH,Hillsborough County,21,44,4431
+6,85,40,143,OK,Tulsa County,21,30,1223
+6,85,42,77,PA,Lehigh County,21,38,2281
+6,85,53,67,WA,Thurston County,21,38,2251
+6,85,55,133,WI,Waukesha County,21,40,4109
+6,85,13,117,GA,Forsyth County,20,32,2478
+6,85,31,109,NE,Lancaster County,20,29,2493
+6,85,37,51,NC,Cumberland County,20,31,1379
+6,85,37,67,NC,Forsyth County,20,36,2688
+6,85,58,0,SS,Other flows - Same State,89,137,6144
+6,85,59,0,DS,Other flows - Different State,3260,4925,405273
+6,85,59,1,DS,Other flows - Northeast,524,756,60250
+6,85,59,3,DS,Other flows - Midwest,825,1225,93982
+6,85,59,5,DS,Other flows - South,1296,1987,135133
+6,85,59,7,DS,Other flows - West,615,957,115908
+6,85,57,9,FR,Foreign - Other flows,-1,-1,-1
+6,87,96,0,CA,Santa Cruz County Total Migration-US and Foreign,5671,8782,773412
+6,87,97,0,CA,Santa Cruz County Total Migration-US,5671,8782,773412
+6,87,97,1,CA,Santa Cruz County Total Migration-Same State,4243,6652,624184
+6,87,97,3,CA,Santa Cruz County Total Migration-Different State,1428,2130,149228
+6,87,6,87,CA,Santa Cruz County Non-migrants,104986,200209,14586997
+6,87,6,85,CA,Santa Clara County,1166,1973,308872
+6,87,6,53,CA,Monterey County,528,1002,29990
+6,87,6,1,CA,Alameda County,294,419,37958
+6,87,6,37,CA,Los Angeles County,253,343,21773
+6,87,6,81,CA,San Mateo County,218,346,48095
+6,87,6,75,CA,San Francisco County,201,282,35809
+6,87,6,73,CA,San Diego County,160,215,12188
+6,87,6,13,CA,Contra Costa County,132,199,15867
+6,87,6,67,CA,Sacramento County,113,161,11468
+6,87,6,59,CA,Orange County,86,114,11177
+6,87,6,97,CA,Sonoma County,75,94,5540
+6,87,53,33,WA,King County,69,101,8892
+6,87,6,69,CA,San Benito County,68,126,6547
+6,87,6,65,CA,Riverside County,61,94,3805
+6,87,6,77,CA,San Joaquin County,61,88,5721
+6,87,6,79,CA,San Luis Obispo County,60,75,3232
+6,87,6,83,CA,Santa Barbara County,58,79,3914
+6,87,6,41,CA,Marin County,53,76,11147
+6,87,6,47,CA,Merced County,51,86,1903
+6,87,6,19,CA,Fresno County,46,84,3582
+6,87,6,61,CA,Placer County,45,72,5679
+6,87,6,111,CA,Ventura County,45,65,2851
+6,87,41,51,OR,Multnomah County,39,60,2921
+6,87,6,17,CA,El Dorado County,38,52,4126
+6,87,6,99,CA,Stanislaus County,37,54,1519
+6,87,6,113,CA,Yolo County,37,53,2169
+6,87,6,29,CA,Kern County,33,44,2248
+6,87,6,57,CA,Nevada County,33,47,2712
+6,87,6,71,CA,San Bernardino County,33,54,2571
+6,87,4,13,AZ,Maricopa County,31,51,4283
+6,87,17,31,IL,Cook County,30,37,4221
+6,87,32,3,NV,Clark County,29,43,2021
+6,87,6,95,CA,Solano County,28,41,3348
+6,87,15,3,HI,Honolulu County,27,39,1411
+6,87,6,7,CA,Butte County,26,34,1323
+6,87,36,47,NY,Kings County,25,32,2381
+6,87,32,31,NV,Washoe County,23,32,1463
+6,87,48,453,TX,Travis County,23,36,2490
+6,87,6,23,CA,Humboldt County,22,27,586
+6,87,6,39,CA,Madera County,21,32,1118
+6,87,6,55,CA,Napa County,21,28,2882
+6,87,6,107,CA,Tulare County,21,37,1027
+6,87,58,0,SS,Other flows - Same State,119,167,8621
+6,87,59,0,DS,Other flows - Different State,1132,1701,117367
+6,87,59,1,DS,Other flows - Northeast,193,260,18882
+6,87,59,3,DS,Other flows - Midwest,157,257,15542
+6,87,59,5,DS,Other flows - South,302,457,24598
+6,87,59,7,DS,Other flows - West,480,727,58345
+6,87,57,9,FR,Foreign - Other flows,-1,-1,-1
+6,89,96,0,CA,Shasta County Total Migration-US and Foreign,4078,7165,265927
+6,89,97,0,CA,Shasta County Total Migration-US,4078,7165,265927
+6,89,97,1,CA,Shasta County Total Migration-Same State,2738,4849,180655
+6,89,97,3,CA,Shasta County Total Migration-Different State,1340,2316,85272
+6,89,6,89,CA,Shasta County Non-migrants,64654,128464,5007627
+6,89,6,103,CA,Tehama County,384,702,23292
+6,89,6,67,CA,Sacramento County,214,350,12847
+6,89,6,7,CA,Butte County,175,274,8454
+6,89,6,23,CA,Humboldt County,146,260,7223
+6,89,6,37,CA,Los Angeles County,137,246,8134
+6,89,6,1,CA,Alameda County,114,195,11100
+6,89,6,93,CA,Siskiyou County,106,179,5539
+6,89,6,13,CA,Contra Costa County,105,215,10377
+6,89,6,97,CA,Sonoma County,93,160,7117
+6,89,6,85,CA,Santa Clara County,86,139,9549
+6,89,6,73,CA,San Diego County,78,119,4008
+6,89,6,65,CA,Riverside County,73,126,3496
+6,89,6,95,CA,Solano County,70,114,4749
+6,89,6,61,CA,Placer County,57,101,4729
+6,89,6,59,CA,Orange County,55,96,4553
+6,89,6,105,CA,Trinity County,54,107,3116
+6,89,6,71,CA,San Bernardino County,52,113,2884
+6,89,6,77,CA,San Joaquin County,45,84,2628
+6,89,6,35,CA,Lassen County,40,65,2133
+6,89,6,87,CA,Santa Cruz County,40,78,2654
+6,89,6,111,CA,Ventura County,38,68,3297
+6,89,41,29,OR,Jackson County,35,56,1806
+6,89,41,51,OR,Multnomah County,35,48,1461
+6,89,6,81,CA,San Mateo County,33,52,3431
+6,89,6,19,CA,Fresno County,32,48,1187
+6,89,6,45,CA,Mendocino County,31,60,3404
+6,89,6,29,CA,Kern County,30,61,1912
+6,89,4,13,AZ,Maricopa County,29,53,2450
+6,89,53,33,WA,King County,29,45,1215
+6,89,32,3,NV,Clark County,28,46,1189
+6,89,6,21,CA,Glenn County,27,55,1620
+6,89,6,53,CA,Monterey County,27,44,1327
+6,89,6,57,CA,Nevada County,27,37,1136
+6,89,32,31,NV,Washoe County,27,43,1942
+6,89,6,75,CA,San Francisco County,24,32,2289
+6,89,6,83,CA,Santa Barbara County,24,42,1051
+6,89,6,99,CA,Stanislaus County,24,41,1206
+6,89,6,79,CA,San Luis Obispo County,23,47,1314
+6,89,6,113,CA,Yolo County,23,50,1265
+6,89,6,49,CA,Modoc County,22,36,908
+6,89,41,39,OR,Lane County,22,35,1079
+6,89,6,17,CA,El Dorado County,20,28,1315
+6,89,53,53,WA,Pierce County,20,41,1213
+6,89,58,0,SS,Other flows - Same State,209,426,12340
+6,89,59,0,DS,Other flows - Different State,1115,1953,62982
+6,89,59,1,DS,Other flows - Northeast,89,135,4402
+6,89,59,3,DS,Other flows - Midwest,166,289,7017
+6,89,59,5,DS,Other flows - South,327,574,18049
+6,89,59,7,DS,Other flows - West,533,955,33516
+6,89,57,9,FR,Foreign - Other flows,-1,-1,-1
+6,91,96,0,CA,Sierra County Total Migration-US and Foreign,87,147,6847
+6,91,97,0,CA,Sierra County Total Migration-US,87,147,6847
+6,91,97,1,CA,Sierra County Total Migration-Same State,65,108,5752
+6,91,97,3,CA,Sierra County Total Migration-Different State,22,39,1095
+6,91,6,91,CA,Sierra County Non-migrants,1015,1907,69498
+6,91,58,0,SS,Other flows - Same State,65,108,5752
+6,91,59,0,DS,Other flows - Different State,22,39,1095
+6,91,59,1,DS,Other flows - Northeast,-1,-1,-1
+6,91,59,3,DS,Other flows - Midwest,-1,-1,-1
+6,91,59,5,DS,Other flows - South,-1,-1,-1
+6,91,59,7,DS,Other flows - West,22,39,1095
+6,93,96,0,CA,Siskiyou County Total Migration-US and Foreign,1041,1758,66598
+6,93,97,0,CA,Siskiyou County Total Migration-US,1041,1758,66598
+6,93,97,1,CA,Siskiyou County Total Migration-Same State,615,1075,45901
+6,93,97,3,CA,Siskiyou County Total Migration-Different State,426,683,20698
+6,93,6,93,CA,Siskiyou County Non-migrants,15758,30870,1046823
+6,93,6,89,CA,Shasta County,84,142,4114
+6,93,41,29,OR,Jackson County,56,86,2527
+6,93,6,37,CA,Los Angeles County,44,69,3004
+6,93,6,67,CA,Sacramento County,41,75,2319
+6,93,41,35,OR,Klamath County,41,76,1427
+6,93,6,97,CA,Sonoma County,35,58,2436
+6,93,6,1,CA,Alameda County,26,36,3323
+6,93,6,23,CA,Humboldt County,25,44,1124
+6,93,6,13,CA,Contra Costa County,22,36,1789
+6,93,6,7,CA,Butte County,21,31,1690
+6,93,6,73,CA,San Diego County,21,33,1365
+6,93,58,0,SS,Other flows - Same State,296,551,24736
+6,93,59,0,DS,Other flows - Different State,329,521,16744
+6,93,59,1,DS,Other flows - Northeast,22,30,2053
+6,93,59,3,DS,Other flows - Midwest,44,73,2799
+6,93,59,5,DS,Other flows - South,59,90,2230
+6,93,59,7,DS,Other flows - West,204,328,9662
+6,93,57,9,FR,Foreign - Other flows,-1,-1,-1
+6,95,96,0,CA,Solano County Total Migration-US and Foreign,11976,21275,922114
+6,95,97,0,CA,Solano County Total Migration-US,11803,20898,911818
+6,95,97,1,CA,Solano County Total Migration-Same State,9138,16057,736841
+6,95,97,3,CA,Solano County Total Migration-Different State,2665,4841,174977
+6,95,98,0,CA,Solano County Total Migration-Foreign,173,377,10296
+6,95,6,95,CA,Solano County Non-migrants,173090,341330,15348337
+6,95,6,13,CA,Contra Costa County,2219,4085,197599
+6,95,6,1,CA,Alameda County,1184,2116,111916
+6,95,6,67,CA,Sacramento County,839,1370,52076
+6,95,6,55,CA,Napa County,795,1459,54484
+6,95,6,81,CA,San Mateo County,490,974,49612
+6,95,6,75,CA,San Francisco County,452,734,40663
+6,95,6,113,CA,Yolo County,440,767,30348
+6,95,6,85,CA,Santa Clara County,310,544,34571
+6,95,6,37,CA,Los Angeles County,305,493,18436
+6,95,6,97,CA,Sonoma County,259,431,21242
+6,95,6,77,CA,San Joaquin County,207,347,10900
+6,95,6,41,CA,Marin County,198,362,15095
+6,95,57,5,FR,Foreign - APO/FPO ZIPs,173,377,10296
+6,95,6,73,CA,San Diego County,147,242,9580
+6,95,6,61,CA,Placer County,115,177,11527
+6,95,32,3,NV,Clark County,107,178,5004
+6,95,6,59,CA,Orange County,102,168,7631
+6,95,6,19,CA,Fresno County,91,129,5101
+6,95,4,13,AZ,Maricopa County,88,159,5778
+6,95,6,71,CA,San Bernardino County,75,126,4337
+6,95,6,99,CA,Stanislaus County,72,133,3366
+6,95,6,65,CA,Riverside County,71,132,4398
+6,95,6,53,CA,Monterey County,69,124,4311
+6,95,48,29,TX,Bexar County,65,148,5529
+6,95,32,31,NV,Washoe County,62,97,4064
+6,95,6,29,CA,Kern County,57,96,3120
+6,95,15,3,HI,Honolulu County,57,141,3905
+6,95,6,7,CA,Butte County,55,76,2502
+6,95,53,33,WA,King County,47,68,4416
+6,95,6,17,CA,El Dorado County,41,61,3339
+6,95,6,47,CA,Merced County,38,51,1626
+6,95,8,41,CO,El Paso County,38,76,2869
+6,95,6,33,CA,Lake County,37,60,1881
+6,95,6,87,CA,Santa Cruz County,35,55,3551
+6,95,6,89,CA,Shasta County,34,64,2730
+6,95,6,111,CA,Ventura County,33,55,2040
+6,95,6,83,CA,Santa Barbara County,31,50,2041
+6,95,48,201,TX,Harris County,30,51,2299
+6,95,6,115,CA,Yuba County,28,56,1700
+6,95,6,79,CA,San Luis Obispo County,27,44,2191
+6,95,48,453,TX,Travis County,27,47,2005
+6,95,4,19,AZ,Pima County,26,51,950
+6,95,6,101,CA,Sutter County,26,42,1525
+6,95,6,57,CA,Nevada County,25,43,2216
+6,95,17,31,IL,Cook County,25,39,1924
+6,95,53,53,WA,Pierce County,25,44,1364
+6,95,2,20,AK,Anchorage Municipality,23,44,1303
+6,95,48,141,TX,El Paso County,23,37,846
+6,95,48,439,TX,Tarrant County,23,37,999
+6,95,6,45,CA,Mendocino County,22,36,1246
+6,95,53,35,WA,Kitsap County,22,43,1625
+6,95,6,11,CA,Colusa County,21,47,997
+6,95,12,57,FL,Hillsborough County,21,57,1269
+6,95,6,23,CA,Humboldt County,20,32,1162
+6,95,6,107,CA,Tulare County,20,38,998
+6,95,41,51,OR,Multnomah County,20,23,817
+6,95,53,63,WA,Spokane County,20,43,1235
+6,95,58,0,SS,Other flows - Same State,148,243,9041
+6,95,59,0,DS,Other flows - Different State,1916,3460,124808
+6,95,59,1,DS,Other flows - Northeast,248,408,18458
+6,95,59,3,DS,Other flows - Midwest,372,661,26587
+6,95,59,5,DS,Other flows - South,851,1641,52356
+6,95,59,7,DS,Other flows - West,445,750,27408
+6,97,96,0,CA,Sonoma County Total Migration-US and Foreign,9989,15551,1426608
+6,97,97,0,CA,Sonoma County Total Migration-US,9989,15551,1426608
+6,97,97,1,CA,Sonoma County Total Migration-Same State,7379,11547,1180319
+6,97,97,3,CA,Sonoma County Total Migration-Different State,2610,4004,246290
+6,97,6,97,CA,Sonoma County Non-migrants,203294,384022,23816057
+6,97,6,41,CA,Marin County,1182,1953,143209
+6,97,6,75,CA,San Francisco County,793,1233,274726
+6,97,6,1,CA,Alameda County,622,980,94538
+6,97,6,13,CA,Contra Costa County,408,658,52153
+6,97,6,37,CA,Los Angeles County,396,575,42179
+6,97,6,81,CA,San Mateo County,366,579,99861
+6,97,6,85,CA,Santa Clara County,358,551,83497
+6,97,6,55,CA,Napa County,335,512,37955
+6,97,6,67,CA,Sacramento County,287,444,20931
+6,97,6,45,CA,Mendocino County,262,474,18606
+6,97,6,95,CA,Solano County,258,405,16001
+6,97,6,73,CA,San Diego County,235,359,21928
+6,97,6,33,CA,Lake County,226,364,15675
+6,97,6,59,CA,Orange County,181,268,23140
+6,97,6,61,CA,Placer County,112,164,8960
+6,97,6,65,CA,Riverside County,111,180,7612
+6,97,4,13,AZ,Maricopa County,102,156,8510
+6,97,6,77,CA,San Joaquin County,91,147,5788
+6,97,53,33,WA,King County,91,128,13622
+6,97,6,23,CA,Humboldt County,89,108,4898
+6,97,6,113,CA,Yolo County,85,119,7297
+6,97,32,3,NV,Clark County,80,126,5109
+6,97,6,87,CA,Santa Cruz County,78,108,6944
+6,97,6,79,CA,San Luis Obispo County,77,102,5713
+6,97,32,31,NV,Washoe County,77,107,5478
+6,97,6,57,CA,Nevada County,71,104,9808
+6,97,41,51,OR,Multnomah County,64,89,4344
+6,97,6,7,CA,Butte County,63,82,4202
+6,97,6,17,CA,El Dorado County,61,101,7041
+6,97,6,53,CA,Monterey County,60,87,5572
+6,97,6,71,CA,San Bernardino County,57,85,2917
+6,97,6,111,CA,Ventura County,57,85,4612
+6,97,6,19,CA,Fresno County,56,98,3678
+6,97,6,83,CA,Santa Barbara County,54,68,3049
+6,97,6,99,CA,Stanislaus County,48,68,3368
+6,97,6,89,CA,Shasta County,41,54,1843
+6,97,17,31,IL,Cook County,39,57,6315
+6,97,6,47,CA,Merced County,35,62,2820
+6,97,36,47,NY,Kings County,34,43,4780
+6,97,6,29,CA,Kern County,33,57,3168
+6,97,8,31,CO,Denver County,31,45,3583
+6,97,48,201,TX,Harris County,30,46,2485
+6,97,6,107,CA,Tulare County,29,49,2251
+6,97,48,453,TX,Travis County,29,39,2768
+6,97,4,19,AZ,Pima County,25,35,1486
+6,97,15,3,HI,Honolulu County,24,45,1440
+6,97,36,61,NY,New York County,24,29,2163
+6,97,41,39,OR,Lane County,24,44,1474
+6,97,49,35,UT,Salt Lake County,22,30,1026
+6,97,41,67,OR,Washington County,21,35,1843
+6,97,53,53,WA,Pierce County,20,27,1747
+6,97,58,0,SS,Other flows - Same State,162,268,11241
+6,97,59,0,DS,Other flows - Different State,1873,2925,173663
+6,97,59,1,DS,Other flows - Northeast,285,439,28297
+6,97,59,3,DS,Other flows - Midwest,329,508,38426
+6,97,59,5,DS,Other flows - South,644,1049,64853
+6,97,59,7,DS,Other flows - West,615,929,42087
+6,97,57,9,FR,Foreign - Other flows,-1,-1,-1
+6,99,96,0,CA,Stanislaus County Total Migration-US and Foreign,9263,17734,582142
+6,99,97,0,CA,Stanislaus County Total Migration-US,9242,17695,581093
+6,99,97,1,CA,Stanislaus County Total Migration-Same State,7677,14904,498586
+6,99,97,3,CA,Stanislaus County Total Migration-Different State,1565,2791,82507
+6,99,98,0,CA,Stanislaus County Total Migration-Foreign,21,39,1049
+6,99,6,99,CA,Stanislaus County Non-migrants,198638,427907,14637687
+6,99,6,77,CA,San Joaquin County,2046,4110,134865
+6,99,6,47,CA,Merced County,1001,1966,50806
+6,99,6,85,CA,Santa Clara County,947,1960,70772
+6,99,6,1,CA,Alameda County,910,1963,69885
+6,99,6,67,CA,Sacramento County,279,446,16309
+6,99,6,13,CA,Contra Costa County,273,532,16910
+6,99,6,37,CA,Los Angeles County,270,438,19483
+6,99,6,81,CA,San Mateo County,262,615,18957
+6,99,6,19,CA,Fresno County,183,311,7899
+6,99,6,73,CA,San Diego County,125,204,6865
+6,99,6,109,CA,Tuolumne County,105,181,6547
+6,99,6,75,CA,San Francisco County,95,143,8346
+6,99,6,65,CA,Riverside County,94,162,4101
+6,99,6,53,CA,Monterey County,91,170,7084
+6,99,6,95,CA,Solano County,82,155,5267
+6,99,32,3,NV,Clark County,76,133,2550
+6,99,6,59,CA,Orange County,72,113,3910
+6,99,4,13,AZ,Maricopa County,70,117,2727
+6,99,6,71,CA,San Bernardino County,68,119,4627
+6,99,6,9,CA,Calaveras County,67,107,3941
+6,99,6,29,CA,Kern County,63,104,2297
+6,99,6,87,CA,Santa Cruz County,50,86,2115
+6,99,6,39,CA,Madera County,49,97,2834
+6,99,6,97,CA,Sonoma County,48,89,2721
+6,99,32,31,NV,Washoe County,44,80,1901
+6,99,6,107,CA,Tulare County,40,65,2233
+6,99,6,61,CA,Placer County,39,55,3199
+6,99,6,7,CA,Butte County,38,47,1977
+6,99,6,69,CA,San Benito County,34,63,2811
+6,99,6,111,CA,Ventura County,34,64,3650
+6,99,15,3,HI,Honolulu County,32,65,1564
+6,99,17,31,IL,Cook County,28,55,1287
+6,99,6,83,CA,Santa Barbara County,27,49,1448
+6,99,53,53,WA,Pierce County,27,52,1179
+6,99,6,43,CA,Mariposa County,25,37,1255
+6,99,6,5,CA,Amador County,24,42,1565
+6,99,6,17,CA,El Dorado County,23,35,2057
+6,99,6,113,CA,Yolo County,23,51,1745
+6,99,6,79,CA,San Luis Obispo County,22,36,1617
+6,99,53,33,WA,King County,20,28,1569
+6,99,58,0,SS,Other flows - Same State,168,289,8487
+6,99,59,0,DS,Other flows - Different State,1268,2261,69730
+6,99,59,1,DS,Other flows - Northeast,119,209,6341
+6,99,59,3,DS,Other flows - Midwest,201,349,12681
+6,99,59,5,DS,Other flows - South,472,870,27486
+6,99,59,7,DS,Other flows - West,476,833,23222
+6,99,57,9,FR,Foreign - Other flows,21,39,1049
+6,101,96,0,CA,Sutter County Total Migration-US and Foreign,2157,4045,111726
+6,101,97,0,CA,Sutter County Total Migration-US,2157,4045,111726
+6,101,97,1,CA,Sutter County Total Migration-Same State,1854,3507,96457
+6,101,97,3,CA,Sutter County Total Migration-Different State,303,538,15269
+6,101,6,101,CA,Sutter County Non-migrants,35089,76094,2626621
+6,101,6,115,CA,Yuba County,611,1277,27378
+6,101,6,67,CA,Sacramento County,346,694,17380
+6,101,6,7,CA,Butte County,183,319,9150
+6,101,6,61,CA,Placer County,115,180,7641
+6,101,6,113,CA,Yolo County,59,110,4114
+6,101,6,11,CA,Colusa County,42,81,2225
+6,101,6,13,CA,Contra Costa County,38,59,3559
+6,101,6,37,CA,Los Angeles County,32,59,1174
+6,101,6,85,CA,Santa Clara County,31,60,2044
+6,101,6,1,CA,Alameda County,28,52,1432
+6,101,6,95,CA,Solano County,28,49,1789
+6,101,6,73,CA,San Diego County,26,40,1270
+6,101,6,19,CA,Fresno County,24,38,834
+6,101,6,77,CA,San Joaquin County,21,42,1076
+6,101,6,89,CA,Shasta County,21,30,947
+6,101,58,0,SS,Other flows - Same State,249,417,14443
+6,101,59,0,DS,Other flows - Different State,303,538,15269
+6,101,59,1,DS,Other flows - Northeast,22,31,1123
+6,101,59,3,DS,Other flows - Midwest,51,74,2024
+6,101,59,5,DS,Other flows - South,89,171,4140
+6,101,59,7,DS,Other flows - West,141,262,7982
+6,101,57,9,FR,Foreign - Other flows,-1,-1,-1
+6,103,96,0,CA,Tehama County Total Migration-US and Foreign,1528,2799,82158
+6,103,97,0,CA,Tehama County Total Migration-US,1528,2799,82158
+6,103,97,1,CA,Tehama County Total Migration-Same State,1276,2337,69818
+6,103,97,3,CA,Tehama County Total Migration-Different State,252,462,12341
+6,103,6,103,CA,Tehama County Non-migrants,21714,45754,1478409
+6,103,6,89,CA,Shasta County,360,668,19738
+6,103,6,7,CA,Butte County,210,368,10717
+6,103,6,21,CA,Glenn County,112,243,5122
+6,103,6,67,CA,Sacramento County,65,112,3049
+6,103,6,85,CA,Santa Clara County,38,75,3407
+6,103,6,13,CA,Contra Costa County,37,58,2437
+6,103,6,37,CA,Los Angeles County,32,62,2054
+6,103,6,95,CA,Solano County,32,77,2450
+6,103,6,97,CA,Sonoma County,26,47,1403
+6,103,6,1,CA,Alameda County,24,33,1486
+6,103,6,77,CA,San Joaquin County,24,46,1698
+6,103,6,81,CA,San Mateo County,23,30,1506
+6,103,6,65,CA,Riverside County,20,38,750
+6,103,58,0,SS,Other flows - Same State,273,480,14000
+6,103,59,0,DS,Other flows - Different State,252,462,12341
+6,103,59,1,DS,Other flows - Northeast,-1,-1,-1
+6,103,59,3,DS,Other flows - Midwest,-1,-1,-1
+6,103,59,5,DS,Other flows - South,69,121,2981
+6,103,59,7,DS,Other flows - West,183,341,9360
+6,103,57,9,FR,Foreign - Other flows,-1,-1,-1
+6,105,96,0,CA,Trinity County Total Migration-US and Foreign,257,460,15137
+6,105,97,0,CA,Trinity County Total Migration-US,257,460,15137
+6,105,97,1,CA,Trinity County Total Migration-Same State,196,357,13377
+6,105,97,3,CA,Trinity County Total Migration-Different State,61,103,1760
+6,105,6,105,CA,Trinity County Non-migrants,3629,6855,258486
+6,105,6,89,CA,Shasta County,54,97,3764
+6,105,6,23,CA,Humboldt County,44,92,2950
+6,105,58,0,SS,Other flows - Same State,98,168,6664
+6,105,59,0,DS,Other flows - Different State,61,103,1760
+6,105,59,1,DS,Other flows - Northeast,-1,-1,-1
+6,105,59,3,DS,Other flows - Midwest,25,47,648
+6,105,59,5,DS,Other flows - South,-1,-1,-1
+6,105,59,7,DS,Other flows - West,36,56,1111
+6,105,57,9,FR,Foreign - Other flows,-1,-1,-1
+6,107,96,0,CA,Tulare County Total Migration-US and Foreign,5709,10697,296599
+6,107,97,0,CA,Tulare County Total Migration-US,5709,10697,296599
+6,107,97,1,CA,Tulare County Total Migration-Same State,4317,8215,230748
+6,107,97,3,CA,Tulare County Total Migration-Different State,1392,2482,65851
+6,107,6,107,CA,Tulare County Non-migrants,163536,368920,10070386
+6,107,6,19,CA,Fresno County,1138,2107,58379
+6,107,6,37,CA,Los Angeles County,509,1018,26554
+6,107,6,31,CA,Kings County,444,884,22861
+6,107,6,29,CA,Kern County,435,888,17824
+6,107,6,59,CA,Orange County,157,290,11163
+6,107,6,73,CA,San Diego County,156,296,13840
+6,107,6,85,CA,Santa Clara County,131,225,8221
+6,107,6,65,CA,Riverside County,121,242,6353
+6,107,6,79,CA,San Luis Obispo County,116,172,7030
+6,107,6,67,CA,Sacramento County,113,191,5843
+6,107,6,71,CA,San Bernardino County,103,220,5722
+6,107,6,1,CA,Alameda County,88,151,6052
+6,107,6,111,CA,Ventura County,87,172,4617
+6,107,6,53,CA,Monterey County,81,178,4198
+6,107,6,99,CA,Stanislaus County,79,152,3880
+6,107,4,13,AZ,Maricopa County,63,120,1677
+6,107,6,77,CA,San Joaquin County,61,107,3415
+6,107,32,19,NV,Lyon County,59,80,1058
+6,107,6,83,CA,Santa Barbara County,53,97,2127
+6,107,32,3,NV,Clark County,51,81,3320
+6,107,6,47,CA,Merced County,50,88,1920
+6,107,6,39,CA,Madera County,48,82,1460
+6,107,6,13,CA,Contra Costa County,41,79,3190
+6,107,6,35,CA,Lassen County,31,61,1963
+6,107,6,81,CA,San Mateo County,24,55,1466
+6,107,6,75,CA,San Francisco County,23,42,909
+6,107,6,87,CA,Santa Cruz County,23,47,1231
+6,107,6,95,CA,Solano County,22,39,966
+6,107,6,97,CA,Sonoma County,22,33,864
+6,107,8,41,CO,El Paso County,22,35,985
+6,107,12,61,FL,Indian River County,22,34,399
+6,107,6,113,CA,Yolo County,21,27,972
+6,107,48,201,TX,Harris County,21,38,1365
+6,107,6,61,CA,Placer County,20,44,1079
+6,107,58,0,SS,Other flows - Same State,120,228,6648
+6,107,59,0,DS,Other flows - Different State,1154,2094,57047
+6,107,59,1,DS,Other flows - Northeast,82,146,5348
+6,107,59,3,DS,Other flows - Midwest,184,326,8458
+6,107,59,5,DS,Other flows - South,401,735,17964
+6,107,59,7,DS,Other flows - West,487,887,25277
+6,107,57,9,FR,Foreign - Other flows,-1,-1,-1
+6,109,96,0,CA,Tuolumne County Total Migration-US and Foreign,1497,2575,122446
+6,109,97,0,CA,Tuolumne County Total Migration-US,1497,2575,122446
+6,109,97,1,CA,Tuolumne County Total Migration-Same State,1205,2095,104155
+6,109,97,3,CA,Tuolumne County Total Migration-Different State,292,480,18291
+6,109,6,109,CA,Tuolumne County Non-migrants,19871,37784,1599895
+6,109,6,99,CA,Stanislaus County,228,439,14733
+6,109,6,9,CA,Calaveras County,101,161,4957
+6,109,6,1,CA,Alameda County,91,158,13026
+6,109,6,77,CA,San Joaquin County,79,169,6207
+6,109,6,85,CA,Santa Clara County,70,113,9558
+6,109,6,13,CA,Contra Costa County,58,108,7959
+6,109,6,67,CA,Sacramento County,51,77,2975
+6,109,6,81,CA,San Mateo County,40,68,5532
+6,109,6,37,CA,Los Angeles County,37,48,2438
+6,109,6,47,CA,Merced County,37,76,1503
+6,109,6,65,CA,Riverside County,26,43,816
+6,109,6,73,CA,San Diego County,26,44,1793
+6,109,6,53,CA,Monterey County,25,46,2273
+6,109,6,87,CA,Santa Cruz County,25,50,2377
+6,109,6,43,CA,Mariposa County,23,44,1109
+6,109,6,29,CA,Kern County,22,28,391
+6,109,6,75,CA,San Francisco County,20,31,2577
+6,109,58,0,SS,Other flows - Same State,246,393,17859
+6,109,59,0,DS,Other flows - Different State,292,480,18291
+6,109,59,1,DS,Other flows - Northeast,20,30,1640
+6,109,59,3,DS,Other flows - Midwest,34,49,1658
+6,109,59,5,DS,Other flows - South,80,152,5219
+6,109,59,7,DS,Other flows - West,158,249,9774
+6,109,57,9,FR,Foreign - Other flows,-1,-1,-1
+6,111,96,0,CA,Ventura County Total Migration-US and Foreign,15992,27238,2021618
+6,111,97,0,CA,Ventura County Total Migration-US,15874,26998,2014972
+6,111,97,1,CA,Ventura County Total Migration-Same State,11469,19458,1546159
+6,111,97,3,CA,Ventura County Total Migration-Different State,4405,7540,468812
+6,111,98,0,CA,Ventura County Total Migration-Foreign,118,240,6646
+6,111,6,111,CA,Ventura County Non-migrants,337235,675737,38909498
+6,111,6,37,CA,Los Angeles County,6858,11873,1124224
+6,111,6,83,CA,Santa Barbara County,905,1536,78355
+6,111,6,73,CA,San Diego County,586,981,44372
+6,111,6,59,CA,Orange County,496,765,52069
+6,111,6,65,CA,Riverside County,386,659,28186
+6,111,6,29,CA,Kern County,344,600,25698
+6,111,6,71,CA,San Bernardino County,294,457,16879
+6,111,4,13,AZ,Maricopa County,227,379,28150
+6,111,32,3,NV,Clark County,207,324,21259
+6,111,6,85,CA,Santa Clara County,160,271,28741
+6,111,6,1,CA,Alameda County,147,239,17209
+6,111,6,79,CA,San Luis Obispo County,145,214,15791
+6,111,57,5,FR,Foreign - APO/FPO ZIPs,118,240,6646
+6,111,6,53,CA,Monterey County,97,170,8837
+6,111,53,33,WA,King County,96,140,10254
+6,111,6,19,CA,Fresno County,93,157,7019
+6,111,6,67,CA,Sacramento County,93,146,6924
+6,111,6,13,CA,Contra Costa County,87,154,16206
+6,111,6,75,CA,San Francisco County,85,124,17953
+6,111,15,3,HI,Honolulu County,81,139,7330
+6,111,6,81,CA,San Mateo County,64,111,12177
+6,111,6,107,CA,Tulare County,64,105,2946
+6,111,48,201,TX,Harris County,57,112,4489
+6,111,17,31,IL,Cook County,53,79,4600
+6,111,36,61,NY,New York County,53,80,9258
+6,111,48,439,TX,Tarrant County,52,104,2741
+6,111,41,51,OR,Multnomah County,51,70,4787
+6,111,6,87,CA,Santa Cruz County,49,77,2988
+6,111,51,810,VA,Virginia Beach city,48,107,3452
+6,111,6,31,CA,Kings County,44,92,2364
+6,111,36,47,NY,Kings County,40,51,3843
+6,111,6,97,CA,Sonoma County,39,56,2770
+6,111,32,31,NV,Washoe County,38,55,2495
+6,111,53,53,WA,Pierce County,38,67,2794
+6,111,4,19,AZ,Pima County,37,64,2222
+6,111,6,99,CA,Stanislaus County,37,66,1979
+6,111,6,61,CA,Placer County,36,56,5118
+6,111,48,453,TX,Travis County,35,57,5425
+6,111,6,77,CA,San Joaquin County,34,59,2208
+6,111,51,710,VA,Norfolk city,34,81,2273
+6,111,8,41,CO,El Paso County,33,57,1910
+6,111,48,121,TX,Denton County,33,51,3460
+6,111,53,35,WA,Kitsap County,33,66,2908
+6,111,6,23,CA,Humboldt County,31,41,2235
+6,111,41,67,OR,Washington County,31,57,2387
+6,111,48,29,TX,Bexar County,31,56,1462
+6,111,8,31,CO,Denver County,30,51,3461
+6,111,6,95,CA,Solano County,28,40,1805
+6,111,48,113,TX,Dallas County,28,48,4883
+6,111,11,1,DC,District of Columbia,27,37,2852
+6,111,16,1,ID,Ada County,27,52,1634
+6,111,41,29,OR,Jackson County,27,40,931
+6,111,4,25,AZ,Yavapai County,26,43,1729
+6,111,49,35,UT,Salt Lake County,26,42,1598
+6,111,53,29,WA,Island County,26,55,1806
+6,111,4,15,AZ,Mohave County,25,44,1352
+6,111,6,7,CA,Butte County,25,32,1204
+6,111,6,41,CA,Marin County,25,41,4996
+6,111,12,31,FL,Duval County,25,38,1641
+6,111,41,17,OR,Deschutes County,25,34,1017
+6,111,8,5,CO,Arapahoe County,24,38,2177
+6,111,12,86,FL,Miami-Dade County,24,49,1889
+6,111,28,47,MS,Harrison County,24,59,1087
+6,111,48,141,TX,El Paso County,24,55,1069
+6,111,6,17,CA,El Dorado County,23,32,2379
+6,111,6,113,CA,Yolo County,22,31,1722
+6,111,25,17,MA,Middlesex County,22,38,3187
+6,111,51,59,VA,Fairfax County,22,56,3918
+6,111,8,59,CO,Jefferson County,21,33,1907
+6,111,41,39,OR,Lane County,21,30,1176
+6,111,49,49,UT,Utah County,21,40,1540
+6,111,53,63,WA,Spokane County,21,25,1309
+6,111,48,85,TX,Collin County,20,31,1415
+6,111,58,0,SS,Other flows - Same State,172,273,10804
+6,111,59,0,DS,Other flows - Different State,2561,4412,285310
+6,111,59,1,DS,Other flows - Northeast,427,718,44523
+6,111,59,3,DS,Other flows - Midwest,499,859,51690
+6,111,59,5,DS,Other flows - South,1041,1844,99674
+6,111,59,7,DS,Other flows - West,594,991,89422
+6,111,57,9,FR,Foreign - Other flows,-1,-1,-1
+6,113,96,0,CA,Yolo County Total Migration-US and Foreign,6396,10081,461640
+6,113,97,0,CA,Yolo County Total Migration-US,6396,10081,461640
+6,113,97,1,CA,Yolo County Total Migration-Same State,5099,8136,370361
+6,113,97,3,CA,Yolo County Total Migration-Different State,1297,1945,91278
+6,113,6,113,CA,Yolo County Non-migrants,75552,152245,7885555
+6,113,6,67,CA,Sacramento County,1867,3110,118934
+6,113,6,95,CA,Solano County,580,988,38287
+6,113,6,37,CA,Los Angeles County,270,382,16537
+6,113,6,1,CA,Alameda County,237,360,21389
+6,113,6,13,CA,Contra Costa County,225,379,22469
+6,113,6,85,CA,Santa Clara County,200,322,27667
+6,113,6,61,CA,Placer County,146,221,11390
+6,113,6,73,CA,San Diego County,124,161,8355
+6,113,6,75,CA,San Francisco County,115,167,12036
+6,113,6,77,CA,San Joaquin County,105,166,5593
+6,113,6,81,CA,San Mateo County,101,167,12743
+6,113,6,59,CA,Orange County,92,114,4640
+6,113,6,97,CA,Sonoma County,71,95,4930
+6,113,6,7,CA,Butte County,66,103,3860
+6,113,6,17,CA,El Dorado County,63,93,6468
+6,113,6,65,CA,Riverside County,60,97,2708
+6,113,6,99,CA,Stanislaus County,49,72,2218
+6,113,6,101,CA,Sutter County,47,81,2735
+6,113,6,19,CA,Fresno County,44,76,3466
+6,113,6,115,CA,Yuba County,44,79,3496
+6,113,6,55,CA,Napa County,43,77,3436
+6,113,6,11,CA,Colusa County,42,76,2156
+6,113,6,71,CA,San Bernardino County,41,54,1610
+6,113,53,33,WA,King County,41,59,4523
+6,113,6,89,CA,Shasta County,40,57,2119
+6,113,6,53,CA,Monterey County,39,55,2059
+6,113,32,31,NV,Washoe County,38,54,1798
+6,113,6,57,CA,Nevada County,37,58,4146
+6,113,6,111,CA,Ventura County,36,43,1551
+6,113,6,83,CA,Santa Barbara County,34,43,1615
+6,113,4,13,AZ,Maricopa County,33,45,2440
+6,113,6,29,CA,Kern County,32,64,1166
+6,113,6,41,CA,Marin County,32,41,3004
+6,113,41,51,OR,Multnomah County,32,48,2941
+6,113,6,87,CA,Santa Cruz County,31,46,2577
+6,113,17,31,IL,Cook County,30,42,2024
+6,113,32,3,NV,Clark County,26,41,1697
+6,113,15,3,HI,Honolulu County,23,39,1817
+6,113,6,47,CA,Merced County,22,45,1642
+6,113,48,201,TX,Harris County,20,33,1724
+6,113,58,0,SS,Other flows - Same State,164,244,13357
+6,113,59,0,DS,Other flows - Different State,1054,1584,72313
+6,113,59,1,DS,Other flows - Northeast,203,269,13318
+6,113,59,3,DS,Other flows - Midwest,185,272,11656
+6,113,59,5,DS,Other flows - South,389,640,28091
+6,113,59,7,DS,Other flows - West,277,403,19248
+6,113,57,9,FR,Foreign - Other flows,-1,-1,-1
+6,115,96,0,CA,Yuba County Total Migration-US and Foreign,3397,6912,197028
+6,115,97,0,CA,Yuba County Total Migration-US,3333,6748,193752
+6,115,97,1,CA,Yuba County Total Migration-Same State,2691,5453,163721
+6,115,97,3,CA,Yuba County Total Migration-Different State,642,1295,30030
+6,115,98,0,CA,Yuba County Total Migration-Foreign,64,164,3276
+6,115,6,115,CA,Yuba County Non-migrants,26061,57870,1604343
+6,115,6,67,CA,Sacramento County,865,1891,56336
+6,115,6,101,CA,Sutter County,610,1211,29084
+6,115,6,61,CA,Placer County,317,646,23195
+6,115,6,7,CA,Butte County,107,172,4445
+6,115,6,113,CA,Yolo County,90,196,6498
+6,115,6,57,CA,Nevada County,71,124,3511
+6,115,57,5,FR,Foreign - APO/FPO ZIPs,64,164,3276
+6,115,6,13,CA,Contra Costa County,59,114,4583
+6,115,6,95,CA,Solano County,58,123,5424
+6,115,6,85,CA,Santa Clara County,56,111,3818
+6,115,6,37,CA,Los Angeles County,45,83,2516
+6,115,6,1,CA,Alameda County,44,83,3210
+6,115,6,77,CA,San Joaquin County,34,65,2034
+6,115,6,17,CA,El Dorado County,24,43,1308
+6,115,6,81,CA,San Mateo County,23,36,2218
+6,115,6,71,CA,San Bernardino County,22,49,1087
+6,115,6,97,CA,Sonoma County,21,30,1228
+6,115,58,0,SS,Other flows - Same State,245,476,13224
+6,115,59,0,DS,Other flows - Different State,642,1295,30030
+6,115,59,1,DS,Other flows - Northeast,42,65,1599
+6,115,59,3,DS,Other flows - Midwest,79,144,3412
+6,115,59,5,DS,Other flows - South,255,535,11683
+6,115,59,7,DS,Other flows - West,266,551,13336
+6,115,57,9,FR,Foreign - Other flows,-1,-1,-1

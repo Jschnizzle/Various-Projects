@@ -1,0 +1,38 @@
+name,cbsa_code,category
+"Los Angeles-Long Beach-Anaheim, CA",31080,California Metros
+"San Francisco-Oakland-Berkeley, CA",41860,California Metros
+"San Diego-Chula Vista-Carlsbad, CA",41740,California Metros
+"San Jose-Sunnyvale-Santa Clara, CA",41940,California Metros
+"Sacramento-Roseville-Folsom, CA",40900,California Metros
+"Dallas-Fort Worth-Arlington, TX",19100,Texas Metros
+"Houston-The Woodlands-Sugar Land, TX",26420,Texas Metros
+"Austin-Round Rock-Georgetown, TX",12420,Texas Metros
+"San Antonio-New Braunfels, TX",41700,Texas Metros
+"Phoenix-Mesa-Chandler, AZ",38060,Emerging Markets
+"Charlotte-Concord-Gastonia, NC-SC",16740,Emerging Markets
+"Raleigh-Cary, NC",39580,Emerging Markets
+"Nashville-Davidson--Murfreesboro--Franklin, TN",34980,Emerging Markets
+"Greenville-Anderson, SC",24860,Emerging Markets
+"Charleston-North Charleston, SC",16700,Emerging Markets
+"Buffalo-Cheektowaga, NY",15380,Emerging Markets
+"Virginia Beach-Norfolk-Newport News, VA-NC",47260,Emerging Markets
+"New York, NY",35620,Major US Metros
+"Chicago, IL",16980,Major US Metros
+"Washington, DC",47900,Major US Metros
+"Philadelphia, PA",37980,Major US Metros
+"Miami, FL",33100,Major US Metros
+"Atlanta, GA",12060,Major US Metros
+"Boston, MA",14460,Major US Metros
+"Riverside, CA",40140,Major US Metros
+"Detroit, MI",19820,Major US Metros
+"Seattle, WA",42660,Major US Metros
+"Minneapolis, MN",33460,Major US Metros
+"Tampa, FL",45300,Major US Metros
+"Denver, CO",19740,Major US Metros
+"Baltimore, MD",12580,Major US Metros
+"St. Louis, MO",41180,Major US Metros
+"Orlando, FL",36740,Major US Metros
+"Portland, OR",38900,Major US Metros
+"Pittsburgh, PA",38300,Major US Metros
+"Cincinnati, OH",17140,Major US Metros
+"Las Vegas, NV",29820,Major US Metros

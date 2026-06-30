@@ -1,0 +1,93 @@
+{
+  "verification_date": "2025-11-30T13:41:57.088570",
+  "total_files": 17,
+  "total_size_mb": 160.0,
+  "issues": [],
+  "warnings": [
+    "Manual Zillow file missing: price_cuts_metro.csv",
+    "Optional Census file missing: building_permits.csv",
+    "Migration flows data not found (requires manual download)",
+    "Manual Other file missing: freddie_mac_rates.csv"
+  ],
+  "completeness": {
+    "Zillow": 8,
+    "Census": 1,
+    "BLS": 3,
+    "Other": 1
+  },
+  "stats": {
+    "zhvi_metro.csv": {
+      "rows": 895,
+      "cols": 315,
+      "size_mb": 4.11,
+      "date_columns": 310
+    },
+    "zhvi_county.csv": {
+      "rows": 3073,
+      "cols": 319,
+      "size_mb": 12.4,
+      "date_columns": 310
+    },
+    "zhvi_zip.csv": {
+      "rows": 26309,
+      "cols": 319,
+      "size_mb": 113.25,
+      "date_columns": 310
+    },
+    "zori_metro.csv": {
+      "rows": 707,
+      "cols": 135,
+      "size_mb": 0.9,
+      "date_columns": 130
+    },
+    "inventory_metro.csv": {
+      "rows": 928,
+      "cols": 97,
+      "size_mb": 0.52,
+      "date_columns": 92
+    },
+    "days_on_market_metro.csv": {
+      "rows": 246,
+      "cols": 408,
+      "size_mb": 0.34,
+      "date_columns": 403
+    },
+    "sales_count_metro.csv": {
+      "rows": 94,
+      "cols": 218,
+      "size_mb": 0.13,
+      "date_columns": 213
+    },
+    "median_list_price_metro.csv": {
+      "rows": 928,
+      "cols": 97,
+      "size_mb": 0.75,
+      "date_columns": 92
+    },
+    "population_estimates.csv": {
+      "rows": 3195,
+      "cols": 67,
+      "size_mb": 1.33
+    },
+    "metro_employment.csv": {
+      "rows": 1020,
+      "cols": 6
+    },
+    "metro_wages.csv": {
+      "rows": 340,
+      "cols": 6
+    },
+    "state_employment.csv": {
+      "rows": 480,
+      "cols": 6
+    },
+    "fhfa_hpi_metro.csv": {
+      "rows": 132363,
+      "cols": 10,
+      "size_mb": 11.15
+    },
+    "metro_reference": {
+      "metros": 17
+    }
+  }
+}

@@ -1,0 +1,1001 @@
+hpi_type,hpi_flavor,frequency,level,place_name,place_id,yr,period,index_nsa,index_sa
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1991,1,100.00,100.00
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1991,2,100.87,100.87
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1991,3,101.32,100.90
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1991,4,101.73,100.96
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1991,5,102.32,101.31
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1991,6,102.81,101.46
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1991,7,103.01,101.85
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1991,8,103.13,102.01
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1991,9,102.83,101.97
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1991,10,103.08,102.26
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1991,11,103.97,103.29
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1991,12,103.74,103.34
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1992,1,103.85,103.87
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1992,2,104.37,104.37
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1992,3,105.52,105.10
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1992,4,105.93,105.13
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1992,5,106.50,105.45
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1992,6,106.95,105.54
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1992,7,107.11,105.89
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1992,8,107.52,106.34
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1992,9,107.53,106.62
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1992,10,108.16,107.28
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1992,11,108.41,107.71
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1992,12,108.74,108.34
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1993,1,108.38,108.44
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1993,2,108.30,108.28
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1993,3,109.20,108.82
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1993,4,110.20,109.36
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1993,5,110.79,109.69
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1993,6,111.91,110.41
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1993,7,112.11,110.81
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1993,8,112.58,111.33
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1993,9,113.05,112.06
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1993,10,113.20,112.25
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1993,11,113.50,112.78
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1993,12,113.79,113.40
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1994,1,114.00,114.11
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1994,2,114.36,114.32
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1994,3,115.08,114.72
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1994,4,116.26,115.36
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1994,5,117.10,115.93
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1994,6,117.81,116.21
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1994,7,117.87,116.46
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1994,8,118.26,116.91
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1994,9,118.30,117.23
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1994,10,118.90,117.90
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1994,11,119.05,118.34
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1994,12,118.83,118.46
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1995,1,119.02,119.21
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1995,2,119.83,119.79
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1995,3,120.37,120.01
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1995,4,121.66,120.73
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1995,5,121.97,120.70
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1995,6,123.19,121.51
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1995,7,123.63,122.11
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1995,8,124.20,122.77
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1995,9,124.46,123.30
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1995,10,124.73,123.69
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1995,11,124.60,123.86
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1995,12,125.02,124.68
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1996,1,124.83,125.11
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1996,2,125.82,125.77
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1996,3,126.64,126.25
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1996,4,128.17,127.21
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1996,5,128.88,127.49
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1996,6,129.42,127.66
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1996,7,130.04,128.38
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1996,8,129.79,128.28
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1996,9,129.96,128.71
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1996,10,129.80,128.71
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1996,11,130.63,129.92
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1996,12,130.46,130.17
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1997,1,129.92,130.24
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1997,2,130.52,130.46
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1997,3,131.67,131.23
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1997,4,132.04,131.09
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1997,5,133.48,131.98
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1997,6,133.95,132.14
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1997,7,134.29,132.51
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1997,8,134.50,132.91
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1997,9,134.43,133.11
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1997,10,134.72,133.60
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1997,11,134.64,133.94
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1997,12,134.52,134.27
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1998,1,134.41,134.75
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1998,2,135.61,135.57
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1998,3,136.47,135.97
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1998,4,137.26,136.32
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1998,5,138.34,136.74
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1998,6,139.29,137.42
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1998,7,139.62,137.72
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1998,8,139.94,138.25
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1998,9,140.48,139.05
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1998,10,141.01,139.84
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1998,11,141.39,140.72
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1998,12,141.27,141.07
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1999,1,141.21,141.53
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1999,2,142.42,142.42
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1999,3,143.33,142.78
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1999,4,144.14,143.18
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1999,5,145.89,144.19
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1999,6,146.66,144.67
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1999,7,147.39,145.34
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1999,8,148.10,146.29
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1999,9,148.07,146.51
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1999,10,148.48,147.24
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1999,11,148.17,147.48
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,1999,12,148.37,148.24
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2000,1,149.53,149.84
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2000,2,149.16,149.21
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2000,3,151.13,150.57
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2000,4,152.18,151.18
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2000,5,153.35,151.56
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2000,6,154.70,152.58
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2000,7,155.48,153.28
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2000,8,155.72,153.75
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2000,9,155.87,154.16
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2000,10,155.95,154.59
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2000,11,155.83,155.13
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2000,12,156.19,156.10
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2001,1,156.36,156.70
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2001,2,157.30,157.45
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2001,3,158.42,157.89
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2001,4,159.70,158.65
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2001,5,161.02,159.12
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2001,6,161.80,159.54
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2001,7,162.50,160.13
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2001,8,162.80,160.65
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2001,9,163.11,161.28
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2001,10,163.80,162.34
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2001,11,163.28,162.55
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2001,12,163.20,163.13
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2002,1,163.53,163.96
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2002,2,164.06,164.34
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2002,3,165.52,165.04
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2002,4,166.41,165.28
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2002,5,168.02,165.98
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2002,6,169.21,166.78
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2002,7,169.69,167.16
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2002,8,170.03,167.68
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2002,9,170.51,168.54
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2002,10,170.59,169.01
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2002,11,170.94,170.20
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2002,12,170.36,170.34
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2003,1,170.88,171.48
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2003,2,171.43,171.88
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2003,3,172.53,172.14
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2003,4,173.99,172.78
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2003,5,175.80,173.55
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2003,6,176.52,173.89
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2003,7,177.49,174.75
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2003,8,178.08,175.51
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2003,9,178.07,175.96
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2003,10,178.60,176.93
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2003,11,178.57,177.84
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2003,12,178.59,178.66
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2004,1,177.54,178.34
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2004,2,179.35,179.98
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2004,3,180.47,180.18
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2004,4,182.04,180.73
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2004,5,183.94,181.40
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2004,6,185.15,182.22
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2004,7,185.86,182.87
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2004,8,186.35,183.50
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2004,9,185.94,183.69
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2004,10,186.31,184.59
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2004,11,186.12,185.45
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2004,12,185.65,185.87
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2005,1,185.66,186.74
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2005,2,185.32,186.11
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2005,3,187.72,187.53
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2005,4,189.68,188.31
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2005,5,191.34,188.51
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2005,6,192.17,188.87
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2005,7,192.61,189.35
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2005,8,192.76,189.60
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2005,9,193.40,191.06
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2005,10,193.14,191.43
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2005,11,192.08,191.50
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2005,12,190.99,191.43
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2006,1,190.56,191.92
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2006,2,191.01,191.94
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2006,3,192.14,192.05
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2006,4,194.31,192.95
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2006,5,195.64,192.48
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2006,6,195.50,191.86
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2006,7,195.53,192.05
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2006,8,194.96,191.57
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2006,9,194.09,191.68
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2006,10,192.86,191.22
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2006,11,191.15,190.56
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2006,12,190.72,191.38
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2007,1,190.67,192.28
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2007,2,190.39,191.50
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2007,3,191.43,191.56
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2007,4,191.99,190.75
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2007,5,193.21,189.80
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2007,6,193.39,189.51
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2007,7,191.81,188.20
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2007,8,191.17,187.61
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2007,9,188.64,186.21
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2007,10,186.48,184.89
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2007,11,184.75,183.98
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2007,12,182.16,182.95
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2008,1,179.97,181.70
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2008,2,180.16,181.46
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2008,3,179.91,180.39
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2008,4,179.58,178.57
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2008,5,180.39,177.01
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2008,6,180.45,176.59
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2008,7,178.92,175.28
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2008,8,177.89,174.38
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2008,9,173.97,171.60
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2008,10,172.79,171.30
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2008,11,169.20,168.14
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2008,12,167.64,168.48
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2009,1,169.74,171.69
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2009,2,169.10,170.65
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2009,3,168.23,169.09
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2009,4,168.44,167.65
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2009,5,172.31,168.94
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2009,6,171.52,167.59
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2009,7,170.25,166.46
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2009,8,169.79,166.18
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2009,9,169.01,166.55
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2009,10,167.36,165.82
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2009,11,168.21,166.83
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2009,12,163.99,164.92
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2010,1,162.42,164.63
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2010,2,161.99,163.86
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2010,3,162.94,164.09
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2010,4,164.66,163.97
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2010,5,167.71,164.31
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2010,6,166.50,162.38
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2010,7,165.55,161.43
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2010,8,165.66,161.89
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2010,9,162.79,160.13
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2010,10,164.01,162.44
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2010,11,162.78,161.27
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2010,12,158.07,159.07
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2011,1,156.39,158.84
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2011,2,155.07,157.27
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2011,3,152.73,154.04
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2011,4,155.25,154.57
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2011,5,158.48,155.23
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2011,6,160.32,156.12
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2011,7,161.86,157.49
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2011,8,159.43,155.59
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2011,9,159.11,156.36
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2011,10,156.80,155.28
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2011,11,158.56,157.12
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2011,12,155.54,156.64
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2012,1,153.13,155.77
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2012,2,153.41,155.86
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2012,3,155.45,156.79
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2012,4,158.51,157.64
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2012,5,162.10,158.78
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2012,6,163.51,158.95
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2012,7,163.60,158.86
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2012,8,163.89,159.83
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2012,9,163.00,160.06
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2012,10,162.16,160.69
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2012,11,161.31,160.03
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2012,12,159.36,160.58
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2013,1,159.25,162.20
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2013,2,160.11,162.79
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2013,3,163.02,164.21
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2013,4,166.27,165.14
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2013,5,169.24,165.77
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2013,6,171.68,166.65
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2013,7,172.92,167.79
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2013,8,172.35,168.03
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2013,9,171.61,168.53
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2013,10,170.08,168.65
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2013,11,169.52,168.54
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2013,12,168.80,170.19
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2014,1,167.47,170.66
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2014,2,168.00,170.76
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2014,3,170.42,171.28
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2014,4,173.63,172.20
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2014,5,175.56,171.93
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2014,6,177.84,172.50
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2014,7,178.98,173.69
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2014,8,178.85,174.48
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2014,9,177.77,174.64
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2014,10,177.18,175.82
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2014,11,175.90,175.26
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2014,12,175.55,177.02
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2015,1,173.16,176.41
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2015,2,175.36,178.06
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2015,3,177.62,178.10
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2015,4,180.44,178.70
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2015,5,183.66,179.86
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2015,6,186.44,180.86
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2015,7,185.61,180.33
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2015,8,184.27,179.91
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2015,9,184.68,181.59
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2015,10,183.91,182.53
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2015,11,183.85,183.46
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2015,12,182.62,184.13
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2016,1,181.57,184.86
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2016,2,181.51,183.93
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2016,3,185.76,185.91
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2016,4,188.32,186.32
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2016,5,191.31,187.38
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2016,6,194.17,188.48
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2016,7,194.43,189.16
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2016,8,194.98,190.63
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2016,9,194.39,191.28
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2016,10,193.88,192.43
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2016,11,193.15,192.87
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2016,12,192.60,194.17
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2017,1,191.04,194.35
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2017,2,193.33,195.48
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2017,3,197.29,197.09
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2017,4,199.59,197.33
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2017,5,202.53,198.42
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2017,6,204.00,198.23
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2017,7,205.18,199.92
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2017,8,205.44,201.09
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2017,9,204.58,201.38
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2017,10,204.26,202.64
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2017,11,203.92,203.74
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2017,12,203.83,205.52
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2018,1,203.99,207.35
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2018,2,206.39,208.27
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2018,3,208.88,208.42
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2018,4,211.92,209.42
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2018,5,214.16,209.85
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2018,6,217.11,211.18
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2018,7,217.06,211.70
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2018,8,217.17,212.83
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2018,9,217.08,213.74
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2018,10,216.60,214.87
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2018,11,215.06,214.97
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2018,12,214.00,215.87
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2019,1,213.77,217.14
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2019,2,217.20,218.84
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2019,3,219.57,218.89
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2019,4,222.82,220.04
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2019,5,225.62,221.00
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2019,6,227.86,221.76
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2019,7,228.25,222.72
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2019,8,228.12,223.82
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2019,9,227.91,224.42
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2019,10,227.54,225.75
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2019,11,228.14,228.17
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2019,12,226.61,228.70
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2020,1,226.68,230.17
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2020,2,230.16,231.67
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2020,3,233.63,232.85
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2020,4,235.84,232.76
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2020,5,237.24,232.08
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2020,6,240.69,234.26
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2020,7,244.21,238.35
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2020,8,246.43,242.06
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2020,9,249.54,245.76
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2020,10,251.12,249.32
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2020,11,252.19,252.36
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2020,12,253.15,255.65
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2021,1,254.43,258.29
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2021,2,258.14,259.74
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2021,3,263.63,262.69
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2021,4,269.57,265.90
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2021,5,275.32,268.87
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2021,6,281.51,273.96
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2021,7,283.22,276.43
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2021,8,283.30,278.51
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2021,9,284.73,280.48
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2021,10,285.59,283.70
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2021,11,286.99,287.39
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2021,12,287.78,290.76
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2022,1,290.43,294.85
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2022,2,296.51,298.30
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2022,3,302.51,301.38
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2022,4,308.55,304.21
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2022,5,314.88,306.92
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2022,6,315.69,307.18
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2022,7,314.50,306.93
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2022,8,311.35,306.16
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2022,9,312.41,307.84
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2022,10,310.15,308.28
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2022,11,308.61,309.26
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2022,12,307.81,311.13
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2023,1,307.68,312.45
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2023,2,311.50,313.34
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2023,3,318.56,317.29
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2023,4,324.60,319.92
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2023,5,332.11,323.19
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2023,6,332.98,323.98
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2023,7,335.01,326.95
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2023,8,336.18,330.61
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2023,9,337.26,332.42
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2023,10,337.25,335.29
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2023,11,336.23,337.14
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2023,12,334.53,338.22
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2024,1,333.08,338.31
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2024,2,340.07,341.99
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2024,3,346.20,344.76
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2024,4,350.79,345.66
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2024,5,356.82,346.81
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2024,6,358.83,349.16
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2024,7,361.34,352.67
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2024,8,359.77,353.68
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2024,9,360.02,354.87
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2024,10,360.03,357.95
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2024,11,357.92,358.94
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2024,12,356.65,360.61
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2025,1,357.62,363.21
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2025,2,363.81,365.77
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2025,3,367.34,365.71
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2025,4,372.39,366.85
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2025,5,377.32,366.52
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2025,6,376.77,366.69
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2025,7,377.13,368.10
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2025,8,377.44,370.94
+traditional,purchase-only,monthly,USA or Census Division,East North Central Division,DV_ENC,2025,9,379.62,374.20
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1991,1,100.00,100.00
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1991,2,100.90,100.49
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1991,3,100.83,100.42
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1991,4,100.76,100.46
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1991,5,101.06,100.64
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1991,6,101.94,101.43
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1991,7,101.64,101.19
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1991,8,101.55,100.72
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1991,9,101.82,101.11
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1991,10,101.86,101.58
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1991,11,102.67,102.09
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1991,12,103.19,103.06
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1992,1,103.19,103.21
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1992,2,104.38,103.98
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1992,3,104.13,103.71
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1992,4,103.57,103.26
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1992,5,104.40,103.98
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1992,6,104.53,103.96
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1992,7,105.14,104.62
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1992,8,106.14,105.26
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1992,9,106.48,105.75
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1992,10,106.79,106.47
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1992,11,106.74,106.16
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1992,12,106.76,106.61
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1993,1,106.86,106.88
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1993,2,106.68,106.32
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1993,3,108.22,107.80
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1993,4,108.60,108.24
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1993,5,109.09,108.63
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1993,6,109.45,108.77
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1993,7,109.85,109.24
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1993,8,110.78,109.85
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1993,9,111.68,110.92
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1993,10,111.14,110.76
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1993,11,112.08,111.51
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1993,12,112.11,111.95
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1994,1,112.70,112.76
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1994,2,113.89,113.55
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1994,3,113.95,113.53
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1994,4,114.91,114.47
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1994,5,115.44,114.93
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1994,6,116.11,115.29
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1994,7,116.36,115.64
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1994,8,117.16,116.20
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1994,9,116.77,116.02
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1994,10,117.26,116.86
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1994,11,118.16,117.60
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1994,12,117.65,117.47
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1995,1,117.49,117.54
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1995,2,119.15,118.89
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1995,3,119.43,119.01
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1995,4,119.36,118.82
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1995,5,119.68,119.10
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1995,6,121.50,120.53
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1995,7,121.94,121.11
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1995,8,121.84,120.88
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1995,9,122.29,121.55
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1995,10,123.12,122.71
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1995,11,123.21,122.68
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1995,12,123.37,123.19
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1996,1,123.63,123.67
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1996,2,123.46,123.23
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1996,3,124.32,123.90
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1996,4,125.24,124.62
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1996,5,126.12,125.46
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1996,6,126.41,125.30
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1996,7,127.40,126.50
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1996,8,127.45,126.53
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1996,9,127.55,126.83
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1996,10,127.99,127.62
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1996,11,127.86,127.34
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1996,12,128.17,127.97
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1997,1,128.20,128.16
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1997,2,129.50,129.30
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1997,3,129.61,129.21
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1997,4,130.29,129.62
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1997,5,130.00,129.27
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1997,6,131.08,129.88
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1997,7,131.29,130.35
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1997,8,131.79,130.94
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1997,9,131.22,130.48
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1997,10,131.07,130.71
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1997,11,131.75,131.21
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1997,12,131.99,131.78
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1998,1,132.62,132.48
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1998,2,132.58,132.36
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1998,3,133.73,133.36
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1998,4,134.43,133.74
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1998,5,135.25,134.45
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1998,6,136.25,134.99
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1998,7,135.99,135.02
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1998,8,136.14,135.34
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1998,9,137.31,136.48
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1998,10,137.13,136.71
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1998,11,138.17,137.60
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1998,12,138.13,137.92
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1999,1,138.60,138.32
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1999,2,139.25,139.07
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1999,3,140.09,139.73
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1999,4,140.48,139.81
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1999,5,141.24,140.42
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1999,6,141.75,140.44
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1999,7,142.04,141.04
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1999,8,142.28,141.46
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1999,9,142.87,141.97
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1999,10,142.39,141.85
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1999,11,143.35,142.77
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,1999,12,143.59,143.42
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2000,1,144.23,143.87
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2000,2,144.24,144.11
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2000,3,144.46,144.15
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2000,4,145.87,145.26
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2000,5,145.96,145.14
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2000,6,146.92,145.55
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2000,7,147.30,146.26
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2000,8,146.80,145.87
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2000,9,146.95,145.96
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2000,10,147.11,146.38
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2000,11,147.36,146.81
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2000,12,146.49,146.33
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2001,1,147.71,147.28
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2001,2,148.06,148.01
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2001,3,148.36,148.10
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2001,4,149.01,148.46
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2001,5,150.26,149.44
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2001,6,150.81,149.32
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2001,7,150.63,149.47
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2001,8,151.05,149.92
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2001,9,151.45,150.39
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2001,10,152.31,151.38
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2001,11,151.93,151.44
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2001,12,151.76,151.59
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2002,1,152.67,152.27
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2002,2,151.72,151.72
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2002,3,153.30,153.11
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2002,4,153.32,152.76
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2002,5,154.23,153.39
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2002,6,155.22,153.62
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2002,7,155.20,153.88
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2002,8,156.44,155.08
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2002,9,155.84,154.74
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2002,10,157.14,156.09
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2002,11,156.86,156.46
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2002,12,157.03,156.88
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2003,1,157.46,157.13
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2003,2,158.52,158.67
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2003,3,158.73,158.64
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2003,4,159.74,159.17
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2003,5,160.34,159.43
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2003,6,161.78,160.06
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2003,7,162.08,160.60
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2003,8,162.85,161.33
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2003,9,163.34,162.22
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2003,10,163.49,162.48
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2003,11,162.81,162.46
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2003,12,163.59,163.43
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2004,1,164.06,163.93
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2004,2,165.24,165.48
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2004,3,165.08,165.02
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2004,4,166.63,165.89
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2004,5,167.68,166.57
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2004,6,169.99,168.11
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2004,7,170.65,168.97
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2004,8,171.07,169.40
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2004,9,170.86,169.63
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2004,10,171.24,170.34
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2004,11,171.12,170.72
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2004,12,172.88,172.73
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2005,1,172.66,172.79
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2005,2,174.04,174.40
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2005,3,175.60,175.61
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2005,4,176.97,176.05
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2005,5,178.21,176.80
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2005,6,179.58,177.50
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2005,7,181.02,179.08
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2005,8,181.93,180.17
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2005,9,182.18,180.82
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2005,10,183.24,182.45
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2005,11,184.83,184.29
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2005,12,185.98,185.89
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2006,1,187.09,187.56
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2006,2,187.22,187.68
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2006,3,188.90,188.98
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2006,4,190.70,189.64
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2006,5,192.58,190.80
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2006,6,193.77,191.31
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2006,7,194.11,191.92
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2006,8,194.53,192.66
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2006,9,194.54,192.97
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2006,10,194.46,193.68
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2006,11,195.23,194.49
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2006,12,196.15,196.24
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2007,1,195.00,195.73
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2007,2,196.91,197.59
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2007,3,198.08,198.38
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2007,4,200.35,199.31
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2007,5,200.84,198.73
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2007,6,201.81,199.02
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2007,7,200.99,198.59
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2007,8,200.03,198.04
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2007,9,200.68,198.95
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2007,10,199.07,198.20
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2007,11,199.43,198.47
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2007,12,198.12,198.51
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2008,1,194.76,195.69
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2008,2,196.37,197.28
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2008,3,196.42,197.04
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2008,4,197.41,196.59
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2008,5,198.47,196.22
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2008,6,197.89,194.96
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2008,7,196.77,194.18
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2008,8,195.19,193.04
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2008,9,193.95,192.18
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2008,10,192.33,191.31
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2008,11,191.12,190.14
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2008,12,189.24,189.91
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2009,1,189.22,190.25
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2009,2,188.95,190.05
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2009,3,188.47,189.28
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2009,4,189.36,188.65
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2009,5,190.79,188.30
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2009,6,193.79,190.63
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2009,7,191.30,188.31
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2009,8,191.11,188.58
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2009,9,187.86,185.96
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2009,10,190.58,189.28
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2009,11,189.70,188.69
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2009,12,186.38,187.20
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2010,1,185.91,187.11
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2010,2,184.04,185.42
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2010,3,183.65,184.56
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2010,4,185.89,185.28
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2010,5,188.28,185.67
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2010,6,186.05,182.77
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2010,7,186.16,182.99
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2010,8,185.24,182.57
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2010,9,183.81,181.78
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2010,10,182.87,181.43
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2010,11,182.73,181.92
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2010,12,177.78,178.61
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2011,1,178.58,179.87
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2011,2,177.13,178.65
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2011,3,175.45,176.18
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2011,4,178.24,177.42
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2011,5,180.02,177.16
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2011,6,180.47,176.97
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2011,7,182.61,179.17
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2011,8,182.25,179.41
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2011,9,179.39,177.20
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2011,10,178.65,177.20
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2011,11,178.40,177.74
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2011,12,180.76,181.62
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2012,1,175.12,176.49
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2012,2,176.93,178.56
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2012,3,180.41,180.78
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2012,4,181.91,180.74
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2012,5,184.84,181.71
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2012,6,185.93,182.12
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2012,7,185.21,181.62
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2012,8,184.22,181.34
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2012,9,183.55,181.19
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2012,10,184.00,182.58
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2012,11,183.60,183.04
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2012,12,183.78,184.52
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2013,1,182.65,184.12
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2013,2,183.22,184.91
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2013,3,186.27,186.16
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2013,4,188.46,186.80
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2013,5,190.47,187.02
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2013,6,192.89,188.87
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2013,7,190.78,187.07
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2013,8,190.07,187.12
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2013,9,193.50,191.02
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2013,10,190.82,189.53
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2013,11,188.48,187.98
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2013,12,188.87,189.44
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2014,1,188.02,189.48
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2014,2,189.74,191.40
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2014,3,190.67,190.13
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2014,4,193.17,191.28
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2014,5,194.89,191.37
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2014,6,196.74,192.59
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2014,7,196.74,193.06
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2014,8,196.41,193.55
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2014,9,195.56,193.19
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2014,10,195.24,194.12
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2014,11,196.20,195.86
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2014,12,194.42,194.87
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2015,1,196.47,197.86
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2015,2,195.33,196.77
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2015,3,199.90,199.02
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2015,4,202.54,200.51
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2015,5,202.80,199.23
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2015,6,203.90,199.76
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2015,7,203.73,200.03
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2015,8,204.50,201.57
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2015,9,203.90,201.72
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2015,10,204.00,203.00
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2015,11,204.50,204.09
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2015,12,205.04,205.46
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2016,1,206.08,207.25
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2016,2,204.38,205.45
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2016,3,207.62,206.44
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2016,4,210.18,208.14
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2016,5,212.66,209.07
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2016,6,213.20,209.01
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2016,7,214.61,210.68
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2016,8,215.14,212.06
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2016,9,214.60,212.51
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2016,10,214.22,213.21
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2016,11,214.51,214.02
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2016,12,216.28,216.60
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2017,1,212.37,213.23
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2017,2,216.59,217.24
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2017,3,219.93,218.57
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2017,4,221.04,219.03
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2017,5,223.79,220.21
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2017,6,226.10,221.97
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2017,7,227.15,222.96
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2017,8,226.40,223.10
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2017,9,225.44,223.40
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2017,10,226.81,225.72
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2017,11,226.31,225.72
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2017,12,226.60,226.81
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2018,1,227.70,228.41
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2018,2,229.00,229.33
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2018,3,232.01,230.57
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2018,4,232.11,230.13
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2018,5,237.70,234.15
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2018,6,238.67,234.50
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2018,7,238.43,234.01
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2018,8,239.44,236.06
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2018,9,237.87,235.72
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2018,10,238.85,237.55
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2018,11,240.46,239.77
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2018,12,239.15,239.30
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2019,1,239.79,240.44
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2019,2,242.29,242.34
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2019,3,244.43,243.00
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2019,4,247.22,245.17
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2019,5,248.99,245.40
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2019,6,252.00,247.65
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2019,7,252.54,247.77
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2019,8,251.08,247.54
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2019,9,253.24,250.92
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2019,10,252.87,251.37
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2019,11,251.51,250.65
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2019,12,254.81,255.05
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2020,1,255.78,256.60
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2020,2,258.45,258.33
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2020,3,260.82,259.40
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2020,4,263.64,261.33
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2020,5,264.32,260.56
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2020,6,266.73,262.04
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2020,7,271.31,266.05
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2020,8,273.69,269.93
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2020,9,276.83,274.22
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2020,10,280.11,278.24
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2020,11,281.17,280.09
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2020,12,283.84,284.18
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2021,1,286.35,287.44
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2021,2,289.48,289.20
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2021,3,294.90,293.40
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2021,4,301.16,298.09
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2021,5,308.56,304.11
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2021,6,314.63,308.79
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2021,7,320.58,314.21
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2021,8,323.11,318.63
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2021,9,325.61,322.49
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2021,10,329.97,327.47
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2021,11,334.63,333.33
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2021,12,336.08,336.64
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2022,1,339.80,341.47
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2022,2,347.08,346.83
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2022,3,354.03,352.50
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2022,4,357.69,353.40
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2022,5,364.10,358.83
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2022,6,369.92,362.53
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2022,7,368.77,361.35
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2022,8,366.86,361.93
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2022,9,366.78,363.18
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2022,10,366.61,363.61
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2022,11,363.31,362.02
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2022,12,366.38,367.44
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2023,1,366.87,369.18
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2023,2,373.42,373.47
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2023,3,374.51,373.33
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2023,4,377.55,372.63
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2023,5,380.96,375.62
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2023,6,382.90,374.80
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2023,7,386.92,379.43
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2023,8,385.58,380.77
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2023,9,386.08,382.36
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2023,10,388.39,384.94
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2023,11,388.51,387.16
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2023,12,389.60,390.96
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2024,1,385.42,388.11
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2024,2,390.63,390.79
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2024,3,392.14,391.08
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2024,4,401.14,395.37
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2024,5,399.87,394.34
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2024,6,406.55,397.51
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2024,7,405.62,397.95
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2024,8,406.27,401.57
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2024,9,407.42,403.29
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2024,10,409.83,406.06
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2024,11,405.42,404.08
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2024,12,404.78,406.26
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2025,1,403.31,406.04
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2025,2,405.91,405.79
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2025,3,410.72,409.44
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2025,4,418.53,411.89
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2025,5,419.09,413.11
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2025,6,420.21,410.41
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2025,7,416.76,408.67
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2025,8,415.54,410.51
+traditional,purchase-only,monthly,USA or Census Division,East South Central Division,DV_ESC,2025,9,419.59,415.06
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1991,1,100.00,100.00
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1991,2,100.05,100.11
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1991,3,100.05,99.75
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1991,4,99.61,99.26
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1991,5,99.71,99.21
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1991,6,99.82,98.90
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1991,7,100.33,99.18
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1991,8,99.81,98.81
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1991,9,100.35,99.40
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1991,10,100.14,99.04
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1991,11,101.06,100.14
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1991,12,100.79,100.42
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1992,1,100.77,100.79
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1992,2,101.79,101.90
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1992,3,101.53,101.27
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1992,4,101.24,100.88
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1992,5,100.91,100.37
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1992,6,101.29,100.32
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1992,7,101.54,100.32
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1992,8,101.49,100.38
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1992,9,102.25,101.28
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1992,10,102.56,101.45
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1992,11,103.09,102.21
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1992,12,101.61,101.27
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1993,1,100.91,100.97
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1993,2,100.45,100.67
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1993,3,100.80,100.59
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1993,4,101.75,101.39
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1993,5,102.34,101.72
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1993,6,102.64,101.56
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1993,7,102.43,101.12
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1993,8,102.62,101.34
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1993,9,102.35,101.39
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1993,10,102.62,101.56
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1993,11,102.53,101.75
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1993,12,102.00,101.71
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1994,1,102.24,102.37
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1994,2,101.19,101.54
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1994,3,101.60,101.45
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1994,4,101.82,101.44
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1994,5,102.59,101.85
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1994,6,102.94,101.74
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1994,7,103.33,101.87
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1994,8,103.25,101.77
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1994,9,102.17,101.24
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1994,10,102.58,101.58
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1994,11,101.61,100.97
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1994,12,100.25,100.01
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1995,1,100.24,100.41
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1995,2,100.39,100.85
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1995,3,101.00,100.89
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1995,4,101.54,101.17
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1995,5,101.80,100.97
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1995,6,102.47,101.15
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1995,7,102.66,101.09
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1995,8,103.55,101.91
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1995,9,102.19,101.28
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1995,10,101.74,100.80
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1995,11,101.49,100.97
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1995,12,101.59,101.38
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1996,1,101.39,101.61
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1996,2,101.24,101.80
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1996,3,102.25,102.17
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1996,4,102.14,101.79
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1996,5,103.06,102.15
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1996,6,103.47,102.01
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1996,7,103.60,101.94
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1996,8,103.76,102.03
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1996,9,102.74,101.83
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1996,10,102.57,101.69
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1996,11,102.65,102.21
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1996,12,102.07,101.87
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1997,1,102.11,102.30
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1997,2,101.85,102.47
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1997,3,102.33,102.26
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1997,4,103.02,102.71
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1997,5,104.29,103.39
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1997,6,104.39,102.80
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1997,7,104.70,102.97
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1997,8,105.01,103.25
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1997,9,104.05,103.06
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1997,10,105.23,104.35
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1997,11,103.84,103.38
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1997,12,104.35,104.13
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1998,1,104.00,104.12
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1998,2,104.16,104.84
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1998,3,105.68,105.66
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1998,4,106.22,105.97
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1998,5,106.93,106.05
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1998,6,108.67,106.89
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1998,7,108.70,106.90
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1998,8,109.34,107.53
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1998,9,109.46,108.31
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1998,10,109.33,108.41
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1998,11,109.49,108.92
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1998,12,110.03,109.81
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1999,1,110.38,110.40
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1999,2,109.91,110.65
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1999,3,110.68,110.73
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1999,4,111.71,111.54
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1999,5,113.11,112.27
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1999,6,115.26,113.30
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1999,7,116.10,114.19
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1999,8,116.59,114.72
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1999,9,116.32,114.98
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1999,10,117.06,116.06
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1999,11,117.22,116.49
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,1999,12,116.98,116.75
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,2000,1,118.91,118.85
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,2000,2,117.49,118.25
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,2000,3,119.13,119.27
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,2000,4,120.45,120.39
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,2000,5,121.47,120.63
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,2000,6,123.91,121.75
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,2000,7,124.46,122.45
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,2000,8,124.99,123.01
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,2000,9,126.00,124.42
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,2000,10,125.96,124.89
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,2000,11,127.14,126.24
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,2000,12,127.45,127.21
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,2001,1,127.82,127.67
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,2001,2,128.27,129.02
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,2001,3,129.50,129.73
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,2001,4,130.40,130.41
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,2001,5,132.25,131.39
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,2001,6,134.94,132.60
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,2001,7,135.77,133.61
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,2001,8,137.26,135.13
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,2001,9,137.94,136.14
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,2001,10,138.07,136.90
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,2001,11,139.28,138.22
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,2001,12,139.02,138.73
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,2002,1,140.37,140.16
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,2002,2,140.77,141.45
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,2002,3,142.45,142.76
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,2002,4,144.06,144.12
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,2002,5,146.66,145.71
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,2002,6,148.96,146.47
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,2002,7,150.71,148.37
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,2002,8,152.24,149.89
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,2002,9,153.05,151.04
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,2002,10,154.05,152.73
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,2002,11,154.61,153.40
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,2002,12,156.16,155.86
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,2003,1,157.22,156.96
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,2003,2,158.07,158.72
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,2003,3,158.73,159.07
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,2003,4,160.69,160.75
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,2003,5,163.13,162.06
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,2003,6,165.30,162.63
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,2003,7,167.00,164.46
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,2003,8,169.16,166.53
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,2003,9,170.48,168.34
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,2003,10,170.48,168.98
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,2003,11,171.72,170.43
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,2003,12,173.19,172.88
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,2004,1,173.88,173.57
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,2004,2,175.88,176.50
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,2004,3,176.17,176.50
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,2004,4,179.07,179.09
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,2004,5,182.30,181.02
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,2004,6,185.75,182.85
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,2004,7,187.19,184.45
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,2004,8,188.32,185.31
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,2004,9,189.13,186.89
+traditional,purchase-only,monthly,USA or Census Division,Middle Atlantic Division,DV_MA,2004,10,191.41,189.68
