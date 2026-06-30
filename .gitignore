@@ -1,0 +1,44 @@
+# ---- Large data: never commit the full datasets ----
+# Keep only the curated samples under data/sample/ and the runnable sample
+# analysis/cleaned_speed.csv. Ignore everything else big.
+*.csv
+!data/sample/*.csv
+!analysis/cleaned_speed.csv
+!analysis/traffic.csv
+!analysis/extracted_wilcox_calls.csv
+!analysis/mann_whitney_results_min_friday.csv
+!analysis/mann_whitney_results_min_sunday.csv
+!results/*.csv
+
+# Split-archive parts / oversized intermediates
+pems_hours.*
+merged_hour.csv
+Col_named.csv
+Cleaned.csv
+Cleaned_speed.csv
+Feb_March.csv
+after_sb.csv
+sb_week.csv
+sb_week_condensed.csv
+
+# ---- R session / build cruft ----
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+*_cache/
+*_files/
+*.utf8.md
+*.knit.md
+
+# ---- Python ----
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

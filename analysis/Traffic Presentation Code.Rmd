@@ -1,0 +1,625 @@
+---
+title: "Traffic Presentation Code"
+output: pdf_document
+date: "2025-10-15"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## This is Just test code
+```{r}
+library(readr)
+```
+
+```{r}
+traffic <- read_csv("traffic.csv")
+```
+
+
+```{r}
+library(tidyr)
+library(dplyr)
+```
+
+```{r}
+traffic2 <- traffic %>%
+  separate(DateTime, into = c("date", "time"), sep = " ")
+
+for (i in 1:nrow(traffic2)){
+  if (is.na(traffic2$time[i])){
+    traffic2$time[i] <- "00:00:00"
+  }
+}
+```
+
+```{r}
+library(hms)
+class(traffic2$time)
+traffic2$time <- as_hms(traffic2$time)
+traffic2$time_numeric <- as.numeric(traffic2$time)
+traffic2$time_sin <- sin(2 * pi * traffic2$time_numeric / 86400)
+traffic2$time_cos <- cos(2 * pi * traffic2$time_numeric / 86400)
+X <- data.frame(time_numeric = traffic2$time_sin)
+Y <- traffic2$Vehicles
+
+lm_model <- lm(Vehicles ~ time_sin + time_cos, data = traffic2)
+
+library(randomForest)
+rf_model <- randomForest(Vehicles ~ time_sin + time_cos, data = traffic2)
+
+library(caret)
+#model <- train(
+#  Y ~ .,
+#  data = data.frame(Y,X),
+#  method = "knn",
+#  tuneLength = 14
+#)
+```
+
+```{r}
+test_pred <- as_hms("12:24:32")
+test_pred_numeric <- as.numeric(test_pred)
+test_obs <- data.frame(time_sin = sin(2 * pi * test_pred_numeric / 86400),
+                       time_cos = cos(2 * pi * test_pred_numeric / 86400))
+
+pred_lm <- predict(lm_model, newdata = test_obs)
+pred_rf <- predict(rf_model, newdata = test_obs)
+pred_lm
+pred_rf
+```
+
+
+
+
+## EDA with actual data (look farther down for the wilcox tests)
+
+Cleaned_speed
+```{r}
+library(tidyr)
+library(dplyr)
+library(hms)
+library(readr)
+df <- read_csv("cleaned_speed.csv")
+```
+
+```{r}
+hist(df$`Avg Speed`, 
+     main = "Distribution of Avg Speed", 
+     xlab = "Avg Speed", 
+     col = "skyblue", 
+     border = "white")
+```
+
+```{r}
+df <- df %>%
+  separate(Timestamp, into = c("date", "time"), sep = " ")
+
+class(df$time)
+df$time <- as_hms(df$time)
+```
+
+```{r}
+df %>%
+  count(time)
+```
+
+```{r}
+#subset9am <- df[df$time == as_hms("09:00:00"),]
+#hist(subset9am$`Avg Speed`,
+#     main = "Distribution of Average Speed at 09:00:00",
+#     xlab = "Average Speed",
+#     col = "skyblue",
+#     border = "white")
+```
+
+
+```{r}
+sb_week <- df[401904:937775,]
+#row_index <- which(sb_week$date == "02/15/2022")[1]
+write_csv(sb_week, "sb_week.csv")
+```
+
+```{r}
+after_sb <- df[937776:nrow(df),]
+write_csv(after_sb, "after_sb.csv")
+```
+
+```{r}
+sb_speed_summary <- sb_week %>%
+  group_by(time) %>%
+  summarize(avg_speed = mean(`Avg Speed`,na.rm = TRUE))
+
+library(ggplot2)
+ggplot(sb_speed_summary, aes(x = as.character(time), y = avg_speed)) + 
+  geom_col(fill = "steelblue") +
+  labs(title = "Average Speed by Time of Day for Super Bowl Week",
+       x = "Time (hour)",
+       y = "Average Speed") +
+  theme_minimal() +
+  theme(axis.text.x = element_blank(),
+        axis.ticks.x = element_blank())
+```
+
+```{r}
+regular_summary <- after_sb %>%
+  group_by(time) %>%
+  summarize(avg_speed = mean(`Avg Speed`,na.rm = TRUE))
+
+ggplot(regular_summary, aes(x = as.character(time), y = avg_speed)) + 
+  geom_col(fill = "steelblue") +
+  labs(title = "Average Speed by Time of Day Regularly",
+       x = "Time (hour)",
+       y = "Average Speed") +
+  theme_minimal() +
+  theme(axis.text.x = element_blank(),
+        axis.ticks.x = element_blank())
+```
+
+```{r}
+sb_occupancy <- sb_week %>%
+  group_by(time) %>%
+  summarize(occ_rate = mean(`Avg Occupancy`,na.rm = TRUE))
+
+ggplot(sb_occupancy, aes(x = as.character(time), y = occ_rate)) + 
+  geom_col(fill = "steelblue") +
+  labs(title = "Average Occupancy by Time of Day for Super Bowl Week",
+       x = "Time (hour)",
+       y = "Average Occupancy") +
+  theme_minimal() +
+  theme(axis.text.x = element_blank(),
+        axis.ticks.x = element_blank())
+```
+
+
+```{r}
+regular_occupancy <- after_sb %>%
+  group_by(time) %>%
+  summarize(occ_rate = mean(`Avg Occupancy`,na.rm = TRUE))
+
+ggplot(regular_occupancy, aes(x = as.character(time), y = occ_rate)) + 
+  geom_col(fill = "steelblue") +
+  labs(title = "Average Occupancy by Time of Day Regularly",
+       x = "Time (hour)",
+       y = "Average Occupancy") +
+  theme_minimal() +
+  theme(axis.text.x = element_blank(),
+        axis.ticks.x = element_blank())
+```
+
+
+#Wilcox tests
+
+```{r}
+library(tidyr)
+library(dplyr)
+library(hms)
+library(readr)
+library(ggplot2)
+df <- read_csv("cleaned_speed.csv")
+df <- df %>%
+  separate(Timestamp, into = c("date", "time"), sep = " ")
+
+class(df$time)
+df$time <- as_hms(df$time)
+
+#row_index <- which(df$date == "02/10/2022")[1]
+#sb_week <- df[602856:937775,]
+#write_csv(sb_week, "sb_week_condensed.csv")
+```
+
+```{r}
+friday_start <- which(df$date == "02/11/2022")[1]
+friday_end <- which(df$date == "02/12/2022")[1]
+sb_friday <- df[669840:736823,]
+
+regular_friday_start <- which(df$date == "02/25/2022")[1]
+regular_friday_end <- which(df$date == "02/26/2022")[1]
+regular_friday <- df[1607600:1674576,]
+
+regular_friday_start2 <- which(df$date == "03/04/2022")[1]
+regular_friday_end2 <- which(df$date == "03/05/2022")[1]
+regular_friday2 <- df[2076415:2143372,]
+
+regular_friday <- rbind(regular_friday,regular_friday2)
+
+#sb_friday_occupancy <- sb_friday %>%
+#  group_by(time) %>%
+#  summarize(occ_rate = mean(`Avg Occupancy`,na.rm = TRUE))
+
+#reg_friday_occupancy <- regular_friday %>%
+#  group_by(time) %>%
+#  summarize(occ_rate = mean(`Avg Occupancy`,na.rm = TRUE))
+```
+
+##ChatGPT
+```{r}
+subset8am_sb <- sb_friday[sb_friday$time == as_hms("08:00:00"),]
+subset8am_regular <- regular_friday[regular_friday$time == as_hms("08:00:00"),]
+subset9am_sb <- sb_friday[sb_friday$time == as_hms("09:00:00"),]
+subset9am_regular <- regular_friday[regular_friday$time == as_hms("09:00:00"),]
+subset10am_sb <- sb_friday[sb_friday$time == as_hms("10:00:00"),]
+subset10am_regular <- regular_friday[regular_friday$time == as_hms("10:00:00"),]
+subset11am_sb <- sb_friday[sb_friday$time == as_hms("11:00:00"),]
+subset11am_regular <- regular_friday[regular_friday$time == as_hms("11:00:00"),]
+subset12pm_sb <- sb_friday[sb_friday$time == as_hms("12:00:00"),]
+subset12pm_regular <- regular_friday[regular_friday$time == as_hms("12:00:00"),]
+subset1pm_sb <- sb_friday[sb_friday$time == as_hms("13:00:00"),]
+subset1pm_regular <- regular_friday[regular_friday$time == as_hms("13:00:00"),]
+subset2pm_sb <- sb_friday[sb_friday$time == as_hms("14:00:00"),]
+subset2pm_regular <- regular_friday[regular_friday$time == as_hms("14:00:00"),]
+subset3pm_sb <- sb_friday[sb_friday$time == as_hms("15:00:00"),]
+subset3pm_regular <- regular_friday[regular_friday$time == as_hms("15:00:00"),]
+subset4pm_sb <- sb_friday[sb_friday$time == as_hms("16:00:00"),]
+subset4pm_regular <- regular_friday[regular_friday$time == as_hms("16:00:00"),]
+subset5pm_sb <- sb_friday[sb_friday$time == as_hms("17:00:00"),]
+subset5pm_regular <- regular_friday[regular_friday$time == as_hms("17:00:00"),]
+subset6pm_sb <- sb_friday[sb_friday$time == as_hms("18:00:00"),]
+subset6pm_regular <- regular_friday[regular_friday$time == as_hms("18:00:00"),]
+subset7pm_sb <- sb_friday[sb_friday$time == as_hms("19:00:00"),]
+subset7pm_regular <- regular_friday[regular_friday$time == as_hms("19:00:00"),]
+subset8pm_sb <- sb_friday[sb_friday$time == as_hms("20:00:00"),]
+subset8pm_regular <- regular_friday[regular_friday$time == as_hms("20:00:00"),]
+subset9pm_sb <- sb_friday[sb_friday$time == as_hms("21:00:00"),]
+subset9pm_regular <- regular_friday[regular_friday$time == as_hms("21:00:00"),]
+subset10pm_sb <- sb_friday[sb_friday$time == as_hms("22:00:00"),]
+subset10pm_regular <- regular_friday[regular_friday$time == as_hms("22:00:00"),]
+subset11pm_sb <- sb_friday[sb_friday$time == as_hms("23:00:00"),]
+subset11pm_regular <- regular_friday[regular_friday$time == as_hms("23:00:00"),]
+subset12am_sb <- sb_friday[sb_friday$time == as_hms("00:00:00"),]
+subset12am_regular <- regular_friday[regular_friday$time == as_hms("00:00:00"),]
+subset1am_sb <- sb_friday[sb_friday$time == as_hms("01:00:00"),]
+subset1am_regular <- regular_friday[regular_friday$time == as_hms("01:00:00"),]
+subset2am_sb <- sb_friday[sb_friday$time == as_hms("02:00:00"),]
+subset2am_regular <- regular_friday[regular_friday$time == as_hms("02:00:00"),]
+subset3am_sb <- sb_friday[sb_friday$time == as_hms("03:00:00"),]
+subset3am_regular <- regular_friday[regular_friday$time == as_hms("03:00:00"),]
+subset4am_sb <- sb_friday[sb_friday$time == as_hms("04:00:00"),]
+subset4am_regular <- regular_friday[regular_friday$time == as_hms("04:00:00"),]
+subset5am_sb <- sb_friday[sb_friday$time == as_hms("05:00:00"),]
+subset5am_regular <- regular_friday[regular_friday$time == as_hms("05:00:00"),]
+subset6am_sb <- sb_friday[sb_friday$time == as_hms("06:00:00"),]
+subset6am_regular <- regular_friday[regular_friday$time == as_hms("06:00:00"),]
+subset7am_sb <- sb_friday[sb_friday$time == as_hms("07:00:00"),]
+subset7am_regular <- regular_friday[regular_friday$time == as_hms("07:00:00"),]
+```
+
+
+```{r}
+source("wilcox_runlist_with_pctdiff.R")
+```
+
+```{r}
+# Show the table inside the doc
+readr::read_csv("mann_whitney_results_min_friday.csv", show_col_types = FALSE) |>
+  knitr::kable(digits = 4, caption = "Mann-Whitney U Tests for Friday")
+
+library(readr)
+library(knitr)
+library(kableExtra)
+
+tbl <- readr::read_csv("mann_whitney_results_min_friday.csv", show_col_types = FALSE) |>
+  knitr::kable(digits = 4, caption = "Mann-Whitney Tests for Friday") |>
+  kable_styling(full_width = FALSE) |>
+  row_spec(0, color = "black") |>   # make header text black
+  column_spec(1:ncol(readr::read_csv("mann_whitney_results_min_friday.csv", show_col_types = FALSE)), color = "black")  # make all text black
+
+save_kable(tbl, "mann_whitney_results_table_friday.html")
+```
+
+```{r}
+knitr::include_graphics("wilcox_results_friday.png")
+```
+
+
+
+##Sunday
+```{r}
+sunday_start <- which(df$date == "02/13/2022")[1]
+sunday_end <- which(df$date == "02/14/2022")[1]
+sb_sunday <- df[803808:870791,]
+
+regular_sunday_start <- which(df$date == "02/27/2022")[1]
+regular_sunday_end <- which(df$date == "02/28/2022")[1]
+regular_sunday <- df[1741550:1808522,]
+
+regular_sunday_start2 <- which(df$date == "03/06/2022")[1]
+regular_sunday_end2 <- which(df$date == "03/07/2022")[1]
+regular_sunday2 <- df[2210318:2277266,]
+
+regular_sunday <- rbind(regular_sunday, regular_sunday2)
+```
+
+```{r}
+subset8am_sb <- sb_sunday[sb_sunday$time == as_hms("08:00:00"),]
+subset8am_regular <- regular_sunday[regular_sunday$time == as_hms("08:00:00"),]
+subset9am_sb <- sb_sunday[sb_sunday$time == as_hms("09:00:00"),]
+subset9am_regular <- regular_sunday[regular_sunday$time == as_hms("09:00:00"),]
+subset10am_sb <- sb_sunday[sb_sunday$time == as_hms("10:00:00"),]
+subset10am_regular <- regular_sunday[regular_sunday$time == as_hms("10:00:00"),]
+subset11am_sb <- sb_sunday[sb_sunday$time == as_hms("11:00:00"),]
+subset11am_regular <- regular_sunday[regular_sunday$time == as_hms("11:00:00"),]
+subset12pm_sb <- sb_sunday[sb_sunday$time == as_hms("12:00:00"),]
+subset12pm_regular <- regular_sunday[regular_sunday$time == as_hms("12:00:00"),]
+subset1pm_sb <- sb_sunday[sb_sunday$time == as_hms("13:00:00"),]
+subset1pm_regular <- regular_sunday[regular_sunday$time == as_hms("13:00:00"),]
+subset2pm_sb <- sb_sunday[sb_sunday$time == as_hms("14:00:00"),]
+subset2pm_regular <- regular_sunday[regular_sunday$time == as_hms("14:00:00"),]
+subset3pm_sb <- sb_sunday[sb_sunday$time == as_hms("15:00:00"),]
+subset3pm_regular <- regular_sunday[regular_sunday$time == as_hms("15:00:00"),]
+subset4pm_sb <- sb_sunday[sb_sunday$time == as_hms("16:00:00"),]
+subset4pm_regular <- regular_sunday[regular_sunday$time == as_hms("16:00:00"),]
+subset5pm_sb <- sb_sunday[sb_sunday$time == as_hms("17:00:00"),]
+subset5pm_regular <- regular_sunday[regular_sunday$time == as_hms("17:00:00"),]
+subset6pm_sb <- sb_sunday[sb_sunday$time == as_hms("18:00:00"),]
+subset6pm_regular <- regular_sunday[regular_sunday$time == as_hms("18:00:00"),]
+subset7pm_sb <- sb_sunday[sb_sunday$time == as_hms("19:00:00"),]
+subset7pm_regular <- regular_sunday[regular_sunday$time == as_hms("19:00:00"),]
+subset8pm_sb <- sb_sunday[sb_sunday$time == as_hms("20:00:00"),]
+subset8pm_regular <- regular_sunday[regular_sunday$time == as_hms("20:00:00"),]
+subset9pm_sb <- sb_sunday[sb_sunday$time == as_hms("21:00:00"),]
+subset9pm_regular <- regular_sunday[regular_sunday$time == as_hms("21:00:00"),]
+subset10pm_sb <- sb_sunday[sb_sunday$time == as_hms("22:00:00"),]
+subset10pm_regular <- regular_sunday[regular_sunday$time == as_hms("22:00:00"),]
+subset11pm_sb <- sb_sunday[sb_sunday$time == as_hms("23:00:00"),]
+subset11pm_regular <- regular_sunday[regular_sunday$time == as_hms("23:00:00"),]
+subset12am_sb <- sb_sunday[sb_sunday$time == as_hms("00:00:00"),]
+subset12am_regular <- regular_sunday[regular_sunday$time == as_hms("00:00:00"),]
+subset1am_sb <- sb_sunday[sb_sunday$time == as_hms("01:00:00"),]
+subset1am_regular <- regular_sunday[regular_sunday$time == as_hms("01:00:00"),]
+subset2am_sb <- sb_sunday[sb_sunday$time == as_hms("02:00:00"),]
+subset2am_regular <- regular_sunday[regular_sunday$time == as_hms("02:00:00"),]
+subset3am_sb <- sb_sunday[sb_sunday$time == as_hms("03:00:00"),]
+subset3am_regular <- regular_sunday[regular_sunday$time == as_hms("03:00:00"),]
+subset4am_sb <- sb_sunday[sb_sunday$time == as_hms("04:00:00"),]
+subset4am_regular <- regular_sunday[regular_sunday$time == as_hms("04:00:00"),]
+subset5am_sb <- sb_sunday[sb_sunday$time == as_hms("05:00:00"),]
+subset5am_regular <- regular_sunday[regular_sunday$time == as_hms("05:00:00"),]
+subset6am_sb <- sb_sunday[sb_sunday$time == as_hms("06:00:00"),]
+subset6am_regular <- regular_sunday[regular_sunday$time == as_hms("06:00:00"),]
+subset7am_sb <- sb_sunday[sb_sunday$time == as_hms("07:00:00"),]
+subset7am_regular <- regular_sunday[regular_sunday$time == as_hms("07:00:00"),]
+```
+
+```{r}
+source("wilcox_runlist_with_pctdiff.R")
+```
+
+```{r}
+# Show the table inside the doc
+readr::read_csv("mann_whitney_results_min_sunday.csv", show_col_types = FALSE) |>
+  knitr::kable(digits = 4, caption = "Mann-Whitney U Tests for Sunday")
+
+library(readr)
+library(knitr)
+library(kableExtra)
+
+tbl <- readr::read_csv("mann_whitney_results_min_sunday.csv", show_col_types = FALSE) |>
+  knitr::kable(digits = 4, caption = "Mann-Whitney U Tests for Sunday") |>
+  kable_styling(full_width = FALSE) |>
+  row_spec(0, color = "black") |>   # make header text black
+  column_spec(1:ncol(readr::read_csv("mann_whitney_results_min_sunday.csv", show_col_types = FALSE)), color = "black")  # make all text black
+
+save_kable(tbl, "mann_whitney_results_table_sunday.html")
+```
+
+```{r}
+knitr::include_graphics("wilcox_results_sunday.png")
+```
+
+```{r}
+ggplot(sb_friday_occupancy, aes(x = as.character(time), y = occ_rate)) + 
+  geom_col(fill = "steelblue") +
+  labs(title = "Average Occupancy by Time of Day on Super Bowl Friday",
+       x = "Time (hour)",
+       y = "Average Occupancy") +
+  theme_minimal() +
+  theme(axis.text.x = element_blank(),
+        axis.ticks.x = element_blank())
+```
+
+
+```{r}
+ggplot(reg_friday_occupancy, aes(x = as.character(time), y = occ_rate)) + 
+  geom_col(fill = "steelblue") +
+  labs(title = "Average Occupancy by Time of Day on a Regular Friday",
+       x = "Time (hour)",
+       y = "Average Occupancy") +
+  theme_minimal() +
+  theme(axis.text.x = element_blank(),
+        axis.ticks.x = element_blank())
+```
+
+```{r}
+subset7am_sb <- sb_friday[sb_friday$time == as_hms("07:00:00"),]
+hist(subset7am_sb$`Avg Occupancy`,
+     main = "Distribution of Average Occupancy at 07:00:00",
+     xlab = "Average Speed",
+     col = "skyblue",
+     border = "white")
+```
+
+```{r}
+subset7am_regular <- regular_friday[regular_friday$time == as_hms("07:00:00"),]
+hist(subset7am_regular$`Avg Occupancy`,
+     main = "Distribution of Average Occupancy at 07:00:00",
+     xlab = "Average Speed",
+     col = "skyblue",
+     border = "white")
+```
+
+```{r}
+wilcox.test(subset7am_sb$`Avg Occupancy`, subset7am_regular$`Avg Occupancy`)
+```
+
+```{r}
+subset8am_sb <- sb_friday[sb_friday$time == as_hms("08:00:00"),]
+subset8am_regular <- regular_friday[regular_friday$time == as_hms("08:00:00"),]
+eightam <- wilcox.test(subset8am_sb$`Avg Occupancy`, subset8am_regular$`Avg Occupancy`)
+```
+
+```{r}
+z <- qnorm(eightam$p.value / 2, lower.tail = FALSE) * sign(eightam$statistic - (2791*5581/2))
+r <- z / sqrt(5581 + 2791)
+r
+```
+
+```{r}
+(mean(subset8am_sb$`Avg Occupancy`) - mean(subset8am_regular$`Avg Occupancy`)) / mean(subset8am_regular$`Avg Occupancy`)
+#median(subset8am_regular$`Avg Occupancy`)
+```
+
+
+```{r}
+subset9am_sb <- sb_friday[sb_friday$time == as_hms("09:00:00"),]
+subset9am_regular <- regular_friday[regular_friday$time == as_hms("09:00:00"),]
+wilcox.test(subset9am_sb$`Avg Occupancy`, subset9am_regular$`Avg Occupancy`)
+```
+
+```{r}
+z <- qnorm(eightam$p.value / 2, lower.tail = FALSE) * sign(eightam$statistic - (2791*5581/2))
+r <- z / sqrt(5581 + 2791)
+r
+```
+
+
+```{r}
+subset10am_sb <- sb_friday[sb_friday$time == as_hms("10:00:00"),]
+subset10am_regular <- regular_friday[regular_friday$time == as_hms("10:00:00"),]
+wilcox.test(subset10am_sb$`Avg Occupancy`, subset10am_regular$`Avg Occupancy`)
+```
+
+```{r}
+subset11am_sb <- sb_friday[sb_friday$time == as_hms("11:00:00"),]
+subset11am_regular <- regular_friday[regular_friday$time == as_hms("11:00:00"),]
+wilcox.test(subset11am_sb$`Avg Occupancy`, subset11am_regular$`Avg Occupancy`)
+```
+
+```{r}
+subset12pm_sb <- sb_friday[sb_friday$time == as_hms("12:00:00"),]
+subset12pm_regular <- regular_friday[regular_friday$time == as_hms("12:00:00"),]
+wilcox.test(subset12pm_sb$`Avg Occupancy`, subset12pm_regular$`Avg Occupancy`)
+```
+
+```{r}
+subset1pm_sb <- sb_friday[sb_friday$time == as_hms("13:00:00"),]
+subset1pm_regular <- regular_friday[regular_friday$time == as_hms("13:00:00"),]
+wilcox.test(subset1pm_sb$`Avg Occupancy`, subset1pm_regular$`Avg Occupancy`)
+```
+
+```{r}
+subset2pm_sb <- sb_friday[sb_friday$time == as_hms("14:00:00"),]
+subset2pm_regular <- regular_friday[regular_friday$time == as_hms("14:00:00"),]
+wilcox.test(subset2pm_sb$`Avg Occupancy`, subset2pm_regular$`Avg Occupancy`)
+```
+
+```{r}
+subset3pm_sb <- sb_friday[sb_friday$time == as_hms("15:00:00"),]
+subset3pm_regular <- regular_friday[regular_friday$time == as_hms("15:00:00"),]
+wilcox.test(subset3pm_sb$`Avg Occupancy`, subset3pm_regular$`Avg Occupancy`)
+```
+
+```{r}
+subset4pm_sb <- sb_friday[sb_friday$time == as_hms("16:00:00"),]
+subset4pm_regular <- regular_friday[regular_friday$time == as_hms("16:00:00"),]
+wilcox.test(subset4pm_sb$`Avg Occupancy`, subset4pm_regular$`Avg Occupancy`)
+```
+
+```{r}
+subset5pm_sb <- sb_friday[sb_friday$time == as_hms("17:00:00"),]
+subset5pm_regular <- regular_friday[regular_friday$time == as_hms("17:00:00"),]
+wilcox.test(subset5pm_sb$`Avg Occupancy`, subset5pm_regular$`Avg Occupancy`)
+```
+
+```{r}
+subset6pm_sb <- sb_friday[sb_friday$time == as_hms("18:00:00"),]
+subset6pm_regular <- regular_friday[regular_friday$time == as_hms("18:00:00"),]
+wilcox.test(subset6pm_sb$`Avg Occupancy`, subset6pm_regular$`Avg Occupancy`)
+```
+
+```{r}
+subset7pm_sb <- sb_friday[sb_friday$time == as_hms("19:00:00"),]
+subset7pm_regular <- regular_friday[regular_friday$time == as_hms("19:00:00"),]
+wilcox.test(subset7pm_sb$`Avg Occupancy`, subset7pm_regular$`Avg Occupancy`)
+```
+
+```{r}
+subset8pm_sb <- sb_friday[sb_friday$time == as_hms("20:00:00"),]
+subset8pm_regular <- regular_friday[regular_friday$time == as_hms("20:00:00"),]
+wilcox.test(subset8pm_sb$`Avg Occupancy`, subset8pm_regular$`Avg Occupancy`)
+```
+
+```{r}
+subset9pm_sb <- sb_friday[sb_friday$time == as_hms("21:00:00"),]
+subset9pm_regular <- regular_friday[regular_friday$time == as_hms("21:00:00"),]
+wilcox.test(subset9pm_sb$`Avg Occupancy`, subset9pm_regular$`Avg Occupancy`)
+```
+
+```{r}
+subset10pm_sb <- sb_friday[sb_friday$time == as_hms("22:00:00"),]
+subset10pm_regular <- regular_friday[regular_friday$time == as_hms("22:00:00"),]
+wilcox.test(subset10pm_sb$`Avg Occupancy`, subset10pm_regular$`Avg Occupancy`)
+```
+
+```{r}
+subset11pm_sb <- sb_friday[sb_friday$time == as_hms("23:00:00"),]
+subset11pm_regular <- regular_friday[regular_friday$time == as_hms("23:00:00"),]
+wilcox.test(subset11pm_sb$`Avg Occupancy`, subset11pm_regular$`Avg Occupancy`)
+```
+
+```{r}
+subset12am_sb <- sb_friday[sb_friday$time == as_hms("00:00:00"),]
+subset12am_regular <- regular_friday[regular_friday$time == as_hms("00:00:00"),]
+wilcox.test(subset12am_sb$`Avg Occupancy`, subset12am_regular$`Avg Occupancy`)
+```
+
+```{r}
+subset1am_sb <- sb_friday[sb_friday$time == as_hms("01:00:00"),]
+subset1am_regular <- regular_friday[regular_friday$time == as_hms("01:00:00"),]
+wilcox.test(subset1am_sb$`Avg Occupancy`, subset1am_regular$`Avg Occupancy`)
+```
+
+
+```{r}
+subset2am_sb <- sb_friday[sb_friday$time == as_hms("02:00:00"),]
+subset2am_regular <- regular_friday[regular_friday$time == as_hms("02:00:00"),]
+wilcox.test(subset2am_sb$`Avg Occupancy`, subset2am_regular$`Avg Occupancy`)
+```
+
+
+```{r}
+subset3am_sb <- sb_friday[sb_friday$time == as_hms("03:00:00"),]
+subset3am_regular <- regular_friday[regular_friday$time == as_hms("03:00:00"),]
+wilcox.test(subset3am_sb$`Avg Occupancy`, subset3am_regular$`Avg Occupancy`)
+```
+
+
+```{r}
+subset4am_sb <- sb_friday[sb_friday$time == as_hms("04:00:00"),]
+subset4am_regular <- regular_friday[regular_friday$time == as_hms("04:00:00"),]
+wilcox.test(subset4am_sb$`Avg Occupancy`, subset4am_regular$`Avg Occupancy`)
+```
+
+
+```{r}
+subset5am_sb <- sb_friday[sb_friday$time == as_hms("05:00:00"),]
+subset5am_regular <- regular_friday[regular_friday$time == as_hms("05:00:00"),]
+wilcox.test(subset5am_sb$`Avg Occupancy`, subset5am_regular$`Avg Occupancy`)
+```
+
+
+```{r}
+subset6am_sb <- sb_friday[sb_friday$time == as_hms("06:00:00"),]
+subset6am_regular <- regular_friday[regular_friday$time == as_hms("06:00:00"),]
+wilcox.test(subset6am_sb$`Avg Occupancy`, subset6am_regular$`Avg Occupancy`)
+```
+
+
+```{r}
+subset7am_sb <- sb_friday[sb_friday$time == as_hms("07:00:00"),]
+subset7am_regular <- regular_friday[regular_friday$time == as_hms("07:00:00"),]
+wilcox.test(subset7am_sb$`Avg Occupancy`, subset7am_regular$`Avg Occupancy`)
+```
+
+## sunday comparison

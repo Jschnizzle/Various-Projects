@@ -1,0 +1,26 @@
+label,method,alternative,p.value,statistic,conf.low,conf.high,error,significance,neg_log10_p
+wilcox_test_1,Wilcoxon rank sum test with continuity correction,two.sided,0.4699531844973013,7861641,NA,NA,NA,,0.3279454031858825
+eightam,Wilcoxon rank sum test with continuity correction,two.sided,0.017384417897964695,8034394,NA,NA,NA,*,1.759839846708318
+wilcox_test_3,Wilcoxon rank sum test with continuity correction,two.sided,0.0014875958138407727,8117007,NA,NA,NA,**,2.827515052434879
+wilcox_test_4,Wilcoxon rank sum test with continuity correction,two.sided,0.00392969880519805,8085228,NA,NA,NA,**,2.4056407351851963
+wilcox_test_5,Wilcoxon rank sum test with continuity correction,two.sided,0.08624422162661623,7965794,NA,NA,NA,·,1.064269993063291
+wilcox_test_6,Wilcoxon rank sum test with continuity correction,two.sided,0.18681340502713828,7924872,NA,NA,NA,,0.728591963649618
+wilcox_test_7,Wilcoxon rank sum test with continuity correction,two.sided,0.07511540794131827,7972430.5,NA,NA,NA,·,1.1242709698194766
+wilcox_test_8,Wilcoxon rank sum test with continuity correction,two.sided,0.2490292751825537,7907554,NA,NA,NA,,0.6037495954629124
+wilcox_test_9,Wilcoxon rank sum test with continuity correction,two.sided,0.03928150129508366,8002985,NA,NA,NA,*,1.4058119223181087
+wilcox_test_10,Wilcoxon rank sum test with continuity correction,two.sided,0.11723814640082307,7951782.5,NA,NA,NA,,0.9309310566124658
+wilcox_test_11,Wilcoxon rank sum test with continuity correction,two.sided,0.005427519785490096,8074536,NA,NA,NA,**,2.2653985846927944
+wilcox_test_12,Wilcoxon rank sum test with continuity correction,two.sided,2.7325949260262897e-4,8163412.5,NA,NA,NA,***,3.5634247424127197
+wilcox_test_13,Wilcoxon rank sum test with continuity correction,two.sided,0.0027416863571495557,8096764,NA,NA,NA,**,2.561982229032353
+wilcox_test_14,Wilcoxon rank sum test with continuity correction,two.sided,0.018147981345162132,8034165,NA,NA,NA,*,1.741171675829721
+wilcox_test_15,Wilcoxon rank sum test with continuity correction,two.sided,0.0024927023478602773,8099759.5,NA,NA,NA,**,2.603329577252123
+wilcox_test_16,Wilcoxon rank sum test with continuity correction,two.sided,0.36004761806335295,7881575.5,NA,NA,NA,,0.4436400578589356
+wilcox_test_17,Wilcoxon rank sum test with continuity correction,two.sided,0.18242160380571945,7924826,NA,NA,NA,,0.7389237303824907
+wilcox_test_18,Wilcoxon rank sum test with continuity correction,two.sided,0.8166772763978296,7813671.5,NA,NA,NA,,0.08794952825174057
+wilcox_test_19,Wilcoxon rank sum test with continuity correction,two.sided,0.9686206652634984,7790960,NA,NA,NA,,0.013846269633722489
+wilcox_test_20,Wilcoxon rank sum test with continuity correction,two.sided,0.8272757315887609,7810861,NA,NA,NA,,0.08234971566014601
+wilcox_test_21,Wilcoxon rank sum test with continuity correction,two.sided,0.9075032555980427,7776264,NA,NA,NA,,0.042151808291046436
+wilcox_test_22,Wilcoxon rank sum test with continuity correction,two.sided,0.6677425607250842,7832699.5,NA,NA,NA,,0.17539094172522302
+wilcox_test_23,Wilcoxon rank sum test with continuity correction,two.sided,0.6992242253418925,7825460,NA,NA,NA,,0.15538353353433731
+wilcox_test_24,Wilcoxon rank sum test with continuity correction,two.sided,0.3827709877960231,7875778,NA,NA,NA,,0.41706098708533684
+wilcox_test_25,Wilcoxon rank sum test with continuity correction,two.sided,0.4699531844973013,7861641,NA,NA,NA,,0.3279454031858825
