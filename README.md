@@ -76,12 +76,6 @@ in full.
 
 ## Notes
 
-- `Zipped Files/` (the original `.gz` archives of the rac/wac CSVs) was
-  excluded — verified byte-for-byte identical to the decompressed CSVs once
-  unzipped, so it added nothing but ~83 MB of duplication.
-- The original top-level `ca_merged` / `ca_merged.txt` files were identical
-  copies of `Data/ca_merged.csv`; only the one canonical copy is kept, in
-  `results/ca_merged.csv`.
 - `CollectionAndAnalysis.ipynb` also expects a `CENSUS_API_KEY` environment
   variable (loaded via `python-dotenv` from `~/Documents/.env` in the
   original) for its Census API calls.
