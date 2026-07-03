@@ -1,0 +1,181 @@
+---
+title: "Stats 101A Group Project — Predicting NFL Wins from Team Ranking Stats"
+author: "Jeremy Shiu"
+date: "2023-03-19"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<!--
+  Goal: model regular-season WINS as a function of five team ranking
+  statistics (lower rank number = better):
+    rypa        rushing yards per attempt (offense) ranking
+    yppa        passing yards per attempt (offense) ranking
+    t.o_margin  turnover margin ranking
+    oppo.rypa   opponent rushing yards per attempt (defense) ranking
+    oppo.yppa   opponent passing yards per attempt (defense) ranking
+-->
+
+## 1. Setup
+
+```{r libraries, message=FALSE, warning=FALSE}
+library(car)   # inverseResponsePlot, powerTransform, avPlot, vif
+library(MASS)  # supporting model-selection utilities
+```
+
+## 2. Load and prepare the data
+
+```{r load-data}
+# Read the raw rankings file (column 1 is the team label; columns 2-7 are numeric).
+football_raw <- read.csv("football data.csv")
+
+# Row 104 is the winless 2017 Browns (wins = 0). It is an outlier and its zero
+# breaks the log / power transformations used later, so it is dropped.
+# Keep only the numeric response + predictor columns (2-7).
+football <- football_raw[-104, 2:7]
+
+# Number of observations, used later for the BIC penalty term.
+n <- nrow(football)
+
+head(football)
+```
+
+## 3. Exploratory data analysis
+
+```{r eda}
+# Summary statistics and spread for each variable.
+summary(football)
+list("std. devs" = sapply(football, sd))
+
+# Correlations and scatterplot matrix among all variables.
+cor(football)
+pairs(football)
+```
+
+## 4. Full model
+
+```{r full-model}
+# Regress wins on all five ranking predictors.
+full_model <- lm(wins ~ rypa + yppa + t.o_margin + oppo.rypa + oppo.yppa,
+                 data = football)
+summary(full_model)
+anova(full_model)
+
+# Standard diagnostic plots (residuals, Q-Q, scale-location, leverage).
+par(mfrow = c(2, 2))
+plot(full_model)
+```
+
+```{r leverage}
+# Flag high-leverage points using the 2*(p+1)/n rule of thumb.
+# p = 5 predictors, so the cutoff is 2*(5+1)/n.
+which(hatvalues(full_model) > 2 * (5 + 1) / n)
+```
+
+## 5. Choosing a response transformation
+
+```{r inverse-response-plot}
+# The inverse response plot suggests a power transformation of the response.
+inverseResponsePlot(full_model)
+```
+
+```{r power-transform}
+# powerTransform estimates transformation parameters for the response
+# (and, below, jointly for the predictors) via maximum likelihood.
+summary(
+  powerTransform(
+    cbind(wins, rypa, yppa, t.o_margin, oppo.rypa, oppo.yppa) ~ 1,
+    data = football
+  )
+)
+
+# The inverse response plot returns lambda ~ 0.8425 for wins; store it so the
+# transformed response is defined in one place.
+lambda <- 0.8425031
+football$wins_t <- football$wins^lambda
+```
+
+## 6. Transformed full model
+
+```{r transformed-model}
+# Refit the full model using the transformed response.
+trans_model <- lm(wins_t ~ rypa + yppa + t.o_margin + oppo.rypa + oppo.yppa,
+                  data = football)
+summary(trans_model)
+anova(trans_model)
+
+# Diagnostics for the transformed model.
+par(mfrow = c(2, 2))
+plot(trans_model)
+
+# Re-check leverage and multicollinearity (VIF) after transforming.
+which(hatvalues(trans_model) > 2 * (5 + 1) / n)
+vif(trans_model)
+```
+
+## 7. Automated model selection
+
+```{r stepwise-selection}
+# Intercept-only starting point for forward selection.
+null_model <- lm(wins_t ~ 1, data = football)
+scope_upper <- ~ rypa + yppa + t.o_margin + oppo.rypa + oppo.yppa
+
+# Forward and backward selection by AIC.
+forward_aic  <- step(null_model, scope = list(lower = ~1, upper = scope_upper),
+                     direction = "forward", data = football)
+backward_aic <- step(trans_model, direction = "backward", data = football)
+
+# Forward and backward selection by BIC (heavier penalty: k = log(n)).
+forward_bic  <- step(null_model, scope = list(lower = ~1, upper = scope_upper),
+                     direction = "forward", k = log(n), data = football)
+backward_bic <- step(trans_model, direction = "backward", k = log(n),
+                     data = football)
+```
+
+## 8. Added-variable plots and multicollinearity (full model)
+
+```{r av-plots-full}
+# Added-variable (partial regression) plots show each predictor's unique
+# contribution given the others; VIF quantifies multicollinearity.
+par(mfrow = c(3, 3))
+avPlot(trans_model, variable = rypa,       ask = FALSE)
+avPlot(trans_model, variable = yppa,       ask = FALSE)
+avPlot(trans_model, variable = t.o_margin, ask = FALSE)
+avPlot(trans_model, variable = oppo.rypa,  ask = FALSE)
+avPlot(trans_model, variable = oppo.yppa,  ask = FALSE)
+vif(trans_model)
+```
+
+## 9. Reduced model and partial F-test
+
+```{r reduced-model}
+# Model selection points to the three consistently significant predictors:
+# turnover margin, passing offense, and passing defense.
+reduced_model <- lm(wins_t ~ t.o_margin + yppa + oppo.yppa, data = football)
+
+# Partial F-test: does dropping rypa and oppo.rypa significantly hurt fit?
+# A non-significant p-value supports the smaller model.
+anova(reduced_model, trans_model)
+```
+
+```{r av-plots-reduced}
+# Added-variable plots and VIF for the reduced model.
+par(mfrow = c(1, 3))
+avPlot(reduced_model, variable = t.o_margin, ask = FALSE)
+avPlot(reduced_model, variable = yppa,       ask = FALSE)
+avPlot(reduced_model, variable = oppo.yppa,  ask = FALSE)
+vif(reduced_model)
+```
+
+## 10. Final reduced model diagnostics
+
+```{r final-diagnostics}
+# Summary, ANOVA, and diagnostic plots for the final chosen model.
+summary(reduced_model)
+anova(reduced_model)
+par(mfrow = c(2, 2))
+plot(reduced_model)
+```
