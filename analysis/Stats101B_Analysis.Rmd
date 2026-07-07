@@ -1,0 +1,269 @@
+---
+title: "Optimal Pre-Workout Drink and Dosage: Two-Way ANOVA Analysis"
+subtitle: "STATS 101B Final Project"
+author: "Jeremy Shiu, Derek Nakagawa, Luke Shen, Kai Zheng"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    number_sections: true
+    theme: readable
+---
+
+```{r setup, include=FALSE}
+# Global chunk options:
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Overview
+
+Code for my STATS 101B project on whether a **pre-workout drink** (water, sugar water, or a sugar-free energy drink) and its **dosage** (250, 500, or 750 mL) affect exercise performance.
+
+The experiment is a **balanced two-factor factorial design** (3 Drinks x
+3 Dosages = 9 treatment groups, 28 subjects each, 252 total) analyzed with a
+**two-way ANOVA with interaction**. The response is the *percent change* in the
+number of bicep curls a subject can perform in 30 seconds, comparing a
+no-drink baseline to a post-treatment measurement:
+
+$$\text{Difference} = \frac{X_2 - X_1}{X_1}$$
+
+where \(X_1\) = baseline reps and \(X_2\) = reps after the assigned treatment.
+Using percent change (rather than raw reps) controls for individual variation
+in baseline strength.
+
+# Packages
+
+```{r packages}
+# ggplot2 : all boxplots / interaction plots
+# dplyr   : group_by() + summarise() for the interaction-plot summary table
+# pwr     : a-priori sample size / power calculation
+library(ggplot2)
+library(dplyr)
+library(pwr)
+```
+
+# Load and Prepare the Data
+
+```{r load-data}
+raw <- read.csv("data for stats 101b project - Sheet1.csv",
+                stringsAsFactors = FALSE)
+
+# turn "Dosage(mL)" into "Dosage.mL." -- rename for convenience.
+names(raw)[names(raw) == "Dosage.mL."] <- "Dosage"
+
+dat <- data.frame(
+  Baseline   = raw$Baseline,       # X1: baseline reps (no drink)
+  Drink      = raw$Drink,          # Factor 1: water / sugar water / sugar free energy drink
+  Dosage     = raw$Dosage,         # Factor 2: 250 / 500 / 750 mL
+  Reps       = raw$Repetitions,    # X2: reps after treatment
+  Difference = raw$Difference      # Response: (X2 - X1) / X1
+)
+
+# --- Convert the two treatment columns to FACTORS -------------------------
+# Dosage is numeric in the CSV; we treat it as a categorical factor because
+# the design has three discrete dose levels, not a continuous predictor.
+dat$Drink  <- factor(dat$Drink,
+                     levels = c("water", "sugar water", "sugar free energy drink"))
+dat$Dosage <- factor(dat$Dosage, levels = c(250, 500, 750))
+
+# Quick sanity checks: structure and the balance of the design.
+str(dat)
+table(dat$Drink, dat$Dosage)   # should be 28 in every cell (balanced design)
+summary(dat$Difference)
+```
+
+# Sample Size Determination
+
+```{r sample-size}
+# A-priori power analysis done BEFORE collecting data.
+#   - Desired power : 0.80
+#   - Significance  : alpha = 0.05
+#   - Effect size   : Cohen's medium effect, f = 0.25  (f^2 = 0.0625)
+#
+# For a factorial ANOVA the relevant test is an F-test whose NUMERATOR df (u)
+# equals the df of the effect being powered. pwr.f2.test returns the
+# DENOMINATOR df (v); total N = u + v + 1.
+#
+# NOTE (documented in the report): we originally used u = 8 (the df you would
+# get by treating all 9 groups as one factor, 9 - 1 = 8), which gave ~249 and
+# was rounded up to 252 for a balanced 28-per-cell design. The interaction term
+# we actually care about has u = 4, so u = 8 slightly OVER-samples -- which is
+# harmless (extra power), just not minimal.
+
+# Reproduce the number reported in the paper (u = 8):
+ss_reported <- pwr.f2.test(u = 8, f2 = 0.25^2, sig.level = 0.05, power = 0.80)
+ss_reported
+ceiling(ss_reported$v) + 8 + 1   # total N implied (~249 -> rounded to 252)
+
+# The "correct" calculation for the interaction df (u = 4), for reference:
+pwr.f2.test(u = 4, f2 = 0.25^2, sig.level = 0.05, power = 0.80)
+```
+
+# Exploratory Plots
+
+Before any formal testing we look at the data to form expectations.
+
+## Boxplots
+
+```{r boxplot-drink}
+# Response distribution by DRINK type.
+# A reference band of +/- 0.10 is drawn because a 10% change would be
+# meaningful to an athlete even though the raw spread looks small.
+ggplot(dat, aes(x = Drink, y = Difference, fill = Drink)) +
+  geom_boxplot(alpha = 0.8, outlier.alpha = 0.5) +
+  geom_hline(yintercept = 0, linetype = "dashed", color = "grey40") +
+  labs(title = "Percent Change in Reps by Drink",
+       x = "Drink", y = "Percent Difference") +
+  theme_minimal() +
+  theme(legend.position = "none")
+```
+
+```{r boxplot-dosage}
+# Response distribution by DOSAGE.
+ggplot(dat, aes(x = Dosage, y = Difference, fill = Dosage)) +
+  geom_boxplot(alpha = 0.8, outlier.alpha = 0.5) +
+  geom_hline(yintercept = 0, linetype = "dashed", color = "grey40") +
+  labs(title = "Percent Change in Reps by Dosage",
+       x = "Dosage (mL)", y = "Percent Difference") +
+  theme_minimal() +
+  theme(legend.position = "none")
+```
+
+```{r boxplot-both}
+# Combined view: dosage on the x-axis, drink shown by fill.
+# This is the clearest single picture of all 9 treatment groups.
+ggplot(dat, aes(x = Dosage, y = Difference, fill = Drink)) +
+  geom_boxplot(alpha = 0.8, position = position_dodge(0.8)) +
+  geom_hline(yintercept = 0, linetype = "dashed", color = "grey40") +
+  labs(title = "Percent Change by Drink and Dosage",
+       x = "Dosage (mL)", y = "Percent Difference", fill = "Drink") +
+  theme_minimal()
+```
+
+The between-group differences in means are small relative to the within-group
+spread, so we do not expect large main effects.
+
+## Interaction Plot
+
+```{r interaction-plot}
+# Build the cell-mean summary table with dplyr (group_by + summarise),
+# exactly as described in the report, then plot the means with ggplot.
+cell_means <- dat %>%
+  group_by(Drink, Dosage) %>%
+  summarise(mean_diff = mean(Difference), .groups = "drop")
+
+ggplot(cell_means, aes(x = Dosage, y = mean_diff,
+                       color = Drink, group = Drink)) +
+  geom_line(linewidth = 1) +
+  geom_point(size = 2.5) +
+  geom_hline(yintercept = 0, linetype = "dashed", color = "grey60") +
+  labs(title = "Interaction Plot: Mean Percent Difference",
+       x = "Dosage (mL)", y = "Mean Percent Difference", color = "Drink") +
+  theme_minimal()
+
+# Base-R equivalent (produces the classic interaction.plot layout):
+with(dat, interaction.plot(x.factor = Dosage, trace.factor = Drink,
+                           response = Difference, fun = mean,
+                           xlab = "Dosage (mL)", ylab = "Mean Percent Difference",
+                           trace.label = "Drink", col = 1:3, lwd = 2))
+```
+
+The non-parallel lines (especially the sugar-free energy drink rising then
+falling as dose increases) suggest a possible interaction -- so we expect the
+interaction term to be the closest to significant in the ANOVA.
+
+# Two-Way ANOVA (Full Model)
+
+```{r full-anova}
+# Full factorial model: two main effects + their interaction.
+# The formula "Dosage * Drink" expands to  Dosage + Drink + Dosage:Drink.
+# We list Dosage first so the sequential (Type I) ANOVA table matches the
+# ordering in the report (Dosage, then Drink, then the interaction).
+model_full <- aov(Difference ~ Dosage * Drink, data = dat)
+summary(model_full)
+```
+
+This reproduces the reported ANOVA table:
+
+| Source        | Df  | Sum Sq | Mean Sq  | F     | p       |
+|---------------|-----|--------|----------|-------|---------|
+| Dosage        | 2   | 0.0047 | 0.002347 | 0.294 | 0.7458  |
+| Drink         | 2   | 0.0207 | 0.010370 | 1.298 | 0.2750  |
+| Dosage:Drink  | 4   | 0.0631 | 0.015786 | 1.975 | 0.0989  |
+| Residuals     | 243 | 1.9419 | 0.007991 |       |         |
+
+Neither main effect is significant (p >> 0.05). The interaction is the closest
+to significant (p = 0.0989) but still above alpha = 0.05.
+
+# Reduced Models
+
+```{r reduced-models}
+# The interaction was closest to significant, so we probe a few reduced models
+# to see whether any isolates a significant effect. In R, "A:B" is the
+# interaction term only; "A + A:B" keeps one main effect plus the interaction.
+
+# (a) Dosage + interaction
+model_dose_int <- aov(Difference ~ Dosage + Dosage:Drink, data = dat)
+summary(model_dose_int)
+
+# (b) Drink + interaction
+model_drink_int <- aov(Difference ~ Drink + Dosage:Drink, data = dat)
+summary(model_drink_int)
+
+# (c) Interaction only
+model_int_only <- aov(Difference ~ Dosage:Drink, data = dat)
+summary(model_int_only)
+```
+
+None of the reduced models produces a significant p-value, confirming that the
+full model is not hiding a significant effect. The full factorial model remains
+our final model.
+
+# Model Diagnostics
+
+```{r diagnostics, fig.width=8, fig.height=7}
+# The four standard diagnostic plots for the full model:
+#   1. Residuals vs Fitted  -> checks constant variance / no pattern
+#   2. Normal Q-Q           -> checks normality of residuals
+#   3. Scale-Location       -> checks homoscedasticity (spread of residuals)
+#   4. Residuals vs Factor Levels / Constant Leverage -> influential points
+par(mfrow = c(2, 2))   # 2x2 grid
+plot(model_full)
+par(mfrow = c(1, 1))   # reset plotting layout
+```
+
+The residuals scatter randomly around zero with roughly constant spread, and
+the Q-Q plot is close to the reference line (one mild outlier). Both the
+constant-variance and normality assumptions hold, so the model is valid.
+
+# Tukey HSD (Post-Hoc)
+
+```{r tukey}
+# Even though no factor was significant, we report Tukey's Honest Significant
+# Difference for completeness (pairwise comparisons within each main effect).
+TukeyHSD(model_full, which = c("Dosage", "Drink"))
+```
+
+As expected from the non-significant F-tests, every adjusted p-value is large,
+so no pair of dosages or drinks differs significantly.
+
+# Conclusions
+
+Across all tests, **no factor reached significance**:
+
+- **Dosage** (p = 0.7458) and **Drink** (p = 0.2750) main effects are far from
+  significant.
+- The **Drink x Dosage interaction** (p = 0.0989) is the closest to
+  significant but still above alpha = 0.05, and reduced models do not recover a
+  significant effect.
+- The sugar-free energy drink shows the strongest *positive* mean effect on
+  bicep curls (consistent with the caffeine literature), but the effect is too
+  small to be statistically significant.
+- Diagnostic plots confirm the model assumptions hold, so these conclusions are
+  valid.
+
+We therefore conclude that, in this experiment, the type of drink, its dosage,
+and their interaction had **no statistically significant effect** on bicep-curl
+performance.
+

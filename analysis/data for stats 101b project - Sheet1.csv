@@ -1,0 +1,253 @@
+subject_number,subject_name,subject_location,Baseline,Drink,Dosage(mL),Repetitions,Difference
+1,Dheer Laha,Shinobi 361,35,sugar water,250,26,-0.2571
+2,Viggo Blomgren,Shinobi 345,27,sugar free energy drink,500,34,0.2593
+3,Yasuji Yamasaki,Shinobi 341,30,sugar free energy drink,500,33,0.1000
+4,Anund Sorensen,Shinobi 317,31,sugar free energy drink,250,33,0.0645
+5,Toshan Mallick,Shinobi 285,38,sugar water,500,42,0.1053
+6,Bertold Nowak,Shinobi 279,33,water,250,35,0.0606
+7,Takuya Moore,Shinobi 273,31,sugar free energy drink,250,36,0.1613
+8,Rohan Iyer,Shinobi 272,34,sugar water,250,36,0.0588
+9,Hakan Larsen,Shinobi 250,39,sugar water,500,37,-0.0513
+10,Nirvan Dhirwan,Shinobi 241,38,water,250,33,-0.1316
+11,Soren Eklund,Shinobi 213,30,water,750,28,-0.0667
+12,Erling Eklund ,Shinobi 211,25,water,500,24,-0.0400
+13,Halden Solberg,Shinobi 204,32,sugar free energy drink,500,35,0.0938
+14,Erwan Georges,Shinobi 191,39,sugar free energy drink,250,38,-0.0256
+15,Ragnar Jensen,Vardo 24,25,water,500,28,0.1200
+16,Manuel Langlois,Shinobi 139,29,sugar water,750,31,0.0690
+17,Killian Mccarthy,Shinobi 131,36,sugar free energy drink,250,37,0.0278
+18,Brayden Kimura,Shinobi 124,37,sugar free energy drink,500,37,0.0000
+19,Arnaud Coulon,Shinobi 76,41,sugar free energy drink,250,41,0.0000
+20,Marc Wolf,Shinobi 75,39,sugar free energy drink,750,36,-0.0769
+21,Benjamin Wilson,Shinobi 56,34,water,750,34,0.0000
+22,Selvan Dhar,Shinobi 51,33,sugar water,250,34,0.0303
+23,Tahir Bahadur,Shinobi 44,29,sugar water,750,27,-0.0690
+24,Kamal Singh,Shinobi 33,35,sugar water,500,34,-0.0286
+25,Justin Abbasi,Shinobi 29,41,water,500,41,0.0000
+26,Gaetan Yamada,Shinobi 26,30,sugar water,250,28,-0.0667
+27,Ayann Puri,Colmar 113,39,water,750,36,-0.0769
+28,Henri Ramanan,Colmar 144,40,sugar free energy drink,500,41,0.0250
+29,Devak Patel,Mahuti 5,38,sugar water,500,36,-0.0526
+30,Haroon Bhatt,Mahuti 9,32,water,500,28,-0.1250
+31,Samir Dayal,Mahuti 10,38,sugar water,250,36,-0.0526
+32,Percival Solberg,Colmar 112,37,water,500,37,0.0000
+33,Olivier Sorenson,Colmar 117,32,sugar water,750,34,0.0625
+34,Erik Svendsen,Colmar 16,30,sugar free energy drink,500,28,-0.0667
+35,Percival Sorenson,Colmar 56,27,sugar water,500,32,0.1852
+36,Mahir Tamboli,Colmar 47,37,water,250,39,0.0541
+37,Rajan Tamboli,Colmar 3,30,sugar free energy drink,500,32,0.0667
+38,Manan Bahadur,Mahuti 16,34,sugar free energy drink,750,31,-0.0882
+39,Gerik Larsen,Colmar 1912,33,sugar free energy drink,750,28,-0.1515
+40,Madan Varadhan,Colmar 157,27,sugar free energy drink,500,29,0.0741
+41,Pavak Varadhan,Colmar 84,23,sugar free energy drink,250,29,0.2609
+42,Gandhar Varadkar,Colmar 81,40,water,750,40,0.0000
+43,Bernard Brown,Biruwa 46,37,sugar water,250,36,-0.0270
+44,Theodore Brown,Biruwa 50,34,sugar free energy drink,500,32,-0.0588
+45,Gerik Sorensen,Biruwa 51,39,sugar water,750,38,-0.0256
+46,Beau Sorensen,Biruwa 52,34,sugar free energy drink,750,34,0.0000
+47,Matthias Blomgren,Biruwa 56,38,sugar water,250,41,0.0789
+48,Tetsuo Yamaguchi,Biruwa 59,33,sugar free energy drink,750,32,-0.0303
+49,Franck Girard,Biruwa 62,29,sugar water,250,33,0.1379
+50,Mitsuhiro Yamaguchi,Biruwa 74,35,sugar water,250,33,-0.0571
+51,Nathan Collins,Biruwa 84,32,water,250,30,-0.0625
+52,Mohal Srinivasan,Talu 20,30,sugar water,250,32,0.0667
+53,Hakan Eklund,Talu 285,30,water,750,32,0.0667
+54,Gabriel Suzuki,Talu 49,40,water,500,41,0.0250
+55,Gunnar Olsen,Vardo 20,38,water,500,41,0.0789
+56,Kazuya Morris ,Talu 68,35,sugar free energy drink,750,38,0.0857
+57,Rodrigue Marin,Talu 65,36,sugar water,750,32,-0.1111
+58,Raine Chandra,Talu 82,36,sugar water,750,32,-0.1111
+59,Anand Varma,Talu 88,42,sugar water,750,41,-0.0238
+60,Gayan Chaudhuri,Talu 280,35,sugar free energy drink,500,39,0.1143
+61,Thurston Solberg,Talu 127,29,water,250,30,0.0345
+62,Jarrod Sato,Talu 144,32,water,500,29,-0.0938
+63,Seymour Clausen,Talu 152,42,water,750,44,0.0476
+64,Soren Blomgren,Talu 270,35,sugar free energy drink,250,38,0.0857
+65,Armand Duval,Talu 166,34,sugar free energy drink,750,33,-0.0294
+66,Leon Thorn,Helluland 53,38,sugar water,500,38,0.0000
+67,Mathis Jackson,Talu 169,33,water,500,32,-0.0303
+68,Devak Ghost,Talu 178,35,water,500,33,-0.0571
+69,Gunnar Solberg,Talu 200,27,water,500,27,0.0000
+70,Cameron Yamada,Talu 213,35,sugar free energy drink,250,32,-0.0857
+71,Maaran Joshi,Talu 268,32,water,500,28,-0.1250
+72,Nirvan Laha,Talu 226,32,sugar free energy drink,750,33,0.0313
+73,Layak Mardia,Talu 227,37,sugar free energy drink,250,37,0.0000
+74,Rachid Gillet,Talu 232,35,water,250,35,0.0000
+75,Rithul Agarwal,Talu 253,31,water,750,37,0.1935
+76,Jermaine Eklund,Talu 257,31,sugar water,750,37,0.1935
+77,Ishrat Lingutla,Eden 9,32,water,250,34,0.0625
+78,Leon Gupta,Eden 12,26,sugar free energy drink,250,27,0.0385
+79,Jash Lingutla,Eden 14,36,sugar free energy drink,250,38,0.0556
+80,Rushil Anand,Eden 16,30,sugar water,250,29,-0.0333
+81,Chaman Chatterjee,Eden 17,31,sugar free energy drink,750,32,0.0323
+82,Ketan Dhar,Eden 25,33,sugar free energy drink,750,35,0.0606
+83,Aimon Eklund,Eden 34,25,sugar free energy drink,250,29,0.1600
+84,Ayann Ramanan,Eden 36,29,sugar free energy drink,500,31,0.0690
+85,Nirvan Patel,Eden 40,30,sugar free energy drink,500,31,0.0333
+86,Gandhar Ramanan,Eden 148,29,sugar water,500,27,-0.0690
+87,Gildas Marques,Eden 49,32,sugar free energy drink,250,32,0.0000
+88,Xavier Collins,Eden 50,30,water,500,33,0.1000
+89,Toshan Mishra,Eden 51,35,sugar free energy drink,250,40,0.1429
+90,Gandhar Pillai,Eden 54,38,sugar water,750,36,-0.0526
+91,Pranay Asan,Eden 55,30,water,250,34,0.1333
+92,Pahal Kaur,Eden 115,38,sugar water,500,39,0.0263
+93,Bhajan Babu,Vardo 15,38,water,250,35,-0.0789
+94,Ole Eklund,Eden 65,33,sugar free energy drink,500,33,0.0000
+95,Inesh Pillai,Eden 466,37,water,750,36,-0.0270
+96,Gandhar Ramanan,Eden 148,25,sugar free energy drink,500,29,0.1600
+97,Zachary Brown,Eden 90,36,sugar free energy drink,250,33,-0.0833
+98,Raine Yamada,Eden 91,47,water,500,39,-0.1702
+99,Samir Tamboli,Eden 107,28,water,250,29,0.0357
+100,Oviyan Bose,Eden 106,33,sugar free energy drink,250,29,-0.1212
+101,Paresh Mishra,Eden 104,38,sugar water,750,36,-0.0526
+102,Jagan Bahadur,Colmar 38,31,sugar free energy drink,750,30,-0.0323
+103,Ishrat Banerjee,Colmar 230,31,sugar water,250,36,0.1613
+104,Jakob Ibsen,Vardo 7,34,water,250,39,0.1471
+105,Chaman Bhatt,Colmar 177,34,sugar water,250,33,-0.0294
+106,Reynard Blomgren,Colmar 58,31,water,500,31,0.0000
+107,Alexandre Brown,Colmar 32,26,sugar water,500,28,0.0769
+108,Ebony Carlsen,Colmar 35,38,water,750,36,-0.0526
+109,Justin Chandra,Colmar 116,26,sugar water,250,34,0.3077
+110,Kaamil Chaudhuri,Colmar 188,32,water,750,33,0.0313
+111,Raine Collins,Colmar 67,30,water,250,30,0.0000
+112,Killian Connolly,Colmar 37,39,water,250,36,-0.0769
+113,Davignon Dhawan,Colmar 209,37,water,750,39,0.0541
+114,Marcus Collins,Helluland 57,31,sugar water,500,27,-0.1290
+115,Davignon Dupont,Colmar 70,32,sugar free energy drink,500,31,-0.0313
+116,Ettan Gadhavi,Colmar 48,34,water,500,34,0.0000
+117,Selvan Gadhavi,Colmar 17,33,sugar free energy drink,750,33,0.0000
+118,Ravi Bhasin,Mahuti 32,32,water,500,35,0.0938
+119,Matthias Jensen,Colmar 145,27,sugar free energy drink,500,31,0.1481
+120,Antoine Simon,Mahuti 35,27,sugar water,750,31,0.1481
+121,Herve Garnier,Colmar 236,32,sugar free energy drink,250,31,-0.0313
+122,Etienne Hardy,Colmar 114,32,sugar water,500,33,0.0313
+123,Nayan Joshi,Colmar 151,27,sugar water,250,31,0.1481
+124,Naadir Kapoor,Colmar 161,37,sugar free energy drink,750,35,-0.0541
+125,Gayan Khan,Colmar 235,30,water,500,32,0.0667
+126,Davignon Kimura,Colmar 27,33,sugar water,250,28,-0.1515
+127,Gabriel Kimura,Colmar 127,41,sugar water,250,34,-0.1707
+128,Rupert Kimura,Colmar 178,31,sugar free energy drink,500,31,0.0000
+129,Manan Krishna,Colmar 229,34,sugar free energy drink,750,37,0.0882
+130,Raunak Krishna,Colmar 57,36,water,250,33,-0.0833
+131,Thomas Connolly,Mahuti 24,34,water,750,32,-0.0588
+132,Yuval Kumar,Colmar 207,33,sugar free energy drink,250,32,-0.0303
+133,Naadir Laha,Colmar 9,31,water,500,30,-0.0323
+134,Jacques Lund,Colmar 132,28,sugar water,500,32,0.1429
+135,Blaise Morris,Mahuti 28,31,water,750,32,0.0323
+136,Zachary Mardia,Colmar 142,34,sugar water,500,35,0.0294
+137,Stephan Marin,Colmar 11,32,sugar free energy drink,250,35,0.0938
+138,Nathan McCarthy,Colmar 76,32,sugar water,500,29,-0.0938
+139,Rene McCarthy,Colmar 7,26,sugar free energy drink,500,28,0.0769
+140,Amon Morris,Colmar 150,29,water,750,28,-0.0345
+141,Samuel Petit,Colmar 160,29,sugar free energy drink,500,29,0.0000
+142,Luke Price,Colmar 1,33,sugar water,750,33,0.0000
+143,Alexis Bousquet,Arcadia 326,38,sugar free energy drink,250,35,-0.0789
+144,Blade Mccarthy,Arcadia 324,35,sugar water,250,33,-0.0571
+145,Radhak Datta,Arcadia 305,31,sugar free energy drink,250,30,-0.0323
+146,Hans Nagel,Arcadia 287,32,sugar free energy drink,500,31,-0.0313
+147,Etienne Dupont,Arcadia 265,35,sugar free energy drink,750,31,-0.1143
+148,Sven Solberg,Arcadia 258,25,sugar free energy drink,250,25,0.0000
+149,Takero Taniguchi,Arcadia 253,32,sugar water,250,35,0.0938
+150,Patrick Mori,Arcadia 251,28,water,750,30,0.0714
+151,Crawford Stewart,Arcadia 236,34,water,750,33,-0.0294
+152,Ryotaro Ichikawa,Arcadia 230,32,sugar water,750,33,0.0313
+153,Yashiro Nakano,Arcadia 222,38,sugar water,500,39,0.0263
+154,Nathan Mccarthy,Arcadia 219,32,sugar water,750,34,0.0625
+155,Yanick Monnier,Arcadia 211,32,water,250,35,0.0938
+156,Auna Brown,Arcadia 208,35,sugar free energy drink,750,35,0.0000
+157,Erik Eklund,Arcadia 205,34,water,500,33,-0.0294
+158,Raine Hall,Arcadia 197,30,water,750,32,0.0667
+159,Magnar Blomgren,Helluland 58,34,sugar water,500,34,0.0000
+160,Hallmar Eklund,Arcadia 191,37,sugar water,250,34,-0.0811
+161,Jash Khan,Arcadia 187,34,sugar water,250,38,0.1176
+162,Katsuhito Yokoyama,Arcadia 183,30,sugar water,750,35,0.1667
+163,Masato Morris,Arcadia 179,34,water,500,36,0.0588
+164,Cameron Kimura,Arcadia 176,35,water,750,31,-0.1143
+165,Haru Ito,Arcadia 160,30,sugar water,750,26,-0.1333
+166,Gunnar Solberg,Arcadia 159,29,sugar water,750,31,0.0690
+167,Desmond Moore,Arcadia 158,38,water,250,31,-0.1842
+168,Zentaro Sakurai,Arcadia 150,23,sugar free energy drink,750,27,0.1739
+169,Douglas Fleming,Arcadia 149,37,sugar water,250,39,0.0541
+170,Jacque Simon,Arcadia 145,33,sugar free energy drink,750,33,0.0000
+171,Souta Suzuki,Arcadia 137,30,sugar free energy drink,500,29,-0.0333
+172,Austin Wilson,Arcadia 120,36,sugar water,750,32,-0.1111
+173,Ren Sato,Arcadia 134,29,water,750,28,-0.0345
+174,Hallmar Ibsen,Arcadia 115,32,sugar water,750,36,0.1250
+175,Kyle Sato,Arcadia 110,28,sugar water,500,29,0.0357
+176,Mike Yamada,Arcadia 1287,26,sugar free energy drink,750,24,-0.0769
+177,Gunnar Jensen,Arcadia 96,34,sugar free energy drink,250,33,-0.0294
+178,Serge Fabre,Arcadia 90,28,sugar free energy drink,500,32,0.1429
+179,Raymond Thomson,Arcadia 84,37,sugar water,500,41,0.1081
+180,Michael Solberg,Arcadia 86,34,sugar water,750,37,0.0882
+181,Tom Morris,Arcadia 66,33,water,500,32,-0.0303
+182,Inesh Bhasin,Arcadia 62,41,sugar free energy drink,750,36,-0.1220
+183,Pranay Lingutla,Arcadia 55,33,sugar free energy drink,500,34,0.0303
+184,Armand Suzuki,Arcadia 54,35,water,750,34,-0.0286
+185,Lars Solberg,Hayarano 3,31,sugar water,500,33,0.0645
+186,Raine Anand,Arcadia 51,38,sugar free energy drink,750,38,0.0000
+187,Kyoji Shibata,Arcadia 49,22,water,750,22,0.0000
+188,Kirk Eklund,Arcadia 34,32,sugar water,500,33,0.0313
+189,Kirk Bager,Arcadia 25,31,water,500,33,0.0645
+190,Jack Edwards,Arcadia 23,33,sugar free energy drink,500,34,0.0303
+191,Noel Clausen,Arcadia 20,35,sugar free energy drink,500,37,0.0571
+192,Viggo Bager,Arcadia 13,31,water,500,29,-0.0645
+193,Ragnar Sorensen,Arcadia 10,38,water,750,39,0.0263
+194,Nikolaus Schulze,Arcadia 6,36,sugar water,750,41,0.1389
+195,Koro Sugiyama,Hayarano 109,38,sugar free energy drink,500,36,-0.0526
+196,Hans Erickson,Arcadia 3,26,sugar water,250,23,-0.1154
+197,Julian Carlsen,Akkeshi 40,30,sugar water,250,32,0.0667
+198,Zenjiro Koyama,Hayarano 70,38,sugar free energy drink,500,39,0.0263
+199,Kosuke Maeda,Arcadia 4,37,sugar water,250,32,-0.1351
+200,Cyril Pasquier,Akkeshi 55,42,sugar water,500,37,-0.1190
+201,Minh Regan,Hayarano 40,28,sugar free energy drink,250,32,0.1429
+202,Ryotaro Sakaguchi,Akkeshi 59,33,sugar free energy drink,750,35,0.0606
+203,Gayan Chatterjee,Hayarano 118,38,water,750,44,0.1579
+204,Mike Mccarthy,Akkeshi 76,36,water,250,33,-0.0833
+205,Emaan Kulkarni,Hayarano 125,35,water,250,35,0.0000
+206,Lee Moore,Akkeshi 112,31,water,250,32,0.0323
+207,Mark Collins,Hayarano 143,33,sugar water,250,38,0.1515
+208,Benoit Ruiz,Akkeshi 121,35,sugar free energy drink,750,36,0.0286
+209,Hector Shaw,Hayarano 176,27,water,250,27,0.0000
+210,Cameron Wilson,Akkeshi 127,36,sugar water,750,32,-0.1111
+211,Tove Regan,Vardo 29,33,water,500,31,-0.0606
+212,Max Leger,Akkeshi 129,37,sugar water,250,35,-0.0541
+213,Devak Gadhavi,Vardo 17,33,water,250,34,0.0303
+214,Justin Kimura,Akkeshi 143,33,water,750,38,0.1515
+215,Sylvain Fabre,Hayarano 202,30,sugar free energy drink,250,31,0.0333
+216,Lars Sorensen,Akkeshi 159,28,sugar water,750,30,0.0714
+217,Marc Morris ,Hayarano 213,31,water,500,32,0.0323
+218,Fabian Pallesen,Akkeshi 171,31,water,250,29,-0.0645
+219,Finlay Connolly,Hayarano 224,29,water,750,26,-0.1034
+220,Axel Carlsen,Akkeshi 172,34,sugar water,500,30,-0.1176
+221,Peter Wilson,Hayarano 248,39,sugar free energy drink,750,39,0.0000
+222,Hugues Lamber,Akkeshi 201,35,sugar free energy drink,750,30,-0.1429
+223,Auna Collins,Hayarano 251,29,water,250,32,0.1034
+224,Leon Solberg,Hayarano 289,22,water,250,24,0.0909
+225,Erwan Pelletier,Akkeshi 243,36,sugar free energy drink,500,36,0.0000
+226,Florent Pereira,Hayarano 292,44,sugar water,750,41,-0.0682
+227,Gael Ruiz,Akkeshi 266,41,sugar free energy drink,750,39,-0.0488
+228,Maaran Basu,Hayarano 328,40,sugar free energy drink,750,37,-0.0750
+229,Evan Sato,Helluland 9,32,sugar water,500,26,-0.1875
+230,Mitchell Sato,Hayarano 351,35,sugar water,500,32,-0.0857
+231,Florian Carlsen,Akkeshi 301,30,water,250,30,0.0000
+232,Gayan Ramanujan,Hayarano 366,33,sugar water,750,35,0.0606
+233,Jack Sato,Akkeshi 309,29,water,500,29,0.0000
+234,Salim Reynaud,Hayarano 380,32,sugar water,500,31,-0.0313
+235,Ryouta Edwards,Akkeshi 331,40,sugar water,250,34,-0.1500
+236,Trevor Mitchell,Hayarano 383,37,sugar water,750,32,-0.1351
+237,Anund Sorensen,Akkeshi 335,27,water,750,28,0.0370
+238,Duncan Docherty,Biruwa 21,36,sugar water,750,32,-0.1111
+239,Patrick Yamada,Helluland 26,33,sugar water,500,30,-0.0909
+240,Maximilian Ibsen,Akkeshi 354,30,water,250,30,0.0000
+241,Tyr Solberg,Biruwa 17,37,sugar water,750,37,0.0000
+242,Hans Jensen,Akkeshi 359,29,water,750,33,0.1379
+243,Peter McCarthy,Biruwa 435,29,sugar free energy drink,250,30,0.0345
+244,Arvid Sorensen,Akkeshi 372,30,sugar water,500,27,-0.1000
+245,Xavier Brown,Biruwa 32,28,water,250,31,0.1071
+246,Austin Price,Akkeshi 376,36,water,750,34,-0.0556
+247,Jorn Carlsen,Biruwa 34,28,sugar free energy drink,250,30,0.0714
+248,Volker Brunner,Helluland 47,35,sugar water,500,36,0.0286
+249,Armand Jackson,Biruwa 39,34,water,250,31,-0.0882
+250,Hiroshi Takeda,Akkeshi 418,31,sugar free energy drink,250,31,0.0000
+251,Prasad Sharma,Biruwa 44,37,sugar free energy drink,750,39,0.0541
+252,Ronan Wilson,Akkeshi 423,30,water,500,26,-0.1333
