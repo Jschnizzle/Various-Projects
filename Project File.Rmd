@@ -1,0 +1,337 @@
+---
+title: "Project Code"
+author: "Jeremy Shiu, 305764355"
+date: "2023-11-23"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+Kaggle <- read.csv("TrainSAData2.csv")
+Kaggle_test <- read.csv("TestSAData2NoY.csv")
+```
+
+```{r}
+library(Hmisc)
+```
+
+```{r}
+library(VIM)
+#Kaggle_train_plot <- aggr(Kaggle, col=c('navyblue','yellow'),
+#numbers=TRUE, sortVars=TRUE,
+#labels=names(Kaggle), cex.axis=.7,
+#gap=3, ylab=c("Missing data","Pattern"))
+
+library(missForest)
+#train_numerical <- Kaggle[, c(3,4,5,6,7,8,11,12,13,14,15,16,17,18,19,20,21,22,23,24,28)]
+#missForest(train_numerical, maxiter = 1, ntree = 1, variablewise = FALSE,
+ #                      decreasing = FALSE, verbose = FALSE,
+  #                     mtry = floor(sqrt(ncol(train_numerical))), replace = TRUE,
+   #                    classwt = NULL, cutoff = NULL, strata = NULL,
+    #                   sampsize = NULL, nodesize = NULL, maxnodes = NULL,
+     #                  xtrue = NA, parallelize = "no")
+
+#table(train_numerical$Alcoholic.Status)
+#train_numerical$Alcoholic.Status <- ifelse(train_numerical$Alcoholic.Status == "N",0,1)
+#train_numerical$Alcoholic.Status <- as.factor(train_numerical$Alcoholic.Status)
+#train_formula <- glm(Alcoholic.Status ~ ., data = train_numerical, family = "binomial")
+#forward_aic_model <- step(train_formula, direction = "forward")
+#step(train_formula, direction = "forward")
+
+#backward_aic_model <- step(train_formula, direction = "backward")
+
+set.seed(123)
+#imputed_data <- aregImpute(Alcoholic.Status~ sex + age + height + weight + waistline + sight_left + sight_right + hear_left + hear_right + SBP + DBP + BLDS + tot_chole + HDL_chole + LDL_chole + triglyceride + hemoglobin + urine_protein + serum_creatinine + SGOT_AST + SGOT_ALT + gamma_GTP + BMI + BMI.Category + AGE.Category + Smoking.Status, data = Kaggle, n.impute = 1)
+
+#set.seed(123)
+#imputed_data_corrected <- aregImpute(Alcoholic.Status ~ sex + age + height + weight + waistline + sight_left + sight_right + hear_left + hear_right + SBP + DBP + BLDS + tot_chole + HDL_chole + LDL_chole + triglyceride + hemoglobin + urine_protein + serum_creatinine + SGOT_AST + SGOT_ALT + gamma_GTP + BMI + BMI.Category + AGE.Category + Smoking.Status, data = Kaggle, n.impute = 5)
+
+
+#saveRDS(imputed_data_corrected, file="aregimpute_kaggle_train.RData")
+losingmymind <- readRDS("aregimpute_kaggle_train.RData")
+
+
+Kaggle_areg_imputed <- Kaggle
+
+#train_numerical$Alcoholic.Status <- ifelse(train_numerical$Alcoholic.Status == "N",0,1)
+
+Kaggle_areg_imputed$sex <- ifelse(Kaggle_areg_imputed$sex == "Male", 2, 1)
+#table(Kaggle_areg_imputed$sex)
+Kaggle_areg_imputed$sex[losingmymind$na$sex] <- losingmymind$imputed$sex[,2]
+
+
+Kaggle_areg_imputed$age[losingmymind$na$age] <- losingmymind$imputed$age[,2]
+Kaggle_areg_imputed$height[losingmymind$na$height] <- losingmymind$imputed$height[,2]
+
+Kaggle_areg_imputed$weight[losingmymind$na$weight] <- losingmymind$imputed$weight[,2]
+
+Kaggle_areg_imputed$waistline[losingmymind$na$waistline] <- losingmymind$imputed$waistline[,2]
+
+Kaggle_areg_imputed$sight_left[losingmymind$na$sight_left] <- losingmymind$imputed$sight_left[,2]
+
+Kaggle_areg_imputed$sight_right[losingmymind$na$sight_right] <- losingmymind$imputed$sight_right[,2]
+
+table(Kaggle_areg_imputed$hear_left)
+Kaggle_areg_imputed$hear_left <- ifelse(Kaggle_areg_imputed$hear_left == "Abnormal", 1, 2)
+Kaggle_areg_imputed$hear_left[losingmymind$na$hear_left] <- losingmymind$imputed$hear_left[,2]
+
+Kaggle_areg_imputed$hear_right <- ifelse(Kaggle_areg_imputed$hear_right == "Abnormal", 1,2)
+Kaggle_areg_imputed$hear_right[losingmymind$na$hear_right] <- losingmymind$imputed$hear_right[,2]
+
+Kaggle_areg_imputed$SBP[losingmymind$na$SBP] <- losingmymind$imputed$SBP[,2]
+
+Kaggle_areg_imputed$DBP[losingmymind$na$DBP] <- losingmymind$imputed$DBP[,2]
+
+Kaggle_areg_imputed$BLDS[losingmymind$na$BLDS] <- losingmymind$imputed$BLDS[,2]
+
+Kaggle_areg_imputed$tot_chole[losingmymind$na$tot_chole] <- losingmymind$imputed$tot_chole[,2]
+
+Kaggle_areg_imputed$HDL_chole[losingmymind$na$HDL_chole] <- losingmymind$imputed$HDL_chole[,2]
+
+Kaggle_areg_imputed$LDL_chole[losingmymind$na$LDL_chole] <- losingmymind$imputed$LDL_chole[,2]
+
+Kaggle_areg_imputed$triglyceride[losingmymind$na$triglyceride] <- losingmymind$imputed$triglyceride[,2]
+
+Kaggle_areg_imputed$hemoglobin[losingmymind$na$hemoglobin] <- losingmymind$imputed$hemoglobin[,2]
+
+Kaggle_areg_imputed$urine_protein[losingmymind$na$urine_protein] <- losingmymind$imputed$urine_protein[,2]
+
+Kaggle_areg_imputed$serum_creatinine[losingmymind$na$serum_creatinine] <- losingmymind$imputed$serum_creatinine[,2]
+
+Kaggle_areg_imputed$SGOT_AST[losingmymind$na$SGOT_AST] <- losingmymind$imputed$SGOT_AST[,2]
+
+Kaggle_areg_imputed$SGOT_ALT[losingmymind$na$SGOT_ALT] <- losingmymind$imputed$SGOT_ALT[,2]
+
+Kaggle_areg_imputed$gamma_GTP[losingmymind$na$gamma_GTP] <- losingmymind$imputed$gamma_GTP[,2]
+
+Kaggle_areg_imputed$BMI[losingmymind$na$BMI] <- losingmymind$imputed$BMI[,2]
+
+table(Kaggle_areg_imputed$BMI.Category)
+Kaggle_areg_imputed$BMI.Category <- Kaggle$BMI.Category
+Kaggle_areg_imputed$BMI.Category <- factor(Kaggle_areg_imputed$BMI.Category)
+Kaggle_areg_imputed$BMI.Category <- as.numeric(Kaggle_areg_imputed$BMI.Category)
+Kaggle_areg_imputed$BMI.Category[losingmymind$na$BMI.Category] <- losingmymind$imputed$BMI.Category[,2]
+
+table(Kaggle_areg_imputed$AGE.Category)
+Kaggle_areg_imputed$AGE.Category <- Kaggle$AGE.Category
+Kaggle_areg_imputed$AGE.Category <- factor(Kaggle_areg_imputed$AGE.Category)
+Kaggle_areg_imputed$AGE.Category <- as.numeric(Kaggle_areg_imputed$AGE.Category)
+Kaggle_areg_imputed$AGE.Category[losingmymind$na$AGE.Category] <- losingmymind$imputed$AGE.Category[,2]
+#1 is mid-aged, 2 is old, 3 is very old, 4 is young
+
+table(Kaggle_areg_imputed$Smoking.Status)
+Kaggle_areg_imputed$Smoking.Status <- Kaggle$Smoking.Status
+Kaggle_areg_imputed$Smoking.Status <- factor(Kaggle_areg_imputed$Smoking.Status)
+Kaggle_areg_imputed$Smoking.Status <- as.numeric(Kaggle_areg_imputed$Smoking.Status)
+Kaggle_areg_imputed$Smoking.Status[losingmymind$na$Smoking.Status] <- losingmymind$imputed$Smoking.Status[,2]
+
+#write.csv(Kaggle_areg_imputed, file = "aregImpute_Train.csv",row.names = FALSE)
+
+#forward_aic_model <- step(train_formula, direction = "forward")
+```
+
+numerical factors version
+```{r}
+Kaggle_areg_imputed$sex <- as.factor(Kaggle_areg_imputed$sex)
+Kaggle_areg_imputed$hear_left <- as.factor(Kaggle_areg_imputed$hear_left)
+Kaggle_areg_imputed$hear_right <- as.factor(Kaggle_areg_imputed$hear_right)
+Kaggle_areg_imputed$BMI.Category <- as.factor(Kaggle_areg_imputed$BMI.Category)
+Kaggle_areg_imputed$AGE.Category <- as.factor(Kaggle_areg_imputed$AGE.Category)
+Kaggle_areg_imputed$Smoking.Status <- as.factor(Kaggle_areg_imputed$Smoking.Status)
+```
+
+character versions
+```{r}
+category_mapping <- c("Female", "Male")
+Kaggle_areg_imputed$sex <- category_mapping[Kaggle_areg_imputed$sex]
+
+category_mapping <- c("Abnormal", "Normal")
+Kaggle_areg_imputed$hear_left <- category_mapping[Kaggle_areg_imputed$hear_left]
+
+category_mapping <- c("Abnormal", "Normal")
+Kaggle_areg_imputed$hear_right <- category_mapping[Kaggle_areg_imputed$hear_right]
+
+table(Kaggle$BMI.Category)
+category_mapping <- c("Healthy", "Obese", "Overweight", "Underweight")
+Kaggle_areg_imputed$BMI.Category <- category_mapping[Kaggle_areg_imputed$BMI.Category]
+
+table(Kaggle$AGE.Category)
+category_mapping <- c("Mid-aged", "Old", "Very Old", "Young")
+Kaggle_areg_imputed$AGE.Category <- category_mapping[Kaggle_areg_imputed$AGE.Category]
+
+table(Kaggle$Smoking.Status)
+category_mapping <- c("Never Smoked", "Still Smoking", "Used to Smoke")
+Kaggle_areg_imputed$Smoking.Status <- category_mapping[Kaggle_areg_imputed$Smoking.Status]
+
+write.csv(Kaggle_areg_imputed, file = "aregImpute_Train_character.csv",row.names = FALSE)
+```
+
+```{r}
+glm_data <- read.csv("aregImpute_Train_character.csv")
+glm_data$Alcoholic.Status <- ifelse(glm_data$Alcoholic.Status == "N", 0, 1)
+glm_data$Smoking.Status <- as.factor(glm_data$Smoking.Status)
+glm_data$AGE.Category <- as.factor(glm_data$AGE.Category)
+glm_data$BMI.Category <- as.factor(glm_data$BMI.Category)
+glm_data$hear_right <- as.factor(glm_data$hear_right)
+glm_data$hear_left <- as.factor(glm_data$hear_left)
+glm_data$sex <- as.factor(glm_data$sex)
+#train_numerical$Alcoholic.Status <- ifelse(train_numerical$Alcoholic.Status == "N",0,1)
+
+
+GLM_test <- glm(Alcoholic.Status~ sex + age + height + weight + waistline + sight_left + sight_right + hear_left + hear_right + SBP + DBP + BLDS + tot_chole + HDL_chole + LDL_chole + triglyceride + hemoglobin + urine_protein + serum_creatinine + SGOT_AST + SGOT_ALT + gamma_GTP + BMI + BMI.Category + AGE.Category + Smoking.Status, data = glm_data, family = "binomial")
+#backward_BIC <- step(GLM_test, direction = "backward")
+```
+
+```{r}
+#backward_BIC$coefficients
+#saveRDS(backward_BIC, file="aregimpute_back_BIC.RData")
+```
+
+```{r}
+install.packages("Amelia")
+library(Amelia)
+
+amelia_testing <- Kaggle_test[,-1]
+table(amelia_testing$Smoking.Status)
+amelia_testing$Smoking.Status <- as.factor(amelia_testing$Smoking.Status)
+table(amelia_testing$AGE.Category)
+amelia_testing$AGE.Category <- as.factor(amelia_testing$AGE.Category)
+amelia_testing$BMI.Category <- as.factor(amelia_testing$BMI.Category)
+amelia_testing$hear_right <- as.factor(amelia_testing$hear_right)
+amelia_testing$hear_left <- as.factor(amelia_testing$hear_left)
+amelia_testing$sex <- as.factor(amelia_testing$sex)
+set.seed(123)
+test_imputed <- amelia(amelia_testing, m = 1, noms = c(1,8,9,24,25,26))
+amelia_data <- test_imputed$imputations$imp1
+ID <- Kaggle_test$ID
+amelia_data <- cbind(ID, amelia_data)
+write.csv(amelia_data, file = "amelia_test_data.csv",row.names = FALSE)
+```
+
+
+```{r}
+BICpred_data <- amelia_data
+
+testBIC_pred <- predict(backward_BIC, newdata = amelia_data)
+testBIC_pred <- ifelse(testBIC_pred >= 0.5, "Y", "N")
+head(testBIC_pred)
+
+Alcoholic.Status <- testBIC_pred
+ID <- c(1:30000)
+submission <- data.frame(ID, Alcoholic.Status)
+write.csv(submission, file = "prototype2.csv", row.names = FALSE)
+```
+
+backward AIC
+```{r}
+library(MASS)
+#backward_AIC <- stepAIC(GLM_test, direction = "backward")
+Alcoholic.Status <- predict(backward_AIC, newdata = amelia_data)
+Alcoholic.Status <- ifelse(Alcohol.Status >= 0.5, "Y", "N")
+submission <- data.frame(ID, Alcoholic.Status)
+write.csv(submission, file = "prototype3.csv", row.names = FALSE)
+
+#saveRDS(backward_AIC, file="aregimpute_back_AIC.RData")
+```
+
+XGBoost
+```{r}
+
+#install.packages("xgboost")
+#library(xgboost)
+#library(caret)
+#install.packages("modeest")
+#library(modeest)
+#library(data.table)
+#xgboost_data <- read.csv("aregImpute_Train.csv")
+#xgboost_data$Alcoholic.Status <- as.integer(ifelse(xgboost_data$Alcoholic.Status == "Y", 1, 0))
+#xgboost_data <- xgboost_data[,-1]
+
+#set.seed(123)
+#xgboost_model <- xgboost(data = as.matrix(xgboost_data[,-27]), label = xgboost_data$Alcoholic.Status, nrounds = 100, objective = "binary:logistic", eval_metric = "logloss")#, verbose = 0)
+
+library(xgboost)
+#install.packages("DiagrammeR")
+library(DiagrammeR)
+
+df <- read.csv("aregImpute_Train.csv")
+
+df <- df[, -1, drop = FALSE]
+
+df$Alcoholic.Status <- as.factor(df$Alcoholic.Status)
+
+y <- df$Alcoholic.Status
+X <- df[, setdiff(names(df), "Alcoholic.Status"), drop = FALSE]
+X_mat <- data.matrix(X)
+
+set.seed(123)
+xgboost_model <- xgboost(
+  x = X_mat,
+  y = y,
+  nrounds = 100,
+  objective = "binary:logistic",
+  eval_metric = "logloss"
+)
+
+importance <- xgb.importance(model = xgboost_model)
+print(importance)
+xgb.plot.tree(model = xgboost_model, trees = 0)
+
+amelia_xg <- amelia_data
+amelia_xg$sex <- as.numeric(amelia_xg$sex)
+amelia_xg$hear_left <- as.integer(amelia_xg$hear_left)
+amelia_xg$hear_right <- as.integer(amelia_xg$hear_right)
+amelia_xg$BMI.Category <- as.integer(amelia_xg$BMI.Category)
+amelia_xg$AGE.Category <- as.integer(amelia_xg$AGE.Category)
+amelia_xg$Smoking.Status <- as.integer(amelia_xg$Smoking.Status)
+amelia_xg <- amelia_xg[,-1]
+xg_predictions <- predict(xgboost_model, newdata = as.matrix(amelia_xg))
+xg_predictions <- as.numeric(xg_predictions>0.5)
+xg_predictions <- ifelse(xg_predictions == 1, "Y", "N")
+Alcoholic.Status <- xg_predictions
+submission4 <- data.frame(ID, Alcoholic.Status)
+#write.csv(submission4, file = "prototype4.csv", row.names = FALSE)
+```
+
+missforest
+```{r}
+library(missForest)
+train_numerical <- Kaggle[, c(3,4,5,6,7,8,11,12,13,14,15,16,17,18,19,20,21,22,23,24,28)]
+train_numerical$Alcoholic.Status <- factor(train_numerical$Alcoholic.Status)
+missforest_data <-missForest(train_numerical, maxiter = 3, ntree = 10, variablewise = FALSE, decreasing = FALSE, verbose = FALSE,
+                       mtry = floor(sqrt(ncol(train_numerical))), replace = TRUE,
+                       classwt = NULL, cutoff = NULL, strata = NULL,
+                       sampsize = NULL, nodesize = NULL, maxnodes = NULL,
+                       xtrue = NA, parallelize = "no")
+
+missforest_df <- missforest_data$ximp
+#write.csv(missforest_df, file = "missforest_train.csv",row.names = FALSE)
+```
+
+KNN
+```{r}
+library(class)
+aregImpute_train <- read.csv("aregImpute_Train_character.csv")
+aregImpute_test <- read.csv("aregImputed_test_data.csv")
+aregImpute_train$Alcoholic.Status <- factor(aregImpute_train$Alcoholic.Status)
+aregImpute_train$Alcoholic.Status <- as.numeric(aregImpute_train$Alcoholic.Status)
+aregImpute_train_experiment <- aregImpute_train
+aregImpute_train_experiment <- aregImpute_train_experiment[,-c(1,2,9,10,25,26,27,28)]
+
+set.seed(113355)
+S.Train.i<-sample(1:70000,49000,replace = FALSE)
+Alcohol_train <- aregImpute_train_experiment[S.Train.i,]
+Alcohol_test <- aregImpute_train_experiment[-S.Train.i,]
+Alcohol_train_status <- aregImpute_train$Alcoholic.Status[S.Train.i]
+
+summary(is.na(Alcohol_test))
+knn10 <- knn(train = Alcohol_train[,], test = Alcohol_test[,], cl = Alcohol_train_status, k = 10)
+knn10_num <- as.numeric(knn10)
+
+aregImpute_test_knn <- aregImpute_test[,-c(1,2,9,10,25,26,27)]
+knn10_pred <- predict(knn10_num, newdata = aregImpute_test)
+```
+

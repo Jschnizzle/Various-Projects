@@ -1,0 +1,467 @@
+---
+title: "Predicting Alcoholism Using Various Characteristics — Analysis Code"
+subtitle: "STATS 101C Final Project (cleaned & annotated)"
+author: "Nikita Park, Jeremy Shiu, Ian Turner, Mingchen Wang, Josh Xu"
+date: "2023-12-17"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+# Show code and results, but keep messages/warnings out of the knitted report.
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
+
+# A single global seed keeps every random step (imputation draws, resampling,
+# train/test splits) reproducible across runs.
+GLOBAL_SEED <- 123
+set.seed(GLOBAL_SEED)
+```
+
+> **What this file does.** It walks through the full modeling pipeline described
+> in the write-up: exploratory analysis, handling the large amount of missing
+> data via multiple imputation, a sequence of increasingly capable models, and
+> the final tuned XGBoost model that scored 73.38% on the Kaggle leaderboard.
+>
+> **Reproducibility note.** Several steps (multiple imputation, bootstrap tuning)
+> are lengthy to run. Those steps are written out in full but wrapped so the code
+> loads a previously saved result when one exists, and only recomputes when it
+> does not. Look for the `if (file.exists(...))` guards.
+
+# 0. Setup
+
+```{r libraries}
+# --- Data handling & plotting ---
+library(ggplot2)   # EDA density / bar plots
+library(dplyr)     # light data wrangling
+
+# --- Missing-data assessment & imputation ---
+library(VIM)       # visualize the pattern of missingness (Figure 2)
+library(Hmisc)     # aregImpute(): the imputation method we ultimately chose
+library(Amelia)    # bootstrap-EM imputation, used for the test set
+library(missForest)# random-forest imputation (one of the methods we compared)
+
+# --- Models ---
+library(MASS)      # stepAIC() for stepwise logistic regression
+library(class)     # knn()
+library(xgboost)   # gradient-boosted trees: our final model
+library(caret)     # train(): parameter tuning via resampling
+library(DiagrammeR)# render individual XGBoost trees
+```
+
+```{r load-data}
+# Kaggle-provided data.
+#   train: 70,000 patients x 27 columns (26 predictors + Alcoholic.Status)
+#   test : 30,000 patients x 26 columns (Alcoholic.Status withheld for scoring)
+# Predictors mix vital signs (age, sex, blood pressure, cholesterol, liver
+# enzymes, ...) with lifestyle factors (smoking status).
+train_raw <- read.csv("TrainSAData2.csv")
+test_raw  <- read.csv("TestSAData2NoY.csv")
+
+# Column groupings reused throughout. Everything except the ID, the response,
+# and the six categorical fields is treated as numeric.
+response_col    <- "Alcoholic.Status"
+id_col          <- "ID"
+categorical_cols <- c("sex", "hear_left", "hear_right",
+                      "BMI.Category", "AGE.Category", "Smoking.Status")
+```
+
+# 1. Exploratory Data Analysis
+
+```{r class-balance}
+# The response is almost perfectly balanced, so plain accuracy is a fair metric
+# and no class weighting / resampling for imbalance is required.
+#   Reported in write-up: 34,887 alcoholics (49.84%) vs 35,113 non (50.16%).
+class_balance <- prop.table(table(train_raw$Alcoholic.Status))
+class_balance
+```
+
+```{r eda-numeric-density, fig.height=6}
+# Density of each strong numeric predictor, split by alcoholic status, to see
+# whether the two groups separate. Hemoglobin and gamma_GTP show the clearest
+# shift; height and weight separate mainly because they track sex.
+strong_numeric <- c("height", "weight", "hemoglobin", "gamma_GTP")
+
+for (v in strong_numeric) {
+  print(
+    ggplot(train_raw, aes(x = .data[[v]], color = Alcoholic.Status)) +
+      geom_density() +
+      labs(title = paste("Density of", v, "by alcoholic status"), x = v)
+  )
+}
+```
+
+```{r eda-categorical-bars, fig.height=4}
+# Stacked bar plots for the categorical predictors. Sex and smoking status are
+# the most visually predictive: men and current smokers skew alcoholic.
+strong_categorical <- c("sex", "AGE.Category", "Smoking.Status")
+
+for (v in strong_categorical) {
+  print(
+    ggplot(train_raw, aes(x = .data[[v]], fill = Alcoholic.Status)) +
+      geom_bar() +
+      labs(title = paste("Alcoholic status by", v), x = v)
+  )
+}
+```
+
+```{r eda-single-predictor-baseline}
+# Sanity check: how far does the single strongest predictor get us on its own?
+# A logistic regression on hemoglobin alone scored ~63.93% on the test set,
+# confirming that no single variable is sufficient and a multivariable model is
+# needed. (Fit on complete cases since hemoglobin has missing values.)
+hemoglobin_baseline <- glm(
+  factor(Alcoholic.Status) ~ hemoglobin,
+  data   = train_raw,
+  family = "binomial"
+)
+summary(hemoglobin_baseline)$coefficients
+```
+
+# 2. Missing Data and Multiple Imputation
+
+The dataset's biggest obstacle was a large, roughly-random scattering of missing
+values across nearly every predictor. Because the missingness was spread out, we
+could not drop rows or columns without losing most of the data, so we imputed.
+We compared four packages — **Amelia**, **Hmisc (`aregImpute`)**, **mice**, and
+**missForest** — and the models trained on `aregImpute`'s output scored highest.
+
+```{r missingness-plot, fig.height=6}
+# Figure 2: how many values are missing per predictor. Every predictor except
+# ID and the response is missing on the order of ~5,000 values; AGE.Category is
+# the worst. This picture is what ruled out list-wise deletion.
+missing_summary <- aggr(
+  train_raw,
+  numbers = TRUE, sortVars = TRUE, cex.axis = 0.6, gap = 3,
+  ylab = c("Missing data", "Pattern")
+)
+```
+
+```{r aregimpute-train}
+# aregImpute() = additive-regression + bootstrap + predictive-mean-matching
+# multiple imputation. We use predictive-mean matching ("pmm") because the
+# alternative (regression) can't handle the categorical predictors, and
+# n.impute = 5 as a compromise between imputation quality and runtime.
+#
+# This fit takes a very long time, so it is cached to disk. Delete
+# "aregimpute_kaggle_train.RData" to force a fresh run.
+areg_cache <- "aregimpute_kaggle_train.RData"
+
+if (file.exists(areg_cache)) {
+  areg_fit <- readRDS(areg_cache)
+} else {
+  set.seed(GLOBAL_SEED)
+  areg_fit <- aregImpute(
+    Alcoholic.Status ~ sex + age + height + weight + waistline +
+      sight_left + sight_right + hear_left + hear_right + SBP + DBP + BLDS +
+      tot_chole + HDL_chole + LDL_chole + triglyceride + hemoglobin +
+      urine_protein + serum_creatinine + SGOT_AST + SGOT_ALT + gamma_GTP +
+      BMI + BMI.Category + AGE.Category + Smoking.Status,
+    data = train_raw, n.impute = 5
+  )
+  saveRDS(areg_fit, file = areg_cache)
+}
+```
+
+```{r build-imputed-training-set}
+# Reconstruct a complete training frame by dropping aregImpute's imputed draws
+# into the cells that were originally missing.
+#
+# We use the 2nd of the 5 multiple imputations throughout (any single draw is
+# valid; we simply fix one for reproducibility).
+IMPUTE_DRAW <- 2
+
+train_imputed <- train_raw
+
+# aregImpute stores categorical variables by their integer codes, so encode the
+# observed categoricals to match before filling in the imputed codes.
+train_imputed$sex        <- ifelse(train_imputed$sex        == "Male",     2, 1)
+train_imputed$hear_left  <- ifelse(train_imputed$hear_left  == "Abnormal", 1, 2)
+train_imputed$hear_right <- ifelse(train_imputed$hear_right == "Abnormal", 1, 2)
+train_imputed$BMI.Category   <- as.numeric(factor(train_raw$BMI.Category))
+train_imputed$AGE.Category   <- as.numeric(factor(train_raw$AGE.Category))
+train_imputed$Smoking.Status <- as.numeric(factor(train_raw$Smoking.Status))
+
+# Fill every imputed variable in one pass instead of 25 near-identical lines:
+# for each variable, overwrite exactly the rows aregImpute flagged as missing.
+for (v in names(areg_fit$imputed)) {
+  missing_rows <- areg_fit$na[[v]]
+  train_imputed[missing_rows, v] <- areg_fit$imputed[[v]][, IMPUTE_DRAW]
+}
+```
+
+```{r encode-imputed-training-set}
+# Two export formats are used downstream:
+#   * a purely numeric frame (tree models like the integer codes), and
+#   * a human-readable frame with the category labels restored (used by the
+#     logistic-regression models, which need real factors).
+#
+# The factor level orders below match R's default alphabetical ordering that
+# as.numeric(factor(...)) assigned above, so the codes map back correctly.
+train_labeled <- train_imputed
+train_labeled$sex        <- c("Female", "Male")[train_labeled$sex]
+train_labeled$hear_left  <- c("Abnormal", "Normal")[train_labeled$hear_left]
+train_labeled$hear_right <- c("Abnormal", "Normal")[train_labeled$hear_right]
+train_labeled$BMI.Category   <- c("Healthy", "Obese", "Overweight",
+                                  "Underweight")[train_labeled$BMI.Category]
+train_labeled$AGE.Category   <- c("Mid-aged", "Old", "Very Old",
+                                  "Young")[train_labeled$AGE.Category]
+train_labeled$Smoking.Status <- c("Never Smoked", "Still Smoking",
+                                  "Used to Smoke")[train_labeled$Smoking.Status]
+
+# Persist both versions so later chunks (and other scripts) can reload them
+# without repeating the imputation.
+write.csv(train_imputed,  "aregImpute_Train.csv",           row.names = FALSE)
+write.csv(train_labeled,  "aregImpute_Train_character.csv", row.names = FALSE)
+```
+
+```{r amelia-impute-test}
+# The test set needs imputing too. We use Amelia here (fast, bootstrap-EM) and
+# tell it which columns are nominal so it doesn't treat categories as numbers.
+# Result is cached for the same runtime reasons as the training imputation.
+amelia_cache <- "amelia_test_data.csv"
+
+if (file.exists(amelia_cache)) {
+  test_imputed <- read.csv(amelia_cache)
+} else {
+  amelia_input <- test_raw[, -1]  # drop ID; it carries no information to impute
+  for (v in categorical_cols) amelia_input[[v]] <- as.factor(amelia_input[[v]])
+
+  set.seed(GLOBAL_SEED)
+  amelia_out <- amelia(
+    amelia_input, m = 1,
+    noms = which(names(amelia_input) %in% categorical_cols)
+  )
+
+  # Re-attach the original IDs so predictions line up with the submission file.
+  test_imputed <- cbind(ID = test_raw$ID, amelia_out$imputations$imp1)
+  write.csv(test_imputed, amelia_cache, row.names = FALSE)
+}
+```
+
+```{r submission-helper}
+# Every model below produces a Kaggle submission in the same shape, so define
+# the formatting once: probabilities -> "Y"/"N" at a 0.5 cutoff, paired with ID.
+make_submission <- function(probabilities, ids, file) {
+  prediction <- ifelse(probabilities >= 0.5, "Y", "N")
+  submission <- data.frame(ID = ids, Alcoholic.Status = prediction)
+  write.csv(submission, file = file, row.names = FALSE)
+  invisible(submission)
+}
+```
+
+# 3. Baseline Models: Logistic Regression
+
+Before reaching for tree ensembles we established logistic-regression baselines,
+including stepwise variable selection by both BIC and AIC. Linear and quadratic
+discriminant analysis (LDA / QDA) were also tried but scored poorly even on the
+training data — consistent with the classes not being linearly separable — so
+they were dropped from contention and are not reproduced here.
+
+```{r glm-full-and-stepwise}
+# Full logistic-regression model on the labeled, fully-imputed training data.
+glm_data <- read.csv("aregImpute_Train_character.csv")
+
+# Encode the response as 0/1 and make sure categoricals are treated as factors.
+glm_data$Alcoholic.Status <- ifelse(glm_data$Alcoholic.Status == "N", 0, 1)
+for (v in categorical_cols) glm_data[[v]] <- as.factor(glm_data[[v]])
+
+glm_full <- glm(
+  Alcoholic.Status ~ sex + age + height + weight + waistline + sight_left +
+    sight_right + hear_left + hear_right + SBP + DBP + BLDS + tot_chole +
+    HDL_chole + LDL_chole + triglyceride + hemoglobin + urine_protein +
+    serum_creatinine + SGOT_AST + SGOT_ALT + gamma_GTP + BMI + BMI.Category +
+    AGE.Category + Smoking.Status,
+  data = glm_data, family = "binomial"
+)
+
+# Stepwise selection. BIC (k = log n) penalizes complexity more heavily than
+# AIC, so it yields a smaller model. Both are cached because step() is slow.
+if (file.exists("aregimpute_back_BIC.RData")) {
+  glm_backward_bic <- readRDS("aregimpute_back_BIC.RData")
+} else {
+  glm_backward_bic <- step(glm_full, direction = "backward",
+                           k = log(nrow(glm_data)))
+  saveRDS(glm_backward_bic, "aregimpute_back_BIC.RData")
+}
+
+if (file.exists("aregimpute_back_AIC.RData")) {
+  glm_backward_aic <- readRDS("aregimpute_back_AIC.RData")
+} else {
+  glm_backward_aic <- stepAIC(glm_full, direction = "backward")
+  saveRDS(glm_backward_aic, "aregimpute_back_AIC.RData")
+}
+```
+
+```{r glm-predict}
+# Score both stepwise models on the imputed test set. type = "response" is
+# essential: it returns probabilities in [0, 1] rather than raw log-odds, so the
+# 0.5 cutoff in make_submission() is meaningful.
+bic_prob <- predict(glm_backward_bic, newdata = test_imputed, type = "response")
+aic_prob <- predict(glm_backward_aic, newdata = test_imputed, type = "response")
+
+make_submission(bic_prob, test_imputed$ID, "prototype2.csv")  # backward-BIC GLM
+make_submission(aic_prob, test_imputed$ID, "prototype3.csv")  # backward-AIC GLM
+```
+
+# 4. Final Model: XGBoost
+
+XGBoost builds trees sequentially, each one fitting the residual errors of the
+ensemble so far (gradient boosting). It was our best algorithm, so we spent the
+bulk of the project tuning it.
+
+```{r xgboost-matrices}
+# XGBoost needs a purely numeric feature matrix and a 0/1 label. Work from the
+# numeric imputed training set and drop the ID column.
+xgb_train <- read.csv("aregImpute_Train.csv")
+xgb_train <- xgb_train[, setdiff(names(xgb_train), id_col)]
+
+xgb_label   <- as.integer(xgb_train$Alcoholic.Status == "Y")
+xgb_feature <- data.matrix(xgb_train[, setdiff(names(xgb_train), response_col)])
+```
+
+```{r xgboost-initial}
+# Default XGBoost: no tuning, no pruning. Establishes the tree-model baseline.
+#   Reported test accuracy: ~72.28% (already better than every earlier model).
+set.seed(GLOBAL_SEED)
+xgb_initial <- xgboost(
+  data      = xgb_feature,
+  label     = xgb_label,
+  nrounds   = 100,
+  objective = "binary:logistic",
+  eval_metric = "logloss",
+  verbose   = 0
+)
+```
+
+```{r xgboost-importance, fig.height=6}
+# Variable importance (Figure 5). The standout result: sex is by far the most
+# important predictor, followed by age, gamma_GTP, and smoking status.
+xgb_importance <- xgb.importance(model = xgb_initial)
+print(xgb_importance)
+xgb.plot.tree(model = xgb_initial, trees = 0)  # inspect the first tree
+```
+
+```{r xgboost-tuning}
+# Tuning via caret::train(). The write-up found that:
+#   * resampling (10-fold CV ~73.23%, then bootstrap ~73.33%) beat a single fit,
+#   * pruning max_depth to 2 helped, and
+#   * the default learning rate eta = 0.3 was hard to beat.
+# The grid below is centered on those findings. This is the most expensive step
+# in the file, so it is cached; delete the .RData to re-tune.
+xgb_tune_cache <- "xgboost_tuned_caret.RData"
+
+if (file.exists(xgb_tune_cache)) {
+  xgb_tuned <- readRDS(xgb_tune_cache)
+} else {
+  tune_grid <- expand.grid(
+    max_depth        = c(1, 2, 3, 4),  # 2 was best (see Figure 4)
+    eta              = c(0.3, 0.4),    # 0.3 (default) won
+    nrounds          = c(50, 100, 150, 200),
+    gamma            = 0,
+    colsample_bytree = 0.8,
+    min_child_weight = 1,
+    subsample        = c(0.5, 0.6667, 0.8333, 1.0)
+  )
+
+  set.seed(GLOBAL_SEED)
+  xgb_tuned <- train(
+    x = xgb_feature,
+    y = factor(ifelse(xgb_label == 1, "Y", "N")),
+    method    = "xgbTree",
+    metric    = "Accuracy",
+    trControl = trainControl(method = "boot", number = 25),  # bootstrap resampling
+    tuneGrid  = tune_grid
+  )
+  saveRDS(xgb_tuned, xgb_tune_cache)
+}
+
+# Best parameter combination found by the search.
+xgb_tuned$bestTune
+```
+
+```{r xgboost-variable-selection}
+# We also tested dropping the weakest 20, 10, 5, 2, and 1 predictor(s) by
+# importance to combat overfitting. Every reduced model scored *worse* on the
+# leaderboard, so the final model keeps all predictors. (This is a
+# leaderboard-chasing choice; a real study would drop redundant predictors such
+# as BMI.Category and the eyesight/hearing fields — see the Discussion.)
+#
+# Illustrative sweep, left un-run by default because the tuned model above is
+# the deliverable. Set eval = TRUE to reproduce the experiment.
+```
+
+```{r xgboost-variable-selection-demo, eval=FALSE}
+ranked_features <- xgb_importance$Feature  # most -> least important
+for (n_drop in c(20, 10, 5, 2, 1)) {
+  keep <- setdiff(ranked_features, tail(ranked_features, n_drop))
+  set.seed(GLOBAL_SEED)
+  reduced <- xgboost(
+    data = xgb_feature[, keep], label = xgb_label,
+    nrounds = 100, objective = "binary:logistic",
+    eval_metric = "logloss", verbose = 0
+  )
+  cat("Dropped", n_drop, "weakest predictor(s):",
+      1 - min(reduced$evaluation_log$train_logloss), "\n")
+}
+```
+
+```{r xgboost-final-submission}
+# Final predictions: align the test features to the training feature order,
+# score with the tuned model, and write the submission that scored 73.38%.
+xgb_test <- test_imputed
+for (v in categorical_cols) xgb_test[[v]] <- as.integer(as.factor(xgb_test[[v]]))
+xgb_test_matrix <- data.matrix(xgb_test[, colnames(xgb_feature)])
+
+# caret's train object predicts class labels directly for xgbTree.
+xgb_final_class <- predict(xgb_tuned, newdata = xgb_test_matrix)
+xgb_final_prob  <- ifelse(xgb_final_class == "Y", 1, 0)
+make_submission(xgb_final_prob, test_imputed$ID, "prototype4.csv")
+```
+
+# 5. Other Algorithms Explored
+
+For completeness we also evaluated CatBoost, LightGBM, random forest, and
+logistic regression with PCA-reduced predictors. None beat XGBoost (see the
+model-comparison figure in the write-up). A k-nearest-neighbors model and an
+artificial neural network were also attempted; KNN underperformed and the ANN
+was too computationally expensive to finish. The KNN experiment is reproduced
+below as a representative example; the others followed the same fit-then-compare
+pattern and are described in the report rather than rerun here.
+
+```{r knn-experiment}
+# KNN on the numeric imputed data. Distance-based methods need the ID, response,
+# and redundant category columns removed, and benefit from an internal
+# validation split to gauge accuracy before touching the test set.
+knn_train_full <- read.csv("aregImpute_Train_character.csv")
+knn_label      <- as.numeric(factor(knn_train_full$Alcoholic.Status))
+
+# Drop ID (1), response (2) and the categorical columns so only comparable
+# numeric features remain.
+drop_idx  <- c(1, 2, 9, 10, 25, 26, 27, 28)
+knn_features <- knn_train_full[, -drop_idx]
+
+# 70/30 internal split to estimate accuracy.
+set.seed(113355)
+train_idx <- sample(seq_len(nrow(knn_features)),
+                    size = 0.7 * nrow(knn_features), replace = FALSE)
+
+knn_pred <- knn(
+  train = knn_features[train_idx, ],
+  test  = knn_features[-train_idx, ],
+  cl    = knn_label[train_idx],
+  k     = 10
+)
+
+# Validation accuracy — low relative to XGBoost, which is why KNN was dropped.
+knn_accuracy <- mean(knn_pred == knn_label[-train_idx])
+knn_accuracy
+```
+
+# 6. Summary
+
+The pipeline above reflects the reported results: logistic-regression baselines
+in the ~64–72% range, a default XGBoost at ~72.28%, and a bootstrap-tuned
+XGBoost pruned to `max_depth = 2` reaching 73.38% — good for 5th place overall
+and 4th within the lecture. The key practical lessons were that intelligent
+imputation (`aregImpute`) mattered more than model choice at the margin, and
+that a smaller two-tree model both generalized better and ran faster than deeper
+alternatives.

@@ -1,0 +1,20 @@
+# R session / editor cruft
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+
+# Keep the imputation cache the code depends on, even though .RData is ignored
+!aregimpute_kaggle_train.RData
+
+# Knitr / rendering artifacts
+*_cache/
+*_files/
+*.knit.md
+*.utf8.md
+
+# OS files
+.DS_Store
+Thumbs.db
