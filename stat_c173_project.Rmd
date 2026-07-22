@@ -1,0 +1,620 @@
+---
+title: "stat c173 project"
+author: "Jeremy Shiu"
+date: "2025-03-18"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Original data
+
+The committed `final_data.csv` (one row per monitoring station) was produced
+from the full raw Athens hourly dataset (`athens_data.csv`, ~439 MB, not stored
+in this repo — see README). To let this document knit from the repo alone, the
+chunk below reads the small `data/sample/athens_data.sample.csv` and writes a
+demo file rather than overwriting the committed `final_data.csv`. To reproduce
+the real `final_data.csv`, point `read_csv()` at the full `athens_data.csv`.
+
+```{r}
+library(dplyr)
+library(readr)
+data <- read_csv("data/sample/athens_data.sample.csv")
+
+df_unique <- data %>% distinct(Latitude, Longitude, .keep_all = TRUE)
+df_unique <- df_unique[,-c(1,4,18,19)]
+df_unique <- df_unique[,-c(5,6,7,8,9,13,14)]
+
+# write.csv(df_unique, "final_data.csv", row.names = FALSE)  # disabled: keeps committed final_data.csv intact
+```
+
+
+Final Data
+```{r}
+library(readr)
+data <- read_csv("final_data.csv")
+```
+
+Non-spatial data analysis
+```{r}
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+library(gridExtra)
+```
+
+Summary statistics
+```{r}
+summary(data$Latitude)
+summary(data$Longitude)
+summary(data$`Wind-Speed (U)`)
+summary(data$`Wind-Speed (V)`)
+summary(data$Temp)
+summary(data$`Relative Humidity`)
+summary(data$PM10)
+```
+
+Histograms
+```{r}
+hist(data$`Wind-Speed (U)`, main = "Longitudinal Wind Speed")
+hist(data$`Wind-Speed (V)`, main = "Latitudinal Wind Speed")
+hist(data$Temp, main = "Air Temperature")
+hist(data$`Relative Humidity`, main = "Humidity")
+hist(data$PM10, main = "PM10")
+hist(data$O3, main = "Ozone Concentration")
+```
+
+ecdfs
+```{r}
+library(ggplot2)
+
+ggplot(data, aes(x = `Wind-Speed (U)`)) +
+  stat_ecdf(geom = "step", color = "blue") +
+  labs(title = "Longitudinal Wind Speed ECDF", x = "Values", y = "ECDF") +
+  theme_minimal()
+
+ggplot(data, aes(x = `Wind-Speed (V)`)) +
+  stat_ecdf(geom = "step", color = "blue") +
+  labs(title = "Latitudinal Wind Speed ECDF", x = "Values", y = "ECDF") +
+  theme_minimal()
+
+ggplot(data, aes(x = `Temp`)) +
+  stat_ecdf(geom = "step", color = "blue") +
+  labs(title = "Air Temperature ECDF", x = "Values", y = "ECDF") +
+  theme_minimal()
+
+ggplot(data, aes(x = `Relative Humidity`)) +
+  stat_ecdf(geom = "step", color = "blue") +
+  labs(title = "Relative Humidity ECDF", x = "Values", y = "ECDF") +
+  theme_minimal()
+
+ggplot(data, aes(x = `PM10`)) +
+  stat_ecdf(geom = "step", color = "blue") +
+  labs(title = "PM10 ECDF", x = "Values", y = "ECDF") +
+  theme_minimal()
+
+ggplot(data, aes(x = `O3`)) +
+  stat_ecdf(geom = "step", color = "blue") +
+  labs(title = "Ozone Concentration ECDF", x = "Values", y = "ECDF") +
+  theme_minimal()
+```
+
+
+```{r}
+ggplot(data, aes(x = Longitude, y = Latitude)) +
+  geom_point(color = "blue", size = 2) +
+  labs(title = "Scatter Plot of Latitude vs Longitude",
+       x = "Longitude",
+       y = "Latitude") +
+  theme_minimal()
+```
+
+Bubble Plot
+```{r}
+# Create a bubble plot for PM10 and locations
+ggplot(data, aes(x = Longitude, y = Latitude, size = PM10)) +
+  geom_point(alpha = 0.7, color = "blue") +  # Adjust transparency and color
+  labs(title = "Bubble Plot of PM10 Concentrations by Location",
+       x = "Longitude",
+       y = "Latitude",
+       size = "PM10 Concentration") +
+  theme_minimal() +
+  scale_size_continuous(range = c(3, 10))  # Adjust the range of bubble sizes
+```
+
+h-scatterplots
+```{r}
+# Load necessary libraries
+library(ggplot2)
+library(dplyr)
+library(geosphere)
+
+data <- read.csv("final_data.csv")
+
+# Calculate pairwise distances between locations
+dist_matrix <- distm(data[, c("Longitude", "Latitude")], fun = distHaversine)
+dist_values <- as.vector(dist_matrix[upper.tri(dist_matrix)])
+summary(dist_values)
+
+# Define lag distance (e.g., 10 km)
+lag_distance <- 10000  # in meters (10 km)
+
+# Find pairs of points within the lag distance
+pairs <- which(dist_matrix <= lag_distance & dist_matrix > 0, arr.ind = TRUE)
+
+# Extract PM10 values for the pairs
+pm10_pairs <- data.frame(
+  PM10_1 = data$PM10[pairs[, 1]],
+  PM10_2 = data$PM10[pairs[, 2]]
+)
+
+# Create the h-scatterplot
+ggplot(pm10_pairs, aes(x = PM10_1, y = PM10_2)) +
+  geom_point(alpha = 0.6, color = "blue") +
+  geom_abline(slope = 1, intercept = 0, color = "red", linetype = "dashed") +
+  labs(title = paste("H-Scatterplot for PM10 (Lag Distance =", lag_distance / 1000, "km)"),
+       x = "PM10 at Location 1",
+       y = "PM10 at Location 2") +
+  theme_minimal()
+```
+
+```{r}
+# Define lag distance (e.g., 10 km)
+lag_distance <- 5000  # in meters (10 km)
+
+# Find pairs of points within the lag distance
+pairs <- which(dist_matrix <= lag_distance & dist_matrix > 0, arr.ind = TRUE)
+
+# Extract PM10 values for the pairs
+pm10_pairs <- data.frame(
+  PM10_1 = data$PM10[pairs[, 1]],
+  PM10_2 = data$PM10[pairs[, 2]]
+)
+
+# Create the h-scatterplot
+ggplot(pm10_pairs, aes(x = PM10_1, y = PM10_2)) +
+  geom_point(alpha = 0.6, color = "blue") +
+  geom_abline(slope = 1, intercept = 0, color = "red", linetype = "dashed") +
+  labs(title = paste("H-Scatterplot for PM10 (Lag Distance =", lag_distance / 1000, "km)"),
+       x = "PM10 at Location 1",
+       y = "PM10 at Location 2") +
+  theme_minimal()
+```
+
+```{r}
+# Define lag distance (e.g., 10 km)
+lag_distance <- 20000  # in meters (10 km)
+
+# Find pairs of points within the lag distance
+pairs <- which(dist_matrix <= lag_distance & dist_matrix > 0, arr.ind = TRUE)
+
+# Extract PM10 values for the pairs
+pm10_pairs <- data.frame(
+  PM10_1 = data$PM10[pairs[, 1]],
+  PM10_2 = data$PM10[pairs[, 2]]
+)
+
+# Create the h-scatterplot
+ggplot(pm10_pairs, aes(x = PM10_1, y = PM10_2)) +
+  geom_point(alpha = 0.6, color = "blue") +
+  geom_abline(slope = 1, intercept = 0, color = "red", linetype = "dashed") +
+  labs(title = paste("H-Scatterplot for PM10 (Lag Distance =", lag_distance / 1000, "km)"),
+       x = "PM10 at Location 1",
+       y = "PM10 at Location 2") +
+  theme_minimal()
+```
+
+Empirical Semivariogram
+```{r}
+# Load necessary libraries
+library(gstat)
+library(readr)
+library(sp)
+library(dplyr)
+
+data <- read_csv("final_data.csv")
+#data <- data %>%
+#  filter(!is.na(PM10) & !is.na(Latitude) & !is.na(Longitude))
+
+#data <- data %>%
+#  filter(!is.na(O3))
+
+# Convert to spatial data frame
+coordinates(data) <- ~Longitude + Latitude
+```
+
+```{r}
+# Compute Classical and Robust Empirical Semivariogram
+vario_classical <- variogram(PM10 ~ 1, data)  # Classical
+vario_robust <- variogram(PM10 ~ 1, data, cressie = TRUE)  # Robust Cressie-Hawkins estimator
+
+# Inspect the empirical semivariogram to pick rough starting values
+print(vario_classical)
+max(vario_classical$gamma)  # use as rough psill target
+max(vario_classical$dist)   # use ~1/3 of this as rough range target
+
+# Fit Exponential Model
+exp_model <- vgm(psill = 9000, model = "Exp", range = 15000, nugget = 1000)
+exp_fit <- fit.variogram(vario_classical, exp_model, fit.method = 2)
+
+# Fit Spherical Model
+sph_model <- vgm(psill = 9000, model = "Sph", range = 20000, nugget = 1000)
+sph_fit <- fit.variogram(vario_classical, sph_model, fit.method = 2)
+
+# Fit Gaussian Model
+gau_model <- vgm(psill = 9000, model = "Gau", range = 10000, nugget = 1000)
+gau_fit <- fit.variogram(vario_classical, gau_model, fit.method = 2)
+
+max_dist <- max(vario_classical$dist)
+
+plot.new()
+plot(vario_classical, 
+     main = "Empirical Semivariogram with Fitted Models", 
+     pch = 16, col = "black",
+     ylim = c(0, 1.1*max(vario_classical$gamma)), xlim = c(0, max_dist)) # Adjust y-axis limits
+lines(variogramLine(exp_fit, max_dist), col = "red", lwd = 2, lty = 2)
+lines(variogramLine(sph_fit, (1/3) * max(vario_classical$dist)), col = "blue", lwd = 2, lty = 3)
+lines(variogramLine(gau_fit, (1/3) * max(vario_classical$dist)), col = "green", lwd = 2, lty = 4)
+legend("bottomright", legend = c("Exponential", "Spherical", "Gaussian"), 
+       col = c("red", "blue", "green"), lwd = 2, lty = c(2, 3, 4))
+```
+
+```{r}
+# Install and load necessary packages
+#install.packages(c("gstat", "sp", "ggplot2", "dplyr"))
+library(gstat)
+library(sp)
+library(ggplot2)
+library(dplyr)
+
+# Load the data
+data <- read.csv("final_data.csv")
+
+coordinates(data) <- ~Longitude + Latitude
+sample_variogram <- variogram(PM10 ~ 1, data)
+plot(sample_variogram)
+variogram_ols <- fit.variogram(sample_variogram, vgm(model = "Sph"), fit.method=0)
+plot(sample_variogram, model =variogram_ols, main = "OLS fit with spherical model")
+
+## Weighted Least Squares (npairs)
+variogram_npairs <- fit.variogram(sample_variogram, vgm(model="Sph"), fit.method = 1)
+plot(sample_variogram, model = variogram_npairs, main = "WLS npairs fit with spherical model")
+
+variogram_cressie <- fit.variogram(sample_variogram, vgm(model = "Sph"), fit.method=1)
+plot(sample_variogram, variogram_cressie, main = "WLS Cressie fit with spherical model")
+```
+
+```{r}
+exp_variogram_ols <- fit.variogram(sample_variogram, vgm(model = "Exp"), fit.method=0)
+plot(sample_variogram, model =exp_variogram_ols, main = "OLS fit with exponential model")
+
+## Weighted Least Squares (npairs)
+exp_variogram_npairs <- fit.variogram(sample_variogram, vgm(model="Exp"), fit.method = 1)
+plot(sample_variogram, model = exp_variogram_npairs, main = "WLS npairs fit with exponential model")
+
+exp_variogram_cressie <- fit.variogram(sample_variogram, vgm(model = "Exp"), fit.method=1)
+plot(sample_variogram, exp_variogram_cressie, main = "WLS Cressie fit with exponential model")
+```
+
+
+IDW interpolation
+```{r}
+# Load necessary libraries
+library(gstat)
+library(sp)
+
+# Read the dataset
+data <- read.csv("final_data.csv")
+
+# Convert the data to a spatial object
+#coordinates(data) <- ~Longitude + Latitude
+
+# Define the bounding box of the data
+x.range <- range(data$Longitude)
+y.range <- range(data$Latitude)
+
+# Create a grid for predictions
+grd <- expand.grid(
+  Longitude = seq(from = x.range[1], to = x.range[2], length.out = 100),
+  Latitude = seq(from = y.range[1], to = y.range[2], length.out = 100)
+)
+
+# Convert the grid to a spatial object
+coordinates(grd) <- ~Longitude + Latitude
+gridded(grd) <- TRUE
+
+# Perform IDW interpolation for PM10
+idw.out <- idw(PM10 ~ 1, locations = ~Longitude + Latitude, data, grd)
+
+# Collapse the vector of predicted values into a matrix
+pred_matrix <- matrix(idw.out$var1.pred, 
+                      nrow = length(seq(from = x.range[1], to = x.range[2], length.out = 100)),
+                      ncol = length(seq(from = y.range[1], to = y.range[2], length.out = 100)))
+
+# Raster map of the predictions
+image(seq(from = x.range[1], to = x.range[2], length.out = 100),
+      seq(from = y.range[1], to = y.range[2], length.out = 100),
+      pred_matrix,
+      xlab = "Longitude", ylab = "Latitude",
+      main = "IDW Interpolation of PM10 Concentrations")
+
+# Add observed data points
+points(data, pch = 19, col = "black")
+
+# Bubble plot of observed data
+points(data, cex = data$PM10 / mean(data$PM10), pch = 19, col = "red")
+
+# Add contours
+contour(seq(from = x.range[1], to = x.range[2], length.out = 100),
+        seq(from = y.range[1], to = y.range[2], length.out = 100),
+        pred_matrix, add = TRUE, col = "black", labcex = 1)
+
+
+```
+
+```{r}
+# Load necessary libraries
+library(sp)
+library(gstat)
+library(ggplot2)
+
+# Read the dataset
+data <- read.csv("final_data.csv")
+
+# Convert the data to a spatial object
+coordinates(data) <- ~Longitude + Latitude
+
+# Define the bounding box of the data
+bbox <- bbox(data)
+
+# Create a dense grid of points for prediction
+grid <- expand.grid(
+  Longitude = seq(bbox["Longitude", "min"], bbox["Longitude", "max"], length.out = 100),
+  Latitude = seq(bbox["Latitude", "min"], bbox["Latitude", "max"], length.out = 100)
+)
+
+# Convert the grid to a spatial object
+coordinates(grid) <- ~Longitude + Latitude
+gridded(grid) <- TRUE
+
+# Compute the empirical variogram
+vario <- variogram(PM10 ~ 1, data)
+
+# Fit a variogram model (e.g., exponential model)
+vario_fit <- fit.variogram(vario, model = vgm(psill = 9000, model = "Exp", range = 15000, nugget = 1000))
+if (any(vario_fit$range < 0)) stop("Fitted variogram has negative range — try different initial values")
+
+# Plot the variogram and fitted model
+plot(vario, vario_fit, main = "Variogram and Fitted Model")
+
+# Perform Ordinary Kriging
+ordinary_kriging <- krige(PM10 ~ 1, data, grid, model = vario_fit)
+
+# Perform Universal Kriging (with a trend)
+universal_kriging <- krige(PM10 ~ Longitude + Latitude, data, grid, model = vario_fit)
+
+# Perform Simple Kriging (assuming a known mean)
+simple_kriging <- krige(PM10 ~ 1, data, grid, model = vario_fit, beta = mean(data$PM10))
+
+ordinary_cv <- krige.cv(PM10 ~ 1, data, model = vario_fit)
+universal_cv <- krige.cv(PM10 ~ Longitude + Latitude, data, model = vario_fit)
+simple_cv <- krige.cv(PM10 ~ 1, data, model = vario_fit, beta = mean(data$PM10))
+
+set.seed(123)
+ordinary_mse <- mean(ordinary_cv$residual^2)
+universal_mse <- mean(universal_cv$residual^2)
+simple_mse <- mean(simple_cv$residual^2)
+
+ordinary_mse
+universal_mse
+simple_mse
+```
+
+
+
+```{r}
+# Load necessary libraries
+library(sp)
+library(gstat)
+library(ggplot2)
+
+# Read the dataset
+data <- read.csv("final_data.csv")
+
+# Rename columns with special characters for reliable formula use
+names(data)[names(data) == "Wind.Speed..U."] <- "WindU"
+names(data)[names(data) == "Wind.Speed..V."] <- "WindV"
+names(data)[names(data) == "Relative.Humidity"] <- "RelHum"
+
+# Convert the data to a spatial object
+coordinates(data) <- ~Longitude + Latitude
+
+# Define the bounding box of the data
+bbox <- bbox(data)
+
+# Create a dense grid of points for prediction
+grid <- expand.grid(
+  Longitude = seq(bbox["Longitude", "min"], bbox["Longitude", "max"], length.out = 100),
+  Latitude = seq(bbox["Latitude", "min"], bbox["Latitude", "max"], length.out = 100)
+)
+
+# Add predictor variables to the grid
+# For simplicity, assume constant values for predictors across the grid
+# (You can replace these with more sophisticated interpolation if needed)
+grid$Temp <- mean(data$Temp)      # Use mean temperature
+grid$RelHum <- mean(data$RelHum)  # Use mean relative humidity
+grid$WindU <- mean(data$WindU)    # Use mean U-component wind speed
+grid$WindV <- mean(data$WindV)    # Use mean V-component wind speed
+
+# Convert the grid to a spatial object
+coordinates(grid) <- ~Longitude + Latitude
+gridded(grid) <- TRUE
+
+# Compute the empirical variogram for PM10 with additional predictors
+vario <- variogram(PM10 ~ Temp + RelHum + WindU + WindV, data)
+
+# Fit a variogram model (e.g., exponential model)
+# psill lowered to ~5000 as residual variogram (after trend removal) has smaller sill
+vario_fit <- fit.variogram(vario, model = vgm(psill = 5000, model = "Exp", range = 15000, nugget = 1000))
+if (any(vario_fit$range < 0)) stop("Fitted variogram has negative range — try different initial values")
+
+# Perform Universal Kriging with additional predictors
+universal_kriging_additional_predictors <- krige(
+  PM10 ~ Temp + RelHum + WindU + WindV,  # Formula with predictors
+  locations = data,  # Original data
+  newdata = grid,    # Grid for predictions (with predictors)
+  model = vario_fit  # Fitted variogram model
+)
+
+# Perform cross-validation for Universal Kriging with additional predictors
+universal_cv_extra_predictors <- krige.cv(
+  PM10 ~ Temp + RelHum + WindU + WindV,  # Formula with predictors
+  data,  # Original data
+  model = vario_fit  # Fitted variogram model
+)
+
+# Extract performance metrics
+universal_extra_predictors_cv <- mean(universal_cv_extra_predictors$residual^2)
+
+universal_extra_predictors_cv
+```
+
+
+```{r}
+# Load necessary libraries
+library(sp)
+library(gstat)
+library(ggplot2)
+library(dplyr)
+
+# Read the dataset
+data <- read.csv("final_data.csv")
+
+# Convert the data to a spatial object
+coordinates(data) <- ~Longitude + Latitude
+
+# Compute the empirical semivariogram
+sample_variogram <- variogram(PM10 ~ 1, data)
+
+# Fit spherical models with different fitting methods
+variogram_ols <- fit.variogram(sample_variogram, vgm(model = "Sph"), fit.method = 0)  # OLS
+variogram_npairs <- fit.variogram(sample_variogram, vgm(model = "Sph"), fit.method = 1)  # WLS (npairs)
+
+# Fit exponential models with different fitting methods
+exp_variogram_ols <- fit.variogram(sample_variogram, vgm(model = "Exp"), fit.method = 0)  # OLS
+exp_variogram_npairs <- fit.variogram(sample_variogram, vgm(model = "Exp"), fit.method = 1)  # WLS (npairs)
+
+# Perform cross-validation for each model
+# Spherical models
+cv_ols <- krige.cv(PM10 ~ 1, data, model = variogram_ols)
+cv_npairs <- krige.cv(PM10 ~ 1, data, model = variogram_npairs)
+
+# Exponential models
+cv_exp_ols <- krige.cv(PM10 ~ 1, data, model = exp_variogram_ols)
+cv_exp_npairs <- krige.cv(PM10 ~ 1, data, model = exp_variogram_npairs)
+
+# Extract performance metrics for each model
+metrics <- data.frame(
+  Model = c("Spherical (OLS)", "Spherical (WLS npairs)",
+            "Exponential (OLS)", "Exponential (WLS npairs)"),
+  ME = c(mean(cv_ols$residual), mean(cv_npairs$residual),
+        mean(cv_exp_ols$residual), mean(cv_exp_npairs$residual)),
+  MSE = c(mean(cv_ols$residual^2), mean(cv_npairs$residual^2),
+         mean(cv_exp_ols$residual^2), mean(cv_exp_npairs$residual^2)),
+  RMSE = c(sqrt(mean(cv_ols$residual^2)), sqrt(mean(cv_npairs$residual^2)),
+           sqrt(mean(cv_exp_ols$residual^2)), sqrt(mean(cv_exp_npairs$residual^2)))
+)
+
+# Print the performance metrics
+print(metrics)
+```
+
+```{r}
+# Load necessary libraries
+library(sp)
+library(gstat)
+library(ggplot2)
+
+# Read the dataset
+data <- read.csv("final_data.csv")
+
+# Rename columns with special characters for reliable formula use
+names(data)[names(data) == "Wind.Speed..U."] <- "WindU"
+names(data)[names(data) == "Wind.Speed..V."] <- "WindV"
+names(data)[names(data) == "Relative.Humidity"] <- "RelHum"
+
+# Convert the data to a spatial object
+coordinates(data) <- ~Longitude + Latitude
+
+# Define the bounding box of the data
+bbox <- bbox(data)
+
+# Create a dense grid of points for prediction
+grid <- expand.grid(
+  Longitude = seq(bbox["Longitude", "min"], bbox["Longitude", "max"], length.out = 100),
+  Latitude = seq(bbox["Latitude", "min"], bbox["Latitude", "max"], length.out = 100)
+)
+
+# Add predictor variables to the grid
+# For simplicity, assume constant values for predictors across the grid
+# (You can replace these with more sophisticated interpolation if needed)
+grid$Temp <- mean(data$Temp)      # Use mean temperature
+grid$RelHum <- mean(data$RelHum)  # Use mean relative humidity
+grid$WindU <- mean(data$WindU)    # Use mean U-component wind speed
+grid$WindV <- mean(data$WindV)    # Use mean V-component wind speed
+
+# Convert the grid to a spatial object
+coordinates(grid) <- ~Longitude + Latitude
+gridded(grid) <- TRUE
+
+# Compute the empirical variogram for PM10 with additional predictors
+vario <- variogram(PM10 ~ Temp + RelHum + WindU + WindV, data)
+
+# Fit the Exponential (WLS npairs) model to the empirical variogram
+vario_fit <- fit.variogram(vario, model = vgm(psill = 5000, model = "Exp", range = 15000, nugget = 1000), fit.method = 1)  # WLS (npairs)
+if (any(vario_fit$range < 0)) stop("Fitted variogram has negative range — try different initial values")
+
+# Print the fitted variogram model
+print(vario_fit)
+
+# Perform Universal Kriging with additional predictors
+universal_kriging_additional_predictors <- krige(
+  PM10 ~ Temp + RelHum + WindU + WindV,  # Formula with predictors
+  locations = data,  # Original data
+  newdata = grid,    # Grid for predictions (with predictors)
+  model = vario_fit  # Fitted variogram model
+)
+
+# Convert the results to a data frame for plotting
+universal_df <- as.data.frame(universal_kriging_additional_predictors)
+
+# Plot the results
+# Clamp colour scale to 5th–95th percentile of predictions to reveal spatial variation
+pred_range <- quantile(universal_df$var1.pred, c(0.05, 0.95), na.rm = TRUE)
+
+ggplot(universal_df, aes(x = Longitude, y = Latitude, fill = var1.pred)) +
+  geom_tile() +
+  scale_fill_viridis_c(option = "plasma", name = "PM10 Concentration",
+                       limits = pred_range, oob = scales::squish) +
+  labs(title = "Universal Kriging Predictions for PM10 (with Additional Predictors)",
+       x = "Longitude",
+       y = "Latitude") +
+  theme_minimal()
+
+# Perform cross-validation for Universal Kriging with additional predictors
+universal_cv_extra_predictors <- krige.cv(
+  PM10 ~ Temp + RelHum + WindU + WindV,  # Formula with predictors
+  data,  # Original data
+  model = vario_fit  # Fitted variogram model
+)
+
+# Extract performance metrics
+universal_extra_predictors_cv <- mean(universal_cv_extra_predictors$residual^2)
+
+# Print the cross-validation MSE
+print(paste("Cross-Validation MSE:", universal_extra_predictors_cv))
+```
+
+

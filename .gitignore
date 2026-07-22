@@ -1,0 +1,21 @@
+# Raw hourly datasets are too large for GitHub (>100 MB hard limit) and are gitignored.
+# The committed final_data.csv (65 stations) + data/sample/ are enough to run the analysis.
+
+# Ignore all CSVs by default...
+*.csv
+
+# ...then re-include the small curated files the analysis needs.
+!final_data.csv
+!data/sample/*.csv
+
+# Explicit big raw files (belt and suspenders)
+athens_data.csv
+ancona_data.csv
+zaragoza_data.csv
+
+# R / editor cruft
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+.DS_Store
