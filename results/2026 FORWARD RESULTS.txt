@@ -1,0 +1,76 @@
+================ 2026 FORWARD BENCHMARK (reduced spec) ================
+> cat("Fit formula:", deparse(f_available), "\n")
+Fit formula: advanced ~ prior_tournaments + is_host + conf + year_c 
+> cat(sprintf("2026 teams scored: %d (base rate advanced = %.3f)\n",
++             nrow(new26), base26))
+2026 teams scored: 47 (base rate advanced = 0.681)
+> cat("\n---- 2026 confusion matrix (threshold 0.5) ----\n")
+
+---- 2026 confusion matrix (threshold 0.5) ----
+> print(cm26)
+         Actual
+Predicted  0  1
+        0 13 13
+        1  2 19
+> cat(sprintf("\n2026 accuracy : %.3f  (no-information rate = %.3f, lift = %+.3f)\n",
++             acc26, max(base26, 1 - base26), acc26 - max(base26, 1 - base26)))
+
+2026 accuracy : 0.681  (no-information rate = 0.681, lift = +0.000)
+> cat(sprintf("2026 AUC      : %.3f  (forward out-of-sample discrimination)\n", auc26))
+2026 AUC      : 0.757  (forward out-of-sample discrimination)
+> # ---- Ranked predicted probabilities (the payoff table / slide) --------------
+> rank26 <- new26[order(-p26), c("team_name", "group_name", "conf",
++                                "prior_tournaments", "is_host", "advanced")]
+> rank26$p_advance <- round(p26[order(-p26)], 3)
+> cat("\n---- 2026 teams by predicted advancement probability ----\n")
+
+---- 2026 teams by predicted advancement probability ----
+> print(rank26, row.names = FALSE)
+              team_name group_name     conf prior_tournaments is_host advanced p_advance
+                 Mexico          A CONCACAF                17       1        1     0.980
+                 Brazil          C CONMEBOL                20       0        1     0.962
+              Argentina          J CONMEBOL                17       0        1     0.935
+          United States          D CONCACAF                10       1        1     0.928
+                England          L     UEFA                16       0        1     0.910
+                  Spain          H     UEFA                15       0        1     0.893
+                Uruguay          H CONMEBOL                14       0        0     0.889
+                 France          I     UEFA                14       0        1     0.873
+                Belgium          G     UEFA                12       0        1     0.824
+                 Sweden          F     UEFA                10       0        1     0.761
+            Switzerland          B     UEFA                10       0        1     0.761
+                 Canada          B CONCACAF                 2       1        1     0.734
+            Netherlands          F     UEFA                 9       0        1     0.724
+               Paraguay          D CONMEBOL                 8       0        1     0.717
+                Germany          E     UEFA                 8       0        1     0.684
+               Portugal          K     UEFA                 8       0        1     0.684
+               Scotland          C     UEFA                 8       0        0     0.684
+               Colombia          K CONMEBOL                 6       0        1     0.633
+                Austria          J     UEFA                 6       0        1     0.596
+                Croatia          L     UEFA                 6       0        1     0.596
+                Ecuador          E CONMEBOL                 4       0        1     0.540
+            South Korea          A      AFC                11       0        0     0.480
+                 Norway          I     UEFA                 2       0        1     0.406
+                 Turkey          D     UEFA                 2       0        0     0.406
+ Bosnia and Herzegovina          B     UEFA                 1       0        1     0.361
+                Czechia          A     UEFA                 1       0        0     0.361
+                Morocco          C      CAF                 6       0        1     0.313
+                Tunisia          F      CAF                 6       0        0     0.313
+                  Japan          F      AFC                 7       0        1     0.299
+              Australia          D      AFC                 6       0        1     0.260
+                   Iran          G      AFC                 6       0        0     0.260
+           Saudi Arabia          H      AFC                 6       0        0     0.260
+                Algeria          J      CAF                 4       0        1     0.237
+                  Ghana          L      CAF                 4       0        1     0.237
+            Ivory Coast          E      CAF                 3       0        1     0.204
+                Senegal          I      CAF                 3       0        1     0.204
+           South Africa          A      CAF                 3       0        1     0.204
+                  Haiti          C CONCACAF                 1       0        0     0.184
+                 Panama          L CONCACAF                 1       0        0     0.184
+                  Egypt          G      CAF                 2       0        1     0.174
+                Curacao          E CONCACAF                 0       0        0     0.156
+               DR Congo          K      CAF                 1       0        1     0.148
+             Cape Verde          H      CAF                 0       0        1     0.125
+                   Iraq          I      AFC                 1       0        0     0.119
+                  Qatar          B      AFC                 1       0        0     0.119
+                 Jordan          J      AFC                 0       0        0     0.100
+             Uzbekistan          K      AFC                 0       0        0     0.100

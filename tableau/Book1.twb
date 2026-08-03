@@ -1,0 +1,3553 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20262.26.0603.1643                               -->
+<workbook original-version='18.1' source-build='2026.2.0 (20262.26.0603.1643)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='team_appearances+' inline='true' name='federated.16vlm0h1ojnpfw14szxbr0a5jpsa' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='team_appearances' name='textscan.07441m40vtih6z16uirkl0ny45l9'>
+            <connection class='textscan' directory='C:/Users/jerem/OneDrive/Documents/Stat_418/Final Project/worldcup_data' filename='team_appearances.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation type='collection'>
+          <relation connection='textscan.07441m40vtih6z16uirkl0ny45l9' name='team_appearances.csv' table='[team_appearances#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='integer' name='key_id' ordinal='0' />
+              <column datatype='string' name='tournament_id' ordinal='1' />
+              <column datatype='string' name='tournament_name' ordinal='2' />
+              <column datatype='string' name='match_id' ordinal='3' />
+              <column datatype='string' name='match_name' ordinal='4' />
+              <column datatype='string' name='stage_name' ordinal='5' />
+              <column datatype='string' name='group_name' ordinal='6' />
+              <column datatype='integer' name='group_stage' ordinal='7' />
+              <column datatype='integer' name='knockout_stage' ordinal='8' />
+              <column datatype='integer' name='replayed' ordinal='9' />
+              <column datatype='integer' name='replay' ordinal='10' />
+              <column datatype='date' name='match_date' ordinal='11' />
+              <column datatype='datetime' name='match_time' ordinal='12' />
+              <column datatype='string' name='stadium_id' ordinal='13' />
+              <column datatype='string' name='stadium_name' ordinal='14' />
+              <column datatype='string' name='city_name' ordinal='15' />
+              <column datatype='string' name='country_name' ordinal='16' />
+              <column datatype='string' name='team_id' ordinal='17' />
+              <column datatype='string' name='team_name' ordinal='18' />
+              <column datatype='string' name='team_code' ordinal='19' />
+              <column datatype='string' name='opponent_id' ordinal='20' />
+              <column datatype='string' name='opponent_name' ordinal='21' />
+              <column datatype='string' name='opponent_code' ordinal='22' />
+              <column datatype='integer' name='home_team' ordinal='23' />
+              <column datatype='integer' name='away_team' ordinal='24' />
+              <column datatype='integer' name='goals_for' ordinal='25' />
+              <column datatype='integer' name='goals_against' ordinal='26' />
+              <column datatype='integer' name='goal_differential' ordinal='27' />
+              <column datatype='integer' name='extra_time' ordinal='28' />
+              <column datatype='integer' name='penalty_shootout' ordinal='29' />
+              <column datatype='integer' name='penalties_for' ordinal='30' />
+              <column datatype='integer' name='penalties_against' ordinal='31' />
+              <column datatype='string' name='result' ordinal='32' />
+              <column datatype='integer' name='win' ordinal='33' />
+              <column datatype='integer' name='lose' ordinal='34' />
+              <column datatype='integer' name='draw' ordinal='35' />
+            </columns>
+          </relation>
+          <relation connection='textscan.07441m40vtih6z16uirkl0ny45l9' name='teams.csv' table='[teams#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='integer' name='key_id' ordinal='0' />
+              <column datatype='string' name='team_id' ordinal='1' />
+              <column datatype='string' name='team_name' ordinal='2' />
+              <column datatype='string' name='team_code' ordinal='3' />
+              <column datatype='integer' name='mens_team' ordinal='4' />
+              <column datatype='integer' name='womens_team' ordinal='5' />
+              <column datatype='string' name='federation_name' ordinal='6' />
+              <column datatype='string' name='region_name' ordinal='7' />
+              <column datatype='string' name='confederation_id' ordinal='8' />
+              <column datatype='string' name='confederation_name' ordinal='9' />
+              <column datatype='string' name='confederation_code' ordinal='10' />
+              <column datatype='string' name='mens_team_wikipedia_link' ordinal='11' />
+              <column datatype='string' name='womens_team_wikipedia_link' ordinal='12' />
+              <column datatype='string' name='federation_wikipedia_link' ordinal='13' />
+            </columns>
+          </relation>
+          <relation connection='textscan.07441m40vtih6z16uirkl0ny45l9' name='group_standings.csv' table='[group_standings#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='integer' name='key_id' ordinal='0' />
+              <column datatype='string' name='tournament_id' ordinal='1' />
+              <column datatype='string' name='tournament_name' ordinal='2' />
+              <column datatype='integer' name='stage_number' ordinal='3' />
+              <column datatype='string' name='stage_name' ordinal='4' />
+              <column datatype='string' name='group_name' ordinal='5' />
+              <column datatype='integer' name='position' ordinal='6' />
+              <column datatype='string' name='team_id' ordinal='7' />
+              <column datatype='string' name='team_name' ordinal='8' />
+              <column datatype='string' name='team_code' ordinal='9' />
+              <column datatype='integer' name='played' ordinal='10' />
+              <column datatype='integer' name='wins' ordinal='11' />
+              <column datatype='integer' name='draws' ordinal='12' />
+              <column datatype='integer' name='losses' ordinal='13' />
+              <column datatype='integer' name='goals_for' ordinal='14' />
+              <column datatype='integer' name='goals_against' ordinal='15' />
+              <column datatype='integer' name='goal_difference' ordinal='16' />
+              <column datatype='integer' name='points' ordinal='17' />
+              <column datatype='integer' name='advanced' ordinal='18' />
+            </columns>
+          </relation>
+        </relation>
+        <cols>
+          <map key='[advanced]' value='[group_standings.csv].[advanced]' />
+          <map key='[away_team]' value='[team_appearances.csv].[away_team]' />
+          <map key='[city_name]' value='[team_appearances.csv].[city_name]' />
+          <map key='[confederation_code]' value='[teams.csv].[confederation_code]' />
+          <map key='[confederation_id]' value='[teams.csv].[confederation_id]' />
+          <map key='[confederation_name]' value='[teams.csv].[confederation_name]' />
+          <map key='[country_name]' value='[team_appearances.csv].[country_name]' />
+          <map key='[draw]' value='[team_appearances.csv].[draw]' />
+          <map key='[draws]' value='[group_standings.csv].[draws]' />
+          <map key='[extra_time]' value='[team_appearances.csv].[extra_time]' />
+          <map key='[federation_name]' value='[teams.csv].[federation_name]' />
+          <map key='[federation_wikipedia_link]' value='[teams.csv].[federation_wikipedia_link]' />
+          <map key='[goal_difference]' value='[group_standings.csv].[goal_difference]' />
+          <map key='[goal_differential]' value='[team_appearances.csv].[goal_differential]' />
+          <map key='[goals_against (group_standings.csv)]' value='[group_standings.csv].[goals_against]' />
+          <map key='[goals_against]' value='[team_appearances.csv].[goals_against]' />
+          <map key='[goals_for (group_standings.csv)]' value='[group_standings.csv].[goals_for]' />
+          <map key='[goals_for]' value='[team_appearances.csv].[goals_for]' />
+          <map key='[group_name (group_standings.csv)]' value='[group_standings.csv].[group_name]' />
+          <map key='[group_name]' value='[team_appearances.csv].[group_name]' />
+          <map key='[group_stage]' value='[team_appearances.csv].[group_stage]' />
+          <map key='[home_team]' value='[team_appearances.csv].[home_team]' />
+          <map key='[key_id (group_standings.csv)]' value='[group_standings.csv].[key_id]' />
+          <map key='[key_id (teams.csv)]' value='[teams.csv].[key_id]' />
+          <map key='[key_id]' value='[team_appearances.csv].[key_id]' />
+          <map key='[knockout_stage]' value='[team_appearances.csv].[knockout_stage]' />
+          <map key='[lose]' value='[team_appearances.csv].[lose]' />
+          <map key='[losses]' value='[group_standings.csv].[losses]' />
+          <map key='[match_date]' value='[team_appearances.csv].[match_date]' />
+          <map key='[match_id]' value='[team_appearances.csv].[match_id]' />
+          <map key='[match_name]' value='[team_appearances.csv].[match_name]' />
+          <map key='[match_time]' value='[team_appearances.csv].[match_time]' />
+          <map key='[mens_team]' value='[teams.csv].[mens_team]' />
+          <map key='[mens_team_wikipedia_link]' value='[teams.csv].[mens_team_wikipedia_link]' />
+          <map key='[opponent_code]' value='[team_appearances.csv].[opponent_code]' />
+          <map key='[opponent_id]' value='[team_appearances.csv].[opponent_id]' />
+          <map key='[opponent_name]' value='[team_appearances.csv].[opponent_name]' />
+          <map key='[penalties_against]' value='[team_appearances.csv].[penalties_against]' />
+          <map key='[penalties_for]' value='[team_appearances.csv].[penalties_for]' />
+          <map key='[penalty_shootout]' value='[team_appearances.csv].[penalty_shootout]' />
+          <map key='[played]' value='[group_standings.csv].[played]' />
+          <map key='[points]' value='[group_standings.csv].[points]' />
+          <map key='[position]' value='[group_standings.csv].[position]' />
+          <map key='[region_name]' value='[teams.csv].[region_name]' />
+          <map key='[replay]' value='[team_appearances.csv].[replay]' />
+          <map key='[replayed]' value='[team_appearances.csv].[replayed]' />
+          <map key='[result]' value='[team_appearances.csv].[result]' />
+          <map key='[stadium_id]' value='[team_appearances.csv].[stadium_id]' />
+          <map key='[stadium_name]' value='[team_appearances.csv].[stadium_name]' />
+          <map key='[stage_name (group_standings.csv)]' value='[group_standings.csv].[stage_name]' />
+          <map key='[stage_name]' value='[team_appearances.csv].[stage_name]' />
+          <map key='[stage_number]' value='[group_standings.csv].[stage_number]' />
+          <map key='[team_code (group_standings.csv)]' value='[group_standings.csv].[team_code]' />
+          <map key='[team_code (teams.csv)]' value='[teams.csv].[team_code]' />
+          <map key='[team_code]' value='[team_appearances.csv].[team_code]' />
+          <map key='[team_id (group_standings.csv)]' value='[group_standings.csv].[team_id]' />
+          <map key='[team_id (teams.csv)]' value='[teams.csv].[team_id]' />
+          <map key='[team_id]' value='[team_appearances.csv].[team_id]' />
+          <map key='[team_name (group_standings.csv)]' value='[group_standings.csv].[team_name]' />
+          <map key='[team_name (teams.csv)]' value='[teams.csv].[team_name]' />
+          <map key='[team_name]' value='[team_appearances.csv].[team_name]' />
+          <map key='[tournament_id (group_standings.csv)]' value='[group_standings.csv].[tournament_id]' />
+          <map key='[tournament_id]' value='[team_appearances.csv].[tournament_id]' />
+          <map key='[tournament_name (group_standings.csv)]' value='[group_standings.csv].[tournament_name]' />
+          <map key='[tournament_name]' value='[team_appearances.csv].[tournament_name]' />
+          <map key='[win]' value='[team_appearances.csv].[win]' />
+          <map key='[wins]' value='[group_standings.csv].[wins]' />
+          <map key='[womens_team]' value='[teams.csv].[womens_team]' />
+          <map key='[womens_team_wikipedia_link]' value='[teams.csv].[womens_team_wikipedia_link]' />
+        </cols>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[team_appearances.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[teams.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[group_standings.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>key_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[key_id]</local-name>
+            <parent-name>[team_appearances.csv]</parent-name>
+            <remote-alias>key_id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tournament_id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[tournament_id]</local-name>
+            <parent-name>[team_appearances.csv]</parent-name>
+            <remote-alias>tournament_id</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tournament_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[tournament_name]</local-name>
+            <parent-name>[team_appearances.csv]</parent-name>
+            <remote-alias>tournament_name</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>match_id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[match_id]</local-name>
+            <parent-name>[team_appearances.csv]</parent-name>
+            <remote-alias>match_id</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>match_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[match_name]</local-name>
+            <parent-name>[team_appearances.csv]</parent-name>
+            <remote-alias>match_name</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stage_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[stage_name]</local-name>
+            <parent-name>[team_appearances.csv]</parent-name>
+            <remote-alias>stage_name</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>group_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[group_name]</local-name>
+            <parent-name>[team_appearances.csv]</parent-name>
+            <remote-alias>group_name</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>group_stage</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[group_stage]</local-name>
+            <parent-name>[team_appearances.csv]</parent-name>
+            <remote-alias>group_stage</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>knockout_stage</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[knockout_stage]</local-name>
+            <parent-name>[team_appearances.csv]</parent-name>
+            <remote-alias>knockout_stage</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>replayed</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[replayed]</local-name>
+            <parent-name>[team_appearances.csv]</parent-name>
+            <remote-alias>replayed</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>replay</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[replay]</local-name>
+            <parent-name>[team_appearances.csv]</parent-name>
+            <remote-alias>replay</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>match_date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[match_date]</local-name>
+            <parent-name>[team_appearances.csv]</parent-name>
+            <remote-alias>match_date</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>match_time</remote-name>
+            <remote-type>134</remote-type>
+            <local-name>[match_time]</local-name>
+            <parent-name>[team_appearances.csv]</parent-name>
+            <remote-alias>match_time</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Hour</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stadium_id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[stadium_id]</local-name>
+            <parent-name>[team_appearances.csv]</parent-name>
+            <remote-alias>stadium_id</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stadium_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[stadium_name]</local-name>
+            <parent-name>[team_appearances.csv]</parent-name>
+            <remote-alias>stadium_name</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>city_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[city_name]</local-name>
+            <parent-name>[team_appearances.csv]</parent-name>
+            <remote-alias>city_name</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>country_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[country_name]</local-name>
+            <parent-name>[team_appearances.csv]</parent-name>
+            <remote-alias>country_name</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>team_id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[team_id]</local-name>
+            <parent-name>[team_appearances.csv]</parent-name>
+            <remote-alias>team_id</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>team_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[team_name]</local-name>
+            <parent-name>[team_appearances.csv]</parent-name>
+            <remote-alias>team_name</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>team_code</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[team_code]</local-name>
+            <parent-name>[team_appearances.csv]</parent-name>
+            <remote-alias>team_code</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>opponent_id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[opponent_id]</local-name>
+            <parent-name>[team_appearances.csv]</parent-name>
+            <remote-alias>opponent_id</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>opponent_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[opponent_name]</local-name>
+            <parent-name>[team_appearances.csv]</parent-name>
+            <remote-alias>opponent_name</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>opponent_code</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[opponent_code]</local-name>
+            <parent-name>[team_appearances.csv]</parent-name>
+            <remote-alias>opponent_code</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>home_team</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[home_team]</local-name>
+            <parent-name>[team_appearances.csv]</parent-name>
+            <remote-alias>home_team</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>away_team</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[away_team]</local-name>
+            <parent-name>[team_appearances.csv]</parent-name>
+            <remote-alias>away_team</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>goals_for</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[goals_for]</local-name>
+            <parent-name>[team_appearances.csv]</parent-name>
+            <remote-alias>goals_for</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>goals_against</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[goals_against]</local-name>
+            <parent-name>[team_appearances.csv]</parent-name>
+            <remote-alias>goals_against</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>goal_differential</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[goal_differential]</local-name>
+            <parent-name>[team_appearances.csv]</parent-name>
+            <remote-alias>goal_differential</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>extra_time</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[extra_time]</local-name>
+            <parent-name>[team_appearances.csv]</parent-name>
+            <remote-alias>extra_time</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>penalty_shootout</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[penalty_shootout]</local-name>
+            <parent-name>[team_appearances.csv]</parent-name>
+            <remote-alias>penalty_shootout</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>penalties_for</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[penalties_for]</local-name>
+            <parent-name>[team_appearances.csv]</parent-name>
+            <remote-alias>penalties_for</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>penalties_against</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[penalties_against]</local-name>
+            <parent-name>[team_appearances.csv]</parent-name>
+            <remote-alias>penalties_against</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>result</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[result]</local-name>
+            <parent-name>[team_appearances.csv]</parent-name>
+            <remote-alias>result</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>win</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[win]</local-name>
+            <parent-name>[team_appearances.csv]</parent-name>
+            <remote-alias>win</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>lose</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[lose]</local-name>
+            <parent-name>[team_appearances.csv]</parent-name>
+            <remote-alias>lose</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>draw</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[draw]</local-name>
+            <parent-name>[team_appearances.csv]</parent-name>
+            <remote-alias>draw</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>key_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[key_id (teams.csv)]</local-name>
+            <parent-name>[teams.csv]</parent-name>
+            <remote-alias>key_id</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[teams.csv_07888B575B834861BA0004B6BF70A6BA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>team_id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[team_id (teams.csv)]</local-name>
+            <parent-name>[teams.csv]</parent-name>
+            <remote-alias>team_id</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[teams.csv_07888B575B834861BA0004B6BF70A6BA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>team_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[team_name (teams.csv)]</local-name>
+            <parent-name>[teams.csv]</parent-name>
+            <remote-alias>team_name</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[teams.csv_07888B575B834861BA0004B6BF70A6BA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>team_code</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[team_code (teams.csv)]</local-name>
+            <parent-name>[teams.csv]</parent-name>
+            <remote-alias>team_code</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[teams.csv_07888B575B834861BA0004B6BF70A6BA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mens_team</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[mens_team]</local-name>
+            <parent-name>[teams.csv]</parent-name>
+            <remote-alias>mens_team</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[teams.csv_07888B575B834861BA0004B6BF70A6BA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>womens_team</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[womens_team]</local-name>
+            <parent-name>[teams.csv]</parent-name>
+            <remote-alias>womens_team</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[teams.csv_07888B575B834861BA0004B6BF70A6BA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>federation_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[federation_name]</local-name>
+            <parent-name>[teams.csv]</parent-name>
+            <remote-alias>federation_name</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[teams.csv_07888B575B834861BA0004B6BF70A6BA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>region_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[region_name]</local-name>
+            <parent-name>[teams.csv]</parent-name>
+            <remote-alias>region_name</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[teams.csv_07888B575B834861BA0004B6BF70A6BA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>confederation_id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[confederation_id]</local-name>
+            <parent-name>[teams.csv]</parent-name>
+            <remote-alias>confederation_id</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[teams.csv_07888B575B834861BA0004B6BF70A6BA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>confederation_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[confederation_name]</local-name>
+            <parent-name>[teams.csv]</parent-name>
+            <remote-alias>confederation_name</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[teams.csv_07888B575B834861BA0004B6BF70A6BA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>confederation_code</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[confederation_code]</local-name>
+            <parent-name>[teams.csv]</parent-name>
+            <remote-alias>confederation_code</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[teams.csv_07888B575B834861BA0004B6BF70A6BA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mens_team_wikipedia_link</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[mens_team_wikipedia_link]</local-name>
+            <parent-name>[teams.csv]</parent-name>
+            <remote-alias>mens_team_wikipedia_link</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[teams.csv_07888B575B834861BA0004B6BF70A6BA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>womens_team_wikipedia_link</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[womens_team_wikipedia_link]</local-name>
+            <parent-name>[teams.csv]</parent-name>
+            <remote-alias>womens_team_wikipedia_link</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[teams.csv_07888B575B834861BA0004B6BF70A6BA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>federation_wikipedia_link</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[federation_wikipedia_link]</local-name>
+            <parent-name>[teams.csv]</parent-name>
+            <remote-alias>federation_wikipedia_link</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[teams.csv_07888B575B834861BA0004B6BF70A6BA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>key_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[key_id (group_standings.csv)]</local-name>
+            <parent-name>[group_standings.csv]</parent-name>
+            <remote-alias>key_id</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[group_standings.csv_D22754E5181042C88A1B6459A2B3A687]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tournament_id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[tournament_id (group_standings.csv)]</local-name>
+            <parent-name>[group_standings.csv]</parent-name>
+            <remote-alias>tournament_id</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[group_standings.csv_D22754E5181042C88A1B6459A2B3A687]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tournament_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[tournament_name (group_standings.csv)]</local-name>
+            <parent-name>[group_standings.csv]</parent-name>
+            <remote-alias>tournament_name</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[group_standings.csv_D22754E5181042C88A1B6459A2B3A687]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stage_number</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[stage_number]</local-name>
+            <parent-name>[group_standings.csv]</parent-name>
+            <remote-alias>stage_number</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[group_standings.csv_D22754E5181042C88A1B6459A2B3A687]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stage_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[stage_name (group_standings.csv)]</local-name>
+            <parent-name>[group_standings.csv]</parent-name>
+            <remote-alias>stage_name</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[group_standings.csv_D22754E5181042C88A1B6459A2B3A687]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>group_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[group_name (group_standings.csv)]</local-name>
+            <parent-name>[group_standings.csv]</parent-name>
+            <remote-alias>group_name</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[group_standings.csv_D22754E5181042C88A1B6459A2B3A687]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>position</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[position]</local-name>
+            <parent-name>[group_standings.csv]</parent-name>
+            <remote-alias>position</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[group_standings.csv_D22754E5181042C88A1B6459A2B3A687]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>team_id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[team_id (group_standings.csv)]</local-name>
+            <parent-name>[group_standings.csv]</parent-name>
+            <remote-alias>team_id</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[group_standings.csv_D22754E5181042C88A1B6459A2B3A687]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>team_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[team_name (group_standings.csv)]</local-name>
+            <parent-name>[group_standings.csv]</parent-name>
+            <remote-alias>team_name</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[group_standings.csv_D22754E5181042C88A1B6459A2B3A687]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>team_code</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[team_code (group_standings.csv)]</local-name>
+            <parent-name>[group_standings.csv]</parent-name>
+            <remote-alias>team_code</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[group_standings.csv_D22754E5181042C88A1B6459A2B3A687]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>played</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[played]</local-name>
+            <parent-name>[group_standings.csv]</parent-name>
+            <remote-alias>played</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[group_standings.csv_D22754E5181042C88A1B6459A2B3A687]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>wins</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[wins]</local-name>
+            <parent-name>[group_standings.csv]</parent-name>
+            <remote-alias>wins</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[group_standings.csv_D22754E5181042C88A1B6459A2B3A687]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>draws</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[draws]</local-name>
+            <parent-name>[group_standings.csv]</parent-name>
+            <remote-alias>draws</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[group_standings.csv_D22754E5181042C88A1B6459A2B3A687]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>losses</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[losses]</local-name>
+            <parent-name>[group_standings.csv]</parent-name>
+            <remote-alias>losses</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[group_standings.csv_D22754E5181042C88A1B6459A2B3A687]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>goals_for</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[goals_for (group_standings.csv)]</local-name>
+            <parent-name>[group_standings.csv]</parent-name>
+            <remote-alias>goals_for</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[group_standings.csv_D22754E5181042C88A1B6459A2B3A687]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>goals_against</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[goals_against (group_standings.csv)]</local-name>
+            <parent-name>[group_standings.csv]</parent-name>
+            <remote-alias>goals_against</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[group_standings.csv_D22754E5181042C88A1B6459A2B3A687]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>goal_difference</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[goal_difference]</local-name>
+            <parent-name>[group_standings.csv]</parent-name>
+            <remote-alias>goal_difference</remote-alias>
+            <ordinal>66</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[group_standings.csv_D22754E5181042C88A1B6459A2B3A687]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>points</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[points]</local-name>
+            <parent-name>[group_standings.csv]</parent-name>
+            <remote-alias>points</remote-alias>
+            <ordinal>67</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[group_standings.csv_D22754E5181042C88A1B6459A2B3A687]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>advanced</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[advanced]</local-name>
+            <parent-name>[group_standings.csv]</parent-name>
+            <remote-alias>advanced</remote-alias>
+            <ordinal>68</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[group_standings.csv_D22754E5181042C88A1B6459A2B3A687]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='group_standings.csv' datatype='table' name='[__tableau_internal_object_id__].[group_standings.csv_D22754E5181042C88A1B6459A2B3A687]' role='measure' type='quantitative' />
+      <column caption='team_appearances.csv' datatype='table' name='[__tableau_internal_object_id__].[team_appearances.csv_2C129218A426417F84495B16FEF934A0]' role='measure' type='quantitative' />
+      <column caption='teams.csv' datatype='table' name='[__tableau_internal_object_id__].[teams.csv_07888B575B834861BA0004B6BF70A6BA]' role='measure' type='quantitative' />
+      <column caption='Advanced' datatype='integer' name='[advanced]' role='measure' type='quantitative' />
+      <column caption='Away Team' datatype='integer' name='[away_team]' role='measure' type='quantitative' />
+      <column caption='City Name' datatype='string' name='[city_name]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column caption='Confederation Code' datatype='string' name='[confederation_code]' role='dimension' type='nominal' />
+      <column caption='Confederation Id' datatype='string' name='[confederation_id]' role='dimension' type='nominal' />
+      <column caption='Confederation Name' datatype='string' name='[confederation_name]' role='dimension' type='nominal' />
+      <column caption='Country Name' datatype='string' name='[country_name]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Draw' datatype='integer' name='[draw]' role='measure' type='quantitative' />
+      <column caption='Draws' datatype='integer' name='[draws]' role='measure' type='quantitative' />
+      <column caption='Extra Time' datatype='integer' name='[extra_time]' role='measure' type='quantitative' />
+      <column caption='Federation Name' datatype='string' name='[federation_name]' role='dimension' type='nominal' />
+      <column caption='Federation Wikipedia Link' datatype='string' name='[federation_wikipedia_link]' role='dimension' type='nominal' />
+      <column caption='Goal Difference' datatype='integer' name='[goal_difference]' role='measure' type='quantitative' />
+      <column caption='Goal Differential' datatype='integer' name='[goal_differential]' role='measure' type='quantitative' />
+      <column caption='Goals Against (Group Standings.Csv)' datatype='integer' name='[goals_against (group_standings.csv)]' role='measure' type='quantitative' />
+      <column caption='Goals Against' datatype='integer' name='[goals_against]' role='measure' type='quantitative' />
+      <column caption='Goals For (Group Standings.Csv)' datatype='integer' name='[goals_for (group_standings.csv)]' role='measure' type='quantitative' />
+      <column caption='Goals For' datatype='integer' name='[goals_for]' role='measure' type='quantitative' />
+      <column caption='Group Name (Group Standings.Csv)' datatype='string' name='[group_name (group_standings.csv)]' role='dimension' type='nominal' />
+      <column caption='Group Name' datatype='string' name='[group_name]' role='dimension' type='nominal' />
+      <column caption='Group Stage' datatype='integer' name='[group_stage]' role='measure' type='quantitative' />
+      <column caption='Home Team' datatype='integer' name='[home_team]' role='measure' type='quantitative' />
+      <column caption='Key Id (Group Standings.Csv)' datatype='integer' name='[key_id (group_standings.csv)]' role='dimension' type='ordinal' />
+      <column caption='Key Id (Teams.Csv)' datatype='integer' name='[key_id (teams.csv)]' role='dimension' type='ordinal' />
+      <column caption='Key Id' datatype='integer' name='[key_id]' role='dimension' type='ordinal' />
+      <column caption='Knockout Stage' datatype='integer' name='[knockout_stage]' role='measure' type='quantitative' />
+      <column caption='Lose' datatype='integer' name='[lose]' role='measure' type='quantitative' />
+      <column caption='Losses' datatype='integer' name='[losses]' role='measure' type='quantitative' />
+      <column caption='Match Date' datatype='date' name='[match_date]' role='dimension' type='ordinal' />
+      <column caption='Match Id' datatype='string' name='[match_id]' role='dimension' type='nominal' />
+      <column caption='Match Name' datatype='string' name='[match_name]' role='dimension' type='nominal' />
+      <column aggregation='Hour' caption='Match Time' datatype='datetime' name='[match_time]' role='dimension' type='ordinal' />
+      <column caption='Mens Team' datatype='integer' name='[mens_team]' role='measure' type='quantitative' />
+      <column caption='Mens Team Wikipedia Link' datatype='string' name='[mens_team_wikipedia_link]' role='dimension' type='nominal' />
+      <column caption='Opponent Code' datatype='string' name='[opponent_code]' role='dimension' type='nominal' />
+      <column caption='Opponent Id' datatype='string' name='[opponent_id]' role='dimension' type='nominal' />
+      <column caption='Opponent Name' datatype='string' name='[opponent_name]' role='dimension' type='nominal' />
+      <column caption='Penalties Against' datatype='integer' name='[penalties_against]' role='measure' type='quantitative' />
+      <column caption='Penalties For' datatype='integer' name='[penalties_for]' role='measure' type='quantitative' />
+      <column caption='Penalty Shootout' datatype='integer' name='[penalty_shootout]' role='measure' type='quantitative' />
+      <column caption='Played' datatype='integer' name='[played]' role='measure' type='quantitative' />
+      <column caption='Points' datatype='integer' name='[points]' role='measure' type='quantitative' />
+      <column caption='Position' datatype='integer' name='[position]' role='measure' type='quantitative' />
+      <column caption='Region Name' datatype='string' name='[region_name]' role='dimension' type='nominal' />
+      <column caption='Replay' datatype='integer' name='[replay]' role='measure' type='quantitative' />
+      <column caption='Replayed' datatype='integer' name='[replayed]' role='measure' type='quantitative' />
+      <column caption='Result' datatype='string' name='[result]' role='dimension' type='nominal' />
+      <column caption='Stadium Id' datatype='string' name='[stadium_id]' role='dimension' type='nominal' />
+      <column caption='Stadium Name' datatype='string' name='[stadium_name]' role='dimension' type='nominal' />
+      <column caption='Stage Name (Group Standings.Csv)' datatype='string' name='[stage_name (group_standings.csv)]' role='dimension' type='nominal' />
+      <column caption='Stage Name' datatype='string' name='[stage_name]' role='dimension' type='nominal' />
+      <column caption='Stage Number' datatype='integer' name='[stage_number]' role='dimension' type='ordinal' />
+      <column caption='Team Code (Group Standings.Csv)' datatype='string' name='[team_code (group_standings.csv)]' role='dimension' type='nominal' />
+      <column caption='Team Code (Teams.Csv)' datatype='string' name='[team_code (teams.csv)]' role='dimension' type='nominal' />
+      <column caption='Team Code' datatype='string' name='[team_code]' role='dimension' type='nominal' />
+      <column caption='Team Id (Group Standings.Csv)' datatype='string' name='[team_id (group_standings.csv)]' role='dimension' type='nominal' />
+      <column caption='Team Id (Teams.Csv)' datatype='string' name='[team_id (teams.csv)]' role='dimension' type='nominal' />
+      <column caption='Team Id' datatype='string' name='[team_id]' role='dimension' type='nominal' />
+      <column caption='Team Name (Group Standings.Csv)' datatype='string' name='[team_name (group_standings.csv)]' role='dimension' type='nominal' />
+      <column caption='Team Name (Teams.Csv)' datatype='string' name='[team_name (teams.csv)]' role='dimension' type='nominal' />
+      <column caption='Team Name' datatype='string' name='[team_name]' role='dimension' type='nominal' />
+      <column caption='Tournament Id (Group Standings.Csv)' datatype='string' name='[tournament_id (group_standings.csv)]' role='dimension' type='nominal' />
+      <column caption='Tournament Id' datatype='string' name='[tournament_id]' role='dimension' type='nominal' />
+      <column caption='Tournament Name (Group Standings.Csv)' datatype='string' name='[tournament_name (group_standings.csv)]' role='dimension' type='nominal' />
+      <column caption='Tournament Name' datatype='string' name='[tournament_name]' role='dimension' type='nominal' />
+      <column caption='Win' datatype='integer' name='[win]' role='measure' type='quantitative' />
+      <column caption='Wins' datatype='integer' name='[wins]' role='measure' type='quantitative' />
+      <column caption='Womens Team' datatype='integer' name='[womens_team]' role='measure' type='quantitative' />
+      <column caption='Womens Team Wikipedia Link' datatype='string' name='[womens_team_wikipedia_link]' role='dimension' type='nominal' />
+      <column-instance column='[__tableau_internal_object_id__].[group_standings.csv_D22754E5181042C88A1B6459A2B3A687]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:group_standings.csv_D22754E5181042C88A1B6459A2B3A687:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[__tableau_internal_object_id__].[team_appearances.csv_2C129218A426417F84495B16FEF934A0]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:team_appearances.csv_2C129218A426417F84495B16FEF934A0:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[__tableau_internal_object_id__].[teams.csv_07888B575B834861BA0004B6BF70A6BA]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:teams.csv_07888B575B834861BA0004B6BF70A6BA:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[team_name]' derivation='Attribute' name='[attr:team_name:nk]' pivot='key' type='nominal' />
+      <column-instance column='[goals_for]' derivation='Avg' name='[avg:goals_for:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[penalties_for]' derivation='Avg' name='[avg:penalties_for:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[team_name]' derivation='None' name='[none:team_name:nk]' pivot='key' type='nominal' />
+      <column-instance column='[advanced]' derivation='Sum' name='[sum:advanced:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[away_team]' derivation='Sum' name='[sum:away_team:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[draw]' derivation='Sum' name='[sum:draw:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[draws]' derivation='Sum' name='[sum:draws:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[extra_time]' derivation='Sum' name='[sum:extra_time:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[goal_difference]' derivation='Sum' name='[sum:goal_difference:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[goal_differential]' derivation='Sum' name='[sum:goal_differential:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[goals_against (group_standings.csv)]' derivation='Sum' name='[sum:goals_against (group_standings.csv):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[goals_against]' derivation='Sum' name='[sum:goals_against:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[goals_for (group_standings.csv)]' derivation='Sum' name='[sum:goals_for (group_standings.csv):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[goals_for]' derivation='Sum' name='[sum:goals_for:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[group_stage]' derivation='Sum' name='[sum:group_stage:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[home_team]' derivation='Sum' name='[sum:home_team:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[knockout_stage]' derivation='Sum' name='[sum:knockout_stage:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[lose]' derivation='Sum' name='[sum:lose:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[losses]' derivation='Sum' name='[sum:losses:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[mens_team]' derivation='Sum' name='[sum:mens_team:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[penalties_against]' derivation='Sum' name='[sum:penalties_against:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[penalties_for]' derivation='Sum' name='[sum:penalties_for:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[penalty_shootout]' derivation='Sum' name='[sum:penalty_shootout:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[played]' derivation='Sum' name='[sum:played:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[points]' derivation='Sum' name='[sum:points:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[position]' derivation='Sum' name='[sum:position:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[replay]' derivation='Sum' name='[sum:replay:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[replayed]' derivation='Sum' name='[sum:replayed:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[win]' derivation='Sum' name='[sum:win:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[wins]' derivation='Sum' name='[sum:wins:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[womens_team]' derivation='Sum' name='[sum:womens_team:qk]' pivot='key' type='quantitative' />
+      <drill-paths>
+        <drill-path name='country_name, city_name'>
+          <field>[country_name]</field>
+          <field>[city_name]</field>
+        </drill-path>
+      </drill-paths>
+      <extract count='-1' enabled='true' object-id='' units='records' user-specific='false'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/jerem/AppData/Local/Temp/TableauTemp/#TableauTemp_02g6c5z0wb9n2i13p82bn0imjxaa.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='07/06/2026 11:24:49 PM' username='tableau_internal_user'>
+          <relation type='collection'>
+            <relation name='team_appearances.csv_2C129218A426417F84495B16FEF934A0' table='[Extract].[team_appearances.csv_2C129218A426417F84495B16FEF934A0]' type='table' />
+            <relation name='teams.csv_07888B575B834861BA0004B6BF70A6BA' table='[Extract].[teams.csv_07888B575B834861BA0004B6BF70A6BA]' type='table' />
+            <relation name='group_standings.csv_D22754E5181042C88A1B6459A2B3A687' table='[Extract].[group_standings.csv_D22754E5181042C88A1B6459A2B3A687]' type='table' />
+          </relation>
+          <cols>
+            <map key='[advanced]' value='[group_standings.csv_D22754E5181042C88A1B6459A2B3A687].[advanced]' />
+            <map key='[away_team]' value='[team_appearances.csv_2C129218A426417F84495B16FEF934A0].[away_team]' />
+            <map key='[city_name]' value='[team_appearances.csv_2C129218A426417F84495B16FEF934A0].[city_name]' />
+            <map key='[confederation_code]' value='[teams.csv_07888B575B834861BA0004B6BF70A6BA].[confederation_code]' />
+            <map key='[confederation_id]' value='[teams.csv_07888B575B834861BA0004B6BF70A6BA].[confederation_id]' />
+            <map key='[confederation_name]' value='[teams.csv_07888B575B834861BA0004B6BF70A6BA].[confederation_name]' />
+            <map key='[country_name]' value='[team_appearances.csv_2C129218A426417F84495B16FEF934A0].[country_name]' />
+            <map key='[draw]' value='[team_appearances.csv_2C129218A426417F84495B16FEF934A0].[draw]' />
+            <map key='[draws]' value='[group_standings.csv_D22754E5181042C88A1B6459A2B3A687].[draws]' />
+            <map key='[extra_time]' value='[team_appearances.csv_2C129218A426417F84495B16FEF934A0].[extra_time]' />
+            <map key='[federation_name]' value='[teams.csv_07888B575B834861BA0004B6BF70A6BA].[federation_name]' />
+            <map key='[federation_wikipedia_link]' value='[teams.csv_07888B575B834861BA0004B6BF70A6BA].[federation_wikipedia_link]' />
+            <map key='[goal_difference]' value='[group_standings.csv_D22754E5181042C88A1B6459A2B3A687].[goal_difference]' />
+            <map key='[goal_differential]' value='[team_appearances.csv_2C129218A426417F84495B16FEF934A0].[goal_differential]' />
+            <map key='[goals_against (group_standings.csv)]' value='[group_standings.csv_D22754E5181042C88A1B6459A2B3A687].[goals_against]' />
+            <map key='[goals_against]' value='[team_appearances.csv_2C129218A426417F84495B16FEF934A0].[goals_against]' />
+            <map key='[goals_for (group_standings.csv)]' value='[group_standings.csv_D22754E5181042C88A1B6459A2B3A687].[goals_for]' />
+            <map key='[goals_for]' value='[team_appearances.csv_2C129218A426417F84495B16FEF934A0].[goals_for]' />
+            <map key='[group_name (group_standings.csv)]' value='[group_standings.csv_D22754E5181042C88A1B6459A2B3A687].[group_name]' />
+            <map key='[group_name]' value='[team_appearances.csv_2C129218A426417F84495B16FEF934A0].[group_name]' />
+            <map key='[group_stage]' value='[team_appearances.csv_2C129218A426417F84495B16FEF934A0].[group_stage]' />
+            <map key='[home_team]' value='[team_appearances.csv_2C129218A426417F84495B16FEF934A0].[home_team]' />
+            <map key='[key_id (group_standings.csv)]' value='[group_standings.csv_D22754E5181042C88A1B6459A2B3A687].[key_id]' />
+            <map key='[key_id (teams.csv)]' value='[teams.csv_07888B575B834861BA0004B6BF70A6BA].[key_id]' />
+            <map key='[key_id]' value='[team_appearances.csv_2C129218A426417F84495B16FEF934A0].[key_id]' />
+            <map key='[knockout_stage]' value='[team_appearances.csv_2C129218A426417F84495B16FEF934A0].[knockout_stage]' />
+            <map key='[lose]' value='[team_appearances.csv_2C129218A426417F84495B16FEF934A0].[lose]' />
+            <map key='[losses]' value='[group_standings.csv_D22754E5181042C88A1B6459A2B3A687].[losses]' />
+            <map key='[match_date]' value='[team_appearances.csv_2C129218A426417F84495B16FEF934A0].[match_date]' />
+            <map key='[match_id]' value='[team_appearances.csv_2C129218A426417F84495B16FEF934A0].[match_id]' />
+            <map key='[match_name]' value='[team_appearances.csv_2C129218A426417F84495B16FEF934A0].[match_name]' />
+            <map key='[match_time]' value='[team_appearances.csv_2C129218A426417F84495B16FEF934A0].[match_time]' />
+            <map key='[mens_team]' value='[teams.csv_07888B575B834861BA0004B6BF70A6BA].[mens_team]' />
+            <map key='[mens_team_wikipedia_link]' value='[teams.csv_07888B575B834861BA0004B6BF70A6BA].[mens_team_wikipedia_link]' />
+            <map key='[opponent_code]' value='[team_appearances.csv_2C129218A426417F84495B16FEF934A0].[opponent_code]' />
+            <map key='[opponent_id]' value='[team_appearances.csv_2C129218A426417F84495B16FEF934A0].[opponent_id]' />
+            <map key='[opponent_name]' value='[team_appearances.csv_2C129218A426417F84495B16FEF934A0].[opponent_name]' />
+            <map key='[penalties_against]' value='[team_appearances.csv_2C129218A426417F84495B16FEF934A0].[penalties_against]' />
+            <map key='[penalties_for]' value='[team_appearances.csv_2C129218A426417F84495B16FEF934A0].[penalties_for]' />
+            <map key='[penalty_shootout]' value='[team_appearances.csv_2C129218A426417F84495B16FEF934A0].[penalty_shootout]' />
+            <map key='[played]' value='[group_standings.csv_D22754E5181042C88A1B6459A2B3A687].[played]' />
+            <map key='[points]' value='[group_standings.csv_D22754E5181042C88A1B6459A2B3A687].[points]' />
+            <map key='[position]' value='[group_standings.csv_D22754E5181042C88A1B6459A2B3A687].[position]' />
+            <map key='[region_name]' value='[teams.csv_07888B575B834861BA0004B6BF70A6BA].[region_name]' />
+            <map key='[replay]' value='[team_appearances.csv_2C129218A426417F84495B16FEF934A0].[replay]' />
+            <map key='[replayed]' value='[team_appearances.csv_2C129218A426417F84495B16FEF934A0].[replayed]' />
+            <map key='[result]' value='[team_appearances.csv_2C129218A426417F84495B16FEF934A0].[result]' />
+            <map key='[stadium_id]' value='[team_appearances.csv_2C129218A426417F84495B16FEF934A0].[stadium_id]' />
+            <map key='[stadium_name]' value='[team_appearances.csv_2C129218A426417F84495B16FEF934A0].[stadium_name]' />
+            <map key='[stage_name (group_standings.csv)]' value='[group_standings.csv_D22754E5181042C88A1B6459A2B3A687].[stage_name]' />
+            <map key='[stage_name]' value='[team_appearances.csv_2C129218A426417F84495B16FEF934A0].[stage_name]' />
+            <map key='[stage_number]' value='[group_standings.csv_D22754E5181042C88A1B6459A2B3A687].[stage_number]' />
+            <map key='[team_code (group_standings.csv)]' value='[group_standings.csv_D22754E5181042C88A1B6459A2B3A687].[team_code]' />
+            <map key='[team_code (teams.csv)]' value='[teams.csv_07888B575B834861BA0004B6BF70A6BA].[team_code]' />
+            <map key='[team_code]' value='[team_appearances.csv_2C129218A426417F84495B16FEF934A0].[team_code]' />
+            <map key='[team_id (group_standings.csv)]' value='[group_standings.csv_D22754E5181042C88A1B6459A2B3A687].[team_id]' />
+            <map key='[team_id (teams.csv)]' value='[teams.csv_07888B575B834861BA0004B6BF70A6BA].[team_id]' />
+            <map key='[team_id]' value='[team_appearances.csv_2C129218A426417F84495B16FEF934A0].[team_id]' />
+            <map key='[team_name (group_standings.csv)]' value='[group_standings.csv_D22754E5181042C88A1B6459A2B3A687].[team_name]' />
+            <map key='[team_name (teams.csv)]' value='[teams.csv_07888B575B834861BA0004B6BF70A6BA].[team_name]' />
+            <map key='[team_name]' value='[team_appearances.csv_2C129218A426417F84495B16FEF934A0].[team_name]' />
+            <map key='[tournament_id (group_standings.csv)]' value='[group_standings.csv_D22754E5181042C88A1B6459A2B3A687].[tournament_id]' />
+            <map key='[tournament_id]' value='[team_appearances.csv_2C129218A426417F84495B16FEF934A0].[tournament_id]' />
+            <map key='[tournament_name (group_standings.csv)]' value='[group_standings.csv_D22754E5181042C88A1B6459A2B3A687].[tournament_name]' />
+            <map key='[tournament_name]' value='[team_appearances.csv_2C129218A426417F84495B16FEF934A0].[tournament_name]' />
+            <map key='[win]' value='[team_appearances.csv_2C129218A426417F84495B16FEF934A0].[win]' />
+            <map key='[wins]' value='[group_standings.csv_D22754E5181042C88A1B6459A2B3A687].[wins]' />
+            <map key='[womens_team]' value='[teams.csv_07888B575B834861BA0004B6BF70A6BA].[womens_team]' />
+            <map key='[womens_team_wikipedia_link]' value='[teams.csv_07888B575B834861BA0004B6BF70A6BA].[womens_team_wikipedia_link]' />
+          </cols>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>key_id</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[key_id]</local-name>
+              <parent-name>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</parent-name>
+              <remote-alias>key_id</remote-alias>
+              <ordinal>0</ordinal>
+              <family>team_appearances.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2496</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>tournament_id</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[tournament_id]</local-name>
+              <parent-name>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</parent-name>
+              <remote-alias>tournament_id</remote-alias>
+              <ordinal>1</ordinal>
+              <family>team_appearances.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>30</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>tournament_name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[tournament_name]</local-name>
+              <parent-name>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</parent-name>
+              <remote-alias>tournament_name</remote-alias>
+              <ordinal>2</ordinal>
+              <family>team_appearances.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>30</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>match_id</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[match_id]</local-name>
+              <parent-name>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</parent-name>
+              <remote-alias>match_id</remote-alias>
+              <ordinal>3</ordinal>
+              <family>team_appearances.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1160</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>match_name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[match_name]</local-name>
+              <parent-name>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</parent-name>
+              <remote-alias>match_name</remote-alias>
+              <ordinal>4</ordinal>
+              <family>team_appearances.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>879</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>stage_name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[stage_name]</local-name>
+              <parent-name>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</parent-name>
+              <remote-alias>stage_name</remote-alias>
+              <ordinal>5</ordinal>
+              <family>team_appearances.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>group_name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[group_name]</local-name>
+              <parent-name>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</parent-name>
+              <remote-alias>group_name</remote-alias>
+              <ordinal>6</ordinal>
+              <family>team_appearances.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>15</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>group_stage</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[group_stage]</local-name>
+              <parent-name>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</parent-name>
+              <remote-alias>group_stage</remote-alias>
+              <ordinal>7</ordinal>
+              <family>team_appearances.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>knockout_stage</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[knockout_stage]</local-name>
+              <parent-name>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</parent-name>
+              <remote-alias>knockout_stage</remote-alias>
+              <ordinal>8</ordinal>
+              <family>team_appearances.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>replayed</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[replayed]</local-name>
+              <parent-name>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</parent-name>
+              <remote-alias>replayed</remote-alias>
+              <ordinal>9</ordinal>
+              <family>team_appearances.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>replay</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[replay]</local-name>
+              <parent-name>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</parent-name>
+              <remote-alias>replay</remote-alias>
+              <ordinal>10</ordinal>
+              <family>team_appearances.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>match_date</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[match_date]</local-name>
+              <parent-name>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</parent-name>
+              <remote-alias>match_date</remote-alias>
+              <ordinal>11</ordinal>
+              <family>team_appearances.csv</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>477</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>match_time</remote-name>
+              <remote-type>134</remote-type>
+              <local-name>[match_time]</local-name>
+              <parent-name>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</parent-name>
+              <remote-alias>match_time</remote-alias>
+              <ordinal>12</ordinal>
+              <family>team_appearances.csv</family>
+              <local-type>datetime</local-type>
+              <aggregation>Hour</aggregation>
+              <approx-count>46</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>stadium_id</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[stadium_id]</local-name>
+              <parent-name>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</parent-name>
+              <remote-alias>stadium_id</remote-alias>
+              <ordinal>13</ordinal>
+              <family>team_appearances.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>237</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>stadium_name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[stadium_name]</local-name>
+              <parent-name>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</parent-name>
+              <remote-alias>stadium_name</remote-alias>
+              <ordinal>14</ordinal>
+              <family>team_appearances.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>233</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>city_name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[city_name]</local-name>
+              <parent-name>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</parent-name>
+              <remote-alias>city_name</remote-alias>
+              <ordinal>15</ordinal>
+              <family>team_appearances.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>199</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>country_name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[country_name]</local-name>
+              <parent-name>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</parent-name>
+              <remote-alias>country_name</remote-alias>
+              <ordinal>16</ordinal>
+              <family>team_appearances.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>20</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>team_id</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[team_id]</local-name>
+              <parent-name>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</parent-name>
+              <remote-alias>team_id</remote-alias>
+              <ordinal>17</ordinal>
+              <family>team_appearances.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>89</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>team_name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[team_name]</local-name>
+              <parent-name>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</parent-name>
+              <remote-alias>team_name</remote-alias>
+              <ordinal>18</ordinal>
+              <family>team_appearances.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>89</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>team_code</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[team_code]</local-name>
+              <parent-name>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</parent-name>
+              <remote-alias>team_code</remote-alias>
+              <ordinal>19</ordinal>
+              <family>team_appearances.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>88</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>opponent_id</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[opponent_id]</local-name>
+              <parent-name>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</parent-name>
+              <remote-alias>opponent_id</remote-alias>
+              <ordinal>20</ordinal>
+              <family>team_appearances.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>86</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>opponent_name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[opponent_name]</local-name>
+              <parent-name>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</parent-name>
+              <remote-alias>opponent_name</remote-alias>
+              <ordinal>21</ordinal>
+              <family>team_appearances.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>86</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>opponent_code</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[opponent_code]</local-name>
+              <parent-name>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</parent-name>
+              <remote-alias>opponent_code</remote-alias>
+              <ordinal>22</ordinal>
+              <family>team_appearances.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>85</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>home_team</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[home_team]</local-name>
+              <parent-name>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</parent-name>
+              <remote-alias>home_team</remote-alias>
+              <ordinal>23</ordinal>
+              <family>team_appearances.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>away_team</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[away_team]</local-name>
+              <parent-name>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</parent-name>
+              <remote-alias>away_team</remote-alias>
+              <ordinal>24</ordinal>
+              <family>team_appearances.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>goals_for</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[goals_for]</local-name>
+              <parent-name>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</parent-name>
+              <remote-alias>goals_for</remote-alias>
+              <ordinal>25</ordinal>
+              <family>team_appearances.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>goals_against</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[goals_against]</local-name>
+              <parent-name>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</parent-name>
+              <remote-alias>goals_against</remote-alias>
+              <ordinal>26</ordinal>
+              <family>team_appearances.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>goal_differential</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[goal_differential]</local-name>
+              <parent-name>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</parent-name>
+              <remote-alias>goal_differential</remote-alias>
+              <ordinal>27</ordinal>
+              <family>team_appearances.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>25</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>extra_time</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[extra_time]</local-name>
+              <parent-name>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</parent-name>
+              <remote-alias>extra_time</remote-alias>
+              <ordinal>28</ordinal>
+              <family>team_appearances.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>penalty_shootout</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[penalty_shootout]</local-name>
+              <parent-name>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</parent-name>
+              <remote-alias>penalty_shootout</remote-alias>
+              <ordinal>29</ordinal>
+              <family>team_appearances.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>penalties_for</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[penalties_for]</local-name>
+              <parent-name>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</parent-name>
+              <remote-alias>penalties_for</remote-alias>
+              <ordinal>30</ordinal>
+              <family>team_appearances.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>penalties_against</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[penalties_against]</local-name>
+              <parent-name>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</parent-name>
+              <remote-alias>penalties_against</remote-alias>
+              <ordinal>31</ordinal>
+              <family>team_appearances.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>result</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[result]</local-name>
+              <parent-name>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</parent-name>
+              <remote-alias>result</remote-alias>
+              <ordinal>32</ordinal>
+              <family>team_appearances.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>win</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[win]</local-name>
+              <parent-name>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</parent-name>
+              <remote-alias>win</remote-alias>
+              <ordinal>33</ordinal>
+              <family>team_appearances.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>lose</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[lose]</local-name>
+              <parent-name>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</parent-name>
+              <remote-alias>lose</remote-alias>
+              <ordinal>34</ordinal>
+              <family>team_appearances.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>draw</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[draw]</local-name>
+              <parent-name>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</parent-name>
+              <remote-alias>draw</remote-alias>
+              <ordinal>35</ordinal>
+              <family>team_appearances.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[team_appearances.csv_2C129218A426417F84495B16FEF934A0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>key_id</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[key_id (teams.csv)]</local-name>
+              <parent-name>[teams.csv_07888B575B834861BA0004B6BF70A6BA]</parent-name>
+              <remote-alias>key_id</remote-alias>
+              <ordinal>36</ordinal>
+              <family>teams.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>88</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[teams.csv_07888B575B834861BA0004B6BF70A6BA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>team_id</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[team_id (teams.csv)]</local-name>
+              <parent-name>[teams.csv_07888B575B834861BA0004B6BF70A6BA]</parent-name>
+              <remote-alias>team_id</remote-alias>
+              <ordinal>37</ordinal>
+              <family>teams.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>88</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[teams.csv_07888B575B834861BA0004B6BF70A6BA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>team_name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[team_name (teams.csv)]</local-name>
+              <parent-name>[teams.csv_07888B575B834861BA0004B6BF70A6BA]</parent-name>
+              <remote-alias>team_name</remote-alias>
+              <ordinal>38</ordinal>
+              <family>teams.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>88</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[teams.csv_07888B575B834861BA0004B6BF70A6BA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>team_code</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[team_code (teams.csv)]</local-name>
+              <parent-name>[teams.csv_07888B575B834861BA0004B6BF70A6BA]</parent-name>
+              <remote-alias>team_code</remote-alias>
+              <ordinal>39</ordinal>
+              <family>teams.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>87</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[teams.csv_07888B575B834861BA0004B6BF70A6BA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>mens_team</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[mens_team]</local-name>
+              <parent-name>[teams.csv_07888B575B834861BA0004B6BF70A6BA]</parent-name>
+              <remote-alias>mens_team</remote-alias>
+              <ordinal>40</ordinal>
+              <family>teams.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[teams.csv_07888B575B834861BA0004B6BF70A6BA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>womens_team</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[womens_team]</local-name>
+              <parent-name>[teams.csv_07888B575B834861BA0004B6BF70A6BA]</parent-name>
+              <remote-alias>womens_team</remote-alias>
+              <ordinal>41</ordinal>
+              <family>teams.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[teams.csv_07888B575B834861BA0004B6BF70A6BA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>federation_name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[federation_name]</local-name>
+              <parent-name>[teams.csv_07888B575B834861BA0004B6BF70A6BA]</parent-name>
+              <remote-alias>federation_name</remote-alias>
+              <ordinal>42</ordinal>
+              <family>teams.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>87</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[teams.csv_07888B575B834861BA0004B6BF70A6BA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>region_name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[region_name]</local-name>
+              <parent-name>[teams.csv_07888B575B834861BA0004B6BF70A6BA]</parent-name>
+              <remote-alias>region_name</remote-alias>
+              <ordinal>43</ordinal>
+              <family>teams.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[teams.csv_07888B575B834861BA0004B6BF70A6BA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>confederation_id</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[confederation_id]</local-name>
+              <parent-name>[teams.csv_07888B575B834861BA0004B6BF70A6BA]</parent-name>
+              <remote-alias>confederation_id</remote-alias>
+              <ordinal>44</ordinal>
+              <family>teams.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[teams.csv_07888B575B834861BA0004B6BF70A6BA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>confederation_name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[confederation_name]</local-name>
+              <parent-name>[teams.csv_07888B575B834861BA0004B6BF70A6BA]</parent-name>
+              <remote-alias>confederation_name</remote-alias>
+              <ordinal>45</ordinal>
+              <family>teams.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[teams.csv_07888B575B834861BA0004B6BF70A6BA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>confederation_code</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[confederation_code]</local-name>
+              <parent-name>[teams.csv_07888B575B834861BA0004B6BF70A6BA]</parent-name>
+              <remote-alias>confederation_code</remote-alias>
+              <ordinal>46</ordinal>
+              <family>teams.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[teams.csv_07888B575B834861BA0004B6BF70A6BA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>mens_team_wikipedia_link</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[mens_team_wikipedia_link]</local-name>
+              <parent-name>[teams.csv_07888B575B834861BA0004B6BF70A6BA]</parent-name>
+              <remote-alias>mens_team_wikipedia_link</remote-alias>
+              <ordinal>47</ordinal>
+              <family>teams.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>85</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[teams.csv_07888B575B834861BA0004B6BF70A6BA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>womens_team_wikipedia_link</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[womens_team_wikipedia_link]</local-name>
+              <parent-name>[teams.csv_07888B575B834861BA0004B6BF70A6BA]</parent-name>
+              <remote-alias>womens_team_wikipedia_link</remote-alias>
+              <ordinal>48</ordinal>
+              <family>teams.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>37</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[teams.csv_07888B575B834861BA0004B6BF70A6BA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>federation_wikipedia_link</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[federation_wikipedia_link]</local-name>
+              <parent-name>[teams.csv_07888B575B834861BA0004B6BF70A6BA]</parent-name>
+              <remote-alias>federation_wikipedia_link</remote-alias>
+              <ordinal>49</ordinal>
+              <family>teams.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>86</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[teams.csv_07888B575B834861BA0004B6BF70A6BA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>key_id</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[key_id (group_standings.csv)]</local-name>
+              <parent-name>[group_standings.csv_D22754E5181042C88A1B6459A2B3A687]</parent-name>
+              <remote-alias>key_id</remote-alias>
+              <ordinal>50</ordinal>
+              <family>group_standings.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>626</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[group_standings.csv_D22754E5181042C88A1B6459A2B3A687]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>tournament_id</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[tournament_id (group_standings.csv)]</local-name>
+              <parent-name>[group_standings.csv_D22754E5181042C88A1B6459A2B3A687]</parent-name>
+              <remote-alias>tournament_id</remote-alias>
+              <ordinal>51</ordinal>
+              <family>group_standings.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>28</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[group_standings.csv_D22754E5181042C88A1B6459A2B3A687]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>tournament_name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[tournament_name (group_standings.csv)]</local-name>
+              <parent-name>[group_standings.csv_D22754E5181042C88A1B6459A2B3A687]</parent-name>
+              <remote-alias>tournament_name</remote-alias>
+              <ordinal>52</ordinal>
+              <family>group_standings.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>28</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[group_standings.csv_D22754E5181042C88A1B6459A2B3A687]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>stage_number</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[stage_number]</local-name>
+              <parent-name>[group_standings.csv_D22754E5181042C88A1B6459A2B3A687]</parent-name>
+              <remote-alias>stage_number</remote-alias>
+              <ordinal>53</ordinal>
+              <family>group_standings.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[group_standings.csv_D22754E5181042C88A1B6459A2B3A687]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>stage_name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[stage_name (group_standings.csv)]</local-name>
+              <parent-name>[group_standings.csv_D22754E5181042C88A1B6459A2B3A687]</parent-name>
+              <remote-alias>stage_name</remote-alias>
+              <ordinal>54</ordinal>
+              <family>group_standings.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[group_standings.csv_D22754E5181042C88A1B6459A2B3A687]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>group_name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[group_name (group_standings.csv)]</local-name>
+              <parent-name>[group_standings.csv_D22754E5181042C88A1B6459A2B3A687]</parent-name>
+              <remote-alias>group_name</remote-alias>
+              <ordinal>55</ordinal>
+              <family>group_standings.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>14</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[group_standings.csv_D22754E5181042C88A1B6459A2B3A687]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>position</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[position]</local-name>
+              <parent-name>[group_standings.csv_D22754E5181042C88A1B6459A2B3A687]</parent-name>
+              <remote-alias>position</remote-alias>
+              <ordinal>56</ordinal>
+              <family>group_standings.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[group_standings.csv_D22754E5181042C88A1B6459A2B3A687]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>team_id</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[team_id (group_standings.csv)]</local-name>
+              <parent-name>[group_standings.csv_D22754E5181042C88A1B6459A2B3A687]</parent-name>
+              <remote-alias>team_id</remote-alias>
+              <ordinal>57</ordinal>
+              <family>group_standings.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>86</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[group_standings.csv_D22754E5181042C88A1B6459A2B3A687]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>team_name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[team_name (group_standings.csv)]</local-name>
+              <parent-name>[group_standings.csv_D22754E5181042C88A1B6459A2B3A687]</parent-name>
+              <remote-alias>team_name</remote-alias>
+              <ordinal>58</ordinal>
+              <family>group_standings.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>86</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[group_standings.csv_D22754E5181042C88A1B6459A2B3A687]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>team_code</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[team_code (group_standings.csv)]</local-name>
+              <parent-name>[group_standings.csv_D22754E5181042C88A1B6459A2B3A687]</parent-name>
+              <remote-alias>team_code</remote-alias>
+              <ordinal>59</ordinal>
+              <family>group_standings.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>85</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[group_standings.csv_D22754E5181042C88A1B6459A2B3A687]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>played</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[played]</local-name>
+              <parent-name>[group_standings.csv_D22754E5181042C88A1B6459A2B3A687]</parent-name>
+              <remote-alias>played</remote-alias>
+              <ordinal>60</ordinal>
+              <family>group_standings.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[group_standings.csv_D22754E5181042C88A1B6459A2B3A687]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>wins</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[wins]</local-name>
+              <parent-name>[group_standings.csv_D22754E5181042C88A1B6459A2B3A687]</parent-name>
+              <remote-alias>wins</remote-alias>
+              <ordinal>61</ordinal>
+              <family>group_standings.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[group_standings.csv_D22754E5181042C88A1B6459A2B3A687]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>draws</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[draws]</local-name>
+              <parent-name>[group_standings.csv_D22754E5181042C88A1B6459A2B3A687]</parent-name>
+              <remote-alias>draws</remote-alias>
+              <ordinal>62</ordinal>
+              <family>group_standings.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[group_standings.csv_D22754E5181042C88A1B6459A2B3A687]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>losses</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[losses]</local-name>
+              <parent-name>[group_standings.csv_D22754E5181042C88A1B6459A2B3A687]</parent-name>
+              <remote-alias>losses</remote-alias>
+              <ordinal>63</ordinal>
+              <family>group_standings.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[group_standings.csv_D22754E5181042C88A1B6459A2B3A687]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>goals_for</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[goals_for (group_standings.csv)]</local-name>
+              <parent-name>[group_standings.csv_D22754E5181042C88A1B6459A2B3A687]</parent-name>
+              <remote-alias>goals_for</remote-alias>
+              <ordinal>64</ordinal>
+              <family>group_standings.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>18</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[group_standings.csv_D22754E5181042C88A1B6459A2B3A687]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>goals_against</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[goals_against (group_standings.csv)]</local-name>
+              <parent-name>[group_standings.csv_D22754E5181042C88A1B6459A2B3A687]</parent-name>
+              <remote-alias>goals_against</remote-alias>
+              <ordinal>65</ordinal>
+              <family>group_standings.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>20</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[group_standings.csv_D22754E5181042C88A1B6459A2B3A687]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>goal_difference</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[goal_difference]</local-name>
+              <parent-name>[group_standings.csv_D22754E5181042C88A1B6459A2B3A687]</parent-name>
+              <remote-alias>goal_difference</remote-alias>
+              <ordinal>66</ordinal>
+              <family>group_standings.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>34</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[group_standings.csv_D22754E5181042C88A1B6459A2B3A687]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>points</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[points]</local-name>
+              <parent-name>[group_standings.csv_D22754E5181042C88A1B6459A2B3A687]</parent-name>
+              <remote-alias>points</remote-alias>
+              <ordinal>67</ordinal>
+              <family>group_standings.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[group_standings.csv_D22754E5181042C88A1B6459A2B3A687]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>advanced</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[advanced]</local-name>
+              <parent-name>[group_standings.csv_D22754E5181042C88A1B6459A2B3A687]</parent-name>
+              <remote-alias>advanced</remote-alias>
+              <ordinal>68</ordinal>
+              <family>group_standings.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[group_standings.csv_D22754E5181042C88A1B6459A2B3A687]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[attr:team_name:nk]' palette='tableau20_10_0' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Brazil&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Equatorial Guinea&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;New Zealand&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Slovenia&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Algeria&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Czechoslovakia&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Italy&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Romania&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Ukraine&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Austria&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Ecuador&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Kuwait&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Senegal&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Wales&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Chile&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Greece&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Norway&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Spain&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Bulgaria&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;France&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Nigeria&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;South Africa&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Belgium&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Egypt&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Mexico&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Serbia&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;West Germany&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Cuba&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Iraq&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Qatar&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Tunisia&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Angola&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Denmark&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Ivory Coast&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Russia&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;United Arab Emirates&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Costa Rica&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Iceland&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Poland&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Togo&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Bolivia&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;El Salvador&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Morocco&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Serbia and Montenegro&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Yugoslavia&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;China&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Haiti&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Panama&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Sweden&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Chinese Taipei&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Honduras&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Paraguay&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Switzerland&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Croatia&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Iran&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Portugal&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Trinidad and Tobago&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Czech Republic&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Israel&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Republic of Ireland&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Turkey&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Cameroon&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Germany&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;North Korea&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;South Korea&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Bosnia and Herzegovina&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;England&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Netherlands&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Slovakia&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Zaire&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Argentina&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Dutch East Indies&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Jamaica&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Saudi Arabia&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;United States&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Colombia&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Hungary&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Peru&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Thailand&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Canada&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Ghana&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Northern Ireland&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Soviet Union&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Australia&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;East Germany&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Japan&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Scotland&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Uruguay&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:team_name:nk]' palette='tableau20_10_0' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Brazil&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Equatorial Guinea&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;New Zealand&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Slovenia&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Algeria&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Czechoslovakia&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Italy&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Romania&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Ukraine&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Austria&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Ecuador&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Kuwait&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Senegal&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Wales&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Chile&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Greece&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Norway&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Spain&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Bulgaria&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;France&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Nigeria&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;South Africa&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Belgium&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Egypt&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Mexico&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Serbia&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;West Germany&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Cuba&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Iraq&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Qatar&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Tunisia&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Angola&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Denmark&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Ivory Coast&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Russia&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;United Arab Emirates&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Costa Rica&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Iceland&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Poland&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Togo&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Bolivia&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;El Salvador&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Morocco&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Serbia and Montenegro&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Yugoslavia&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;China&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Haiti&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Panama&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Sweden&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Chinese Taipei&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Honduras&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Paraguay&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Switzerland&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Croatia&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Iran&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Portugal&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Trinidad and Tobago&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Czech Republic&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Israel&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Republic of Ireland&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Turkey&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Cameroon&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Germany&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;North Korea&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;South Korea&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Bosnia and Herzegovina&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;England&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Netherlands&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Slovakia&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Zaire&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Argentina&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Dutch East Indies&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Jamaica&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Saudi Arabia&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;United States&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Colombia&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Hungary&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Peru&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Thailand&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Canada&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Ghana&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Northern Ireland&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Soviet Union&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Australia&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;East Germany&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Japan&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Scotland&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Uruguay&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;[federated.16vlm0h1ojnpfw14szxbr0a5jpsa].[sum:goal_difference:qk]&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;[federated.16vlm0h1ojnpfw14szxbr0a5jpsa].[sum:replay:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.16vlm0h1ojnpfw14szxbr0a5jpsa].[avg:goals_for:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.16vlm0h1ojnpfw14szxbr0a5jpsa].[sum:goals_for:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.16vlm0h1ojnpfw14szxbr0a5jpsa].[sum:womens_team:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.16vlm0h1ojnpfw14szxbr0a5jpsa].[__tableau_internal_object_id__].[cnt:teams.csv_07888B575B834861BA0004B6BF70A6BA:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.16vlm0h1ojnpfw14szxbr0a5jpsa].[sum:draws:qk]&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;[federated.16vlm0h1ojnpfw14szxbr0a5jpsa].[sum:goal_differential:qk]&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;[federated.16vlm0h1ojnpfw14szxbr0a5jpsa].[sum:home_team:qk]&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;[federated.16vlm0h1ojnpfw14szxbr0a5jpsa].[sum:points:qk]&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;[federated.16vlm0h1ojnpfw14szxbr0a5jpsa].[sum:group_stage:qk]&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;[federated.16vlm0h1ojnpfw14szxbr0a5jpsa].[sum:losses:qk]&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;[federated.16vlm0h1ojnpfw14szxbr0a5jpsa].[sum:draw:qk]&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;[federated.16vlm0h1ojnpfw14szxbr0a5jpsa].[__tableau_internal_object_id__].[cnt:group_standings.csv_D22754E5181042C88A1B6459A2B3A687:qk]&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;[federated.16vlm0h1ojnpfw14szxbr0a5jpsa].[sum:position:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.16vlm0h1ojnpfw14szxbr0a5jpsa].[sum:win:qk]&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;[federated.16vlm0h1ojnpfw14szxbr0a5jpsa].[sum:goals_for (group_standings.csv):qk]&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;[federated.16vlm0h1ojnpfw14szxbr0a5jpsa].[sum:knockout_stage:qk]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.16vlm0h1ojnpfw14szxbr0a5jpsa].[sum:extra_time:qk]&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;[federated.16vlm0h1ojnpfw14szxbr0a5jpsa].[sum:penalty_shootout:qk]&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;[federated.16vlm0h1ojnpfw14szxbr0a5jpsa].[sum:lose:qk]&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;[federated.16vlm0h1ojnpfw14szxbr0a5jpsa].[sum:mens_team:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.16vlm0h1ojnpfw14szxbr0a5jpsa].[sum:advanced:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.16vlm0h1ojnpfw14szxbr0a5jpsa].[sum:away_team:qk]&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;[federated.16vlm0h1ojnpfw14szxbr0a5jpsa].[sum:goals_against (group_standings.csv):qk]&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;[federated.16vlm0h1ojnpfw14szxbr0a5jpsa].[sum:replayed:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.16vlm0h1ojnpfw14szxbr0a5jpsa].[avg:penalties_for:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.16vlm0h1ojnpfw14szxbr0a5jpsa].[sum:penalties_for:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.16vlm0h1ojnpfw14szxbr0a5jpsa].[sum:played:qk]&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;[federated.16vlm0h1ojnpfw14szxbr0a5jpsa].[sum:penalties_against:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;[federated.16vlm0h1ojnpfw14szxbr0a5jpsa].[sum:goals_against:qk]&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;[federated.16vlm0h1ojnpfw14szxbr0a5jpsa].[__tableau_internal_object_id__].[cnt:team_appearances.csv_2C129218A426417F84495B16FEF934A0:qk]&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;[federated.16vlm0h1ojnpfw14szxbr0a5jpsa].[sum:wins:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='group_standings.csv' id='group_standings.csv_D22754E5181042C88A1B6459A2B3A687'>
+            <properties context=''>
+              <relation connection='textscan.07441m40vtih6z16uirkl0ny45l9' name='group_standings.csv' table='[group_standings#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='key_id' ordinal='0' />
+                  <column datatype='string' name='tournament_id' ordinal='1' />
+                  <column datatype='string' name='tournament_name' ordinal='2' />
+                  <column datatype='integer' name='stage_number' ordinal='3' />
+                  <column datatype='string' name='stage_name' ordinal='4' />
+                  <column datatype='string' name='group_name' ordinal='5' />
+                  <column datatype='integer' name='position' ordinal='6' />
+                  <column datatype='string' name='team_id' ordinal='7' />
+                  <column datatype='string' name='team_name' ordinal='8' />
+                  <column datatype='string' name='team_code' ordinal='9' />
+                  <column datatype='integer' name='played' ordinal='10' />
+                  <column datatype='integer' name='wins' ordinal='11' />
+                  <column datatype='integer' name='draws' ordinal='12' />
+                  <column datatype='integer' name='losses' ordinal='13' />
+                  <column datatype='integer' name='goals_for' ordinal='14' />
+                  <column datatype='integer' name='goals_against' ordinal='15' />
+                  <column datatype='integer' name='goal_difference' ordinal='16' />
+                  <column datatype='integer' name='points' ordinal='17' />
+                  <column datatype='integer' name='advanced' ordinal='18' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='group_standings.csv_D22754E5181042C88A1B6459A2B3A687' table='[Extract].[group_standings.csv_D22754E5181042C88A1B6459A2B3A687]' type='table' />
+            </properties>
+          </object>
+          <object caption='team_appearances.csv' id='team_appearances.csv_2C129218A426417F84495B16FEF934A0'>
+            <properties context=''>
+              <relation connection='textscan.07441m40vtih6z16uirkl0ny45l9' name='team_appearances.csv' table='[team_appearances#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='key_id' ordinal='0' />
+                  <column datatype='string' name='tournament_id' ordinal='1' />
+                  <column datatype='string' name='tournament_name' ordinal='2' />
+                  <column datatype='string' name='match_id' ordinal='3' />
+                  <column datatype='string' name='match_name' ordinal='4' />
+                  <column datatype='string' name='stage_name' ordinal='5' />
+                  <column datatype='string' name='group_name' ordinal='6' />
+                  <column datatype='integer' name='group_stage' ordinal='7' />
+                  <column datatype='integer' name='knockout_stage' ordinal='8' />
+                  <column datatype='integer' name='replayed' ordinal='9' />
+                  <column datatype='integer' name='replay' ordinal='10' />
+                  <column datatype='date' name='match_date' ordinal='11' />
+                  <column datatype='datetime' name='match_time' ordinal='12' />
+                  <column datatype='string' name='stadium_id' ordinal='13' />
+                  <column datatype='string' name='stadium_name' ordinal='14' />
+                  <column datatype='string' name='city_name' ordinal='15' />
+                  <column datatype='string' name='country_name' ordinal='16' />
+                  <column datatype='string' name='team_id' ordinal='17' />
+                  <column datatype='string' name='team_name' ordinal='18' />
+                  <column datatype='string' name='team_code' ordinal='19' />
+                  <column datatype='string' name='opponent_id' ordinal='20' />
+                  <column datatype='string' name='opponent_name' ordinal='21' />
+                  <column datatype='string' name='opponent_code' ordinal='22' />
+                  <column datatype='integer' name='home_team' ordinal='23' />
+                  <column datatype='integer' name='away_team' ordinal='24' />
+                  <column datatype='integer' name='goals_for' ordinal='25' />
+                  <column datatype='integer' name='goals_against' ordinal='26' />
+                  <column datatype='integer' name='goal_differential' ordinal='27' />
+                  <column datatype='integer' name='extra_time' ordinal='28' />
+                  <column datatype='integer' name='penalty_shootout' ordinal='29' />
+                  <column datatype='integer' name='penalties_for' ordinal='30' />
+                  <column datatype='integer' name='penalties_against' ordinal='31' />
+                  <column datatype='string' name='result' ordinal='32' />
+                  <column datatype='integer' name='win' ordinal='33' />
+                  <column datatype='integer' name='lose' ordinal='34' />
+                  <column datatype='integer' name='draw' ordinal='35' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='team_appearances.csv_2C129218A426417F84495B16FEF934A0' table='[Extract].[team_appearances.csv_2C129218A426417F84495B16FEF934A0]' type='table' />
+            </properties>
+          </object>
+          <object caption='teams.csv' id='teams.csv_07888B575B834861BA0004B6BF70A6BA'>
+            <properties context=''>
+              <relation connection='textscan.07441m40vtih6z16uirkl0ny45l9' name='teams.csv' table='[teams#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='key_id' ordinal='0' />
+                  <column datatype='string' name='team_id' ordinal='1' />
+                  <column datatype='string' name='team_name' ordinal='2' />
+                  <column datatype='string' name='team_code' ordinal='3' />
+                  <column datatype='integer' name='mens_team' ordinal='4' />
+                  <column datatype='integer' name='womens_team' ordinal='5' />
+                  <column datatype='string' name='federation_name' ordinal='6' />
+                  <column datatype='string' name='region_name' ordinal='7' />
+                  <column datatype='string' name='confederation_id' ordinal='8' />
+                  <column datatype='string' name='confederation_name' ordinal='9' />
+                  <column datatype='string' name='confederation_code' ordinal='10' />
+                  <column datatype='string' name='mens_team_wikipedia_link' ordinal='11' />
+                  <column datatype='string' name='womens_team_wikipedia_link' ordinal='12' />
+                  <column datatype='string' name='federation_wikipedia_link' ordinal='13' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='teams.csv_07888B575B834861BA0004B6BF70A6BA' table='[Extract].[teams.csv_07888B575B834861BA0004B6BF70A6BA]' type='table' />
+            </properties>
+          </object>
+        </objects>
+        <relationships>
+          <relationship>
+            <expression op='='>
+              <expression op='[team_id (teams.csv)]' />
+              <expression op='[team_id (group_standings.csv)]' />
+            </expression>
+            <first-end-point object-id='teams.csv_07888B575B834861BA0004B6BF70A6BA' />
+            <second-end-point object-id='group_standings.csv_D22754E5181042C88A1B6459A2B3A687' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[team_id]' />
+              <expression op='[team_id (teams.csv)]' />
+            </expression>
+            <first-end-point object-id='team_appearances.csv_2C129218A426417F84495B16FEF934A0' />
+            <second-end-point object-id='teams.csv_07888B575B834861BA0004B6BF70A6BA' />
+          </relationship>
+        </relationships>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='team_appearances+' name='federated.16vlm0h1ojnpfw14szxbr0a5jpsa' />
+          </datasources>
+          <datasource-dependencies datasource='federated.16vlm0h1ojnpfw14szxbr0a5jpsa'>
+            <column-instance column='[team_name]' derivation='Attribute' name='[attr:team_name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[goals_against]' derivation='Avg' name='[avg:goals_against:qk]' pivot='key' type='quantitative' />
+            <column caption='Goals Against' datatype='integer' name='[goals_against]' role='measure' type='quantitative' />
+            <column-instance column='[team_name]' derivation='None' name='[none:team_name:nk]' pivot='key' type='nominal' />
+            <column caption='Team Name' datatype='string' name='[team_name]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.16vlm0h1ojnpfw14szxbr0a5jpsa].[none:team_name:nk]' direction='ASC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.16vlm0h1ojnpfw14szxbr0a5jpsa].[avg:goals_against:qk]' shelf='columns' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.16vlm0h1ojnpfw14szxbr0a5jpsa].[attr:team_name:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.16vlm0h1ojnpfw14szxbr0a5jpsa].[avg:goals_against:qk]</rows>
+        <cols>[federated.16vlm0h1ojnpfw14szxbr0a5jpsa].[none:team_name:nk]</cols>
+      </table>
+      <simple-id uuid='{E5CEA305-3128-4E00-8164-EF4D1228D884}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='team_appearances+' name='federated.16vlm0h1ojnpfw14szxbr0a5jpsa' />
+          </datasources>
+          <datasource-dependencies datasource='federated.16vlm0h1ojnpfw14szxbr0a5jpsa'>
+            <column-instance column='[goals_for]' derivation='Avg' name='[avg:goals_for:qk]' pivot='key' type='quantitative' />
+            <column caption='Goals For' datatype='integer' name='[goals_for]' role='measure' type='quantitative' />
+            <column-instance column='[team_name]' derivation='None' name='[none:team_name:nk]' pivot='key' type='nominal' />
+            <column caption='Team Name' datatype='string' name='[team_name]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.16vlm0h1ojnpfw14szxbr0a5jpsa].[none:team_name:nk]' direction='ASC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.16vlm0h1ojnpfw14szxbr0a5jpsa].[avg:goals_for:qk]' shelf='columns' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.16vlm0h1ojnpfw14szxbr0a5jpsa].[none:team_name:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.16vlm0h1ojnpfw14szxbr0a5jpsa].[avg:goals_for:qk]</rows>
+        <cols>[federated.16vlm0h1ojnpfw14szxbr0a5jpsa].[none:team_name:nk]</cols>
+      </table>
+      <simple-id uuid='{D56D3191-89FC-40FC-8B30-8F2A6895EFA1}' />
+    </worksheet>
+    <worksheet name='Sheet 4'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1'>Average Goals and Penalties For per Country</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='team_appearances+' name='federated.16vlm0h1ojnpfw14szxbr0a5jpsa' />
+          </datasources>
+          <datasource-dependencies datasource='federated.16vlm0h1ojnpfw14szxbr0a5jpsa'>
+            <column-instance column='[goals_for]' derivation='Avg' name='[avg:goals_for:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[penalties_for]' derivation='Avg' name='[avg:penalties_for:qk]' pivot='key' type='quantitative' />
+            <column caption='Goals For' datatype='integer' name='[goals_for]' role='measure' type='quantitative' />
+            <column-instance column='[team_name]' derivation='None' name='[none:team_name:nk]' pivot='key' type='nominal' />
+            <column caption='Penalties For' datatype='integer' name='[penalties_for]' role='measure' type='quantitative' />
+            <column caption='Team Name' datatype='string' name='[team_name]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.16vlm0h1ojnpfw14szxbr0a5jpsa].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.16vlm0h1ojnpfw14szxbr0a5jpsa].[avg:goals_for:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.16vlm0h1ojnpfw14szxbr0a5jpsa].[avg:penalties_for:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='quantitative' column='[federated.16vlm0h1ojnpfw14szxbr0a5jpsa].[avg:penalties_for:qk]' included-values='in-range'>
+            <min>0.017999999999999999</min>
+            <max>0.59999999999999998</max>
+          </filter>
+          <slices>
+            <column>[federated.16vlm0h1ojnpfw14szxbr0a5jpsa].[:Measure Names]</column>
+            <column>[federated.16vlm0h1ojnpfw14szxbr0a5jpsa].[avg:penalties_for:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.16vlm0h1ojnpfw14szxbr0a5jpsa].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.16vlm0h1ojnpfw14szxbr0a5jpsa].[Multiple Values]</rows>
+        <cols>([federated.16vlm0h1ojnpfw14szxbr0a5jpsa].[none:team_name:nk] / [federated.16vlm0h1ojnpfw14szxbr0a5jpsa].[:Measure Names])</cols>
+      </table>
+      <simple-id uuid='{CF761FFD-45FF-41C0-9910-6E26EE2A2D6B}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='36'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.16vlm0h1ojnpfw14szxbr0a5jpsa].[attr:team_name:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.16vlm0h1ojnpfw14szxbr0a5jpsa].[attr:team_name:nk]</field>
+            <field>[federated.16vlm0h1ojnpfw14szxbr0a5jpsa].[none:country_name:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{6FA4B451-A29E-453C-80F9-37292245877B}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+          <strip size='160'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.16vlm0h1ojnpfw14szxbr0a5jpsa].[none:team_name:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.16vlm0h1ojnpfw14szxbr0a5jpsa].[none:Calculation_1866441449390080:qk]</field>
+            <field>[federated.16vlm0h1ojnpfw14szxbr0a5jpsa].[none:team_name:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{4C1C253B-6D8A-4991-892B-73326EF8BB6D}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.16vlm0h1ojnpfw14szxbr0a5jpsa].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.16vlm0h1ojnpfw14szxbr0a5jpsa].[:Measure Names]</field>
+            <field>[federated.16vlm0h1ojnpfw14szxbr0a5jpsa].[none:team_id:nk]</field>
+            <field>[federated.16vlm0h1ojnpfw14szxbr0a5jpsa].[none:team_name:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{8329E30E-A443-4283-B9BF-8D52C2030626}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 2' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 4' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAUKklEQVR4nO2dS4wkyVnH/5GZ9X73u2d3prtndnaH8S6WwCtL5iEhYYSFBBw4IQ5InLgY
+      yRdfOHH3wQJpheQLxz2A0F5sLiCw0IoRSMZgvNa+ZqbfVd1V1VWVWfmIB4earunqyqrOynpX
+      fr/LdEfkP+LLiPk6s+JfkcmUUgoEEVG0ccSUO8SyM1YCtFqtScVBEHNhrAQgiGWHEoCINJQA
+      RKSZSwKE/fC8yjql1Mx1YVg13VwSIOyH51XWeZ4Hx3FmpluGMZmFjm6BiEhDCUBAKYHTk2PY
+      Lu/eUinB4XIe+hZrWTDmHQAxf5q1ClL5TbRqFZyaNlzuYi2TRsUBsrCgEmvYe2Nz3mFOBboC
+      EEilc7g8P4LDJTRdR7GQh80V0jEGT2rQIecd4tSgKwCBWDKDR48ezjuMuTD+FUAptNvtOw5R
+      8Dyvp0xyD7bL+47rOUZytE0L/MYfICU5KuULCNk5tm2/7vt2H35YrQYaLQu372qVFHDaFlwu
+      hx5v+5yrFBxc+P+VVErhqlaD1ba7Md6MeRCubaHRNOFxDsG97vn69iE5avVG52fBYbv94+A4
+      DqAkPC5825CC4+LyEoIPPpfePgVqtTr6Px4o3/kGgHqtCndA/77xvoK7Ns7OyrfGQMJu969+
+      3V4Rs60WKpe1vvm+ZuwrgFIc//e/n+Dx2/toOR6Y5wEMcDmQiGsQiqFWOcPa9j3c297q6srn
+      Z3CgI59OQSkO23LQNC1srBdwZUqUsgY8aaN16SK/swO73UQhmwEXLZwdn8Oy22AKsITAZj4N
+      VzDEmIART8CzW6i3POhGDA/27/fEWymX0bA8bG3kYcRSaLdtZNIGmqaDmGhDWzvAdl67cfw5
+      mm2O3Xs70AA06lXEEwnEEmm4tgWmG4ASSCRysKwW7r15r6c/s3YOm2VROzuGFkshnUyg1aoj
+      bsSRKW6gkE35jKrEyWkFW2sFfP75S6yVinC5Bik4SoUsLIdje3O9e/TR4THuHxzg7OQITAlY
+      QoemJGKxGGy7jWQ6C/PqEoViEcpIQNhtxNNZ5G706FkWXM/EF180kS+koMUSMJQDpWewVsz2
+      RXh8fIT1zR0cHz6HHk9CCIVcNol220K53MDu7ibiBuCpGDbWCp2xsExcVuvIZZNgSoNpt5FM
+      pWG2TBjxJIr5FBzPRevKRjyuIZMrwNAZGleXsGzgonwOTyokDAbFGKyGjUTSgKbrsD2BdDKG
+      q6aJtx4edOOs1eoobmzh8PnnyBU3YDsupGvBiMfhSW38BKiVz5Ffy+LFi3M8fncfzz85hN2u
+      g+lJFLc2kWBAJpOBZbZgWa8GUim0WiZsyeCZV3CEBJw2jMwGlHSQzW/h6Pn/QMbjSHPg5LyM
+      2mUZv/LeUwAMXAhYV1WYgiGZzsJqtWB5QFIXsNplKOEiV3oDUIB7K16lJJTnwZEaDM/C88+e
+      Y+3eGoq5Etqmi8zt46WE9DguLivgrkImztBqNSCvrnBZrSKztYe3tpN4eXSOy0oZG7cSQDcM
+      NCqXMGIJxHQNZsuE4h7OLqt4M10A4JcAAPdsNFpxrJWKaDZqsFkeW2kDJ6dHaFqyJwE0JlGt
+      VWFbDiAduEqDoSdguhylXAoMAoCC1WrA8iQuL6rYe/gEKPX2WalUUUgXcFmtobSxhtPDl4hl
+      Nn0TwNCAy2oNzEhAeg4ch6NRL8OWOnLJJEzTRPnqEjKe7SbAVb2KWKqI89MTZNI55Ep5XFyZ
+      yKdSYACOT45gux52Ng9gNY6hxdPIpeOdeXRdxGIJGJqGVqMBoetQ7TbOTqrIbr2JzWIKV40m
+      bl8oleAwrTaMRAqNyzOcVC3s39+BVa+BJ/NgqoPvJNxFs9lELvf674hSEtVKBbF0HrlMEoyx
+      V+UKYAzMR6ekBNM0SCmhaRqUUmCMQUkFprHrhqHQMTd6++sc22pewXI4tjbWu+0Mi/PG8KAT
+      GvOpuxWnkujcMUpULyqIpXrP8WZb/eOi+vq4XeZ5HoQQSCaTr8cM/bHdHkvXdaGUQjweB6AA
+      aGAMfeNwsz+lVN9Y9o2MUgAUGBs8lt02lYLshNWZu+s5vNHnbR3AcHvY/cbJb+4a9RpcybCx
+      Vuz5f3JzzPx0t8dOKfX6ChDGcWu3230BJ9IZAAKmaY6kC9sfAIDpSCf1gecw6f4SqeHnGKY/
+      zjmklOCc333wLd2ge+5hTHwOZqjTjBiSGP5/Nmh/BtDJmGF/DYZBusnoXNeFlLJ7BZi2Dlj8
+      MZmFjnwAItJQAhCRhhKAiDSUAESkCZQASilIKbs/r/K3A4loEcgIc20LZ0eHKO09gWHX8cVx
+      BV958nguu5hI16+5+e80+1pFXaAEUMIDT+SQNSQ+PzlFq9XudnB9ZRgFKSXpBmjC6MLMwzKM
+      ySx0wb4KwXQYiqNp2Xj85CkeODY0TYOmadB1feTgdF0n3S2EEF3tqH1JKUPpFn1MZqELlADJ
+      TA57mdemQiIxuulCEIsIrQIRkYYSgIg0lABEpKEEICINJQARaUZ3gqWEHLI/lSCWiUDLoJ5t
+      4fSVEwyrjtNKDW+/9XBh3b0o6cgJHk8XKAEk98DjWWQNCcfQIaQiJ3jCOnKC56ML5gTrBmJM
+      omnZgMexvbVJTvCEdeQEz0cXzAlOZ/HgwfWTAdIjB0MQiwqtAhGRhhKAiDSUAESkoQQgIg0l
+      ABFpAjvB18t0SoVblyWIRWRkJ1iZdVRqDTw62FtYdy9KOnKCx9MFSgDBXXixDDK6RMVqIV8s
+      kRM8YR05wfPRBUoATY8hoQOm7SCRTML2PHKCJ6wjJ3g+ukAJkEhncT/9ygnO+D/PniCWEVoF
+      IiINJQARaSgBiEhDCUBEGkoAItIEdoI5F92f6enQxKoQ2Ak+OzpEce8JVOsSpiuxu725sO5e
+      lHTkBI+nC+YEey4cI4O0LsDyBbTOy2M5waTrZ9ZO8DKMySx0wZzgWAypGEPbdqErD4lUZiwn
+      mHT9zNoJXoYxmYUumBOcyuLNN6/3BKdoVzCxMtAqEBFpKAGISBPsuUArwPc+/BjHlUZP2R/+
+      xhP85lf35hQRsQhEJgEOy1f48rTeU1Zv2XOKhlgU6BaIiDQjOMG887MUEIL2BBOrQXAn+PgQ
+      xQdP0Dg/hMs1HOzfX1h3z08Xtm7Rz4+c4PF0AZ1gB7aeRloXuIIOjcmlc4LDtDdrJ3iWumWa
+      uwVwghPIxG20bRcb6yVwqS2dE+wHY2xoe+QEr74uoBOcwRtvZEYOgiAWHVoFIiINJQARaSgB
+      iEhDCUBEGkoAItIETIDXa6pSkBNMrA6BlkG5a+OLwzO8/egAx4cv4CodD/cfLKy756cLW7fo
+      50dO8Hi6YEaYEUcypoNzgXQ6hfpFo9vJIrp7frow7ZETvPq6YC/KFgLpdBq26yKVzuJgvwTG
+      2MK6e346P8gJXo65m7sTbMTi2NjYGDkIglh0aBWIiDSUAESkoQQgIg0lABFpIrMpnogef/ej
+      /4br8Z6yb77/CPs7xe7vARNAQUoFTdMghYAEYIRYmiKIWfJPzz6DaXs9Ze892h49AW46wYcv
+      v4QjNDx+dLCw7p6fzr+CnOBRWSbdgIqeusBOcCKmweMcQkhIybqdLKK756fzLcfyO8HXGnKC
+      +3VB2guUAEoIZDNZuC7H7u49uJKRE3xHf7NygsPqlmnuJjrnt9oLlAB6LI719fXu7/SmYGJV
+      oGVQItJQAhCRhhKAiDSUAESkoQQgIs3Ie4I914XjulMMiSBmx8hOsGNbeHlSxi+983jpTREs
+      0JbIsA8bHke3LHM3zTkP5gTrccQNBs/jMCCwsX2v28ky2+JqSN24/YX9asKsdaOyTDr/8t66
+      YE6wFMjn8nA5RyyZw1Y8DmAFXEFygkfSLJvOD6axcE7w2trayEEQxKJDq0BEpKEEICINJQAR
+      aSgBiEhDCUBEmpH3BCsp4HKBxKul0E9eXuCv//5Zb6M6w/e//a1Jx0oQE2dkJ/jF8y+Rzq9h
+      c70EpRTajoejSqPneF1jC+OwXusGVCxMnOQET143oCKkE6wzuB4H5xzVarWbABiy93JYcAvh
+      Cg6pG7e/WTq6N/8dtb9RWSadf3kYJ1gJFAoFcM7xYG8Pjqe6e4LZAMdtURzWa50fq+IE09Oh
+      /XV+hHOCjThKpXj393hi5HgIYiGhVSAi0lACEJGGEoCINJQARKShBCAiTeA9wUJ2luk492A7
+      tCeYWA1Gfzr08y+RKW4iEY8NNSkWxWG91g2oWJg4yQmevC5Ie4GuAJoeQ0wHXNdDoVjAxcXF
+      605GN+lCOXvT0N3V2qLEuSh9rYTuVnFAJ1ihVCyBS4lkKo0H93M3nGDmqxnkxF3XDaufhs6P
+      63OYRn+j6q5jGVWnaRqklKF0s56DhZhzrXfOAzrBMRSL12/VIBt4WjiewLNfvOgrf//JPaQS
+      sTlEtBjUmu2+r5xlU3HEY+O/pYjeEbZAmG0X3/vw477yD77ze5FOgG9//0doWE5P2Xf/+Nfw
+      jXfvj902LYMSkYYSgIg0dAtEjMzPX1ygXGv1lO2u5/D2/fUBisWFEoAYmR/+x6f415/0flj/
+      nfcfLmUCBHeCX23YUEqBc37H8QSxHIzsBLeuLvHitIqvPHkc2gkO81rPcXV+3OUyzjLOYWM5
+      LM6wr1cd59z8wlRqenPuR5C5C6ILuCc4BkNTcFwPlcoFWi2z21gYJ5gYxOj7q+fDrOOZYH9h
+      neD1tXVIKfHw8RPc9zxygu/oL4wTzJi/Zlh783CCGeufc8amN+eAX393z50foZ3gQqHQ/T0W
+      i64pQ6wW5AMQkWbplkE/P67isNz7IK71QgrvPdyeU0REUJqWA8cTPWXJuIFsKj5AMX2WLgH+
+      7acv8Y8//qSn7P0n9ygBloC//ei/8OOfvuwp+92vv4U//4OvzSkiugUiIg4lABFpRnaCuefC
+      9cgJJlaDkZ3gttXC8XkN7zx+OBcn2K+/SbmCk4xzsk7w4PaWyQn2Pb8pzl0QXeA9wQZTcFwX
+      DKzne0HkBE+fxRviyUUUrKXpjYDvFcC1LbRdiXw+C4ZXTvD6BqRS0AwDew/uz80J9nchQ7qC
+      C+cEDxhLthpOcPi5m96c+x71n88+xkcffojGqyXbjhOcRyqRQDqTQzaTGtgxQSwTvgmwtVaE
+      lt9AZvw9xwSx0PgmQDpfQimhoS38aglidej7DGDWK/js+RGya5tI0hVgKXA8gYZt9pTpjGG9
+      kJ5TRMtDXwJkipvY3TzGLz4td5a7/D+XEQvExz87xAcf/aSnbLOQxg+++/tzimh56LsFUkLA
+      EQzcqsMbfZmYIJYKn88AEtw2UbM4rt8lpqTAVaMJALBaDVTrjX4ZQSwhfbdASnjYevAO/vRX
+      v9G9+xFCoFavoZDPQdN01OsXKOazHTdR+F8mhm2cF0KE2lgvhIDycfju2qh/bdzdRko5tThH
+      1XXe9ugf57D2OjofdxzTnIP+/qS8ew6kn4sfYA78jLAgc+eHFL26vgTQ4mnc2+r98KSkgNVq
+      od5soXz4OWK5ra6Roun+hoNhDP6Wha7r+OjfP8UPn33WU/7uwRb+4o++PlTn91pWxtid/fmh
+      adqdumH1k9R1zCz/OIe119H5GEW4ew7Cnpuf+alpd8+B5meEBZgDvw+iQebOD03v1QUagVgi
+      hadPnwIAik+/GkRyJ622i3Ktd+WivmlPpG2CCAp9HZqINEu3I2wZaJgOvvPBv/SV/9Wf/RZ2
+      13NziIgYBCXAFJBKoVy3+sq5WLzvdUYdugUiIg0lABFpKAGISBPq6dBigPlFEMvGyHuCG7Uq
+      TIdjd2drrD3Bym+bW4B9nsuwJzjM3t6hY3nnnmCf9jDrfdnh9gQHm7vpzXmgKwDTDGgQsB0X
+      yVQKjkOG1SxZvC/kTi6iYC1NbwQCXQEYY9je6jx5jWkaNjc3u3tYB+5jvWt/qN9JBdjnuQx7
+      ggeNCRuyt3fYWA7TdcbER4Np7sv2izHcnuAgc+7HpOY84PsBDORyrw2cOL0qmFgRaBWIiDSU
+      AESkoa9CRJiTiyZ+9rzSU5ZKGPj19x7MKaLZQwkQYX7+ooK/+YdnPWXbpUykEoBugYhIM7IT
+      LLgL2/WmGBJBzI6RneDT01NwwbC3d7/j7vnsDwXICfYvn5YT7L8nONTTmkPqlsYJliHeE8w0
+      A5oSaNsOpFSQqtMAY2wRbcqVw9c0vHXEbFliJ/hWU4Gd4J2dHWiaht3dXQjFyAkewuSd4MFx
+      juMEh567KDrB2Wy2+zu9JZhYFWgViIg0lABEpKEEICINJQARaSgBiEgTKAGUUjDNznNuuOvA
+      duk9wcRqEGgZtFo+g2234en7aJyfgEuGg/09coIHEN4JHuz2TsMJ9nta83XdMN0qOcGBrgBS
+      SjAlYbsu0sk4mmZnT3BYJ3iQARNEF0Y5Tn+zZbARFkY3VDHGWIZRDjT5Aukm118oJ3hjZxem
+      ZSOZMCAT68iVtsZyggcO4h3uXifhRneCwzisQepH729xnOBx5m7A1IXrb4pzF0QX8KsQGrKZ
+      V+8MCPFMeYJYVGgViIg0lABEpKH7mTv4yx/8M44qvS8F/JNv/jJ++2sP5xQRMUkoAe6gYTqo
+      NXufhOd45IOsCnQLRESaEZzgzgvtuOfCdmhPMLEaBHSCT+E4Njx9H/XjF7CFhncePxzqBA96
+      Tysw3BWcls6PaekGOsFSDtQp9XqrqV8cw951PMgJvuvcBjnB4eZgenM+6D3BoeZO9vYXKAGk
+      UlCy83ToTsMdk2GYEzzMvRxopgTQDfIT7+zPVxUgzjD9DakYrhts3gwzdsI4yMMc3WnpfMsD
+      6fzNz1Bzd2sOgjnB27uwLBuJhAG1tw8+5p7gyTvBAdxL/4qQbuLw/nytWUzHCe7ofMoRxJn1
+      ryMnuE+kIXPtBMOgPcHEykCrQESkoQQgIg0lABFpKAGISPP/vGpmSPuZxVoAAAAASUVORK5C
+      YII=
+    </thumbnail>
+  </thumbnails>
+</workbook>

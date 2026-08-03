@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="670" viewBox="0 0 1000 670" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="1000" height="670" fill="#F4F6FA"/>
+
+  <!-- title -->
+  <text x="500" y="38" text-anchor="middle" font-size="25" font-weight="700" fill="#1F3864">2026 World Cup &#8212; top 7 and bottom 6 by predicted advancement</text>
+  <text x="500" y="66" text-anchor="middle" font-size="15" fill="#5B6472">Forward out-of-sample  &#8226;  AUC 0.757  &#8226;  accuracy 0.681  &#8226;  n = 47 (13 shown)</text>
+
+  <!-- gridlines -->
+  <g stroke="#C7D0E0" stroke-width="1">
+    <line x1="200" y1="92" x2="200" y2="596"/>
+    <line x1="351" y1="92" x2="351" y2="596"/>
+    <line x1="502" y1="92" x2="502" y2="596"/>
+    <line x1="653" y1="92" x2="653" y2="596"/>
+    <line x1="804" y1="92" x2="804" y2="596"/>
+    <line x1="955" y1="92" x2="955" y2="596"/>
+  </g>
+
+  <!-- bars: top 7 -->
+  <g>
+    <rect x="200" y="100" width="740" height="26" fill="#2E9E6B"/>
+    <text x="188" y="118" text-anchor="end" font-size="15" fill="#1A2233">Mexico</text>
+    <text x="948" y="118" font-size="13" fill="#5B6472">0.98</text>
+
+    <rect x="200" y="136" width="726" height="26" fill="#2E9E6B"/>
+    <text x="188" y="154" text-anchor="end" font-size="15" fill="#1A2233">Brazil</text>
+    <text x="934" y="154" font-size="13" fill="#5B6472">0.96</text>
+
+    <rect x="200" y="172" width="706" height="26" fill="#2E9E6B"/>
+    <text x="188" y="190" text-anchor="end" font-size="15" fill="#1A2233">Argentina</text>
+    <text x="914" y="190" font-size="13" fill="#5B6472">0.94</text>
+
+    <rect x="200" y="208" width="701" height="26" fill="#2E9E6B"/>
+    <text x="188" y="226" text-anchor="end" font-size="15" fill="#1A2233">United States</text>
+    <text x="909" y="226" font-size="13" fill="#5B6472">0.93</text>
+
+    <rect x="200" y="244" width="687" height="26" fill="#2E9E6B"/>
+    <text x="188" y="262" text-anchor="end" font-size="15" fill="#1A2233">England</text>
+    <text x="895" y="262" font-size="13" fill="#5B6472">0.91</text>
+
+    <rect x="200" y="280" width="674" height="26" fill="#2E9E6B"/>
+    <text x="188" y="298" text-anchor="end" font-size="15" fill="#1A2233">Spain</text>
+    <text x="882" y="298" font-size="13" fill="#5B6472">0.89</text>
+
+    <rect x="200" y="316" width="671" height="26" fill="#5B6472"/>
+    <text x="188" y="334" text-anchor="end" font-size="15" font-weight="600" fill="#1A2233">Uruguay</text>
+    <text x="879" y="334" font-size="13" fill="#5B6472">0.89</text>
+  </g>
+
+  <!-- break row -->
+  <line x1="200" y1="359" x2="955" y2="359" stroke="#9AA6BD" stroke-width="1.5" stroke-dasharray="2 6"/>
+  <rect x="586" y="347" width="212" height="24" fill="#F4F6FA"/>
+  <text x="592" y="364" font-size="13.5" font-style="italic" fill="#5B6472">34 teams omitted (ranks 8&#8211;41)</text>
+
+  <!-- bars: bottom 6 -->
+  <g>
+    <rect x="200" y="376" width="112" height="26" fill="#2E9E6B"/>
+    <text x="188" y="394" text-anchor="end" font-size="15" fill="#1A2233">DR Congo</text>
+    <text x="320" y="394" font-size="13" fill="#5B6472">0.15</text>
+
+    <rect x="200" y="412" width="94" height="26" fill="#2E9E6B"/>
+    <text x="188" y="430" text-anchor="end" font-size="15" fill="#1A2233">Cape Verde</text>
+    <text x="302" y="430" font-size="13" fill="#5B6472">0.13</text>
+
+    <rect x="200" y="448" width="90" height="26" fill="#5B6472"/>
+    <text x="188" y="466" text-anchor="end" font-size="15" fill="#1A2233">Iraq</text>
+    <text x="298" y="466" font-size="13" fill="#5B6472">0.12</text>
+
+    <rect x="200" y="484" width="90" height="26" fill="#5B6472"/>
+    <text x="188" y="502" text-anchor="end" font-size="15" fill="#1A2233">Qatar</text>
+    <text x="298" y="502" font-size="13" fill="#5B6472">0.12</text>
+
+    <rect x="200" y="520" width="76" height="26" fill="#5B6472"/>
+    <text x="188" y="538" text-anchor="end" font-size="15" fill="#1A2233">Jordan</text>
+    <text x="284" y="538" font-size="13" fill="#5B6472">0.10</text>
+
+    <rect x="200" y="556" width="76" height="26" fill="#5B6472"/>
+    <text x="188" y="574" text-anchor="end" font-size="15" fill="#1A2233">Uzbekistan</text>
+    <text x="284" y="574" font-size="13" fill="#5B6472">0.10</text>
+  </g>
+
+  <!-- 0.5 threshold -->
+  <line x1="577" y1="92" x2="577" y2="596" stroke="#1A2233" stroke-width="2" stroke-dasharray="9 6"/>
+  <rect x="586" y="377" width="98" height="24" fill="#F4F6FA"/>
+  <text x="592" y="394" font-size="13" fill="#1A2233">0.5 threshold</text>
+
+  <!-- x axis -->
+  <line x1="200" y1="596" x2="955" y2="596" stroke="#5B6472" stroke-width="1.2"/>
+  <g font-size="14" fill="#1A2233" text-anchor="middle">
+    <text x="200" y="618">0.0</text>
+    <text x="351" y="618">0.2</text>
+    <text x="502" y="618">0.4</text>
+    <text x="653" y="618">0.6</text>
+    <text x="804" y="618">0.8</text>
+    <text x="955" y="618">1.0</text>
+  </g>
+  <text x="577" y="650" text-anchor="middle" font-size="16" fill="#1F3864">Predicted probability of advancing</text>
+
+  <!-- legend -->
+  <g>
+    <rect x="628" y="430" width="322" height="106" fill="#F4F6FA" stroke="none"/>
+    <rect x="646" y="446" width="26" height="14" fill="#2E9E6B"/>
+    <text x="684" y="458" font-size="14" fill="#1A2233">Actually advanced</text>
+    <rect x="646" y="476" width="26" height="14" fill="#5B6472"/>
+    <text x="684" y="488" font-size="14" fill="#1A2233">Actually eliminated</text>
+    <line x1="646" y1="513" x2="672" y2="513" stroke="#1A2233" stroke-width="2" stroke-dasharray="6 4"/>
+    <text x="684" y="518" font-size="14" fill="#1A2233">0.5 decision threshold</text>
+  </g>
+</svg>

@@ -1,0 +1,89 @@
+Dataset Files
+Each file has a stable URL (r-link) that you can use directly in scripts, apps, or AI agents. These URLs are permanent and safe to hardcode.
+
+/football/french-ligue-1/
+├ README.md
+https://datahub.io/football/french-ligue-1/_r/-/README.md
+├ datapackage.json
+https://datahub.io/football/french-ligue-1/_r/-/datapackage.json
+├ schema.json
+https://datahub.io/football/french-ligue-1/_r/-/schema.json
+├ season-0001.csv
+https://datahub.io/football/french-ligue-1/_r/-/season-0001.csv
+├ season-0102.csv
+https://datahub.io/football/french-ligue-1/_r/-/season-0102.csv
+├ season-0203.csv
+https://datahub.io/football/french-ligue-1/_r/-/season-0203.csv
+├ season-0304.csv
+https://datahub.io/football/french-ligue-1/_r/-/season-0304.csv
+├ season-0405.csv
+https://datahub.io/football/french-ligue-1/_r/-/season-0405.csv
+├ season-0506.csv
+https://datahub.io/football/french-ligue-1/_r/-/season-0506.csv
+├ season-0607.csv
+https://datahub.io/football/french-ligue-1/_r/-/season-0607.csv
+├ season-0708.csv
+https://datahub.io/football/french-ligue-1/_r/-/season-0708.csv
+├ season-0809.csv
+https://datahub.io/football/french-ligue-1/_r/-/season-0809.csv
+├ season-0910.csv
+https://datahub.io/football/french-ligue-1/_r/-/season-0910.csv
+├ season-1011.csv
+https://datahub.io/football/french-ligue-1/_r/-/season-1011.csv
+├ season-1112.csv
+https://datahub.io/football/french-ligue-1/_r/-/season-1112.csv
+├ season-1213.csv
+https://datahub.io/football/french-ligue-1/_r/-/season-1213.csv
+├ season-1314.csv
+https://datahub.io/football/french-ligue-1/_r/-/season-1314.csv
+├ season-1415.csv
+https://datahub.io/football/french-ligue-1/_r/-/season-1415.csv
+├ season-1516.csv
+https://datahub.io/football/french-ligue-1/_r/-/season-1516.csv
+├ season-1617.csv
+https://datahub.io/football/french-ligue-1/_r/-/season-1617.csv
+├ season-1718.csv
+https://datahub.io/football/french-ligue-1/_r/-/season-1718.csv
+├ season-1819.csv
+https://datahub.io/football/french-ligue-1/_r/-/season-1819.csv
+├ season-1920.csv
+https://datahub.io/football/french-ligue-1/_r/-/season-1920.csv
+├ season-2021.csv
+https://datahub.io/football/french-ligue-1/_r/-/season-2021.csv
+├ season-2122.csv
+https://datahub.io/football/french-ligue-1/_r/-/season-2122.csv
+├ season-2223.csv
+https://datahub.io/football/french-ligue-1/_r/-/season-2223.csv
+├ season-2324.csv
+https://datahub.io/football/french-ligue-1/_r/-/season-2324.csv
+├ season-2425.csv
+https://datahub.io/football/french-ligue-1/_r/-/season-2425.csv
+├ season-2526.csv
+https://datahub.io/football/french-ligue-1/_r/-/season-2526.csv
+├ season-9394.csv
+https://datahub.io/football/french-ligue-1/_r/-/season-9394.csv
+├ season-9495.csv
+https://datahub.io/football/french-ligue-1/_r/-/season-9495.csv
+├ season-9596.csv
+https://datahub.io/football/french-ligue-1/_r/-/season-9596.csv
+├ season-9697.csv
+https://datahub.io/football/french-ligue-1/_r/-/season-9697.csv
+├ season-9798.csv
+https://datahub.io/football/french-ligue-1/_r/-/season-9798.csv
+├ season-9899.csv
+https://datahub.io/football/french-ligue-1/_r/-/season-9899.csv
+└ season-9900.csv
+https://datahub.io/football/french-ligue-1/_r/-/season-9900.csv
+Key Files
+Start with these files — they give you everything you need to understand and access the dataset.
+
+datapackage.json
+— metadata & schema
+https://datahub.io/football/french-ligue-1/_r/-/datapackage.json
+README.md
+— documentation
+https://datahub.io/football/french-ligue-1/_r/-/README.md
+Typical Usage
+1. Fetch datapackage.json to inspect schema and resources
+2. Download data resources listed in datapackage.json
+3. Read README.md for full context

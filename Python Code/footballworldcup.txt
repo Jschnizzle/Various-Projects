@@ -1,0 +1,90 @@
+/football/worldcup/
+├ README.md
+https://datahub.io/football/worldcup/_r/-/README.md
+├ attendance-by-edition.csv
+https://datahub.io/football/worldcup/_r/-/attendance-by-edition.csv
+├ attendance.csv
+https://datahub.io/football/worldcup/_r/-/attendance.csv
+├ award_winners.csv
+https://datahub.io/football/worldcup/_r/-/award_winners.csv
+├ awards.csv
+https://datahub.io/football/worldcup/_r/-/awards.csv
+├ bookings.csv
+https://datahub.io/football/worldcup/_r/-/bookings.csv
+├ confederations.csv
+https://datahub.io/football/worldcup/_r/-/confederations.csv
+├ datapackage.json
+https://datahub.io/football/worldcup/_r/-/datapackage.json
+├ dirtiest-matches-summary.csv
+https://datahub.io/football/worldcup/_r/-/dirtiest-matches-summary.csv
+├ discipline-by-tournament-summary.csv
+https://datahub.io/football/worldcup/_r/-/discipline-by-tournament-summary.csv
+├ goal-timing-by-tournament-summary.csv
+https://datahub.io/football/worldcup/_r/-/goal-timing-by-tournament-summary.csv
+├ goals-by-minute-summary.csv
+https://datahub.io/football/worldcup/_r/-/goals-by-minute-summary.csv
+├ goals.csv
+https://datahub.io/football/worldcup/_r/-/goals.csv
+├ group_standings.csv
+https://datahub.io/football/worldcup/_r/-/group_standings.csv
+├ groups.csv
+https://datahub.io/football/worldcup/_r/-/groups.csv
+├ host_countries.csv
+https://datahub.io/football/worldcup/_r/-/host_countries.csv
+├ manager_appearances.csv
+https://datahub.io/football/worldcup/_r/-/manager_appearances.csv
+├ manager_appointments.csv
+https://datahub.io/football/worldcup/_r/-/manager_appointments.csv
+├ managers.csv
+https://datahub.io/football/worldcup/_r/-/managers.csv
+├ matches.csv
+https://datahub.io/football/worldcup/_r/-/matches.csv
+├ penalty_kicks.csv
+https://datahub.io/football/worldcup/_r/-/penalty_kicks.csv
+├ player_appearances.csv
+https://datahub.io/football/worldcup/_r/-/player_appearances.csv
+├ players.csv
+https://datahub.io/football/worldcup/_r/-/players.csv
+├ qualified_teams.csv
+https://datahub.io/football/worldcup/_r/-/qualified_teams.csv
+├ referee_appearances.csv
+https://datahub.io/football/worldcup/_r/-/referee_appearances.csv
+├ referee_appointments.csv
+https://datahub.io/football/worldcup/_r/-/referee_appointments.csv
+├ referees.csv
+https://datahub.io/football/worldcup/_r/-/referees.csv
+├ squads.csv
+https://datahub.io/football/worldcup/_r/-/squads.csv
+├ stadiums.csv
+https://datahub.io/football/worldcup/_r/-/stadiums.csv
+├ substitutions.csv
+https://datahub.io/football/worldcup/_r/-/substitutions.csv
+├ team_appearances.csv
+https://datahub.io/football/worldcup/_r/-/team_appearances.csv
+├ teams.csv
+https://datahub.io/football/worldcup/_r/-/teams.csv
+├ top-scorers-summary.csv
+https://datahub.io/football/worldcup/_r/-/top-scorers-summary.csv
+├ tournament-appearances.csv
+https://datahub.io/football/worldcup/_r/-/tournament-appearances.csv
+├ tournament-goals-summary.csv
+https://datahub.io/football/worldcup/_r/-/tournament-goals-summary.csv
+├ tournament_stages.csv
+https://datahub.io/football/worldcup/_r/-/tournament_stages.csv
+├ tournament_standings.csv
+https://datahub.io/football/worldcup/_r/-/tournament_standings.csv
+└ tournaments.csv
+https://datahub.io/football/worldcup/_r/-/tournaments.csv
+Key Files
+Start with these files — they give you everything you need to understand and access the dataset.
+
+datapackage.json
+— metadata & schema
+https://datahub.io/football/worldcup/_r/-/datapackage.json
+README.md
+— documentation
+https://datahub.io/football/worldcup/_r/-/README.md
+Typical Usage
+1. Fetch datapackage.json to inspect schema and resources
+2. Download data resources listed in datapackage.json
+3. Read README.md for full context
