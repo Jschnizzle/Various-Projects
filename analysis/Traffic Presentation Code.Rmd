@@ -8,7 +8,9 @@ date: "2025-10-15"
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## This is Just test code
+## Scratch: time-of-day encoding experiment
+<!-- Exploratory only. Cyclical sin/cos encoding of time-of-day fitted against vehicle
+counts with lm and randomForest. Not part of the Super Bowl analysis or any reported result. -->
 ```{r}
 library(readr)
 ```
@@ -73,7 +75,7 @@ pred_rf
 
 
 
-## EDA with actual data (look farther down for the wilcox tests)
+## EDA on the cleaned PeMS data
 
 Cleaned_speed
 ```{r}
@@ -189,7 +191,7 @@ ggplot(regular_occupancy, aes(x = as.character(time), y = occ_rate)) +
 ```
 
 
-#Wilcox tests
+# Wilcoxon / Mann-Whitney tests
 
 ```{r}
 library(tidyr)
@@ -233,7 +235,7 @@ regular_friday <- rbind(regular_friday,regular_friday2)
 #  summarize(occ_rate = mean(`Avg Occupancy`,na.rm = TRUE))
 ```
 
-##ChatGPT
+## Hourly subsets: Super Bowl Friday (02/11) vs. regular Fridays (02/25, 03/04)
 ```{r}
 subset8am_sb <- sb_friday[sb_friday$time == as_hms("08:00:00"),]
 subset8am_regular <- regular_friday[regular_friday$time == as_hms("08:00:00"),]
@@ -314,7 +316,7 @@ knitr::include_graphics("wilcox_results_friday.png")
 
 
 
-##Sunday
+## Sunday: Super Bowl game day (02/13) vs. regular Sundays (02/27, 03/06)
 ```{r}
 sunday_start <- which(df$date == "02/13/2022")[1]
 sunday_end <- which(df$date == "02/14/2022")[1]
@@ -621,5 +623,3 @@ subset7am_sb <- sb_friday[sb_friday$time == as_hms("07:00:00"),]
 subset7am_regular <- regular_friday[regular_friday$time == as_hms("07:00:00"),]
 wilcox.test(subset7am_sb$`Avg Occupancy`, subset7am_regular$`Avg Occupancy`)
 ```
-
-## sunday comparison
