@@ -20,13 +20,16 @@ District 7 (Los Angeles)**.
 
 ## Design
 
-**Event vs. baseline.** Super Bowl Sunday (02/13/2022) is compared against **two pooled
-baseline Sundays** 2–3 weeks later (02/27 and 03/06).
+**Two paired comparisons, each matched on day of week.** Super Bowl Sunday
+(02/13/2022) is compared against **two pooled control Sundays** 2–3 weeks later
+(02/27 and 03/06). The identical procedure is run on Friday 02/11/2022 — a
+**non-event day** during Super Bowl week — against two pooled regular Fridays
+(02/25 and 03/04). A large effect on Sunday alongside a small one on Friday is
+stronger evidence than Sunday alone.
 
-**Friday as a placebo day.** The identical procedure is run on Friday 02/11/2022 — a
-*non-event* day during Super Bowl week — against two pooled regular Fridays (02/25 and
-03/04). This is a control on the method itself: a large effect on Sunday alongside a
-small one on Friday is stronger evidence than Sunday alone.
+Terminology here follows the presentation: the matched regular days are the
+**control** (slide 8, "Control: 'Normal Sundays' 2–3 weeks later") and Friday is a
+**non-event day** (slide 10). This is not a three-arm design.
 
 **Spatial rings.** Stations are grouped by distance from SoFi Stadium — **R1 ≤ 3 miles,
 R2 ≤ 5 miles, R3 ≤ 10 miles** — so the effect can be checked for decay with distance.
